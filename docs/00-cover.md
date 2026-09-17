@@ -8,25 +8,25 @@ Carrera de Ingeniería de Software
 
 **1ASI0729**
 
-**Desarrollo de Aplicaciones Open Source**
+**Aplicaciones Web**
 
 NRC
 
-**12029**
+**8074**
 
-**Informe del Trabajo Final**
+**Informe del Avance 1**
 
 Docente
 
-**Mori Paiva, Hugo Allan**
+**Sanchez Ponce, ALex Humberto**
 
 Equipo
 
-**Axiora**
+**Mobvite**
 
 Proyecto
 
-**SpotGo**
+**Vitalita**
 
 **Integrantes**
 
@@ -65,9 +65,9 @@ Proyecto
 </div>
 </div>
 
-**Período 202610**
+**Período 202620**
 
-**Julio 2026**
+**Septiembre 2026**
 
 </div>
 
