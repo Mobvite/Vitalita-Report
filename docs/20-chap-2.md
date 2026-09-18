@@ -219,14 +219,16 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 ### 2.3.1. User Personas
 
 **Primer segmento objetivo:**
-
+![User Persona Andrea](../assets/images/figures/UserPersona-Andrea.png)
 
 **Segundo segmento objetivo:**
+![User Persona Renzo](../assets/images/figures/UserPersona-Renzo.png)
 
 
 ### 2.3.2. User Task Matrix
 
 **Primer segmento objetivo:**
+
 
 
 **Segundo segmento objetivo:**
@@ -236,7 +238,9 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 
 ### 2.3.4. Empathy Mapping.
 
-**Primer segmento objetivo:**
+### **Primer segmento objetivo:**
+![Empathy Mapping Andrea](../assets/images/figures/EmpMap-Andrea.png)
 
 
-**Segundo segmento objetivo:**
+### **Segundo segmento objetivo:**
+![Empathy Mapping Renzo](../assets/images/figures/EmpMap-Renzo.png)
