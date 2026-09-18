@@ -212,3 +212,31 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 11. ¿Cuál considera que es actualmente la mayor dificultad para mantenerse informado sobre el cuidado y estado del adulto mayor?
 12. Si pudiera mejorar una sola cosa de la forma en que actualmente recibe o consulta información sobre el adulto mayor, ¿qué cambiaría?
 13. ¿Cómo cree que cambiaría su experiencia si pudiera consultar en un solo lugar el seguimiento, las citas, los exámenes y la información registrada por la enfermera o cuidadora?
+
+
+# 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+**Primer segmento objetivo:**
+
+
+**Segundo segmento objetivo:**
+
+
+### 2.3.2. User Task Matrix
+
+**Primer segmento objetivo:**
+
+
+**Segundo segmento objetivo:**
+
+
+### 2.3.3. User Journey Mapping.
+
+### 2.3.4. Empathy Mapping.
+
+**Primer segmento objetivo:**
+
+
+**Segundo segmento objetivo:**
