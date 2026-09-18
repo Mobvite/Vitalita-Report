@@ -47,7 +47,42 @@
 | US29 | Realizar el pago de una suscripción | Como cuidadora o enfermera, deseo pagar mi suscripción utilizando un medio disponible para activar o mantener el plan contratado. | **Escenario 1: Pago confirmado**<br>**Given** una cuidadora selecciona un plan de pago y un medio de pago habilitado<br>**When** la transacción es confirmada satisfactoriamente por el servicio de pago correspondiente<br>**Then** el sistema registra el pago y activa o mantiene la suscripción según el plan contratado.<br><br>**Escenario 2: Pago no confirmado**<br>**Given** una cuidadora inicia una transacción de suscripción<br>**When** el pago es rechazado, cancelado o no puede ser confirmado<br>**Then** el sistema no activa una suscripción de pago como si la transacción hubiera sido exitosa. | EP05 |
 | US30 | Proveer servicios REST para suscripciones y pagos | Como Developer, deseo disponer de servicios RESTful para consultar planes, registrar suscripciones y procesar el estado de los pagos para integrar el modelo de monetización con la aplicación web. | **Escenario 1: Request válido de suscripción**<br>**Given** un cliente autorizado envía una solicitud válida para consultar o registrar una suscripción<br>**When** el servicio procesa la solicitud<br>**Then** la API devuelve el estado correspondiente del plan o suscripción sin exponer datos sensibles de pago.<br><br>**Escenario 2: Actualización de estado de pago**<br>**Given** el sistema recibe una confirmación válida del servicio de pago configurado<br>**When** procesa el resultado de la transacción<br>**Then** la API actualiza el estado de la suscripción de acuerdo con la confirmación recibida. | EP05 |
 
-
 ## 3.2. Impact Mapping
 
 ![Impact Mapping](../assets/images/diagrams/impact-map.png)
+
+## 3.3. Product Backlog
+
+| Orden | User Story ID | Título | Descripción | Story Points |
+| --- | --- | --- | --- | ---: |
+| 1 | US13 | Registrar un reporte diario | Como cuidadora o enfermera, deseo registrar el estado diario del adulto mayor para conservar un seguimiento ordenado de su evolución durante la jornada. | 3 |
+| 2 | US07 | Registrar un adulto mayor | Como cuidadora o enfermera, deseo registrar a un adulto mayor para iniciar su seguimiento dentro de Vitalita. | 5 |
+| 3 | US14 | Registrar signos vitales | Como cuidadora o enfermera, deseo registrar los signos vitales del adulto mayor para mantener un historial de sus controles durante el cuidado diario. | 3 |
+| 4 | US15 | Registrar la administración de medicamentos | Como cuidadora o enfermera, deseo registrar la administración de medicamentos para mantener control del horario y reducir el riesgo de duplicidades u olvidos. | 5 |
+| 5 | US16 | Registrar una cita médica | Como cuidadora o enfermera, deseo registrar las citas médicas del adulto mayor para mantener organizadas las atenciones y consultas programadas. | 3 |
+| 6 | US18 | Registrar un examen médico | Como cuidadora o enfermera, deseo registrar los exámenes del adulto mayor para mantener organizadas sus solicitudes, resultados y antecedentes. | 3 |
+| 7 | US01 | Conocer la propuesta de valor de Vitalita | Como visitante, deseo conocer el propósito y los beneficios de Vitalita para determinar si la solución responde a mis necesidades de seguimiento del cuidado de un adulto mayor. | 2 |
+| 8 | US02 | Consultar las funcionalidades principales | Como visitante, deseo conocer las funcionalidades principales de Vitalita para comprender qué actividades de cuidado y seguimiento puede apoyar la plataforma. | 2 |
+| 9 | US03 | Consultar los planes del servicio | Como visitante, deseo conocer los planes de Vitalita para evaluar las condiciones de acceso antes de registrarme o contratar una suscripción. | 2 |
+| 10 | US04 | Acceder a la experiencia web de Vitalita | Como visitante, deseo acceder desde la información pública del servicio a la experiencia web de Vitalita para registrarme o utilizar una cuenta existente. | 1 |
+| 11 | US22 | Consultar el panel familiar de solo lectura | Como familiar autorizado, deseo consultar el seguimiento del adulto mayor para mantenerme informado sin depender de llamadas o mensajes constantes a la cuidadora. | 5 |
+| 12 | US23 | Consultar el historial centralizado del adulto mayor | Como familiar autorizado, deseo consultar un historial centralizado para localizar rápidamente la información médica y de seguimiento que actualmente puede quedar dispersa entre mensajes, fotos o registros físicos. | 5 |
+| 13 | US11 | Invitar a un familiar autorizado | Como cuidadora o enfermera, deseo invitar a un familiar del adulto mayor para que pueda consultar su seguimiento sin depender de reportes manuales constantes. | 5 |
+| 14 | US25 | Recibir recordatorios automáticos de actividades pendientes | Como cuidadora o enfermera, deseo recibir recordatorios sobre citas, terapias y actividades pendientes para reducir el riesgo de olvidos durante el cuidado del adulto mayor. | 5 |
+| 15 | US24 | Recibir notificaciones ante actualizaciones relevantes | Como familiar autorizado, deseo recibir notificaciones sobre cambios relevantes en el seguimiento para conocer oportunamente situaciones que requieran mi atención. | 5 |
+| 16 | US26 | Generar un informe de emergencia en PDF | Como familiar autorizado, deseo generar un informe consolidado del adulto mayor para disponer de información organizada cuando sea necesario acudir a una clínica u hospital. | 8 |
+| 17 | US17 | Registrar el resultado de una cita médica | Como cuidadora o enfermera, deseo registrar el resultado y las observaciones posteriores a una cita para conservar las indicaciones relevantes dentro del historial del adulto mayor. | 3 |
+| 18 | US19 | Adjuntar evidencia fotográfica de un examen | Como cuidadora o enfermera, deseo adjuntar evidencia fotográfica a un examen para conservar el respaldo del resultado junto con el registro correspondiente. | 5 |
+| 19 | US20 | Registrar terapias y actividades de cuidado | Como cuidadora o enfermera, deseo registrar terapias y actividades de cuidado para mantener trazabilidad de las acciones realizadas durante la atención diaria. | 3 |
+| 20 | US08 | Consultar el perfil de un adulto mayor | Como cuidadora o enfermera, deseo consultar el perfil de un adulto mayor a mi cargo para revisar sus datos básicos y antecedentes disponibles antes de realizar el seguimiento. | 2 |
+| 21 | US09 | Actualizar los datos básicos del adulto mayor | Como cuidadora o enfermera, deseo actualizar los datos básicos de un adulto mayor para mantener vigente la información utilizada durante su cuidado. | 3 |
+| 22 | US10 | Gestionar múltiples adultos mayores | Como cuidadora o enfermera, deseo gestionar más de un adulto mayor desde mi cuenta para organizar el trabajo cuando atiendo a varios pacientes. | 5 |
+| 23 | US28 | Seleccionar un plan de suscripción | Como cuidadora o enfermera, deseo seleccionar el plan de Vitalita que se ajuste a mi forma de trabajo para acceder a las capacidades correspondientes a mi nivel de uso. | 3 |
+| 24 | US29 | Realizar el pago de una suscripción | Como cuidadora o enfermera, deseo pagar mi suscripción utilizando un medio disponible para activar o mantener el plan contratado. | 8 |
+| 25 | US05 | Registrar una cuenta de cuidadora o enfermera | Como cuidadora o enfermera, deseo crear una cuenta en Vitalita para gestionar de forma centralizada la información de los adultos mayores que tengo a cargo. | 5 |
+| 26 | US06 | Iniciar sesión con permisos según el rol | Como usuario registrado, deseo iniciar sesión en Vitalita para acceder únicamente a las operaciones permitidas para mi rol. | 5 |
+| 27 | US21 | Proveer servicios REST para registros de salud | Como Developer, deseo disponer de servicios RESTful para gestionar reportes diarios, signos vitales, medicación, citas, exámenes y evidencias para integrar el núcleo de seguimiento con la aplicación web. | 8 |
+| 28 | US27 | Proveer servicios REST para seguimiento familiar y emergencias | Como Developer, deseo disponer de servicios RESTful para consultas familiares, notificaciones e informes de emergencia para integrar estos procesos con la aplicación web. | 8 |
+| 29 | US12 | Proveer servicios REST para gestionar adultos mayores | Como Developer, deseo disponer de servicios RESTful para registrar, consultar y actualizar adultos mayores para integrar estas operaciones con la aplicación web. | 5 |
+| 30 | US30 | Proveer servicios REST para suscripciones y pagos | Como Developer, deseo disponer de servicios RESTful para consultar planes, registrar suscripciones y procesar el estado de los pagos para integrar el modelo de monetización con la aplicación web. | 8 |
+
