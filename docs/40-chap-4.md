@@ -59,3 +59,75 @@ El diagrama de contenedores descompone el sistema en sus unidades de despliegue 
 La Web Application nunca accede a la base de datos: toda comunicación ocurre mediante JSON sobre HTTPS con autenticación por token JWT. La API persiste con Entity Framework Core y encapsula cada proveedor externo en un adaptador.
 
 La API se implementa como **monolito modular**: los siete bounded contexts residen en un mismo proceso desplegable, pero mantienen fronteras estrictas a nivel de código. El alcance del proyecto define un RESTful API de elaboración interna, y la arquitectura orientada a servicios se cumple con la separación entre frontend y backend, no con fragmentar el backend en múltiples procesos. Un bounded context es una frontera del modelo, no del despliegue, por lo que esta decisión es consistente con Domain-Driven Design y permite extraer cualquier contexto como servicio independiente más adelante.
+
+### 4.6.4. Software Architecture Components Diagrams
+
+El diagrama de componentes profundiza en cada contenedor, detallando los módulos internos que lo conforman y sus interacciones.
+
+![Vitalita API Components Overview](../assets/images/diagrams/C3_API_Overview.png)
+
+Cada bounded context se organiza en cuatro capas, lo que hace el código predecible:
+
+- **Interface:** controladores que exponen los endpoints REST.
+- **Application:** command services para las operaciones que modifican estado y query services para las consultas.
+- **Domain:** los aggregates con sus reglas de negocio.
+- **Infrastructure:** repositorios con EF Core y adaptadores hacia proveedores externos.
+
+Los contextos no se invocan directamente entre sí. Para las consultas se emplean **interfaces publicadas**: Dashboard and Analytics consume Profile Read Contract y Care Read Contract en lugar de conocer el modelo interno de esos contextos, y Profiles Management consulta Plan Entitlement Contract para saber si el plan permite registrar otro adulto mayor, sin acceder al agregado Subscription.
+
+Para las reacciones se emplean **eventos de dominio in-process** mediante MediatR: AppointmentScheduled origina un recordatorio y FamilyAccessInvited origina el envío del correo de invitación, sin que el emisor conozca al receptor.
+
+![Web Application Component Diagram](../assets/images/diagrams/C3_WebApplication.png)
+
+El router controla la navegación y aplica los guards según el rol, apoyándose en el auth store que conserva el token. Las vistas están separadas por dominio y todas consumen la API mediante un único cliente Axios que inyecta el token automáticamente.
+
+#### Bounded Contexts de Vitalita
+
+Cada contexto sigue la misma estructura en cuatro capas, lo que hace el código predecible:
+
+- **Interface:** controladores que exponen los endpoints REST.
+- **Application:** command services para las operaciones que modifican estado y query services para las consultas.
+- **Domain:** los agregados con sus reglas de negocio, y las políticas donde aplica.
+- **Infrastructure:** repositorios con EF Core y adaptadores hacia servicios externos.
+
+#### 1. Component Diagram - Identity and Access Management (IAM)
+
+![Component Diagram - Identity and Access Management](../assets/images/diagrams/C3_Identity.png)
+
+Gestiona el alta de cuentas y la autenticación. El agregado User concentra credenciales, rol y estado; ITokenService e IPasswordHasher abstraen la emisión de tokens y la protección de contraseñas.
+
+#### 2. Component Diagram - Profiles Management
+
+![Component Diagram - Profiles Management](../assets/images/diagrams/C3_Profiles.png)
+
+Administra los perfiles de cuidadoras y familiares, los adultos mayores y la entidad FamilyAccess, que autoriza a un familiar a consultar a un paciente. Publica Profile Read Contract para que otros contextos validen el acceso, y consulta Plan Entitlement Contract antes de permitir registrar un adulto mayor adicional.
+
+#### 3. Component Diagram - Service Execution and Monitoring
+
+![Component Diagram - Service Execution and Monitoring](../assets/images/diagrams/C3_ServiceExecution.png)
+
+Contexto core. Contiene los aggregates DailyReport, Medication, MedicalAppointment y MedicalExam, junto con las entidades VitalSign, MedicationAdministration y CareActivity. Publica Care Read Contract hacia Dashboard and Analytics y Resource and Asset Management.
+
+#### 4. Component Diagram - Resource and Asset Management
+
+![Component Diagram - Resource and Asset Management](../assets/images/diagrams/C3_Assets.png)
+
+Administra los archivos del seguimiento clínico. ClinicalAsset representa el archivo almacenado, ExamEvidence lo vincula con su examen y EmergencyReport registra el documento generado con su estado. IFileStorage abstrae el almacenamiento de objetos.
+
+#### 5. Component Diagram - Dashboard and Analytics
+
+![Component Diagram - Dashboard and Analytics](../assets/images/diagrams/C3_Dashboard.png)
+
+Contexto core. No contiene aggregates propios: `FamilyDashboard` y `PatientHistory` son **read models** que proyectan información ya registrada en otros contextos, obtenida mediante las interfaces publicadas.
+
+#### 6. Component Diagram - Service Design and Planning
+
+![Component Diagram - Service Design and Planning](../assets/images/diagrams/C3_Planning.png)
+
+Programa y despacha recordatorios y notificaciones a partir de los eventos de dominio. El procesador de trabajos en segundo plano (Hangfire) es un componente interno de la API, no un contenedor aparte, porque se ejecuta en el mismo proceso.
+
+#### 7. Component Diagram - Subscription and Payment Management
+
+![Component Diagram - Subscription and Payment Management](../assets/images/diagrams/C3_Subscriptions.png)
+
+Administra el catálogo de planes, las suscripciones y los pagos. El agregado Plan define el límite maxOlderAdults, que conecta la gestión de múltiples pacientes con el plan contratado. Niubiz se aísla mediante IPaymentGateway, que actúa como capa anticorrupción.
