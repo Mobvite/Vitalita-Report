@@ -1,3 +1,15 @@
+## 4.4. Web Applications UX/UI Design.
+
+En esta sección se presenta la propuesta de diseño UX/UI de las aplicaciones web de Vitalita, describiendo la estructura visual, los elementos de interfaz y los patrones de interacción que guían la experiencia de los usuarios.
+
+El diseño está orientado a los dos segmentos principales del sistema: enfermeras o cuidadores de adultos mayores y familiares, priorizando una interacción clara, eficiente y alineada con sus necesidades de seguimiento y cuidado. Asimismo, se asegura la coherencia con los Style Guidelines y la Information Architecture, garantizando una experiencia intuitiva, organizada y consistente en toda la plataforma.
+
+## 4.4.1. Web Applications Wireframes.
+## 4.4.2. Web Applications Wireflow Diagrams.
+## 4.4.2. Web Applications Mock-ups.
+## 4.4.3. Web Applications User Flow Diagrams.
+## 4.5. Web Applications Prototyping.
+
 ## 4.6. Domain-Driven Software Architecture
 
 En esta sección se presenta el modelado del dominio de Vitalita y la representación de su arquitectura de software aplicando C4 Model. El punto de partida es el Big Picture EventStorming del capítulo II, sobre el cual se profundiza hasta identificar bounded contexts, aggregates, commands, policies y read models.
