@@ -188,4 +188,48 @@ Este bounded context administra los recordatorios y notificaciones de Vitalita. 
 
 Este bounded context administra los planes, suscripciones y pagos de Vitalita. `Plan` define las características de cada modalidad del servicio, `Subscription` representa la contratación realizada por el usuario y `Payment` registra las transacciones asociadas. Las interfaces abstraen la persistencia de las suscripciones y la integración con las pasarelas de pago externas.
 
+## 4.8. Database Design
 
+### 4.8.1. Database Diagrams
+
+#### Identity and Access Management
+
+![Identity and Access Management Database Diagram](../assets/images/diagrams/database-diagram-1.png)
+
+El diseño de base de datos de este bounded context se centra en la tabla `users`, encargada de almacenar las cuentas de los usuarios de Vitalita. La dirección de correo electrónico se mantiene como valor único, mientras que la contraseña se almacena únicamente mediante su hash. Las columnas `role` y `status` restringen los valores permitidos para el tipo de usuario y el estado de la cuenta.
+
+#### Profiles Management
+
+![Profiles Management Database Diagram](../assets/images/diagrams/database-diagram-2.png)
+
+Este bounded context persiste la información de cuidadoras, familiares y adultos mayores. La tabla `older_adults` se relaciona con la cuidadora responsable, mientras que `family_access` permite asociar múltiples familiares autorizados a un adulto mayor y controlar el estado de dicho acceso.
+
+#### Service Execution and Monitoring
+
+![Service Execution and Monitoring Database Diagram](../assets/images/diagrams/database-diagram-3.png)
+
+Este bounded context almacena los principales registros del seguimiento diario del adulto mayor, incluyendo reportes, signos vitales, medicamentos, administraciones, citas, exámenes y actividades de cuidado. Las relaciones permiten asociar los signos vitales con un reporte diario y registrar múltiples administraciones para cada medicamento.
+
+#### Resource and Asset Management
+
+![Resource and Asset Management Database Diagram](../assets/images/diagrams/database-diagram-4.png)
+
+Este bounded context almacena los metadatos de archivos clínicos de Vitalita. `clinical_assets` centraliza la información de los archivos almacenados, `exam_evidence` relaciona evidencias fotográficas con exámenes médicos y `emergency_reports` registra los informes PDF generados para situaciones de emergencia.
+
+#### Dashboard and Analytics
+
+![Dashboard and Analytics Database Diagram](../assets/images/diagrams/database-diagram-5.png)
+
+Este bounded context consolida información proveniente de otros módulos para mostrar al familiar autorizado el estado actual y el historial del adulto mayor. Debido a su naturaleza orientada a consultas, se propone utilizar vistas o proyecciones de lectura en lugar de nuevas tablas que dupliquen la información clínica existente.
+
+#### Service Design and Planning
+
+![Service Design and Planning Database Diagram](../assets/images/diagrams/database-diagram-6.png)
+
+Este bounded context persiste la programación de recordatorios y las notificaciones enviadas a los usuarios. La tabla `reminders` almacena los eventos programados relacionados con citas, medicamentos, terapias u otros registros, mientras que `notifications` registra los mensajes generados y su estado de entrega y lectura.
+
+#### Subscriptions and Payment Management
+
+![Subscriptions and Payment Management Database Diagram](../assets/images/diagrams/database-diagram-7.png)
+
+Este bounded context persiste los planes disponibles, las suscripciones contratadas por los usuarios y los pagos asociados. `plans` define las características y límites de cada modalidad del servicio, `subscriptions` registra la relación entre un usuario y un plan, y `payments` mantiene el historial de transacciones realizadas mediante los diferentes medios de pago contemplados por Vitalita.
