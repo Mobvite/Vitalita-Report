@@ -228,10 +228,12 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 ### 2.3.2. User Task Matrix
 
 **Primer segmento objetivo:**
+![User Task Matrix Andrea](../assets/images/figures/UserTaskM-Andrea.png)
 
 
 
 **Segundo segmento objetivo:**
+![User Task Matrix Renzo](../assets/images/figures/UserTaskM-Renzo.png)
 
 
 ### 2.3.3. User Journey Mapping.
