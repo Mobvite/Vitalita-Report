@@ -42,3 +42,20 @@ El diagrama de contexto presenta una visión de alto nivel del sistema Vitalita,
 ![Software Architecture Context Diagram](../assets/images/diagrams/C3_context-diagram.png)
 
 La cuidadora alimenta el sistema y gestiona su suscripción; el familiar consulta el seguimiento y recibe avisos. Hacia afuera, Vitalita se integra con cuatro servicios externos: **Niubiz** como pasarela de pagos, por su cobertura de tarjetas y billeteras digitales en el mercado peruano; **Twilio** para notificaciones por SMS y WhatsApp; **SendGrid** para el correo transaccional; y **Amazon S3** para almacenar evidencias y reportes. Cada uno se consume mediante un adaptador, de modo que sustituirlo por una alternativa evaluada (Culqi o Izipay, Firebase Cloud Messaging, Azure Blob Storage) no afectaría al modelo de dominio.
+
+### 4.6.3. Software Architecture Container Diagrams
+
+El diagrama de contenedores descompone el sistema en sus unidades de despliegue independientes, mostrando cómo se distribuyen las responsabilidades, las tecnologías empleadas y la forma en que se comunican entre sí.
+
+![Software Architecture Container Diagram](../assets/images/diagrams/C3_containers_diagram.png)
+
+| **Container** | **Tecnología** | **Responsabilidad** |
+| --- | --- | --- |
+| Landing Page | HTML5, CSS3, JavaScript | Presenta el modelo de negocio y redirige a la aplicación. |
+| Web Application | Vue 3, PrimeVue, Axios | Interfaz de cuidadoras y familiares. |
+| Vitalita API | ASP.NET Core 10, EF Core, MediatR | Lógica de dominio y servicios RESTful. |
+| Database | MySQL 8.4 LTS | Persistencia de la solución. |
+
+La Web Application nunca accede a la base de datos: toda comunicación ocurre mediante JSON sobre HTTPS con autenticación por token JWT. La API persiste con Entity Framework Core y encapsula cada proveedor externo en un adaptador.
+
+La API se implementa como **monolito modular**: los siete bounded contexts residen en un mismo proceso desplegable, pero mantienen fronteras estrictas a nivel de código. El alcance del proyecto define un RESTful API de elaboración interna, y la arquitectura orientada a servicios se cumple con la separación entre frontend y backend, no con fragmentar el backend en múltiples procesos. Un bounded context es una frontera del modelo, no del despliegue, por lo que esta decisión es consistente con Domain-Driven Design y permite extraer cualquier contexto como servicio independiente más adelante.
