@@ -141,3 +141,51 @@ Programa y despacha recordatorios y notificaciones a partir de los eventos de do
 ![Component Diagram - Subscription and Payment Management](../assets/images/diagrams/C3_Subscriptions.png)
 
 Administra el catálogo de planes, las suscripciones y los pagos. El agregado Plan define el límite maxOlderAdults, que conecta la gestión de múltiples pacientes con el plan contratado. Niubiz se aísla mediante IPaymentGateway, que actúa como capa anticorrupción.
+
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
+
+#### Identity and Access Management
+
+![Identity and Access Management Class Diagram](../assets/images/diagrams/class-diagram-1.png)
+
+Este bounded context administra las cuentas y el acceso de los usuarios de Vitalita. `User` actúa como Aggregate Root y concentra las credenciales, rol y estado de la cuenta, mientras que `Email` se representa como un Value Object. Las interfaces `IUserRepository`, `ITokenService` e `IPasswordHasher` abstraen la persistencia, generación de tokens y protección de contraseñas necesarias para el proceso de autenticación.
+
+#### Profiles Management
+
+![Profiles Management Class Diagram](../assets/images/diagrams/class-diagram-2.png)
+
+Este bounded context administra la información de cuidadoras, familiares y adultos mayores. `OlderAdult` representa el perfil principal del paciente, mientras que `FamilyAccess` controla la autorización de los familiares para consultar su información. El modelo permite que una cuidadora gestione varios adultos mayores y que cada adulto mayor pueda tener múltiples familiares autorizados.
+
+#### Service Execution and Monitoring
+
+![Service Execution and Monitoring Class Diagram](../assets/images/diagrams/class-diagram-3.png)
+
+Este bounded context concentra el seguimiento diario del adulto mayor, incluyendo reportes, signos vitales, medicamentos, citas médicas, exámenes y actividades de cuidado. Las entidades representan los principales registros clínicos y operativos, mientras que `ICareRecordRepository` abstrae su persistencia dentro del sistema.
+
+#### Resource and Asset Management
+
+![Resource and Asset Management Class Diagram](../assets/images/diagrams/class-diagram-4.png)
+
+Este bounded context administra los archivos relacionados con el seguimiento clínico de Vitalita, como evidencias fotográficas de exámenes, documentos y reportes de emergencia en PDF. `ClinicalAsset` representa los archivos almacenados, mientras que `ExamEvidence` los vincula con los exámenes y `EmergencyReport` representa los informes generados para situaciones de emergencia.
+
+#### Dashboard and Analytics
+
+![Dashboard and Analytics Class Diagram](../assets/images/diagrams/class-diagram-5.png)
+
+Este bounded context proporciona al familiar autorizado una vista consolidada del seguimiento del adulto mayor. `FamilyDashboard` resume la información más relevante, mientras que `PatientHistory` organiza cronológicamente los registros mediante `HistoryEntry`. La interfaz `IDashboardRepository` abstrae las consultas necesarias para obtener el panel y el historial del paciente.
+
+#### Service Design and Planning
+
+![Service Design and Planning Class Diagram](../assets/images/diagrams/class-diagram-6.png)
+
+Este bounded context administra los recordatorios y notificaciones de Vitalita. `Reminder` representa actividades programadas como citas, medicamentos o terapias, mientras que `Notification` gestiona los avisos enviados a los usuarios ante actualizaciones relevantes. Las interfaces abstraen la persistencia y el mecanismo utilizado para enviar las notificaciones.
+
+#### Subscriptions and Payment Management
+
+![Subscriptions and Payment Management Class Diagram](../assets/images/diagrams/class-diagram-7.png)
+
+Este bounded context administra los planes, suscripciones y pagos de Vitalita. `Plan` define las características de cada modalidad del servicio, `Subscription` representa la contratación realizada por el usuario y `Payment` registra las transacciones asociadas. Las interfaces abstraen la persistencia de las suscripciones y la integración con las pasarelas de pago externas.
+
+
