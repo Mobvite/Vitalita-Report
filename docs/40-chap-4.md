@@ -62,20 +62,30 @@ La API se implementa como **monolito modular**: los siete bounded contexts resid
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-El diagrama de componentes profundiza en cada contenedor, detallando los módulos internos que lo conforman y sus interacciones.
+El diagrama de componentes profundiza en cada contenedor, detallando los módulos internos que lo conforman, sus responsabilidades y la forma en que interactúan entre sí.
+
+#### Vitalita API
+
+La siguiente vista presenta la organización general de **Vitalita API**, donde los componentes se agrupan según los bounded contexts definidos para el dominio de Vitalita.
 
 ![Vitalita API Components Overview](../assets/images/diagrams/C3_API_Overview.png)
 
-Cada bounded context se organiza en cuatro capas, lo que hace el código predecible:
+Cada bounded context mantiene una estructura interna organizada en cuatro capas:
 
-- **Interface:** controladores que exponen los endpoints REST.
-- **Application:** command services para las operaciones que modifican estado y query services para las consultas.
-- **Domain:** los aggregates con sus reglas de negocio.
-- **Infrastructure:** repositorios con EF Core y adaptadores hacia proveedores externos.
+- **Interface:** contiene los controllers encargados de exponer los endpoints REST.
+- **Application:** coordina los casos de uso mediante command services y query services.
+- **Domain:** contiene los aggregates, entidades y reglas de negocio propias del contexto.
+- **Infrastructure:** implementa la persistencia mediante Entity Framework Core y los adaptadores hacia servicios externos.
 
-Los contextos no se invocan directamente entre sí. Para las consultas se emplean **interfaces publicadas**: Dashboard and Analytics consume Profile Read Contract y Care Read Contract en lugar de conocer el modelo interno de esos contextos, y Profiles Management consulta Plan Entitlement Contract para saber si el plan permite registrar otro adulto mayor, sin acceder al agregado Subscription.
+Esta separación permite mantener responsabilidades claras dentro de la API y evita que los controllers accedan directamente a la base de datos o contengan lógica de negocio.
 
-Para las reacciones se emplean **eventos de dominio in-process** mediante MediatR: AppointmentScheduled origina un recordatorio y FamilyAccessInvited origina el envío del correo de invitación, sin que el emisor conozca al receptor.
+Los bounded contexts tampoco dependen directamente de los modelos internos de otros contextos. Para las consultas se utilizan **interfaces publicadas**; por ejemplo, Dashboard and Analytics consume `Profile Read Contract` y `Care Read Contract`, mientras que Profiles Management consulta `Plan Entitlement Contract` para verificar si el plan contratado permite registrar otro adulto mayor.
+
+Para las reacciones entre módulos se emplean **eventos de dominio in-process** mediante MediatR. De esta forma, eventos como `AppointmentScheduled` pueden generar un recordatorio y `FamilyAccessInvited` puede iniciar el envío de una invitación, manteniendo desacoplados los contextos involucrados.
+
+#### Web Application
+
+La siguiente vista muestra la estructura interna de la **Web Application**, desarrollada con Vue 3 y responsable de proporcionar la interfaz utilizada por cuidadoras y familiares.
 
 ![Web Application Component Diagram](../assets/images/diagrams/C3_WebApplication.png)
 
