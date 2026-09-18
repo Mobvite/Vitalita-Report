@@ -104,3 +104,6 @@ Sabremos que la hipótesis muestra evidencia favorable cuando al menos el 80% de
 Creemos que lograremos incrementar la conversión de usuarios del plan gratuito hacia planes de pago si las personas cuidadoras que requieren funcionalidades adicionales logran contratar el plan correspondiente mediante un proceso de pago sencillo y compatible con métodos de pago accesibles para ellas utilizando el módulo de suscripciones de Vitalita.
 
 Sabremos que la hipótesis muestra evidencia favorable cuando los usuarios interesados en adquirir un plan puedan completar correctamente el flujo de suscripción durante las pruebas de validación y se observe posteriormente conversión de usuarios activos del plan gratuito hacia algún plan de pago.
+
+### 1.2.2.4. Lean UX Canvas
+![Lean UX Canvas](../assets/images/figures/Leanux-canvas.png)
