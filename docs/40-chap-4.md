@@ -5,8 +5,32 @@ En esta sección se presenta la propuesta de diseño UX/UI de las aplicaciones w
 El diseño está orientado a los dos segmentos principales del sistema: enfermeras o cuidadores de adultos mayores y familiares, priorizando una interacción clara, eficiente y alineada con sus necesidades de seguimiento y cuidado. Asimismo, se asegura la coherencia con los Style Guidelines y la Information Architecture, garantizando una experiencia intuitiva, organizada y consistente en toda la plataforma.
 
 ## 4.4.1. Web Applications Wireframes.
+
+![Wireframe Protito 1](../assets/images/figures/Wireframe1-prototipo.png)
+
+![Wireframe Protito 2](../assets/images/figures/Wireframe2-prototipo.png)
+
+![Wireframe Protito 3](../assets/images/figures/Wireframe3-prototipo.png)
+
+![Wireframe Protito 4](../assets/images/figures/Wireframe4-prototipo.png)
+
+![Wireframe Protito 5](../assets/images/figures/Wireframe5-prototipo.png)
+
 ## 4.4.2. Web Applications Wireflow Diagrams.
+
+
 ## 4.4.2. Web Applications Mock-ups.
+![Mockup Protito 1](../assets/images/figures/Mockup-prototipo1.png)
+
+![Mockup Protito 2](../assets/images/figures/Mockup-prototipo2.png)
+
+![Mockup Protito 3](../assets/images/figures/Mockup-prototipo3.png)
+
+![Mockup Protito 4](../assets/images/figures/Mockup-prototipo4.png)
+
+![Mockup Protito 5](../assets/images/figures/Mockup-prototipo5.png)
+
+
 ## 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
 
