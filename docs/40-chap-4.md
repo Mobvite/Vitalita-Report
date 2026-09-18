@@ -34,3 +34,11 @@ Como resultado se identificaron siete bounded contexts, cuya nomenclatura corres
 Service Execution and Monitoring y Dashboard and Analytics son los contextos core porque concentran la propuesta de valor: registrar el cuidado y hacerlo visible para la familia. El sub-dominio *Loyalty and Engagement* quedó fuera del alcance del MVP.
 
 Las User Stories US01–US04 corresponden al Landing Page, que no constituye un bounded context sino un producto de presentación del modelo de negocio.
+
+### 4.6.2. Software Architecture Context Diagram
+
+El diagrama de contexto presenta una visión de alto nivel del sistema Vitalita, mostrando su interacción con los dos segmentos objetivo y los servicios externos con los que se integra, sin entrar en detalles técnicos internos.
+
+![Software Architecture Context Diagram](../assets/images/diagrams/C3_Context-diagram.png)
+
+La cuidadora alimenta el sistema y gestiona su suscripción; el familiar consulta el seguimiento y recibe avisos. Hacia afuera, Vitalita se integra con cuatro servicios externos: **Niubiz** como pasarela de pagos, por su cobertura de tarjetas y billeteras digitales en el mercado peruano; **Twilio** para notificaciones por SMS y WhatsApp; **SendGrid** para el correo transaccional; y **Amazon S3** para almacenar evidencias y reportes. Cada uno se consume mediante un adaptador, de modo que sustituirlo por una alternativa evaluada (Culqi o Izipay, Firebase Cloud Messaging, Azure Blob Storage) no afectaría al modelo de dominio.
