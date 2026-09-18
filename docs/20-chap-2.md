@@ -60,3 +60,47 @@ El Lean UX Process permite formular y validar las principales suposiciones relac
 5. Creemos que un panel compartido para familiares autorizados permitirá consultar información reciente del adulto mayor sin depender continuamente de mensajes o llamadas.
 6. Creemos que un generador de reportes en formato PDF permitirá consolidar información relevante previamente registrada y facilitar su consulta o intercambio cuando sea necesario.
 7. Creemos que un módulo de suscripción y pagos permitirá gestionar diferentes planes de Vitalita y facilitar la contratación de funcionalidades adicionales.
+
+### 1.2.2.3. Lean UX Hypothesis Statements
+
+#### H1 - Registro de citas médicas
+
+Creemos que lograremos incrementar el uso recurrente de Vitalita si las personas cuidadoras y profesionales de enfermería logran mantener organizadas y disponibles las citas médicas del adulto mayor mediante un módulo que permita registrar fecha, especialidad, resultados y observaciones.
+
+Sabremos que la hipótesis muestra evidencia favorable cuando al menos el 80% de las citas acompañadas por usuarios activos durante el periodo de validación sean registradas en Vitalita dentro de las 24 horas posteriores a su realización.
+
+#### H2 - Registro de exámenes con evidencia
+
+Creemos que lograremos incrementar la frecuencia de uso y la retención de las personas cuidadoras si estas logran mantener los resultados de exámenes organizados y disponibles para futuras consultas mediante un módulo de exámenes que permita registrar resultados y adjuntar evidencias fotográficas.
+
+Sabremos que la hipótesis muestra evidencia favorable cuando al menos el 70% de los exámenes registrados durante el periodo de validación incluyan información del resultado o una evidencia asociada y puedan ser posteriormente localizados por el usuario desde la plataforma.
+
+#### H3 - Seguimiento diario
+
+Creemos que lograremos incrementar la participación recurrente y la retención de personas cuidadoras activas si estas logran registrar y comunicar de forma organizada la evolución diaria del adulto mayor mediante un módulo de seguimiento diario.
+
+Sabremos que la hipótesis muestra evidencia favorable cuando al menos el 60% de las personas cuidadoras activas registren información de seguimiento del adulto mayor durante cinco de cada siete días en el periodo evaluado.
+
+#### H4 - Recordatorios automáticos
+
+Creemos que lograremos incrementar el uso recurrente de Vitalita y contribuir a la retención de las personas cuidadoras si estas logran organizar y recordar oportunamente actividades pendientes relacionadas con el cuidado mediante un sistema de recordatorios de citas, terapias y otras actividades programadas.
+
+Sabremos que la hipótesis muestra evidencia favorable cuando al menos el 75% de los recordatorios con fecha límite sean consultados o marcados como revisados antes del momento programado durante el periodo de validación.
+
+#### H5 - Panel compartido para familiares
+
+Creemos que lograremos incrementar la activación y el uso recurrente de cuentas familiares si los familiares autorizados logran mantenerse informados sobre el seguimiento reciente del adulto mayor sin depender constantemente de mensajes o llamadas mediante un panel compartido de consulta.
+
+Sabremos que la hipótesis muestra evidencia favorable cuando al menos el 60% de los familiares invitados activen su cuenta y consulten el seguimiento del adulto mayor al menos una vez por semana durante el periodo de validación.
+
+#### H6 - Reporte consolidado en PDF
+
+Creemos que lograremos incrementar el valor percibido y el uso recurrente de Vitalita por parte de personas cuidadoras y familiares si estos logran acceder rápidamente a información previamente registrada sobre el cuidado del adulto mayor cuando necesitan consultarla o compartirla mediante un generador de reportes consolidados en formato PDF.
+
+Sabremos que la hipótesis muestra evidencia favorable cuando al menos el 80% de los participantes de las sesiones de validación puedan generar el reporte y localizar en él la información solicitada durante el escenario de prueba sin recurrir a fuentes externas como chats o cuadernos.
+
+#### H7 - Suscripción y métodos de pago
+
+Creemos que lograremos incrementar la conversión de usuarios del plan gratuito hacia planes de pago si las personas cuidadoras que requieren funcionalidades adicionales logran contratar el plan correspondiente mediante un proceso de pago sencillo y compatible con métodos de pago accesibles para ellas utilizando el módulo de suscripciones de Vitalita.
+
+Sabremos que la hipótesis muestra evidencia favorable cuando los usuarios interesados en adquirir un plan puedan completar correctamente el flujo de suscripción durante las pruebas de validación y se observe posteriormente conversión de usuarios activos del plan gratuito hacia algún plan de pago.
