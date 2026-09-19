@@ -357,6 +357,9 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 ### **Primer segmento objetivo:**
 ![Empathy Mapping Andrea](../assets/images/figures/EmpMap-Andrea.png)
 
+### **Segundo segmento objetivo:**
+![Empathy Mapping Renzo](../assets/images/figures/EmpMap-Renzo.png)
+
 # 2.4. Big Picture EventStorming. 
 
 ![Big Picture EventStorming](../assets/images/diagrams/bigevent.png)
@@ -420,7 +423,3 @@ El presente glosario reúne los términos del dominio del cuidado del adulto may
 * **Dietary Regimen (Régimen dietético):** Pauta de alimentación indicada al adulto mayor según su condición de salud.  
 * **Fall Risk (Riesgo de caída):** Probabilidad elevada de caída en el adulto mayor debido a la pérdida de estabilidad propia de la edad.  
 * **Epicrisis (Epicrisis):** Documento clínico que resume el diagnóstico, la evolución y el tratamiento del paciente tras una atención médica.
-
-
-### **Segundo segmento objetivo:**
-![Empathy Mapping Renzo](../assets/images/figures/EmpMap-Renzo.png)
