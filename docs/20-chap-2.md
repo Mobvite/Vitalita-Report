@@ -108,6 +108,120 @@ Sabremos que la hipótesis muestra evidencia favorable cuando los usuarios inter
 ### 1.2.2.4. Lean UX Canvas
 ![Lean UX Canvas](../assets/images/figures/Leanux-canvas.png)
 
+# 2.1. Competidores
+Para el análisis de la competencia se identificaron tres soluciones vigentes que atienden, de forma parcial, necesidades relacionadas con el cuidado del adulto mayor. Ninguna resuelve de manera integral el flujo entre cuidadora, familiar y clínica que aborda Vitalita, por lo que se consideran competidores indirectos con ofertas parcialmente similares. Los tres fueron seleccionados por representar enfoques distintos del mercado: un servicio de cuidado domiciliario en el Perú, una aplicación de teleasistencia por geolocalización y un dispositivo físico de monitoreo con aplicación asociada.
+
+## 2.1.1. Análisis competitivo
+#### Competitive Analysis Landscape
+#### ¿Por qué llevar a cabo este análisis?
+Identificar qué necesidades del cuidado del adulto mayor ya están cubiertas por soluciones existentes y cuáles permanecen desatendidas, con el fin de delimitar la ventaja competitiva de Vitalita frente a alternativas de teleasistencia, monitoreo y contratación de personal.
+
+<table border="1">
+  <tr>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top">Vitalita</td>
+    <td valign="top">T-Cuido<br><img src="../assets/images/others/tecuido-logo.png" width="100" alt="T-Cuido"></td>
+    <td valign="top">Safe365<br><img src="../assets/images/others/safe365-logo.png" width="100" alt="Safe365"></td>
+    <td valign="top">SaveFamily<br><img src="../assets/images/others/saveFamily-logo.png" width="100" alt="SaveFamily"></td>
+  </tr>
+  <tr>
+    <td valign="top" rowspan="2">Perfil</td>
+    <td valign="top">Overview</td>
+    <td valign="top">Plataforma web que centraliza el historial clínico y el seguimiento diario del adulto mayor, compartido entre la cuidadora que registra y los familiares que consultan.</td>
+    <td valign="top">Empresa peruana de cuidado domiciliario del adulto mayor con personal de enfermería propio y planes de suscripción.</td>
+    <td valign="top">Aplicación española de teleasistencia gratuita basada en geolocalización e inteligencia artificial, operada desde Barcelona.</td>
+    <td valign="top">Empresa española de smartwatches con GPS para menores y adultos mayores, con aplicación propia asociada.</td>
+  </tr>
+  <tr>
+    <td valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td valign="top">Especialización en el flujo cuidadora–familiar–clínica, con generación automática de un informe consolidado del paciente ante emergencias.</td>
+    <td valign="top">Asume la relación laboral del personal técnico y de enfermería, liberando a la familia de las obligaciones laborales peruanas.</td>
+    <td valign="top">Teleasistencia sin costo, con botón de emergencia que moviliza recursos y alertas automáticas de zona y batería.</td>
+    <td valign="top">Autonomía del adulto mayor sin depender de un smartphone: el dispositivo integra llamadas, SOS y monitoreo de salud.</td>
+  </tr>
+  <tr>
+    <td valign="top" rowspan="2">Perfil de Marketing</td>
+    <td valign="top">Mercado objetivo</td>
+    <td valign="top">Enfermeras y cuidadoras independientes de adultos mayores en el Perú, y sus familiares directos.</td>
+    <td valign="top">Familias peruanas que requieren cuidado domiciliario para un adulto mayor.</td>
+    <td valign="top">Familias con adultos mayores. Presencia en 193 países y 8 idiomas.</td>
+    <td valign="top">Familias con menores o adultos mayores con deterioro cognitivo o sensorial. Más de 200.000 familias usuarias.</td>
+  </tr>
+  <tr>
+    <td valign="top">Estrategias de marketing</td>
+    <td valign="top"></td>
+    <td valign="top">Comunicación dirigida a familias con adultos mayores, con presencia en redes sociales centrada en la profesionalización del cuidador.</td>
+    <td valign="top">Crecimiento por invitación: el usuario agrega contactos y les envía un enlace de descarga por SMS, WhatsApp o correo.</td>
+    <td valign="top">Venta por web propia y distribuidores externos, con alianzas con servicios de cuidado como Cuidum.</td>
+  </tr>
+  <tr>
+    <td valign="top" rowspan="3">Perfil de Producto</td>
+    <td valign="top">Productos &amp; Servicios</td>
+    <td valign="top">Registro de citas y exámenes con evidencia fotográfica, reporte diario, recordatorios automáticos, panel de solo lectura para familiares e informe PDF exportable.</td>
+    <td valign="top">Planes con monitoreo 24/7 y consultas de geriatría, psiquiatría, rehabilitación física o apoyo emocional; servicios de cuidado y acompañamiento.</td>
+    <td valign="top">Seguimiento GPS en tiempo real, zonas seguras con notificación de entrada y salida, aviso de batería baja, chat, registro de actividad y botón SOS.</td>
+    <td valign="top">Smartwatch con GPS, aviso de caída, botón SOS, videollamada, recordatorio de medicamentos y monitoreo de frecuencia cardíaca, presión y oxígeno.</td>
+  </tr>
+  <tr>
+    <td valign="top">Precios &amp; Costos</td>
+    <td valign="top">Suscripción mensual o anual con versión freemium.</td>
+    <td valign="top">Planes semanales y mensuales de 4 semanas de 8 o 12 horas. No publica montos.</td>
+    <td valign="top">Descarga gratuita.</td>
+    <td valign="top">Alrededor de €78 a €87 por dispositivo; plan de SIM propia opcional.</td>
+  </tr>
+  <tr>
+    <td valign="top">Canales de distribución (Web y/o Móvil)</td>
+    <td valign="top">Landing Page y Web Application.</td>
+    <td valign="top">Sitio web.</td>
+    <td valign="top">Android e iOS.</td>
+    <td valign="top">Web propia, distribuidores externos y app en Google Play.</td>
+  </tr>
+  <tr>
+    <td valign="top" rowspan="4">Análisis SWOT</td>
+    <td valign="top">Fortalezas</td>
+    <td valign="top">Centraliza el historial clínico y el seguimiento diario en un solo lugar, con informe consolidado para emergencias.</td>
+    <td valign="top">Asume la relación laboral del personal de enfermería, eliminando el riesgo legal para la familia.</td>
+    <td valign="top">Base de usuarios amplia y sin barrera de entrada, con más de 4 millones de descargas y 250.000 usuarios activos diarios.</td>
+    <td valign="top">Producto físico que no depende de que el adulto mayor use un smartphone.</td>
+  </tr>
+  <tr>
+    <td valign="top">Debilidades</td>
+    <td valign="top">Producto sin trayectoria ni base de usuarios, que solo ofrece software sin servicios complementarios.</td>
+    <td valign="top">No cuenta con un producto digital propio para el registro clínico del paciente.</td>
+    <td valign="top">Resuelve la localización y seguridad, pero no el seguimiento clínico ni el registro de citas y exámenes.</td>
+    <td valign="top">Los recordatorios de medicación son alarmas en el reloj, no un registro clínico consultable.</td>
+  </tr>
+  <tr>
+    <td valign="top">Oportunidades</td>
+    <td valign="top">Ausencia de una solución peruana especializada en el registro clínico del adulto mayor.</td>
+    <td valign="top">Puede incorporar una plataforma digital apoyándose en su base actual de clientes.</td>
+    <td valign="top">Su escala le permite ampliar funcionalidades hacia el registro de salud.</td>
+    <td valign="top">Alianzas con servicios de cuidado domiciliario, como la que ya mantiene con Cuidum.</td>
+  </tr>
+  <tr>
+    <td valign="top">Amenazas</td>
+    <td valign="top">Resistencia de las cuidadoras a abandonar un método en papel que ya consideran práctico y confiable.</td>
+    <td valign="top">Cuidadoras independientes que contratan directamente con las familias, sin intermediario.</td>
+    <td valign="top">Dispositivos como SaveFamily cubren su misma función sin depender del smartphone del adulto mayor.</td>
+    <td valign="top">Smartwatches genéricos con funciones similares a menor precio.</td>
+  </tr>
+</table>
+
+## 2.1.2. Estrategias y tácticas frente a competidores.
+A partir del análisis competitivo y de los SWOT elaborados para cada competidor, Mobvite plantea las siguientes estrategias preliminares para posicionar a Vitalita en el mercado.
+#### Estrategias para afrontar las fortalezas de la competencia
+Frente a la principal fortaleza de T-Cuido, que asume la relación laboral del personal de enfermería y elimina el riesgo legal para la familia, la startup no compite por proveer cuidadoras sino por dar herramientas a la cuidadora que ya está contratada. Esto se traduce en comunicar desde el Landing Page que la plataforma funciona con cualquier cuidadora, sea independiente o provista por una agencia, y en explorar alianzas con agencias de cuidado que puedan ofrecer la herramienta a su propio personal.
+En el caso de Safe365, cuya adopción masiva se explica por su gratuidad, la respuesta consiste en reducir la fricción inicial mediante una versión freemium que permita gestionar un adulto mayor sin costo, reservando para la versión de pago la gestión de múltiples pacientes y la generación del informe consolidado.
+Ante SaveFamily, que tiene la ventaja de no depender del smartphone del adulto mayor, Vitalita compite en un terreno distinto y enfoca su comunicación en el historial consultable y en el informe para emergencias, funciones que un dispositivo de monitoreo no cubre.
+#### Estrategias para aprovechar las debilidades de la competencia
+El espacio más relevante es que ninguno de los tres competidores construye un historial clínico consultable del paciente: T-Cuido no cuenta con un producto digital de registro, Safe365 resuelve únicamente localización y los recordatorios de SaveFamily son alarmas en el dispositivo. Por ello la propuesta de valor de Vitalita se construye alrededor del registro de citas, exámenes y evolución diaria, priorizando en el roadmap el informe consolidado exportable, que no tiene equivalente entre las alternativas analizadas.
+Un segundo espacio es que ninguna de las tres contempla un rol diferenciado para la cuidadora profesional, ya que todas se dirigen a la familia. Vitalita diseña en cambio su experiencia principal para quien genera la información y no solo para quien la consulta, levantando sus necesidades directamente de enfermeras y cuidadoras durante el proceso de needfinding.
+El tercero es de menor alcance pero igualmente aprovechable: T-Cuido no publica sus precios, lo que dificulta la decisión de compra, de modo que publicar los planes de forma abierta en el Landing Page constituye una diferencia frente a un competidor directo en el mercado peruano.
+#### Estrategias frente al contexto de oportunidades y amenazas
+La principal amenaza identificada no proviene de la competencia sino del propio segmento, ya que las cuidadoras utilizan el Kardex en papel y lo consideran una herramienta práctica y confiable. La estrategia consiste entonces en partir de esa herramienta en lugar de proponer un modelo desconocido, diseñando el módulo de registro sobre la estructura del Kardex y comunicando la propuesta como la digitalización de un método existente.
+A ello se suma la adaptación del cobro a los medios de pago habituales en el país, integrando Yape, Plin, transferencia bancaria, pago en efectivo y tarjeta, aspecto que las alternativas internacionales no contemplan. El precio se definirá dentro del rango de disposición de pago que arrojen las entrevistas.
+Finalmente, la oportunidad de crecimiento por referido se aprovecha habilitando la invitación de familiares desde la cuenta de la cuidadora, dado que cada cuidadora incorpora a varios familiares y cada familiar constituye a su vez un canal hacia otras cuidadoras. En la misma línea se contempla explorar alianzas con clínicas geriátricas y aseguradoras como canal de adquisición de bajo costo.
 
 # 2.2. Entrevistas
 
