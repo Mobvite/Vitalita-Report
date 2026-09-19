@@ -359,7 +359,7 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 
 # 2.4. Big Picture EventStorming. 
 
-![Big Picture EventStorming](../assets/images/figures/bigevent.png)
+![Big Picture EventStorming](../assets/images/diagrams/bigevent.png)
 
 El Big Picture Event Storming de **Vitalita** permite representar de manera visual los principales procesos de negocio identificados durante el análisis del proyecto. Esta técnica se utiliza para comprender el dominio de la solución a partir de los eventos relevantes que ocurren dentro del sistema, priorizando los hechos del negocio por encima de detalles técnicos de implementación.
 
