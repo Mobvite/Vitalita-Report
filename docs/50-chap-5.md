@@ -143,3 +143,108 @@ chore(deploy): configure github pages
 ```
 
 ---
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+Todos los nombres utilizados en código, incluyendo archivos, clases, componentes, métodos, variables, servicios y endpoints, se redactarán en **inglés**. El objetivo es mantener consistencia entre los integrantes y facilitar la lectura del código.
+
+#### HTML
+
+- Las etiquetas y atributos se escribirán en minúsculas.
+- La estructura deberá utilizar elementos semánticos cuando corresponda (`header`, `nav`, `main`, `section`, `footer`).
+- Los atributos se escribirán entre comillas.
+- Se evitarán estructuras excesivamente anidadas.
+- Se incorporarán atributos ARIA cuando sean necesarios para mejorar la accesibilidad.
+- Los nombres de archivos HTML utilizarán minúsculas y `kebab-case`.
+
+#### CSS
+
+- Las clases utilizarán `kebab-case`.
+- Se evitarán estilos inline.
+- Se organizarán los estilos por secciones o componentes.
+- Se priorizará responsive design mediante media queries y unidades relativas.
+- Los estilos reutilizables deberán evitar duplicación innecesaria.
+
+Ejemplo:
+
+```css
+.feature-card {}
+.pricing-section {}
+.language-selector {}
+```
+
+#### JavaScript
+
+- Variables y funciones utilizarán `camelCase`.
+- Clases utilizarán `PascalCase`.
+- Se utilizarán `const` y `let` en lugar de `var`.
+- Se utilizarán funciones pequeñas y con una responsabilidad clara.
+- Se evitará código duplicado.
+- Se utilizarán nombres descriptivos en inglés.
+
+Ejemplo:
+
+```javascript
+const selectedLanguage = 'en';
+function updateNavigation() {}
+```
+
+#### Vue 3
+
+- Los componentes utilizarán `PascalCase`.
+- Los archivos `.vue` utilizarán nombres descriptivos.
+- La lógica reutilizable se separará en composables cuando corresponda.
+- Los stores mantendrán responsabilidades específicas.
+- La comunicación con el backend se centralizará mediante servicios o un API Client.
+
+Ejemplos:
+
+```text
+FamilyDashboard.vue
+OlderAdultProfile.vue
+SubscriptionPlans.vue
+useAuthentication.js
+```
+
+#### C# and ASP.NET Core
+
+- Clases, interfaces, métodos y propiedades utilizarán `PascalCase`.
+- Variables locales y parámetros utilizarán `camelCase`.
+- Las interfaces iniciarán con el prefijo `I`.
+- Los campos privados utilizarán `_camelCase`.
+- Los métodos asíncronos utilizarán el sufijo `Async`.
+- Los Controllers no contendrán lógica de negocio ni accederán directamente al `DbContext`.
+- La lógica de negocio permanecerá en las capas Application y Domain.
+
+Ejemplos:
+
+```csharp
+public interface IOlderAdultRepository
+public class OlderAdultsController
+public async Task<OlderAdultDto> GetByIdAsync(...)
+```
+
+#### REST API
+
+- Los recursos se nombrarán mediante sustantivos en plural.
+- Las rutas utilizarán minúsculas.
+- Se utilizarán correctamente los verbos HTTP (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`).
+- Las respuestas JSON utilizarán propiedades en `camelCase`.
+- Se utilizarán códigos HTTP acordes con el resultado de cada operación.
+
+Ejemplos:
+
+```text
+GET /api/older-adults
+POST /api/daily-reports
+GET /api/subscriptions
+```
+
+#### SQL and Database
+
+- Los nombres serán descriptivos y estarán en inglés.
+- Cada bounded context mantendrá ownership lógico sobre sus tablas.
+- Se definirán explícitamente primary keys, foreign keys y constraints.
+- Las migraciones serán gestionadas mediante Entity Framework Core cuando el backend entre al alcance de implementación.
+
+---
