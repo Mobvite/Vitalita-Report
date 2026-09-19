@@ -456,7 +456,7 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 | **Edad** | 52 años |
 | **Distrito** | Independencia |
 | **Resumen** | La entrevistada es cuidadora de adultos mayores y vive en Independencia. Durante su jornada realiza el monitoreo de signos vitales, alimentación, administración de medicamentos, higiene, cambio de pañales y terapias de movilidad. Para pacientes postrados, también se encarga de su alimentación mediante sonda y de trasladarlos a citas médicas. Para realizar el seguimiento utiliza un cuaderno donde registra la presión, saturación y temperatura, además de una pizarra para los medicamentos. Ante cambios o emergencias, coordina con profesionales de salud y comunica la situación a los familiares. Para las citas, utiliza sus apuntes y también registra las fechas en su celular. La comunicación con los familiares se realiza principalmente por móvil (ella usa un Motorola G8), presencialmente y mediante WhatsApp, donde cuentan con un grupo familiar. La principal dificultad no está en el seguimiento, sino en movilizar al adulto mayor y trasladarlo ante una emergencia, especialmente cuando no cuentan con alguien que pueda ayudar con el transporte. De esta manera es como podemos concluir que ella considera que una herramienta digital para registrar y consultar el seguimiento diario le ayudaría bastante en su trabajo y estaría dispuesta a utilizarla.|
-|**URL**|https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e321_upc_edu_pe/IQCPrC9A70RoQauz3bSzKA3AAUTZhxzYYIaZ-FuFaZR4WqI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=QzPBUe|
+|**URL**|https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e321_upc_edu_pe/IQCPrC9A70RoQauz3bSzKA3AAUTZhxzYYIaZ-FuFaZR4WqI?e=kb88A4|
 
 ---
 
@@ -522,7 +522,7 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 | **Edad** | 43 años |
 | **Distrito** | Independencia |
 | **Resumen** | Vicky Jovanna Rujupanky, de 43 años, tiene experiencia en el cuidado de su abuelita, quien contaba con una cuidadora. Su participación consistía principalmente en supervisar su cuidado y apoyar en su movilidad. Los aspectos de salud que consideraba más importantes eran la presión arterial y la saturación, por lo que procuraba recibir información diariamente. La cuidadora era quien informaba sobre cualquier cambio en el estado de salud y la comunicación se realizaba principalmente mediante WhatsApp y mensajes de texto. También se registraba información en un cuaderno. Sin embargo, acceder a documentos médicos como historias clínicas o epicrisis resultaba complicado y tedioso, por lo que dependían principalmente de la cuidadora. Finalmente, consideró que una aplicación centralizada donde pudiera consultar el seguimiento diario, citas, exámenes y resultados sería muy útil, ya que facilitaría el acceso a la información.|
-|**URL**|https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e321_upc_edu_pe/IQAtM8mEULJ0Tabv8w_OJFYqAQfH96HIOtt7sMOaMPu8jM0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=c1JAxB|
+|**URL**|https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e321_upc_edu_pe/IQAtM8mEULJ0Tabv8w_OJFYqAQfH96HIOtt7sMOaMPu8jM0?e=gbDGhz|
 
 
 # 2.3. Needfinding
