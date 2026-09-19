@@ -305,3 +305,18 @@ Las User Stories priorizadas para el Sprint 1 son:
 | US03 | Consultar los planes del servicio | 2 | Done |
 | US04 | Acceder a la experiencia web de Vitalita | 2 | Done |
 | **Total** |  | **10 SP** | **Completed** |
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+Para organizar el trabajo del Sprint 1 se definieron líderes y colaboradores para los principales aspectos de la Landing Page. La asignación permite distribuir responsabilidades sin impedir que los demás integrantes colaboren en revisión, integración y pruebas.
+
+| **Team Member** | **GitHub Username** | **Value Proposition & Hero** | **Features** | **Plans** | **Access & CTA** | **Responsive, i18n & a11y** |
+| --- | --- | :---: | :---: | :---: | :---: | :---: |
+| Espinoza Lopez, Paul Alejandro Angel | `R3memo` | C | **L** | C | C | C |
+| Navarro Chang, Alicia Avril | `Alice-keys` | C | C | **L** | C | C |
+| Roque Tello, Jack Eddie | `UPC-Skylar` | **L** | C | C | C | C |
+| Videla Ventura, Jorge Joseph | `JorgeVidVen` | C | C | C | **L** | C |
+| Yanac Flores, Gabriel Stefano | `u20241d945` | C | C | C | C | **L** |
+
+**L:** Leader  
+**C:** Collaborator
