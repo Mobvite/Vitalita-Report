@@ -357,6 +357,70 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 ### **Primer segmento objetivo:**
 ![Empathy Mapping Andrea](../assets/images/figures/EmpMap-Andrea.png)
 
+# 2.4. Big Picture EventStorming. 
+
+![Big Picture EventStorming](../assets/images/figures/bigevent.png)
+
+El Big Picture Event Storming de **Vitalita** permite representar de manera visual los principales procesos de negocio identificados durante el análisis del proyecto. Esta técnica se utiliza para comprender el dominio de la solución a partir de los eventos relevantes que ocurren dentro del sistema, priorizando los hechos del negocio por encima de detalles técnicos de implementación.
+
+Vitalita es una aplicación orientada al cuidado y seguimiento de adultos mayores. Su propósito principal es centralizar la información relacionada con citas médicas, exámenes, signos vitales, medicación, terapias, estado diario y observaciones del paciente. De esta manera, la cuidadora o enfermera puede registrar información de forma organizada, mientras que los familiares pueden consultar el estado del adulto mayor sin depender únicamente de llamadas, mensajes de WhatsApp o registros físicos.
+
+En el Event Storming se identificaron como actores principales a la **cuidadora o enfermera**, quien cumple el rol operativo dentro de la plataforma, y al **familiar directo**, quien accede principalmente a la información registrada. También se reconoce la participación externa de **clínicas u hospitales**, ya que el sistema contempla la generación de un informe PDF con el historial del adulto mayor para ser utilizado en situaciones de emergencia médica.
+
+El modelo se organiza en cinco bounded contexts principales. El primero es **Descubrimiento y Acceso**, donde se agrupan los procesos de registro, inicio de sesión y asignación de roles. El segundo es **Gestión de Adultos Mayores**, enfocado en el registro del paciente, la actualización de sus datos básicos y la asignación de familiares con acceso de consulta. El tercero es **Registros de Salud y Seguimiento Diario**, que constituye el núcleo del dominio, ya que concentra los registros de signos vitales, estado de ánimo, medicación, terapias, citas, exámenes y evidencias fotográficas. El cuarto contexto es **Seguimiento Familiar y Emergencias**, donde se modela la consulta del panel familiar, las notificaciones relevantes y la generación del informe PDF. Finalmente, el contexto de **Suscripciones y Pagos** representa el modelo de monetización de la plataforma mediante prueba gratuita, selección de plan, pago y activación de suscripción.
+
+Entre los eventos de dominio más importantes se encuentran: **Adulto mayor registrado**, **Estado diario registrado**, **Signos vitales registrados**, **Medicación registrada**, **Cita médica registrada**, **Examen registrado**, **Evidencia fotográfica adjuntada**, **Familiar notificado**, **Emergencia reportada**, **Informe PDF generado** y **Suscripción activada**. Estos eventos representan hechos significativos dentro del negocio y permiten comprender cómo evoluciona la información del adulto mayor dentro de la plataforma.
+
+Asimismo, se identificaron reglas de negocio relevantes. Por ejemplo, cuando se registra un adulto mayor, el sistema debe permitir asociar familiares responsables con acceso de solo lectura. Cuando se registra una actividad próxima o pendiente, como una cita médica, terapia o examen, el sistema debe generar recordatorios automáticos. Del mismo modo, cuando se detecta una emergencia, se debe generar un informe PDF con el historial completo del paciente. Estas reglas permiten conectar eventos con nuevos comandos y muestran cómo ciertas acciones del usuario pueden activar procesos automáticos del sistema.
+
+Durante el análisis también se detectaron algunos hotspots o puntos de incertidumbre. El primero está relacionado con los permisos exactos de cada rol, ya que el proyecto diferencia entre cuidadoras y familiares, pero no detalla completamente las restricciones específicas de cada usuario. El segundo corresponde al canal de notificaciones, debido a que se mencionan alertas automáticas, pero no se define si serán enviadas por notificación push, correo electrónico, SMS, WhatsApp u otro medio. El tercer hotspot se encuentra en el módulo de pagos, donde se mencionan métodos como Yape, Plin, transferencia, efectivo y tarjeta, pero no se especifica la pasarela o proveedor técnico que se utilizará.
+
+# 2.5. Ubiquitous Language.
+
+El presente glosario reúne los términos del dominio del cuidado del adulto mayor que el equipo utiliza de forma consistente en la documentación, el modelado y la implementación de Vitalita. Los términos provienen del análisis del dominio y de las entrevistas realizadas a enfermeras y cuidadoras, y su definición busca eliminar ambigüedades en la comunicación entre los miembros del equipo y los stakeholders.
+
+#### **1\. Stakeholders & Roles**
+
+* **Caregiver (Cuidadora):** Persona encargada del cuidado diario de un adulto mayor. Es quien registra la información en la plataforma. Puede tener a su cargo más de un adulto mayor de forma simultánea.  
+* **Nurse (Enfermera):** Profesional de enfermería, titulada o técnica, que brinda cuidado especializado al adulto mayor y aplica registros formales propios de su profesión.  
+* **Older Adult (Adulto mayor):** Persona de 60 años a más que recibe cuidado y cuyo seguimiento se registra en la plataforma.  
+* **Family Member (Familiar):** Pariente directo del adulto mayor que accede al seguimiento en modalidad de solo lectura. Un mismo adulto mayor puede tener más de un familiar con acceso.  
+* **Primary Family Contact (Familiar responsable):** Familiar con quien se establece el acuerdo de cuidado y que actúa como contacto principal ante emergencias.
+
+#### **2\. Funcionalidades de la Plataforma**
+
+* **Register Older Adult (Registro de adulto mayor):** Proceso mediante el cual la cuidadora incorpora a un adulto mayor a la plataforma con sus datos básicos de cuidado.  
+* **Register Medical Appointment (Registro de cita médica):** Proceso mediante el cual se registra una cita con tipo, fecha, resultado y notas de la cuidadora.  
+* **Register Medical Exam (Registro de examen):** Proceso mediante el cual se registra un examen indicado al adulto mayor, con la posibilidad de adjuntar evidencia fotográfica del resultado.  
+* **Daily Report (Reporte diario):** Registro del estado del adulto mayor durante la jornada, que incluye funciones vitales, observaciones y estado de ánimo.  
+* **Family Dashboard (Panel familiar):** Vista de solo lectura mediante la cual el familiar consulta el seguimiento del adulto mayor sin depender de que la cuidadora se lo comunique.  
+* **Automatic Reminder (Recordatorio automático):** Aviso generado por la plataforma sobre citas próximas, terapias y resultados de exámenes pendientes.  
+* **Emergency Report (Informe de emergencia):** Documento exportable que consolida el historial del adulto mayor para ser presentado ante el personal clínico.  
+* **Family Invitation (Invitación de familiar):** Proceso mediante el cual la cuidadora otorga a un familiar acceso de solo lectura al seguimiento de un adulto mayor.  
+* **Subscription Plan (Plan de suscripción):** Modalidad de pago recurrente mediante la cual la cuidadora accede a las funcionalidades de la plataforma.
+
+#### **3\. Otros conceptos del dominio**
+
+* **Kardex:** Registro utilizado por el personal de enfermería que organiza por día y horario los medicamentos del paciente, permitiendo marcar cada administración y evitar duplicidades. Incluye también interconsultas y resultados alterados.  
+* **Medical History (Historial clínico):** Conjunto acumulado de citas, exámenes, resultados y tratamientos del adulto mayor.  
+* **Vital Signs (Funciones vitales):** Indicadores básicos del estado del paciente, entre ellos presión arterial, saturación de oxígeno, frecuencia cardíaca y temperatura.  
+* **Blood Pressure (Presión arterial):** Función vital de control prioritario en pacientes geriátricos, dada la prevalencia de hipertensión.  
+* **Oxygen Saturation (Saturación):** Nivel de oxígeno en sangre, controlado de forma rutinaria en el seguimiento diario.  
+* **Blood Glucose (Glucosa):** Nivel de azúcar en sangre, medido con glucómetro en pacientes diabéticos.  
+* **Chronic Disease (Enfermedad crónica):** Condición de larga duración que requiere control permanente, como hipertensión o diabetes.  
+* **Medication Schedule (Horario de medicación):** Distribución por día y hora de los medicamentos que el adulto mayor debe tomar.  
+* **Interconsultation (Interconsulta):** Derivación del adulto mayor a un especialista distinto de su médico tratante.  
+* **Shift Handover (Relevo de turno):** Transferencia de información entre la cuidadora saliente y la entrante sobre el descanso, las funciones vitales y los eventos ocurridos.  
+* **Continuous Care (Cuidado continuo):** Modalidad en la que el adulto mayor recibe atención las veinticuatro horas mediante turnos rotativos.  
+* **Bedridden Patient (Paciente postrado):** Adulto mayor que no puede movilizarse por sí solo y requiere asistencia total, incluyendo alimentación por sonda en algunos casos.  
+* **Postural Change (Cambio postural):** Movilización del paciente encamado, realizada cada dos o tres horas para prevenir lesiones por presión.  
+* **Pressure Ulcer (Úlcera por presión, escara):** Lesión de la piel producida por la presión prolongada sobre una zona del cuerpo por falta de movilización.  
+* **Body Mechanics (Mecánica corporal):** Técnica de movilización del paciente que evita lesiones tanto en el adulto mayor como en la cuidadora.  
+* **Mobility Therapy (Terapia de movilidad):** Ejercicios indicados al adulto mayor para conservar o recuperar su capacidad de movimiento.  
+* **Dietary Regimen (Régimen dietético):** Pauta de alimentación indicada al adulto mayor según su condición de salud.  
+* **Fall Risk (Riesgo de caída):** Probabilidad elevada de caída en el adulto mayor debido a la pérdida de estabilidad propia de la edad.  
+* **Epicrisis (Epicrisis):** Documento clínico que resume el diagnóstico, la evolución y el tratamiento del paciente tras una atención médica.
+
 
 ### **Segundo segmento objetivo:**
 ![Empathy Mapping Renzo](../assets/images/figures/EmpMap-Renzo.png)
