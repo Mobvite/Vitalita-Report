@@ -324,6 +324,33 @@ En la etapa de wireframing (diseño de baja/media fidelidad) para _Desktop Web B
 - **Principios de Diseño y Arquitectura de Información:** Se definió un sistema de cuadrícula ( _grid system_ ) flexible de 12 columnas en Desktop y 4 columnas en Mobile. La navegación superior ( _Navbar_ ) organiza los bloques temáticos de manera jerárquica con enlaces ancla ( _anchor links_ ), permitiendo una exploración fluida. La distribución de bloques prioriza una narrativa lógica: captura de atención en el _Hero Section_ (H1 + CTAs), diferenciación operacional ( _Problema vs. Solución_ ), especialización funcional ( _Módulos de Cuidadoras y Familias_ ), y cierre comercial con precios y FAQ.
 
 - **Diseño Inclusivo y Accesibilidad:** Se planificó una escala tipográfica con jerarquías claras (H1, H2, H3 y cuerpo) manteniendo un tamaño mínimo de fuente de 16px para párrafos, asegurando legibilidad para personas de mayor edad o con fatiga visual. Las áreas de toque ( _touch targets_ ) de los botones se diseñaron con un mínimo de 48px de alto para facilitar la interacción tanto en dispositivos móviles como mediante navegación por teclado o puntero.
+  
+![Wireframe 1 - Landing Page](../assets/images/landing/wireframe1lp.jpeg)
+![Wireframe 2 - Landing Page](../assets/images/landing/wireframe2lp.jpeg)
+![Wireframe 3 - Landing Page](../assets/images/landing/wireframe3lp.jpeg)
+![Wireframe 4 - Landing Page](../assets/images/landing/wireframe4lp.jpeg)
+![Wireframe 5 - Landing Page](../assets/images/landing/wireframe5lp.jpeg)
+![Wireframe 6 - Landing Page](../assets/images/landing/wireframe6lp.jpeg)
+![Wireframe 7 - Landing Page](../assets/images/landing/wireframe7lp.jpeg)
+![Wireframe 8 - Landing Page](../assets/images/landing/wireframe8lp.jpeg)
+![Wireframe 9 - Landing Page](../assets/images/landing/wireframe9lp.jpeg)
+
+## 4.3.2 Landing Page Mock-up
+Los Mock-ups de alta fidelidad para *Desktop Web Browser* y *Mobile Web Browser* materializan la arquitectura definida aplicando rigurosamente el *Design System* de **Vitalita**:
+
+- **Aplicación del Design System:** Se implementaron componentes atómicos estandarizados (botones con estados *default*, *hover* y *active*, tarjetas contenedoras con esquinas redondeadas y sombras suaves, e íconos vectoriales del sistema). Los contenedores emplean estilos de *glassmorphism* (traslucidez suave con gradientes de azul) para diferenciar capas de contenido sin perder la continuidad visual del fondo.
+- **Elementos de Diseño y Composición:** Se incorporaron renderizados 3D temáticos (corazón anatómico estilizado en el Hero, hélice de ADN, íconos volumétricos) para elevar la calidad estética y comunicar autoridad en salud digital. La tipografía sans-serif limpia garantiza un contraste óptimo (cumpliendo con los estándares de la norma WCAG 2.1 AA).
+- **Diseño Inclusivo y Adaptabilidad (Responsive):** En la versión *Mobile Web Browser*, la navegación superior colapsa en un menú hamburguesa desplegable para optimizar el espacio en pantalla. Las tarjetas comparativas y los módulos de usuario se reordenan verticalmente en una sola columna, manteniendo márgenes laterales de seguridad y conservando los patrones de interacción accesibles para ser operados con una sola mano.
+  
+![Mockup 1 - Landing Page](../assets/images/landing/mockup1lp.jpeg)
+![Mockup 2 - Landing Page](../assets/images/landing/mockup2lp.jpeg)
+![Mockup 3 - Landing Page](../assets/images/landing/mockup3lp.jpeg)
+![Mockup 4 - Landing Page](../assets/images/landing/mockup4lp.jpeg)
+![Mockup 5 - Landing Page](../assets/images/landing/mockup5lp.jpeg)
+![Mockup 6 - Landing Page](../assets/images/landing/mockup6lp.jpeg)
+![Mockup 7 - Landing Page](../assets/images/landing/mockup7lp.jpeg)
+![Mockup 8 - Landing Page](../assets/images/landing/mockup8lp.jpeg)
+![Mockup 9 - Landing Page](../assets/images/landing/mockup9lp.jpeg)
 ## 4.4. Web Applications UX/UI Design.
 
 En esta sección se presenta la propuesta de diseño UX/UI de las aplicaciones web de Vitalita, describiendo la estructura visual, los elementos de interfaz y los patrones de interacción que guían la experiencia de los usuarios.
