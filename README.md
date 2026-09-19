@@ -323,7 +323,7 @@ Finalmente, la oportunidad de crecimiento por referido se aprovecha habilitando 
 
 # 2.2. Entrevistas
 
-## 2.2.1. Diseño de entrevistas
+### 2.2.1. Diseño de entrevistas
 
 En esta sección se presenta el diseño de las entrevistas dirigidas a los dos segmentos objetivo definidos en la sección 1.3: enfermeras y cuidadoras de adultos mayores, y familiares directos del adulto mayor. El objetivo es comprender cómo ambos segmentos gestionan actualmente el cuidado y el seguimiento del adulto mayor: cómo registran una cita médica, qué hacen con el resultado de un examen, de qué manera informan a la familia sobre el estado del paciente.
 
@@ -424,6 +424,103 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 11. ¿Cuál considera que es actualmente la mayor dificultad para mantenerse informado sobre el cuidado y estado del adulto mayor?
 12. Si pudiera mejorar una sola cosa de la forma en que actualmente recibe o consulta información sobre el adulto mayor, ¿qué cambiaría?
 13. ¿Cómo cree que cambiaría su experiencia si pudiera consultar en un solo lugar el seguimiento, las citas, los exámenes y la información registrada por la enfermera o cuidadora?
+
+
+### 2.2.2. Registro de entrevistas
+
+## Primer Segmento Objetivo: Enfermeras o Cuidadores de adulto mayor
+
+### Entrevista 1
+
+| Campo | Información |
+|---|---|
+| **Screenshot** | image |
+| **Inicia** | 0:00 minutos |
+| **Duración** | 23:53 minutos |
+| **Nombre completo** | Margarita Isabel Chang Lamaure |
+| **Edad** | 50 años |
+| **Distrito** | San Miguel |
+| **Resumen** | Margarita Chang Lamaure es enfermera titulada, reside en San Miguel y trabaja en el Hospital Naval. Tiene más de veinte años de experiencia asistencial con pacientes geriátricos, actividad que desarrolló en paralelo a su trabajo en clínica. Vive con su hija; sus padres, de edad avanzada, viven de forma independiente. Margarita señaló que el cuidado a domicilio se organiza igual que el hospitalario. La jornada inicia con el relevo del reporte de la enfermera saliente, seguido de los controles básicos, con énfasis en presión arterial y glucosa, dado que los pacientes suelen cursar con hipertensión y diabetes. Identificó el aseo y el cuidado integral como la tarea que más tiempo le demanda, y desarrolló con detalle la prevención de úlceras por presión: los cambios posturales deben hacerse cada dos o tres horas, y de no cumplirse la lesión progresa hasta la necrosis del tejido, lo que exige hospitalización y curaciones cada doce horas. Sus pacientes se encuentran bajo cuidado continuo de 24 horas. Para el registro utiliza el **Kardex**, un formato que organiza por día y horario los medicamentos del paciente, permite marcar cada administración y evitar duplicidades, y donde también anota interconsultas, citas pendientes y resultados de exámenes alterados. Lo describió como ordenado, simplificado y objetivo, y es el documento que lleva a las citas médicas, ya que el médico solicita el historial de controles. Los resultados de laboratorio llegan al familiar de forma automática desde la clínica o el seguro, y ella los traslada al Kardex. Indicó que no ha perdido información, ya que los datos del paciente los maneja el familiar responsable. El reporte a la familia se entrega a diario, generalmente hacia media tarde, al hijo o hija con quien se realizó el contrato, y le toma unos veinte minutos. Describió a estos familiares como dedicados y responsables. No ha tenido malentendidos propios, aunque conoce casos entre colegas originados en información transmitida parcialmente por el personal doméstico. Ante una emergencia contacta al familiar y al servicio del seguro, y acompaña al paciente, ya que es quien conoce las circunstancias del episodio y complementa la información que el adulto mayor no siempre logra explicar. Utiliza un teléfono Huawei con Android, no usa tablet y emplea la computadora de manera ocasional. Las aplicaciones que más abre son de movilidad, entre ellas inDrive, que usa para trasladarse y para llevar a sus pacientes. Nunca ha utilizado una aplicación de salud o cuidado de pacientes. Se informa profesionalmente por grupos de WhatsApp del Colegio de Enfermeros, la Federación, el sindicato y su departamento hospitalario, donde se difunden cursos y congresos con actualización cada seis meses. No identificó frustraciones asociadas a la carrera en sí. Al consultarle por lo tedioso o automatizable, ubicó la dificultad en la falta de materiales e infraestructura: escasez de camas geriátricas y colchones antiescaras, y familias sin recursos para cubrir insumos de alto consumo, lo que la obliga a adaptar materiales. Consultada sobre una herramienta que le ahorrara tiempo, propuso por iniciativa propia **digitalizar el Kardex en una tablet** en lugar de mantenerlo en físico, por considerarlo más práctico. Estimó una disposición de pago de aproximadamente **40 soles mensuales**, señalando no tener referencia de precios de este tipo de herramienta.|
+| **URL** | [Ver entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d637_upc_edu_pe/IQCac1L3KVUvT5Yaq6ZD45QyAW-T2Y_dGidlzQY0vy2NhO4?e=6rbZ7z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
+---
+
+### Entrevista 2
+
+| Campo | Información |
+|---|---|
+| **Screenshot** | — |
+| **Inicia** | — |
+| **Duración** | — |
+| **Nombre completo** | Janet Esperanza Lopez Alvaro |
+| **Edad** | 52 años |
+| **Distrito** | Independencia |
+| **Resumen** | La entrevistada es cuidadora de adultos mayores y vive en Independencia. Durante su jornada realiza el monitoreo de signos vitales, alimentación, administración de medicamentos, higiene, cambio de pañales y terapias de movilidad. Para pacientes postrados, también se encarga de su alimentación mediante sonda y de trasladarlos a citas médicas. Para realizar el seguimiento utiliza un cuaderno donde registra la presión, saturación y temperatura, además de una pizarra para los medicamentos. Ante cambios o emergencias, coordina con profesionales de salud y comunica la situación a los familiares. Para las citas, utiliza sus apuntes y también registra las fechas en su celular. La comunicación con los familiares se realiza principalmente por móvil (ella usa un Motorola G8), presencialmente y mediante WhatsApp, donde cuentan con un grupo familiar. La principal dificultad no está en el seguimiento, sino en movilizar al adulto mayor y trasladarlo ante una emergencia, especialmente cuando no cuentan con alguien que pueda ayudar con el transporte. De esta manera es como podemos concluir que ella considera que una herramienta digital para registrar y consultar el seguimiento diario le ayudaría bastante en su trabajo y estaría dispuesta a utilizarla.|
+
+---
+
+### Entrevista 3
+
+| Campo | Información |
+|---|---|
+| **Screenshot** | image |
+| **Inicia** | 0:00 |
+| **Duración** | 6:08 |
+| **Nombre completo** | Carlos Angeles Iparaguirre |
+| **Edad** | 25 años |
+| **Distrito** | Ventanilla |
+| **Resumen** | Carlos Ángeles, cuidador de un adulto mayor, explicó que su rutina diaria comienza evaluando el estado general del paciente, tomando sus signos vitales, administrando los medicamentos correspondientes y realizando las terapias prescritas. Señaló que debe prestar especial atención a aspectos como la presión arterial, posibles síntomas relacionados con enfermedades previas y también al estado de ánimo del adulto mayor. Cuando detecta alguna alteración importante, primero informa a la familia y, dependiendo de la situación y de las indicaciones médicas existentes, administra el tratamiento correspondiente o coordina la atención médica. En relación con el seguimiento médico, comentó que las citas suelen formar parte de una rutina conocida, pero que recordar los resultados de exámenes más específicos puede resultar complicado. Para evitar perder información, acostumbra realizar anotaciones o utilizar una agenda. Asimismo, utiliza alarmas y recordatorios en su celular para recordar citas, terapias y otras actividades programadas del paciente. Respecto a la comunicación con los familiares, indicó que procura mantenerlos informados sobre cualquier cambio en el estado del adulto mayor, ya que considera que deben conocer toda la información relevante del paciente. Los principales medios que utiliza para comunicarse son llamadas telefónicas y mensajes de texto. También señaló que, en caso de una emergencia en la que él no se encuentre presente, los familiares cuentan con la información necesaria para actuar sin depender exclusivamente de su presencia. Una de las principales dificultades identificadas durante la entrevista es que, cuando el estado del adulto mayor cambia, también se modifica su rutina de cuidado y aumenta la cantidad de actividades, medicamentos o indicaciones que debe recordar.Carlos considera que podría mejorar especialmente la forma en que organiza sus notas y recordatorios, debido a que algunas alarmas no permiten identificar claramente a qué actividad corresponden.Finalmente, manifestó que una herramienta digital orientada al seguimiento de citas, tratamientos, medicamentos y terapias podría agilizar su trabajo y disminuir el riesgo de olvidar actividades importantes para el cuidado del adulto mayor.|
+| Campo | Información |
+| **URL** | [Ver entrevista 3](https://youtu.be/o-wixYJNg2c?si=P7KxyY_tKvUGE2hh) |
+
+---
+
+## Segundo Segmento Objetivo: Familiares del adulto mayor
+
+### Entrevista 1
+
+| Campo | Información |
+|---|---|
+| **Screenshot** | image |
+| **Inicia** | 00:00 |
+| **Duración** | 14:24 |
+| **Nombre completo** | Mateo Monge Medina |
+| **Edad** | 25 años |
+| **Distrito** | Surquillo |
+| **Resumen** | — |
+| **URL** | [Ver entrevista 1](https://youtu.be/lmQwVEVyDT8) |
+
+---
+
+### Entrevista 2
+
+| Campo | Información |
+|---|---|
+| **Screenshot** | image |
+| **Inicia** | 00:00 |
+| **Duración** | 11:53 |
+| **Nombre completo** | Kendra Kyara Lust Mamani |
+| **Edad** | 24 años |
+| **Distrito** | San Borja |
+| **Resumen** | Kendra, de 24 años, familiar de una adulta mayor bajo el cuidado de una cuidadora en San Borja, explicó que su participación en el cuidado es limitada debido a su jornada laboral, por lo que delega gran parte de la atención diaria en la cuidadora, quien permanece con su madre casi las 24 horas. Señaló que se mantiene informada principalmente a través de mensajes de WhatsApp que intercambia con la cuidadora por las mañanas o en las noches, y ocasionalmente mediante llamadas o videollamadas cuando su disponibilidad lo permite. Indicó que los aspectos que más le preocupan durante el día son si su madre comió, si tomó sus medicinas y si presentó algún síntoma o incidente, como una caída. En cuanto al seguimiento médico, comentó que cuando ocurre algún cambio en el estado de su madre, la cuidadora le avisa por mensaje, y opta por llamarla directamente solo si la situación es grave. Después de una cita médica, espera recibir información sobre lo que indicó el doctor, la evolución del tratamiento y si hay algún cambio de medicina, la cual generalmente le llega también por WhatsApp, junto con fotos de documentos o resultados. Uno de los principales problemas identificados es la dispersión de la información: los datos quedan repartidos entre mensajes, fotos y llamadas, sin un orden claro, lo que dificulta encontrarlos cuando se necesitan. Kendra relató un caso puntual en el que perdieron cerca de dos días buscando unos resultados de análisis de sangre que la cuidadora le había enviado por WhatsApp, sin poder ubicarlos entre la gran cantidad de conversaciones. Además, mencionó que si la cuidadora no estuviera disponible, necesitaría conocer datos como las medicinas que toma su madre, los horarios, los análisis realizados y dónde se guardan los documentos, información que hoy no tiene centralizada. Finalmente, indicó que la mayor dificultad actual es la falta de un solo lugar donde consultar toda la información sin depender de que la cuidadora se acuerde de comunicársela. Considera que contar con un sistema donde pueda ingresar directamente a revisar el estado, las citas y los exámenes de su madre le ahorraría tiempo, reduciría su estrés y le permitiría actuar con mayor rapidez ante cualquier eventualidad, sin tener que armar la información desde cero en cada emergencia.|
+
+| Campo | Información |
+|---|---|
+| **URL** | [Ver entrevista 2](https://youtu.be/a9Yy3DknyLQ) |
+
+---
+
+### Entrevista 3
+
+| Campo | Información |
+|---|---|
+| **Screenshot** | — |
+| **Inicia** | — |
+| **Duración** | — |
+| **Nombre completo** | Vicky Jovanna Rujupanky |
+| **Edad** | 43 años |
+| **Distrito** | Independencia |
+| **Resumen** | Vicky Jovanna Rujupanky, de 43 años, tiene experiencia en el cuidado de su abuelita, quien contaba con una cuidadora. Su participación consistía principalmente en supervisar su cuidado y apoyar en su movilidad. Los aspectos de salud que consideraba más importantes eran la presión arterial y la saturación, por lo que procuraba recibir información diariamente. La cuidadora era quien informaba sobre cualquier cambio en el estado de salud y la comunicación se realizaba principalmente mediante WhatsApp y mensajes de texto. También se registraba información en un cuaderno. Sin embargo, acceder a documentos médicos como historias clínicas o epicrisis resultaba complicado y tedioso, por lo que dependían principalmente de la cuidadora. Finalmente, consideró que una aplicación centralizada donde pudiera consultar el seguimiento diario, citas, exámenes y resultados sería muy útil, ya que facilitaría el acceso a la información.|
 
 
 # 2.3. Needfinding
