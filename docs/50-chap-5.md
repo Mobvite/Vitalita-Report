@@ -320,3 +320,27 @@ Para organizar el trabajo del Sprint 1 se definieron líderes y colaboradores pa
 
 **L:** Leader  
 **C:** Collaborator
+
+#### 5.2.1.3. Sprint Backlog 1
+
+El Sprint Backlog 1 reúne las User Stories y tareas necesarias para implementar la primera versión del Landing Page de Vitalita. Se priorizaron las funcionalidades que permiten comunicar el propósito de la solución, explicar sus principales capacidades, presentar sus planes y proporcionar los accesos hacia el registro e inicio de sesión.
+
+**Trello Board:** https://trello.com/b/DgEMr8w7/vitalita
+
+> **[PENDIENTE DE IMPLEMENTACIÓN: insertar captura actualizada del Sprint 1 en Trello.]**
+
+| **Story ID** | **Story Title** | **Task ID** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| --- | --- | --- | --- | --- | ---: | --- | --- |
+| US01 | Conocer la propuesta de valor de Vitalita | T01 | Header & Navigation | Implementar la navegación principal del Landing Page. | 1 | `UPC-Skylar` | Done |
+| US01 | Conocer la propuesta de valor de Vitalita | T02 | Hero & Value Proposition | Implementar la sección principal y comunicar claramente el propósito de Vitalita. | 2 | `UPC-Skylar` | Done |
+| US01 | Conocer la propuesta de valor de Vitalita | T03 | Target Segments | Presentar el valor de Vitalita para cuidadoras, enfermeras y familiares. | 1 | `R3memo` | Done |
+| US02 | Consultar las funcionalidades principales | T04 | Features Section | Implementar la sección con las principales funcionalidades del producto. | 2 | `R3memo` | Done |
+| US03 | Consultar los planes del servicio | T05 | Plans Section | Implementar los planes y diferenciar la modalidad freemium de las alternativas de pago. | 2 | `Alice-keys` | Done |
+| US04 | Acceder a la experiencia web de Vitalita | T06 | Registration CTA | Implementar el llamado a la acción dirigido al registro de nuevos usuarios. | 1 | `JorgeVidVen` | Done |
+| US04 | Acceder a la experiencia web de Vitalita | T07 | Login CTA | Implementar el acceso para usuarios que ya cuentan con una cuenta. | 1 | `JorgeVidVen` | Done |
+| US01–US04 | Landing Page Quality | T08 | Responsive Design | Verificar la correcta visualización en desktop y dispositivos móviles. | 2 | `u20241d945` | Done |
+| US01–US04 | Landing Page Quality | T09 | Internationalization | Incorporar soporte para los idiomas definidos para la experiencia web. | 2 | `u20241d945` | Done |
+| US01–US04 | Landing Page Quality | T10 | Accessibility | Incorporar atributos y ajustes básicos de accesibilidad para la navegación del Landing Page. | 2 | `u20241d945` | Done |
+| US01–US04 | Landing Page Deployment | T11 | GitHub Pages Deployment | Configurar y publicar la primera versión del Landing Page mediante GitHub Pages. | 1 | `Alice-keys` | Done |
+
+Las cuatro User Stories comprometidas para el Sprint 1 se consideran completadas debido a que sus criterios correspondientes fueron cubiertos en la primera versión del Landing Page. Las evidencias visuales, commits y URL de despliegue se documentan en las siguientes secciones del Sprint Review.
