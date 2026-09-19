@@ -270,3 +270,38 @@ Procedimiento planificado:
 **Production URL:** `[PENDIENTE DE IMPLEMENTACIÓN]`
 
 Los futuros despliegues de Web Application y Vitalita API serán documentados en los sprints en los que dichos productos ingresen al alcance de implementación.
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+Esta sección registra el avance de implementación de Vitalita por Sprint. Para AV1, el Sprint 1 tiene como principal incremento de producto la primera versión implementada y desplegada de la Landing Page.
+
+### 5.2.1. Sprint 1
+
+El Sprint 1 se enfoca en implementar una Landing Page responsive y accesible que comunique la propuesta de valor de Vitalita a sus dos segmentos objetivo: personas cuidadoras o profesionales de enfermería y familiares de adultos mayores.
+
+La Landing Page debe presentar la solución, sus principales funcionalidades, los planes disponibles, información sobre Mobvite y los call-to-action que posteriormente dirigirán a los usuarios hacia la Web Application.
+
+#### 5.2.1.1. Sprint Planning 1
+
+La reunión de planificación del Sprint 1 se realizó de manera virtual mediante Zoom el 18 de septiembre de 2026 a las 12:00 PM. Durante la sesión, el equipo acordó priorizar las User Stories vinculadas directamente al Landing Page, debido a que este producto forma parte del alcance de implementación y despliegue correspondiente al primer hito del proyecto.
+
+| **Sprint #** | **Sprint 1** |
+| --- | --- |
+| **Date** | 2026-09-18 |
+| **Time** | 12:00 PM |
+| **Location** | Reunión virtual mediante Zoom |
+| **Prepared By** | Espinoza Lopez, Paul Alejandro Angel |
+| **Attendees** | Espinoza Lopez, Paul Alejandro Angel / Navarro Chang, Alicia Avril / Roque Tello, Jack Eddie / Videla Ventura, Jorge Joseph / Yanac Flores, Gabriel Stefano |
+| **Sprint 1 Goal** | Our focus is on delivering the first responsive version of the Vitalita Landing Page. We believe it provides caregivers, nurses and family members with a clear understanding of Vitalita's value proposition, main features and available plans. This will be confirmed when visitors can understand the purpose of the product, review its main capabilities and subscription alternatives, and access the registration or login flow from the deployed Landing Page. |
+| **Sprint 1 Velocity** | 10 Story Points |
+| **Sum of Story Points** | 10 Story Points |
+
+Las User Stories priorizadas para el Sprint 1 son:
+
+| **User Story** | **Título** | **Story Points** | **Estado** |
+| --- | --- | ---: | --- |
+| US01 | Conocer la propuesta de valor de Vitalita | 3 | Done |
+| US02 | Consultar las funcionalidades principales | 3 | Done |
+| US03 | Consultar los planes del servicio | 2 | Done |
+| US04 | Acceder a la experiencia web de Vitalita | 2 | Done |
+| **Total** |  | **10 SP** | **Completed** |
