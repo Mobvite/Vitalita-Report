@@ -1,3 +1,329 @@
+## Capítulo IV: Product Design
+
+## 4.1. Style Guidelines.
+
+Un Style Guideline es un conjunto de criterios y lineamientos que permiten mantener uniformidad en la redacción, el diseño y la presentación de documentos, contenidos digitales, proyectos de software y otros productos creativos. A continuación, se presentan las especificaciones y parámetros definidos para mantener una estructura coherente y consistente a lo largo del proyecto .
+
+## 4.1.1. General Style Guidelines.
+
+#### **Brand Overview**
+
+Vitalita es una plataforma web orientada al seguimiento y organización del cuidado de adultos mayores. Su propósito es centralizar información relevante del paciente, permitiendo que el enfermero registre y consulte datos importantes, mientras que los familiares pueden visualizar el estado del adulto mayor de forma clara y ordenada.
+
+La identidad visual de Vitalita busca transmitir cercanía, seguridad y cuidado humano, manteniendo una estética limpia y profesional relacionada con el ámbito de la salud digital.
+
+#### **Brand Name**
+
+El nombre Vitalita se relaciona con el concepto de “vitalidad”, haciendo referencia al bienestar, la salud y el seguimiento constante del adulto mayor. El nombre refuerza la idea de una plataforma enfocada en cuidar y monitorear aspectos importantes de la vida diaria del paciente.
+
+#### **Typography**
+
+La aplicación puede utilizar una tipografía sans serif moderna y legible, adecuada para
+
+interfaces web y contenido médico.
+
+- Inter para textos generales, botones, formularios, etiquetas y contenido informativo.
+
+- Inter Semi Bold / Bold para títulos, encabezados y secciones principales.
+
+Esta elección permite mantener una lectura clara, especialmente en información sensible como signos vitales, notas médicas, resultados y recordatorios.
+
+#### **Colors**
+
+La paleta visual de Vitalita debe estar asociada a salud, confianza y claridad.
+
+|Color|Código HEX|Significado|
+|---|---|---|
+|Verde teal primario|#0F766E|Salud, confianza y acción principal|
+|Verde teal secundario|#14B8A6|Apoyo visual, botones y elementos destacados|
+|Verde menta claro|#ECFDF5|Fondo suave, bienestar y tranquilidad|
+|Azul informativo|#E0F2FE|Información médica y datos relevantes|
+|Naranja|#F97316|Alertas, recordatorios y eventos próximos|
+|Blanco|#FFFFFF|Limpieza visual y claridad|
+|Gris claro|#F8FAFC|Fondos secundarios y separación de secciones|
+|Texto principal|#111827|Lectura principal|
+|Texto secundario|#475569|Descripciones y contenido de apoyo|
+
+
+
+#### **Visual Style**
+
+El estilo visual de Vitalita se basa en:
+
+- interfaces limpias y ordenadas;
+
+- uso de tarjetas para separar información del paciente;
+
+- colores suaves asociados al cuidado y salud;
+
+- bordes redondeados para generar una sensación amigable;
+
+- jerarquía visual clara para diferenciar datos importantes;
+
+- paneles informativos para signos vitales, notas, exámenes y calendario;
+
+- uso de color naranja para destacar recordatorios o alertas importantes.
+
+## 4.1.2. Web Style Guidelines.
+
+La aplicación web de Vitalita debe estar diseñada bajo una lógica responsive, adaptándose correctamente a escritorio, tablet y dispositivos móviles. La estructura visual debe permitir que el enfermero/cuidador y el familiar encuentren rápidamente la información del paciente.
+
+La interfaz principal considera:
+
+- un menú tipo sandwich con las opciones principales;
+
+- una vista Home con el perfil del paciente;
+
+- visualización de signos vitales como ritmo cardíaco, temperatura y otros datos de salud;
+
+- sección de notas del paciente;
+
+- sección de exámenes médicos y resultados;
+
+- calendario general;
+
+- sección de familiares;
+
+- panel derecho con notificaciones y recordatorios;
+
+- perfil profesional del enfermero/cuidador.
+
+El diseño debe mantener una navegación simple, evitando saturar la pantalla con demasiada información. Debido a que se trata de una aplicación relacionada con salud, la legibilidad y la claridad son más importantes que la decoración visual excesiva.
+
+El enfermero/cuidador puede registrar y gestionar información del paciente, mientras que el familiar tiene una experiencia principalmente de consulta. Por ello, la interfaz debe diferenciar claramente entre acciones editables y contenido solo visualizable.
+
+## 4.2. Information Architecture.
+
+La **Information Architecture** de Vitalita organiza los contenidos y funcionalidades de la aplicación para que cada usuario pueda acceder de manera rápida y comprensible a la información que necesita.
+
+La arquitectura de información se basa en dos perfiles principales:
+
+- **Enfermero/cuidador** : usuario operativo que registra, consulta y organiza información del paciente.
+
+- **Familiar** : usuario de consulta que visualiza la información del adulto mayor, pero no puede modificar datos críticos como el calendario o los recordatorios.
+
+El adulto mayor es el centro de la información, pero no actúa como usuario activo dentro del sistema.
+
+## 4.2.1. Organization Systems.
+
+Vitalita utiliza una organización jerárquica combinada con organización por tareas y roles.
+
+#### **Organización por rol**
+
+#### **Enfermero/cuidador:**
+
+El enfermero tiene asignado un único paciente. Desde la plataforma puede visualizar el perfil del paciente, registrar notas, guardar exámenes médicos o resultados, gestionar el calendario y revisar los familiares asociados.
+
+#### **Familiar:**
+
+El familiar puede visualizar la información del paciente, revisar notas, consultar exámenes y resultados, observar el calendario y ver el perfil profesional del enfermero. Sin embargo, no puede editar el calendario ni agregar recordatorios.
+
+#### **Organización de la aplicación web**
+
+Las secciones principales son:
+
+- **Home** : muestra el perfil del paciente y sus signos de salud.
+
+- **Notas del paciente:** contiene sucesos, medicamentos tomados y observaciones.
+
+- **Exámenes médicos y resultados:** almacena tomografías, exámenes, análisis y resultados médicos.
+
+- **Calendario general:** muestra citas médicas, asistencias y recordatorios.
+
+- **Familiares:** permite visualizar los familiares asociados al paciente.
+
+- **Perfil del enfermero:** muestra nombre, foto, correo, estudios, certificaciones y titulaciones.
+
+## 4.2.2. Labeling Systems.
+
+Los sistemas de etiquetado de Vitalita buscan que la interfaz sea clara, comprensible y fácil de usar para usuarios no técnicos.
+
+#### **1. Etiquetas textuales**
+
+Las etiquetas principales deben ser simples y directas:
+
+- “Home”
+
+- “Notas del paciente”
+
+- “Exámenes médicos y resultados”
+
+- “Calendario general”
+
+- “Familiares”
+
+- “Perfil del enfermero”
+
+- “Agregar recordatorio”
+
+- “Ver resultado”
+
+- “Registrar nota”
+
+#### **2. Etiquetas de encabezado**
+
+Ejemplos de encabezados dentro del sistema:
+
+- Perfil del paciente
+
+- Signos de salud
+
+- Notas recientes
+
+- Exámenes médicos
+
+- Calendario de citas
+
+- Familiares asociados
+
+- Perfil profesional del enfermero
+
+#### **3. Etiquetas icónicas**
+
+Se pueden utilizar íconos relacionados con:
+
+- casa para Home;
+
+- nota o documento para notas del paciente;
+
+- carpeta médica para exámenes y resultados;
+
+- calendario para citas y recordatorios;
+
+- grupo de personas para familiares;
+
+- campana para notificaciones;
+
+- usuario profesional para perfil del enfermero.
+
+#### **4. Tooltips**
+
+Ejemplos de mensajes de ayuda:
+
+- “Información general del paciente”
+
+- “Última nota registrada”
+
+- “Resultado médico almacenado”
+
+- “Cita médica próxima”
+
+- “Solo disponible para visualización”
+
+- “El familiar no puede editar este calendario”
+
+## 4.2.3. SEO Tags and Meta Tags.
+
+| **Etiqueta** | **Contenido** |
+|---|---|
+| `title` | Vitalita - Seguimiento digital para el cuidado de adultos mayores |
+| `description` | Plataforma web para enfermeros, cuidadores y familiares que centraliza signos de salud, notas, exámenes, calendario y recordatorios del adulto mayor. |
+| `keywords` | cuidado de adultos mayores, enfermero, cuidador, seguimiento médico, signos vitales, familiares, recordatorios médicos, historial clínico |
+| `viewport` | width=device-width, initial-scale=1.0 |
+| `author` | Vitalita |
+| `copyright` | © 2026 Vitalita |
+
+## 4.2.4. Searching Systems.
+
+El sistema de búsqueda de Vitalita debe permitir localizar información relevante del paciente de manera rápida y ordenada.
+
+#### **Búsqueda por categoría**
+
+Permite filtrar información según el tipo de contenido:
+
+- notas del paciente;
+
+- exámenes médicos;
+
+- resultados;
+
+- citas médicas;
+
+- familiares;
+
+- recordatorios.
+
+#### **Búsqueda por fecha**
+
+Permite ubicar registros según una fecha específica, especialmente en:
+
+- notas diarias;
+
+- citas médicas;
+
+- asistencias médicas;
+
+- resultados almacenados;
+
+- recordatorios.
+
+#### **Búsqueda por palabra clave**
+
+Permite encontrar información usando términos específicos como:
+
+- nombre de medicamento;
+
+- tipo de examen;
+
+- síntoma;
+
+- observación registrada;
+
+- nombre de familiar;
+
+- cita médica.
+
+Debido a que el enfermero tiene un solo paciente asignado, no es necesario implementar una búsqueda de múltiples pacientes dentro del flujo principal.
+
+## 4.2.5. Navigation Systems.
+
+Vitalita cuenta con un sistema de navegación basado en un **menú tipo sandwich** , diseñado para facilitar el acceso a las secciones principales de la plataforma.
+
+Las opciones del menú son:
+
+1. **Home**
+
+2. **Notas del paciente**
+
+3. **Exámenes médicos y resultados**
+
+4. **Calendario general**
+
+5. **Familiares**
+
+Además, la aplicación cuenta con un panel derecho donde se muestran notificaciones y recordatorios importantes.
+
+#### **Navegación del enfermero/cuidador**
+
+El flujo principal del enfermero es:
+
+**Inicio de sesión → Home → Notas del paciente → Exámenes médicos y resultados → Calendario general → Familiares**
+
+El enfermero puede registrar notas, guardar exámenes, agregar citas médicas y crear recordatorios. Sin embargo, solo tiene un paciente asignado, por lo que no puede agregar más pacientes.
+
+#### **Navegación del familiar**
+
+El flujo principal del familiar es:
+
+**Inicio de sesión → Home → Notas del paciente → Exámenes médicos y resultados → Calendario general → Familiares → Perfil del enfermero**
+
+El familiar puede visualizar la información del paciente, consultar notas, revisar exámenes y observar el calendario. Sin embargo, no puede editar el calendario ni agregar recordatorios.
+
+En conclusión, el sistema de navegación de Vitalita está diseñado para diferenciar claramente entre el rol operativo del enfermero y el rol consultivo del familiar, permitiendo una experiencia ordenada, segura y fácil de comprender.
+
+## 4.3 Landing Page UI Design
+
+Esta propuesta de Interfaz de Usuario (UI) para la Landing Page de Vitalita traduce las decisiones estratégicas de negocio y usabilidad en un entorno visual cohesivo, accesible y orientado a la conversión. La arquitectura de información se estructura de forma jerárquica y secuencial para guiarnos progresivamente desde la propuesta de valor principal hasta los puntos de conversión y soporte legal.
+
+El diseño visual adopta una paleta de colores centrada en tonos azules y celestes (código #69A7D6 como color dominante de fondo y gradiente), seleccionados estratégicamente para transmitir serenidad, confianza clínica y seguridad en el entorno de la salud geriátrica. La composición prioriza la escaneabilidad mediante patrones F y Z de lectura, garantizando la reducción de la fricción cognitiva tanto para el personal de salud como para los familiares que acceden a la plataforma.
+
+## 4.3.1 Landing Page Wireframe
+
+En la etapa de wireframing (diseño de baja/media fidelidad) para _Desktop Web Browser_ y _Mobile Web Browser_ , se establecieron las bases estructurales y de comportamiento del sitio:
+
+- **Principios de Diseño y Arquitectura de Información:** Se definió un sistema de cuadrícula ( _grid system_ ) flexible de 12 columnas en Desktop y 4 columnas en Mobile. La navegación superior ( _Navbar_ ) organiza los bloques temáticos de manera jerárquica con enlaces ancla ( _anchor links_ ), permitiendo una exploración fluida. La distribución de bloques prioriza una narrativa lógica: captura de atención en el _Hero Section_ (H1 + CTAs), diferenciación operacional ( _Problema vs. Solución_ ), especialización funcional ( _Módulos de Cuidadoras y Familias_ ), y cierre comercial con precios y FAQ.
+
+- **Diseño Inclusivo y Accesibilidad:** Se planificó una escala tipográfica con jerarquías claras (H1, H2, H3 y cuerpo) manteniendo un tamaño mínimo de fuente de 16px para párrafos, asegurando legibilidad para personas de mayor edad o con fatiga visual. Las áreas de toque ( _touch targets_ ) de los botones se diseñaron con un mínimo de 48px de alto para facilitar la interacción tanto en dispositivos móviles como mediante navegación por teclado o puntero.
 ## 4.4. Web Applications UX/UI Design.
 
 En esta sección se presenta la propuesta de diseño UX/UI de las aplicaciones web de Vitalita, describiendo la estructura visual, los elementos de interfaz y los patrones de interacción que guían la experiencia de los usuarios.
