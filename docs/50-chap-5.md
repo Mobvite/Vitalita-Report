@@ -248,3 +248,25 @@ GET /api/subscriptions
 - Las migraciones serán gestionadas mediante Entity Framework Core cuando el backend entre al alcance de implementación.
 
 ---
+
+### 5.1.4. Software Deployment Configuration
+
+Para AV1, el despliegue se concentra en la primera versión de la **Landing Page**, que será publicada mediante **GitHub Pages**. Este servicio permite desplegar sitios web estáticos directamente desde un repositorio de GitHub.
+
+#### Landing Page Deployment
+
+Procedimiento planificado:
+
+1. Verificar que la versión aprobada de la Landing Page se encuentre integrada en la rama `main`.
+2. Acceder al repositorio correspondiente en GitHub.
+3. Ingresar a `Settings > Pages`.
+4. Configurar la rama y carpeta desde la que se realizará el despliegue.
+5. Guardar la configuración y esperar la publicación automática del sitio.
+6. Validar la URL pública desde navegadores de escritorio y dispositivos móviles.
+7. Comprobar navegación, responsive design, internacionalización y accesibilidad básica.
+
+**Deployment Platform:** GitHub Pages
+
+**Production URL:** `[PENDIENTE DE IMPLEMENTACIÓN]`
+
+Los futuros despliegues de Web Application y Vitalita API serán documentados en los sprints en los que dichos productos ingresen al alcance de implementación.
