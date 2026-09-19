@@ -55,3 +55,91 @@ En los siguientes sprints, los Web Services serán probados y documentados media
 #### Software Deployment
 
 **GitHub Pages (SaaS):** servicio seleccionado para publicar la Landing Page durante AV1 directamente desde el repositorio de GitHub.
+
+### 5.1.2. Source Code Management
+
+El proyecto utiliza **Git** como sistema de control de versiones y **GitHub** como plataforma de alojamiento y colaboración. Los repositorios se encuentran dentro de la organización pública de Mobvite.
+
+**GitHub Organization:** [https://github.com/Mobvite](https://github.com/Mobvite)
+
+> **PENDIENTE:** agregar en esta sección la URL exacta del repo de Landing Page una vez que su estructura definitiva haya sido confirmada.
+
+#### Team GitHub Accounts
+
+| Team Member | GitHub Username |
+| --- | --- |
+| Espinoza Lopez, Paul Alexandro Angel | `R3memo` |
+| Navarro Chang, Alicia Avril | `Alice-keys` |
+| Roque Tello, Jack Eddie | `UPC-Skylar` |
+| Videla Ventura, Jorge Joseph | `JorgeVidVen` |
+| Yanac Flores, Gabriel Stefano | `u20241d945` |
+
+#### GitFlow
+
+Se aplicará **GitFlow** para mantener una separación entre las versiones estables, la integración del trabajo y el desarrollo de nuevas funcionalidades.
+
+**Ramas principales:**
+
+- `main`: contiene las versiones estables y listas para producción.
+- `develop`: rama de integración en la que se incorporan las funcionalidades terminadas antes de preparar una versión estable.
+
+**Ramas de soporte:**
+
+- `feature/<feature-name>`: utilizada para desarrollar una nueva funcionalidad a partir de `develop`.
+- `release/vX.Y.Z`: utilizada para preparar una nueva versión antes de integrarla en `main`.
+- `hotfix/<fix-name>`: utilizada para corregir errores críticos detectados en producción.
+
+Ejemplos:
+
+```text
+feature/landing-hero
+feature/landing-features
+feature/landing-pricing
+feature/landing-i18n
+release/v0.1.0
+hotfix/mobile-navigation
+```
+
+#### Semantic Versioning
+
+Las versiones del producto seguirán **Semantic Versioning 2.0.0** mediante el formato:
+
+```text
+MAJOR.MINOR.PATCH
+```
+
+- **MAJOR:** cambios incompatibles con versiones anteriores.
+- **MINOR:** incorporación de funcionalidades compatibles.
+- **PATCH:** correcciones y ajustes menores.
+
+#### Conventional Commits
+
+Los mensajes de commit seguirán **Conventional Commits**, utilizando descripciones breves en inglés que permitan identificar fácilmente el propósito de cada cambio.
+
+Formato:
+
+```text
+<type>(<scope>): <description>
+```
+
+Tipos principales:
+
+- `feat`: incorporación de una nueva funcionalidad.
+- `fix`: corrección de un error.
+- `docs`: cambios en documentación.
+- `style`: cambios de formato que no modifican la lógica.
+- `refactor`: reestructuración interna del código.
+- `test`: incorporación o modificación de pruebas.
+- `chore`: tareas de mantenimiento o configuración.
+
+Ejemplos:
+
+```text
+feat(landing): add responsive hero section
+feat(landing): add language selector
+fix(landing): correct mobile navigation
+docs(report): add sprint 1 planning
+chore(deploy): configure github pages
+```
+
+---
