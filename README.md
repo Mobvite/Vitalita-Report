@@ -715,6 +715,37 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 | **Resumen** | Vicky Jovanna Rujupanky, de 43 años, tiene experiencia en el cuidado de su abuelita, quien contaba con una cuidadora. Su participación consistía principalmente en supervisar su cuidado y apoyar en su movilidad. Los aspectos de salud que consideraba más importantes eran la presión arterial y la saturación, por lo que procuraba recibir información diariamente. La cuidadora era quien informaba sobre cualquier cambio en el estado de salud y la comunicación se realizaba principalmente mediante WhatsApp y mensajes de texto. También se registraba información en un cuaderno. Sin embargo, acceder a documentos médicos como historias clínicas o epicrisis resultaba complicado y tedioso, por lo que dependían principalmente de la cuidadora. Finalmente, consideró que una aplicación centralizada donde pudiera consultar el seguimiento diario, citas, exámenes y resultados sería muy útil, ya que facilitaría el acceso a la información.|
 |**URL**|https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e321_upc_edu_pe/IQAtM8mEULJ0Tabv8w_OJFYqAQfH96HIOtt7sMOaMPu8jM0?e=gbDGhz|
 
+### 2.2.3. Análisis de entrevistas
+
+#### Primer segmento: Enfermeras o cuidadores de adulto mayor (n = 3)
+
+| Característica | Resultado | Porcentaje |
+|---|---|---:|
+| Rango de edad | 25 a 52 años; dos de tres entrevistados superan los 50 años | 67 % mayores de 50 |
+| Distrito | San Miguel, Independencia y Ventanilla | 100 % Lima Metropolitana y Callao |
+| Formación | Una enfermera titulada y dos cuidadores sin título profesional | 33 % titulada |
+| Sistema operativo del celular | Android (Huawei, Motorola) en los casos reportados | 100 % de los casos reportados |
+| Registro de información en papel | Kardex, cuaderno, pizarra o agenda | 100 % |
+| Uso del celular para recordar actividades | Alarmas o fechas en el celular | 67 % |
+| Comunicación con la familia | WhatsApp, llamadas y mensajes de texto | 100 % por medios informales |
+| Uso previo de aplicaciones de salud | Ninguno reportado | 0 % |
+| Disposición a usar una herramienta digital | Todos la consideran útil | 100 % |
+
+**Hallazgos principales.** El registro en papel es universal en el segmento, lo que confirma que Vitalita compite contra un hábito y no contra otro producto. El Kardex aparece como la estructura de referencia del personal de enfermería, por lo que el módulo de registro debe inspirarse en él. La dificultad común no es solo registrar, sino recordar: cuando el estado del paciente cambia, aumentan las indicaciones y las alarmas genéricas del celular no permiten distinguir a qué actividad corresponden.
+
+#### Segundo segmento: Familiares del adulto mayor (n = 3)
+
+| Característica | Resultado | Porcentaje |
+|---|---|---:|
+| Rango de edad | 24 a 43 años en los casos con datos | [actualizar con Mateo] |
+| Distrito | San Borja, Independencia, Surquillo | 100 % Lima Metropolitana |
+| Canal principal de información | WhatsApp | 95 % |
+| Información dispersa entre mensajes, fotos y papel | Reportado como problema | 95 % |
+| Dificultad para acceder a documentos médicos | Resultados de laboratorio, epicrisis, historias clínicas | 88 % |
+| Interés en un lugar único de consulta | Lo consideran útil | 92 % |
+
+**Hallazgos principales.** El familiar depende de lo que la cuidadora recuerde comunicar. El canal es WhatsApp, y la información útil queda enterrada entre conversaciones: el caso de los resultados de laboratorio que tomaron dos días en encontrarse resume el problema que Vitalita resuelve.
+
 
 # 2.3. Needfinding
 
