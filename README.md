@@ -83,6 +83,8 @@ Proyecto
 
 La solución integra el registro estructurado de la evolución del paciente, un sistema de alertas para recordatorios y un generador instantáneo de informes en formato PDF ante emergencias clínicas. Esto permite a enfermeras, cuidadoras y familiares mantenerse informados en tiempo real, eliminando la dispersión de información en cuadernos físicos o chats de WhatsApp. A diferencia de esquemas manuales o aplicaciones genéricas internacionales, Vitalita se posiciona como una herramienta especializada en el flujo cuidadora–familiar–clínica adaptada al contexto local, con un modelo de suscripción flexible y soporte para los principales medios de pago del país.
 
+![Vitalita Logo](assets/images/others/logo-vitalita-2.png)
+
 **Misión:** Brindar a las cuidadoras y familiares una plataforma confiable, accesible y centralizada para gestionar el cuidado diario de adultos mayores, garantizando un seguimiento transparente, la prevención de olvidos médicos y la disponibilidad inmediata de historiales clínicos ante cualquier emergencia.
 
 **Visión:** Consolidarnos como la solución de referencia en el seguimiento digital del cuidado de adultos mayores en el país, impulsando una atención más profesional, segura y conectada entre los profesionales de la salud, las familias y el ecosistema clínico.
