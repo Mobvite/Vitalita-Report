@@ -34,12 +34,6 @@ Producto: **Vitalita**
 
 </div>
 
-**Período 202620**
-
-**Septiembre 2026**
-
-</div>
-
 ---
 
 # Capítulo I: Introducción
