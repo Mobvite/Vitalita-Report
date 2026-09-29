@@ -200,6 +200,34 @@ La solución integra el registro estructurado de la evolución del paciente, un 
 | ![Jorge Photo](assets/images/team-photos/jorge-photo.png)     | Videla Ventura, Jorge Joseph (U202220648)         | Estudiante de ingeniería de Software. He practicado con Python, C++, Java entre otros. Me considero alguien responsable, colaborativo, amable y dispuesto a ayudar a mis compañeros, soy alguien que se esfuerza por encontrar soluciones a problemas.                                                                                                                            |
 | ![Gabriel Photo](assets/images/team-photos/gabriel-photo.png) | Yanac Flores, Gabriel Stefano (U20241D945)        | Soy un estudiante de Ingeniería de Software apasionado por la programación, especialmente en el ámbito del modding de videojuegos. Paso la mayor parte de mi tiempo desarrollando y experimentando con nuevas ideas, lo que me ha permitido fortalecer mis habilidades técnicas y creativas. Me considero una persona dedicada, curiosa y con muchas ganas de seguir aprendiendo. |
 
+## 1.2. Solution Profile
+
+### 1.2.1. Antecedentes y problemática
+
+El Perú atraviesa un proceso de envejecimiento acelerado: según los primeros resultados de los Censos Nacionales 2025, el 14,8 % de la población tiene 60 años o más, frente al 11,7 % registrado en 2017. A medida que crece esta población, crece también la cantidad de adultos mayores que requieren cuidado continuo en sus hogares, a cargo de enfermeras y cuidadoras contratadas por sus familias. Sin embargo, la información que se genera durante ese cuidado sigue registrándose en cuadernos, fotografías y conversaciones de WhatsApp.
+
+| Pregunta | Respuesta |
+|---|---|
+| **What** (¿Qué?) | La información del cuidado del adulto mayor (citas, exámenes, medicación, signos vitales y evolución diaria) se registra de forma dispersa y no está disponible cuando se necesita. |
+| **Who** (¿Quién?) | Enfermeras y cuidadoras que generan la información, y familiares que necesitan consultarla. |
+| **Where** (¿Dónde?) | En los hogares de adultos mayores bajo cuidado domiciliario en el Perú, con foco inicial en Lima Metropolitana. |
+| **When** (¿Cuándo?) | Durante la jornada diaria de cuidado, después de cada cita médica y, de forma crítica, ante una emergencia clínica. |
+| **Why** (¿Por qué?) | No existe una herramienta que centralice el seguimiento y lo comparta entre cuidadora y familia. Las alternativas disponibles resuelven teleasistencia o localización, no el registro clínico consultable. |
+| **How** (¿Cómo?) | Hoy mediante el Kardex en papel, cuadernos, pizarras, alarmas del celular y grupos de WhatsApp. En las entrevistas, una familiar relató haber perdido cerca de dos días buscando un resultado de laboratorio enviado por chat. |
+| **How much** (¿Cuánto?) | El costo es de tiempo y de riesgo: horas dedicadas a reportar manualmente a la familia, olvidos de citas o dosis, y demoras en una emergencia por no contar con el historial del paciente. |
+
+**Objetivos de la solución**
+
+1. Centralizar el registro del cuidado diario, las citas y los exámenes del adulto mayor.
+2. Dar a los familiares acceso de consulta al seguimiento sin depender de la cuidadora.
+3. Poner a disposición un resumen de emergencia con la información clínica relevante del paciente.
+
+**Restricciones del alcance**
+
+- La solución registra y organiza información; no emite diagnósticos ni recomendaciones médicas.
+- El familiar accede en modalidad de solo lectura.
+- El producto se entrega como aplicación web responsive; no incluye aplicación móvil nativa.
+
 ## 1.2.2. Lean UX Process
 
 El Lean UX Process permite formular y validar las principales suposiciones relacionadas con el modelo de negocio, los usuarios, los beneficios esperados y las características propuestas para Vitalita. A partir de estas suposiciones se establecen hipótesis medibles que permitirán contrastar progresivamente si la solución genera valor para los segmentos objetivo.
