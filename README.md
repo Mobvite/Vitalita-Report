@@ -1289,7 +1289,7 @@ En conclusión, el sistema de navegación de Vitalita está diseñado para difer
 
 Esta propuesta de Interfaz de Usuario (UI) para la Landing Page de Vitalita traduce las decisiones estratégicas de negocio y usabilidad en un entorno visual cohesivo, accesible y orientado a la conversión. La arquitectura de información se estructura de forma jerárquica y secuencial para guiarnos progresivamente desde la propuesta de valor principal hasta los puntos de conversión y soporte legal.
 
-El diseño visual adopta una paleta de colores centrada en tonos azules y celestes (código #69A7D6 como color dominante de fondo y gradiente), seleccionados estratégicamente para transmitir serenidad, confianza clínica y seguridad en el entorno de la salud geriátrica. La composición prioriza la escaneabilidad mediante patrones F y Z de lectura, garantizando la reducción de la fricción cognitiva tanto para el personal de salud como para los familiares que acceden a la plataforma.
+El diseño visual adopta la paleta definida en los Style Guidelines, con el verde teal #0F766E como color primario y el verde menta #ECFDF5 como fondo, asegurando una experiencia consistente entre el Landing Page y la Web Application.
 
 ## 4.3.1 Landing Page Wireframe
 
@@ -1386,17 +1386,17 @@ Como resultado se identificaron siete bounded contexts, cuya nomenclatura corres
 
 | **Bounded Context** | **Tipo** | **Responsabilidad** | **User Stories** |
 | --- | --- | --- | --- |
-| Identity and Access Management | Supporting | Cuentas, autenticación y autorización por rol. | US05, US06 |
-| Profiles Management | Supporting | Perfiles de cuidadoras y familiares, adultos mayores y accesos familiares. | US07–US12 |
-| Service Execution and Monitoring | **Core** | Reportes diarios, signos vitales, medicación, citas, exámenes y actividades. | US13–US18, US20, US21 |
-| Resource and Asset Management | Supporting | Evidencias fotográficas, documentos clínicos y reportes de emergencia. | US19, US26 |
-| Dashboard and Analytics | **Core** | Panel consolidado e historial cronológico para el familiar. | US22, US23, US27 |
-| Service Design and Planning | Generic | Recordatorios y notificaciones del cuidado. | US24, US25 |
-| Subscriptions and Payment Management | Supporting | Planes, límites, suscripciones y pagos. | US28, US29, US30 |
+| Identity and Access Management | Supporting | Cuentas, autenticación y autorización por rol. | US05, US06, US31, TS01 |
+| Profiles Management | Supporting | Perfiles de cuidadoras y familiares, adultos mayores y accesos familiares. | US07–US11, US32, US35, TS02, TS03 |
+| Service Execution and Monitoring | **Core** | Reportes diarios, signos vitales, medicación, citas, exámenes y actividades. | US13–US18, US20, TS04, TS05 |
+| Resource and Asset Management | Supporting | Evidencias fotográficas, documentos clínicos y resumen de emergencia. | US19, US26, US37, TS06 |
+| Dashboard and Analytics | **Core** | Panel consolidado e historial cronológico para el familiar. | US22, US23, US36, TS07 |
+| Service Design and Planning | Supporting | Recordatorios, notificaciones y calendario del cuidado. | US24, US25, US33, US34, TS08 |
+| Subscriptions and Payment Management | Supporting | Planes, límites, suscripciones y pagos. | US28, US29, US38, TS09, TS10 |
 
 Service Execution and Monitoring y Dashboard and Analytics son los contextos core porque concentran la propuesta de valor: registrar el cuidado y hacerlo visible para la familia. El sub-dominio *Loyalty and Engagement* quedó fuera del alcance del MVP.
 
-Las User Stories US01–US04 corresponden al Landing Page, que no constituye un bounded context sino un producto de presentación del modelo de negocio.
+Las User Stories US01–US04, US39 y US40 corresponden al Landing Page, que no constituye un bounded context sino un producto de presentación del modelo de negocio.
 
 ### 4.6.2. Software Architecture Context Diagram
 
