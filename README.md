@@ -45,10 +45,36 @@ Producto: **Vitalita**
 | v1.2.0 | 2026-09-29 | Roque Tello, Jack Eddie | Sprint 2, Separación de Technical Stories y nuevas User Stories. |
 | v1.3.0 | 2026-09-30 | Gabriel Stefano, Yanac Flores | Diagramas generales de clases y de base de datos; actualización de proveedores externos. |
 | v1.4.0 | 2026-10-02 | Videla Ventura, Jorge Joseph | división de historias de 8 SP, conclusiones, bibliografía y anexos. |
-| v1.4.0 | 2026-10-04 | Todos | Desarrollo frontend de Vitalita |
+| v1.5.0 | 2026-10-04 | Todos | Desarrollo frontend de Vitalita |
 | v2.0.0 | 2026-10-05 | Todos | Entrega TB1. |
 
 ---
+
+# Project Report Collaboration Insights
+
+**Repositorio del informe:** [https://github.com/Mobvite/Vitalita-Report](https://github.com/Mobvite/Vitalita-Report)
+
+El informe se elabora como Docs-as-Code en Markdown sobre la rama `main`, aplicando Conventional Commits. Cada integrante asume las secciones asignadas en la reunión de planificación y registra sus aportes mediante commits propios, lo que permite contrastar la participación con el Registro de Versiones.
+
+### AV1
+
+Para AV1 el equipo distribuyó los Capítulos I a IV y la sección del Sprint 1. La consolidación final estuvo a cargo de Paul Alexandro Espinoza Lopez, quien revisó la coherencia entre secciones antes de la entrega.
+
+![Contributors AV1](assets/images/others/contributors1.png)
+
+*Figura 1. Contributors del repositorio del informe durante AV1.*
+
+### TB1
+
+Para TB1 el equipo corrigió los artefactos observados en AV1 y documentó el Sprint 2. [Describir la distribución real de secciones.]
+
+![Contributors TB1](assets/images/others/contributors-tb1.png)
+
+*Figura 2. Contributors del repositorio del informe durante TB1.*
+
+![Commits TB1](assets/images/others/commits-report-tb1.png)
+
+*Figura 3. Actividad de commits del repositorio del informe durante TB1.*
 
 # Capítulo I: Introducción
 
