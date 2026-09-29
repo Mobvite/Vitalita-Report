@@ -76,6 +76,105 @@ Para TB1 el equipo corrigió los artefactos observados en AV1 y documentó el Sp
 
 *Figura 3. Actividad de commits del repositorio del informe durante TB1.*
 
+# Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Student Outcome 5
+
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+      <td valign="top">
+        <strong>Espinoza Lopez, Paul Alexandro Angel</strong><br>
+        <em>AV1</em><br>
+        Preparó y condujo la reunión de Sprint Planning 1, en la que el equipo acordó el Sprint Goal y la velocidad del Sprint.<br>
+        Lideró las secciones de beneficios y segmentos del Landing Page, coordinando su contenido con los hallazgos de las entrevistas.<br>
+        Condujo entrevistas a ambos segmentos objetivo y compartió sus resúmenes con el equipo para la construcción de los arquetipos.<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Navarro Chang, Alicia Avril</strong><br>
+        <em>AV1</em><br>
+        Lideró la estructura base, la navegación y la integración final del Landing Page, consolidando en una sola versión los aportes de los demás integrantes antes del despliegue.<br>
+        Condujo la entrevista a una enfermera con más de veinte años de experiencia, cuyo hallazgo sobre el Kardex orientó la estrategia del equipo frente a la competencia.<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Roque Tello, Jack Eddie</strong><br>
+        <em>AV1</em><br>
+        Lideró la sección About &amp; Team del Landing Page.<br>
+        Propuso el modelado de bounded contexts y los diagramas C4, y los ajustó con el integrante responsable de los class diagrams para mantener coherencia entre ambas secciones.<br>
+        Condujo la entrevista a una familiar del segundo segmento.<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Videla Ventura, Jorge Joseph</strong><br>
+        <em>AV1</em><br>
+        [completar con acciones verificables]<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Yanac Flores, Gabriel Stefano</strong><br>
+        <em>AV1</em><br>
+        Lideró la sección de planes y precios del Landing Page, incluyendo los métodos de pago y el carrusel de planes.<br>
+        <em>TB1</em><br>
+        [completar]
+      </td>
+      <td valign="top">
+        <em>AV1</em><br>
+        El liderazgo se distribuyó por aspectos del producto mediante una matriz de líderes y colaboradores, lo que permitió que cada integrante asumiera la conducción de al menos una sección y colaborara en las demás.<br>
+        La consolidación de los aportes en un único incremento desplegado evidenció la capacidad del equipo para integrar trabajo individual en un resultado común.<br>
+        <em>TB1</em><br>
+        [completar]
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
+      <td valign="top">
+        <strong>Espinoza Lopez, Paul Alexandro Angel</strong><br>
+        <em>AV1</em><br>
+        Mantuvo el Registro de Versiones del informe, permitiendo al equipo contrastar los avances con la planificación.<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Navarro Chang, Alicia Avril</strong><br>
+        <em>AV1</em><br>
+        [completar]<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Roque Tello, Jack Eddie</strong><br>
+        <em>AV1</em><br>
+        [completar]<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Videla Ventura, Jorge Joseph</strong><br>
+        <em>AV1</em><br>
+        [completar]<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Yanac Flores, Gabriel Stefano</strong><br>
+        <em>AV1</em><br>
+        [completar]<br>
+        <em>TB1</em><br>
+        [completar]
+      </td>
+      <td valign="top">
+        <em>AV1</em><br>
+        El equipo definió un Sprint Goal medible y distribuyó las tareas en Trello con estimación en horas, lo que permitió completar el 100 % de los Story Points comprometidos para el Sprint 1.<br>
+        El uso de reuniones virtuales y de un canal de coordinación permanente facilitó la participación de todos los integrantes sin depender de la coincidencia de horarios.<br>
+        <em>TB1</em><br>
+        [completar]
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 # Capítulo I: Introducción
 
 # 1.1. Startup Profile
