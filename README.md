@@ -1086,7 +1086,7 @@ Vitalita utiliza una organización jerárquica combinada con organización por t
 
 #### **Enfermero/cuidador:**
 
-El enfermero tiene asignado un único paciente. Desde la plataforma puede visualizar el perfil del paciente, registrar notas, guardar exámenes médicos o resultados, gestionar el calendario y revisar los familiares asociados.
+La cuidadora trabaja con un adulto mayor activo a la vez. Cuando su plan le permite gestionar más de uno, cambia de paciente desde un selector ubicado en la barra superior, y toda la información mostrada corresponde únicamente al adulto mayor seleccionado. Desde la plataforma puede visualizar el perfil del paciente, registrar notas, guardar exámenes o resultados, gestionar el calendario y revisar los familiares asociados.
 
 #### **Familiar:**
 
@@ -1247,7 +1247,7 @@ Permite encontrar información usando términos específicos como:
 
 - cita médica.
 
-Debido a que el enfermero tiene un solo paciente asignado, no es necesario implementar una búsqueda de múltiples pacientes dentro del flujo principal.
+Como la cuidadora trabaja con un adulto mayor activo a la vez, las búsquedas se ejecutan siempre dentro del paciente seleccionado. El selector de pacientes solo aparece cuando el plan contratado permite gestionar más de uno.
 
 ## 4.2.5. Navigation Systems.
 
@@ -1273,7 +1273,7 @@ El flujo principal del enfermero es:
 
 **Inicio de sesión → Home → Notas del paciente → Exámenes médicos y resultados → Calendario general → Familiares**
 
-El enfermero puede registrar notas, guardar exámenes, agregar citas médicas y crear recordatorios. Sin embargo, solo tiene un paciente asignado, por lo que no puede agregar más pacientes.
+El enfermero puede registrar notas, guardar exámenes, agregar citas médicas y crear recordatorios. Si su plan lo permite, puede registrar adultos mayores adicionales y alternar entre ellos desde el selector de pacientes.
 
 #### **Navegación del familiar**
 
