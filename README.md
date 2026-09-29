@@ -34,6 +34,20 @@ Producto: **Vitalita**
 
 </div>
 
+# Registro de Versiones del Informe
+
+| Versión | Fecha | Autor | Descripción de modificación |
+|---|---|---|---|
+| v0.1.0 | 2026-09-01 | Espinoza Lopez, Paul | Estructura inicial del documento. |
+| v0.2.0 | 2026-09-10 | Todos | Capítulos I a IV y Sprint 1 para AV1. |
+| v1.0.0 | 2026-09-18 | Todos | Entrega AV1. |
+| v1.1.0 | 2026-09-28 | Navarro Chang, Alicia Avril | Corrección de la carátula, potencial demográfico de los segmentos y precios del benchmark según retroalimentación de AV1. |
+| v1.2.0 | 2026-09-29 | Roque Tello, Jack Eddie | Sprint 2, Separación de Technical Stories y nuevas User Stories. |
+| v1.3.0 | 2026-09-30 | Gabriel Stefano, Yanac Flores | Diagramas generales de clases y de base de datos; actualización de proveedores externos. |
+| v1.4.0 | 2026-10-02 | Videla Ventura, Jorge Joseph | división de historias de 8 SP, conclusiones, bibliografía y anexos. |
+| v1.4.0 | 2026-10-04 | Todos | Desarrollo frontend de Vitalita |
+| v2.0.0 | 2026-10-05 | Todos | Entrega TB1. |
+
 ---
 
 # Capítulo I: Introducción
