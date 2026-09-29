@@ -1,68 +1,37 @@
 <div align="center">
 
-<img src="assets/images/others/upc-logo.png" alt="UPC Logo" width="150px">  
+<img src="assets/images/others/upc-logo.png" alt="UPC Logo" width="150px">
 
-Universidad Peruana de Ciencias Aplicadas
+**Universidad Peruana de Ciencias Aplicadas**
 
 Carrera de Ingeniería de Software
 
-**1ASI0729**
+Ciclo 202620
 
-**Aplicaciones Web**
+**1ASI0730 · Aplicaciones Web**
 
-NRC
+NRC **8074**
 
-**8074**
+Docente: **Sánchez Ponce, Alex Humberto**
 
-**Informe del Avance 1**
+## Informe de Trabajo Final
 
-Docente
+Startup: **Mobvite**
 
-**Sanchez Ponce, ALex Humberto**
-
-Equipo
-
-**Mobvite**
-
-Proyecto
-
-**Vitalita**
+Producto: **Vitalita**
 
 **Integrantes**
 
-<div style="text-align: center;">
-<div style="display: inline-block;">
-<table style="width: auto; border-collapse: collapse; text-align: center;">
-  <thead>
-    <tr>
-      <th style="padding: 8px; border: 1px solid #666; text-align: center;">Código</th>
-      <th style="padding: 8px; border: 1px solid #666; text-align: center;">Apellidos y Nombres</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #666; text-align: center;">U20241E321</td>
-      <td style="padding: 8px; border: 1px solid #666; text-align: center;">Espinoza Lopez, Paul</td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #666; text-align: center;">U20231D637</td>
-      <td style="padding: 8px; border: 1px solid #666; text-align: center;">Navarro Chang, Alicia Avril </td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #666; text-align: center;">U20221C448</td>
-      <td style="padding: 8px; border: 1px solid #666; text-align: center;">Roque Tello, Jack Eddie</td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #666; text-align: center;">U202220648</td>
-      <td style="padding: 8px; border: 1px solid #666; text-align: center;">Videla Ventura, Jorge Joseph</td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #666; text-align: center;">U20241D945</td>
-      <td style="padding: 8px; border: 1px solid #666; text-align: center;">Yanac Flores, Gabriel Stefano</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+| Código | Apellidos y Nombres |
+|:---:|:---:|
+| U20241E321 | Espinoza Lopez, Paul Alexandro Angel |
+| U20231D637 | Navarro Chang, Alicia Avril |
+| U20221C448 | Roque Tello, Jack Eddie |
+| U202220648 | Videla Ventura, Jorge Joseph |
+| U20241D945 | Yanac Flores, Gabriel Stefano |
+
+**Octubre 2026**
+
 </div>
 
 **Período 202620**
@@ -220,10 +189,10 @@ Identificar qué necesidades del cuidado del adulto mayor ya están cubiertas po
   <tr>
     <td valign="top"></td>
     <td valign="top"></td>
-        <td valign="top">Vitalita<br><img src="assets/images/others/vitalita-logo.png" width="100" alt="Vitalita"></td>
+        <td valign="top"><br><img src="assets/images/others/vitalita-logo.png" width="100" alt="Vitalita"></td>
     <td valign="top">T-Cuido<br><img src="assets/images/others/tecuido-logo.png" width="100" alt="T-Cuido"></td>
-    <td valign="top">Safe365<br><img src="assets/images/others/safe365-logo.png" width="100" alt="Safe365"></td>
-    <td valign="top">SaveFamily<br><img src="assets/images/others/saveFamily-logo.png" width="100" alt="SaveFamily"></td>
+    <td valign="top"><br><img src="assets/images/others/safe365-logo.png" width="100" alt="Safe365"></td>
+    <td valign="top"><br><img src="assets/images/others/saveFamily-logo.png" width="100" alt="SaveFamily"></td>
   </tr>
   <tr>
     <td valign="top" rowspan="2">Perfil</td>
