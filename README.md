@@ -177,7 +177,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 # Capítulo I: Introducción
 
-# 1.1. Startup Profile
+## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la startup.
 
@@ -337,6 +337,47 @@ Sabremos que la hipótesis muestra evidencia favorable cuando los usuarios inter
 
 ### 1.2.2.4. Lean UX Canvas
 ![Lean UX Canvas](assets/images/figures/Leanux-canvas.png)
+
+## 1.3. Segmentos objetivo
+
+Según los primeros resultados de los Censos Nacionales 2025 del INEI, el Perú cuenta con 34 157 732 habitantes, de los cuales el 14,8 % tiene 60 años o más, lo que equivale aproximadamente a 5,06 millones de adultos mayores. El índice de envejecimiento alcanzó 65 adultos mayores por cada 100 menores de 15 años, el nivel más alto registrado en el país, y el INEI proyecta que hacia 2040 la población adulta mayor superará a la menor de 15 años. Lima Metropolitana concentra 10,1 millones de habitantes (29,7 % del total nacional), y el 78,2 % de los adultos mayores de Lima Metropolitana presenta algún problema de salud crónico, condición que exige seguimiento continuo.
+
+### Primer segmento objetivo: Enfermeras o cuidadores de adulto mayor
+
+El Colegio de Enfermeros del Perú registra 128 922 profesionales colegiados, a los que se suma un número no cuantificado de cuidadores técnicos e informales que trabajan de forma independiente. Este segmento constituye la base de usuarios operativos de Vitalita.
+
+**Datos demográficos**
+
+- **Edad:** entre 25 y 60 años.
+- **Ocupación:** enfermeras particulares o cuidadores de adultos mayores.
+- **Modalidad de trabajo:** trabajan principalmente con un adulto mayor, en turnos de 8 o 12 horas o bajo la modalidad cama adentro; una parte atiende a varios pacientes en turnos rotativos.
+
+**Datos conductuales**
+
+- **Dominio:** conocimientos básicos o especializados en el cuidado y seguimiento de adultos mayores, según su formación, y conocimientos básicos en el uso de dispositivos móviles y plataformas digitales.
+- **Beneficios buscados:** optimizar la organización del cuidado, facilitar el registro del estado del adulto mayor y mantener organizada la información de citas, exámenes y actividades diarias.
+
+**Interacción con la plataforma**
+
+- **Frecuencia de uso:** uso constante durante la jornada para registrar actividades, controlar cambios en el estado del adulto mayor y consultar sus antecedentes.
+
+### Segundo segmento objetivo: Familiares del adulto mayor
+
+Cada adulto mayor bajo cuidado involucra al menos a un familiar responsable, por lo que este segmento crece en proporción directa al primero y a la población adulta mayor con necesidad de cuidado continuo.
+
+**Datos demográficos**
+
+- **Edad:** entre 20 y 70 años.
+- **Ocupación:** diversa; por lo general, familiares responsables o que participan en el cuidado del adulto mayor.
+
+**Datos conductuales**
+
+- **Dominio:** conocimientos básicos en el uso de dispositivos móviles y plataformas digitales.
+- **Beneficios buscados:** mantenerse informados sobre el estado y la evolución del adulto mayor y acceder de forma organizada a citas, exámenes y observaciones.
+
+**Interacción con la plataforma**
+
+- **Frecuencia de uso:** uso frecuente para consultar el estado del familiar y revisar los registros de la cuidadora.
 
 # 2.1. Competidores
 Para el análisis de la competencia se identificaron tres soluciones vigentes que atienden, de forma parcial, necesidades relacionadas con el cuidado del adulto mayor. Ninguna resuelve de manera integral el flujo entre cuidadora, familiar y clínica que aborda Vitalita, por lo que se consideran competidores indirectos con ofertas parcialmente similares. Los tres fueron seleccionados por representar enfoques distintos del mercado: un servicio de cuidado domiciliario en el Perú, una aplicación de teleasistencia por geolocalización y un dispositivo físico de monitoreo con aplicación asociada.
