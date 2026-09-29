@@ -1359,6 +1359,10 @@ El diseño está orientado a los dos segmentos principales del sistema: enfermer
 
 
 ## 4.4.3. Web Applications User Flow Diagrams.
+## 4.5. Web Applications Prototyping
+
+
+
 ## 4.5. Web Applications Prototyping.
 
 ## 4.6. Domain-Driven Software Architecture
@@ -1404,7 +1408,7 @@ El diagrama de contexto presenta una visión de alto nivel del sistema Vitalita,
 
 ![Software Architecture Context Diagram](assets/images/diagrams/C3_context-diagram.png)
 
-La cuidadora alimenta el sistema y gestiona su suscripción; el familiar consulta el seguimiento y recibe avisos. Hacia afuera, Vitalita se integra con cuatro servicios externos: **Niubiz** como pasarela de pagos, por su cobertura de tarjetas y billeteras digitales en el mercado peruano; **Twilio** para notificaciones por SMS y WhatsApp; **SendGrid** para el correo transaccional; y **Amazon S3** para almacenar evidencias y reportes. Cada uno se consume mediante un adaptador, de modo que sustituirlo por una alternativa evaluada (Culqi o Izipay, Firebase Cloud Messaging, Azure Blob Storage) no afectaría al modelo de dominio.
+La cuidadora alimenta el sistema y gestiona su suscripción; el familiar consulta el seguimiento y recibe avisos. Hacia afuera, Vitalita se integra con cuatro servicios externos: Culqi como pasarela de pagos, por su soporte de tarjetas, Yape y pago en efectivo en el mercado peruano y por contar con un ambiente de integración para pruebas; Resend para el correo transaccional; Cloudinary para almacenar las evidencias fotográficas y los documentos generados; y Twilio para notificaciones por SMS en escenarios de demostración. Cada uno se consume mediante un adaptador, de modo que sustituirlo por una alternativa evaluada (Niubiz o Izipay, Amazon S3, SendGrid) no afectaría al modelo de dominio.
 
 ### 4.6.3. Software Architecture Container Diagrams
 
@@ -1454,15 +1458,6 @@ La siguiente vista muestra la estructura interna de la **Web Application**, desa
 
 El router controla la navegación y aplica los guards según el rol, apoyándose en el auth store que conserva el token. Las vistas están separadas por dominio y todas consumen la API mediante un único cliente Axios que inyecta el token automáticamente.
 
-#### Bounded Contexts de Vitalita
-
-Cada contexto sigue la misma estructura en cuatro capas, lo que hace el código predecible:
-
-- **Interface:** controladores que exponen los endpoints REST.
-- **Application:** command services para las operaciones que modifican estado y query services para las consultas.
-- **Domain:** los agregados con sus reglas de negocio, y las políticas donde aplica.
-- **Infrastructure:** repositorios con EF Core y adaptadores hacia servicios externos.
-
 #### 1. Component Diagram - Identity and Access Management (IAM)
 
 ![Component Diagram - Identity and Access Management](assets/images/diagrams/C3_Identity.png)
@@ -1503,7 +1498,7 @@ Programa y despacha recordatorios y notificaciones a partir de los eventos de do
 
 ![Component Diagram - Subscription and Payment Management](assets/images/diagrams/C3_Subscriptions.png)
 
-Administra el catálogo de planes, las suscripciones y los pagos. El agregado Plan define el límite maxOlderAdults, que conecta la gestión de múltiples pacientes con el plan contratado. Niubiz se aísla mediante IPaymentGateway, que actúa como capa anticorrupción.
+Administra el catálogo de planes, las suscripciones y los pagos. El agregado Plan define el límite maxOlderAdults, que conecta la gestión de múltiples pacientes con el plan contratado. Culqi se aísla mediante IPaymentGateway, que actúa como capa anticorrupción.
 
 ## 4.7. Software Object-Oriented Design
 
