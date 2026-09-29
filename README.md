@@ -752,7 +752,7 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 ### 2.3.1. User Personas
 
 **Primer segmento objetivo:**
-![User Persona Andrea](../assets/images/figures/UserPersona-Andrea.png)
+![User Persona Andrea](assets/images/figures/UserPersona-Andrea.png)
 
 **Segundo segmento objetivo:**
 ![User Persona Renzo](assets/images/figures/UserPersona-Renzo.png)
@@ -770,6 +770,8 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 
 
 ### 2.3.3. User Journey Mapping.
+
+
 
 ### 2.3.4. Empathy Mapping.
 
@@ -789,13 +791,13 @@ Vitalita es una aplicación orientada al cuidado y seguimiento de adultos mayore
 
 En el Event Storming se identificaron como actores principales a la **cuidadora o enfermera**, quien cumple el rol operativo dentro de la plataforma, y al **familiar directo**, quien accede principalmente a la información registrada. También se reconoce la participación externa de **clínicas u hospitales**, ya que el sistema contempla la generación de un informe PDF con el historial del adulto mayor para ser utilizado en situaciones de emergencia médica.
 
-El modelo se organiza en cinco bounded contexts principales. El primero es **Descubrimiento y Acceso**, donde se agrupan los procesos de registro, inicio de sesión y asignación de roles. El segundo es **Gestión de Adultos Mayores**, enfocado en el registro del paciente, la actualización de sus datos básicos y la asignación de familiares con acceso de consulta. El tercero es **Registros de Salud y Seguimiento Diario**, que constituye el núcleo del dominio, ya que concentra los registros de signos vitales, estado de ánimo, medicación, terapias, citas, exámenes y evidencias fotográficas. El cuarto contexto es **Seguimiento Familiar y Emergencias**, donde se modela la consulta del panel familiar, las notificaciones relevantes y la generación del informe PDF. Finalmente, el contexto de **Suscripciones y Pagos** representa el modelo de monetización de la plataforma mediante prueba gratuita, selección de plan, pago y activación de suscripción.
+Como resultado de esta primera exploración se identificaron cinco agrupaciones candidatas de procesos: Descubrimiento y Acceso, Gestión de Adultos Mayores, Registros de Salud y Seguimiento Diario, Seguimiento Familiar y Emergencias, y Suscripciones y Pagos. Estas agrupaciones constituyen una primera aproximación que se refina en el Design-Level EventStorming de la sección 4.6.1, donde se consolidan los bounded contexts definitivos.
 
 Entre los eventos de dominio más importantes se encuentran: **Adulto mayor registrado**, **Estado diario registrado**, **Signos vitales registrados**, **Medicación registrada**, **Cita médica registrada**, **Examen registrado**, **Evidencia fotográfica adjuntada**, **Familiar notificado**, **Emergencia reportada**, **Informe PDF generado** y **Suscripción activada**. Estos eventos representan hechos significativos dentro del negocio y permiten comprender cómo evoluciona la información del adulto mayor dentro de la plataforma.
 
 Asimismo, se identificaron reglas de negocio relevantes. Por ejemplo, cuando se registra un adulto mayor, el sistema debe permitir asociar familiares responsables con acceso de solo lectura. Cuando se registra una actividad próxima o pendiente, como una cita médica, terapia o examen, el sistema debe generar recordatorios automáticos. Del mismo modo, cuando se detecta una emergencia, se debe generar un informe PDF con el historial completo del paciente. Estas reglas permiten conectar eventos con nuevos comandos y muestran cómo ciertas acciones del usuario pueden activar procesos automáticos del sistema.
 
-Durante el análisis también se detectaron algunos hotspots o puntos de incertidumbre. El primero está relacionado con los permisos exactos de cada rol, ya que el proyecto diferencia entre cuidadoras y familiares, pero no detalla completamente las restricciones específicas de cada usuario. El segundo corresponde al canal de notificaciones, debido a que se mencionan alertas automáticas, pero no se define si serán enviadas por notificación push, correo electrónico, SMS, WhatsApp u otro medio. El tercer hotspot se encuentra en el módulo de pagos, donde se mencionan métodos como Yape, Plin, transferencia, efectivo y tarjeta, pero no se especifica la pasarela o proveedor técnico que se utilizará.
+Durante el análisis se detectaron tres hotspots, resueltos posteriormente en el diseño. El primero correspondía a los permisos de cada rol, definidos luego como un rol operativo para la cuidadora y un rol de solo lectura para el familiar. El segundo, al canal de notificaciones, resuelto mediante notificaciones dentro de la aplicación y correo electrónico. El tercero, a la pasarela de pagos, resuelto con Culqi por su soporte de tarjetas, Yape y pago en efectivo en el mercado peruano.
 
 # 2.5. Ubiquitous Language.
 
@@ -2019,7 +2021,7 @@ La primera versión del Landing Page fue desplegada mediante **GitHub Pages**.
 
 El deployment permite acceder públicamente al incremento desarrollado durante Sprint 1 y validar su ejecución fuera del entorno local.
 
-![GitHub Pages Deployment Evidence](../assets/images/others/github-pages.png)
+![GitHub Pages Deployment Evidence](assets/images/others/github-pages.png)
 
 *Figura X. Evidencia de configuración y despliegue mediante GitHub Pages.*
 
