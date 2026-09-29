@@ -83,7 +83,7 @@ Proyecto
 
 La solución integra el registro estructurado de la evolución del paciente, un sistema de alertas para recordatorios y un generador instantáneo de informes en formato PDF ante emergencias clínicas. Esto permite a enfermeras, cuidadoras y familiares mantenerse informados en tiempo real, eliminando la dispersión de información en cuadernos físicos o chats de WhatsApp. A diferencia de esquemas manuales o aplicaciones genéricas internacionales, Vitalita se posiciona como una herramienta especializada en el flujo cuidadora–familiar–clínica adaptada al contexto local, con un modelo de suscripción flexible y soporte para los principales medios de pago del país.
 
-![Vitalita Logo](assets/images/others/logo-vitalita-2.png)
+![Vitalita Logo](assets/images/others/vitalita-logo.png)
 
 **Misión:** Brindar a las cuidadoras y familiares una plataforma confiable, accesible y centralizada para gestionar el cuidado diario de adultos mayores, garantizando un seguimiento transparente, la prevención de olvidos médicos y la disponibilidad inmediata de historiales clínicos ante cualquier emergencia.
 
@@ -206,7 +206,7 @@ Creemos que lograremos incrementar la conversión de usuarios del plan gratuito 
 Sabremos que la hipótesis muestra evidencia favorable cuando los usuarios interesados en adquirir un plan puedan completar correctamente el flujo de suscripción durante las pruebas de validación y se observe posteriormente conversión de usuarios activos del plan gratuito hacia algún plan de pago.
 
 ### 1.2.2.4. Lean UX Canvas
-![Lean UX Canvas](../assets/images/figures/Leanux-canvas.png)
+![Lean UX Canvas](assets/images/figures/Leanux-canvas.png)
 
 # 2.1. Competidores
 Para el análisis de la competencia se identificaron tres soluciones vigentes que atienden, de forma parcial, necesidades relacionadas con el cuidado del adulto mayor. Ninguna resuelve de manera integral el flujo entre cuidadora, familiar y clínica que aborda Vitalita, por lo que se consideran competidores indirectos con ofertas parcialmente similares. Los tres fueron seleccionados por representar enfoques distintos del mercado: un servicio de cuidado domiciliario en el Perú, una aplicación de teleasistencia por geolocalización y un dispositivo físico de monitoreo con aplicación asociada.
@@ -220,7 +220,7 @@ Identificar qué necesidades del cuidado del adulto mayor ya están cubiertas po
   <tr>
     <td valign="top"></td>
     <td valign="top"></td>
-    <td valign="top">Vitalita</td>
+        <td valign="top">Vitalita<br><img src="assets/images/others/vitalita-logo.png" width="100" alt="Vitalita"></td>
     <td valign="top">T-Cuido<br><img src="assets/images/others/tecuido-logo.png" width="100" alt="T-Cuido"></td>
     <td valign="top">Safe365<br><img src="assets/images/others/safe365-logo.png" width="100" alt="Safe365"></td>
     <td valign="top">SaveFamily<br><img src="assets/images/others/saveFamily-logo.png" width="100" alt="SaveFamily"></td>
