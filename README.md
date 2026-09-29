@@ -379,6 +379,8 @@ Cada adulto mayor bajo cuidado involucra al menos a un familiar responsable, por
 
 - **Frecuencia de uso:** uso frecuente para consultar el estado del familiar y revisar los registros de la cuidadora.
 
+# Capítulo II: Requirements Elicitation & Analysis
+
 # 2.1. Competidores
 Para el análisis de la competencia se identificaron tres soluciones vigentes que atienden, de forma parcial, necesidades relacionadas con el cuidado del adulto mayor. Ninguna resuelve de manera integral el flujo entre cuidadora, familiar y clínica que aborda Vitalita, por lo que se consideran competidores indirectos con ofertas parcialmente similares. Los tres fueron seleccionados por representar enfoques distintos del mercado: un servicio de cuidado domiciliario en el Perú, una aplicación de teleasistencia por geolocalización y un dispositivo físico de monitoreo con aplicación asociada.
 
@@ -421,7 +423,7 @@ Identificar qué necesidades del cuidado del adulto mayor ya están cubiertas po
   </tr>
   <tr>
     <td valign="top">Estrategias de marketing</td>
-    <td valign="top"></td>
+    <td valign="top">Comunicación en grupos profesionales de enfermería y redes sociales, alianzas con agencias de cuidado y crecimiento por invitación: cada familiar invitado conoce el producto a través de la cuidadora.</td>
     <td valign="top">Comunicación dirigida a familias con adultos mayores, con presencia en redes sociales centrada en la profesionalización del cuidador.</td>
     <td valign="top">Crecimiento por invitación: el usuario agrega contactos y les envía un enlace de descarga por SMS, WhatsApp o correo.</td>
     <td valign="top">Venta por web propia y distribuidores externos, con alianzas con servicios de cuidado como Cuidum.</td>
@@ -436,10 +438,10 @@ Identificar qué necesidades del cuidado del adulto mayor ya están cubiertas po
   </tr>
   <tr>
     <td valign="top">Precios &amp; Costos</td>
-    <td valign="top">Suscripción mensual o anual con versión freemium.</td>
-    <td valign="top">Planes semanales y mensuales de 4 semanas de 8 o 12 horas. No publica montos.</td>
-    <td valign="top">Descarga gratuita.</td>
-    <td valign="top">Alrededor de €78 a €87 por dispositivo; plan de SIM propia opcional.</td>
+    <td valign="top">Freemium: S/ 0.<br>Pro: S/ 19,90 al mes o S/ 199 al año.<br>Agencia: S/ 59,90 al mes o S/ 599 al año.</td>
+    <td valign="top">Planes semanales y mensuales de 8 o 12 horas. Tarifa de referencia: S/ 59,90.</td>
+    <td valign="top">S/ 0. Aplicación gratuita.</td>
+    <td valign="top">Entre €78 y €87 por dispositivo (aprox. S/ 340); plan de SIM propia opcional.</td>
   </tr>
   <tr>
     <td valign="top">Canales de distribución (Web y/o Móvil)</td>
@@ -483,7 +485,7 @@ Identificar qué necesidades del cuidado del adulto mayor ya están cubiertas po
 A partir del análisis competitivo y de los SWOT elaborados para cada competidor, Mobvite plantea las siguientes estrategias preliminares para posicionar a Vitalita en el mercado.
 #### Estrategias para afrontar las fortalezas de la competencia
 Frente a la principal fortaleza de T-Cuido, que asume la relación laboral del personal de enfermería y elimina el riesgo legal para la familia, la startup no compite por proveer cuidadoras sino por dar herramientas a la cuidadora que ya está contratada. Esto se traduce en comunicar desde el Landing Page que la plataforma funciona con cualquier cuidadora, sea independiente o provista por una agencia, y en explorar alianzas con agencias de cuidado que puedan ofrecer la herramienta a su propio personal.
-En el caso de Safe365, cuya adopción masiva se explica por su gratuidad, la respuesta consiste en reducir la fricción inicial mediante una versión freemium que permita gestionar un adulto mayor sin costo, reservando para la versión de pago la gestión de múltiples pacientes y la generación del informe consolidado.
+En el caso de Safe365, cuya adopción masiva se explica por su gratuidad, la respuesta consiste en reducir la fricción inicial mediante una versión freemium que permita gestionar un adulto mayor sin costo, reservando para la versión de pago la gestión de múltiples pacientes y la exportación del resumen de emergencia en PDF.
 Ante SaveFamily, que tiene la ventaja de no depender del smartphone del adulto mayor, Vitalita compite en un terreno distinto y enfoca su comunicación en el historial consultable y en el informe para emergencias, funciones que un dispositivo de monitoreo no cubre.
 #### Estrategias para aprovechar las debilidades de la competencia
 El espacio más relevante es que ninguno de los tres competidores construye un historial clínico consultable del paciente: T-Cuido no cuenta con un producto digital de registro, Safe365 resuelve únicamente localización y los recordatorios de SaveFamily son alarmas en el dispositivo. Por ello la propuesta de valor de Vitalita se construye alrededor del registro de citas, exámenes y evolución diaria, priorizando en el roadmap el informe consolidado exportable, que no tiene equivalente entre las alternativas analizadas.
@@ -491,8 +493,24 @@ Un segundo espacio es que ninguna de las tres contempla un rol diferenciado para
 El tercero es de menor alcance pero igualmente aprovechable: T-Cuido no publica sus precios, lo que dificulta la decisión de compra, de modo que publicar los planes de forma abierta en el Landing Page constituye una diferencia frente a un competidor directo en el mercado peruano.
 #### Estrategias frente al contexto de oportunidades y amenazas
 La principal amenaza identificada no proviene de la competencia sino del propio segmento, ya que las cuidadoras utilizan el Kardex en papel y lo consideran una herramienta práctica y confiable. La estrategia consiste entonces en partir de esa herramienta en lugar de proponer un modelo desconocido, diseñando el módulo de registro sobre la estructura del Kardex y comunicando la propuesta como la digitalización de un método existente.
-A ello se suma la adaptación del cobro a los medios de pago habituales en el país, integrando Yape, Plin, transferencia bancaria, pago en efectivo y tarjeta, aspecto que las alternativas internacionales no contemplan. El precio se definirá dentro del rango de disposición de pago que arrojen las entrevistas.
+A ello se suma la adaptación del cobro a los medios de pago habituales en el país, integrando una pasarela local que admite tarjetas, Yape, billeteras móviles y pago en efectivo, aspecto que las alternativas internacionales no contemplan. Los precios de cada plan se definieron por debajo de la disposición de pago expresada en las entrevistas.
 Finalmente, la oportunidad de crecimiento por referido se aprovecha habilitando la invitación de familiares desde la cuenta de la cuidadora, dado que cada cuidadora incorpora a varios familiares y cada familiar constituye a su vez un canal hacia otras cuidadoras. En la misma línea se contempla explorar alianzas con clínicas geriátricas y aseguradoras como canal de adquisición de bajo costo.
+
+#### Planes de Vitalita
+
+| | Freemium | Pro | Agencia |
+|---|:---:|:---:|:---:|
+| Precio mensual | S/ 0 | S/ 19,90 | S/ 59,90 |
+| Precio anual | — | S/ 199 | S/ 599 |
+| Adultos mayores | 1 | Hasta 3 | Hasta 10 |
+| Familiares por adulto mayor | 2 | 5 | Ilimitados |
+| Seguimiento diario, citas y exámenes | ✔ | ✔ | ✔ |
+| Resumen de emergencia en pantalla | ✔ | ✔ | ✔ |
+| Exportación del resumen en PDF | — | ✔ | ✔ |
+| Recordatorios por correo | — | ✔ | ✔ |
+| Almacenamiento de evidencias | 100 MB | 2 GB | 10 GB |
+
+El único entrevistado que estimó un monto indicó una disposición de pago cercana a S/ 40 mensuales, por lo que el plan Pro se ubica por debajo de ese umbral. El resumen de emergencia en pantalla se incluye en el plan gratuito de forma deliberada: la información clínica que puede ser decisiva en una emergencia no se condiciona al pago; lo que se cobra es la comodidad de exportarla.
 
 # 2.2. Entrevistas
 
