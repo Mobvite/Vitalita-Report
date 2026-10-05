@@ -32,19 +32,17 @@ Esta elección permite mantener una lectura clara, especialmente en información
 
 La paleta visual de Vitalita debe estar asociada a salud, confianza y claridad.
 
-|Color|Código HEX|Significado|
-|---|---|---|
-|Verde teal primario|#0F766E|Salud, confianza y acción principal|
-|Verde teal secundario|#14B8A6|Apoyo visual, botones y elementos destacados|
-|Verde menta claro|#ECFDF5|Fondo suave, bienestar y tranquilidad|
-|Azul informativo|#E0F2FE|Información médica y datos relevantes|
-|Naranja|#F97316|Alertas, recordatorios y eventos próximos|
-|Blanco|#FFFFFF|Limpieza visual y claridad|
-|Gris claro|#F8FAFC|Fondos secundarios y separación de secciones|
-|Texto principal|#111827|Lectura principal|
-|Texto secundario|#475569|Descripciones y contenido de apoyo|
-
-
+| Color                 | Código HEX | Significado                                  |
+| --------------------- | ---------- | -------------------------------------------- |
+| Verde teal primario   | #0F766E    | Salud, confianza y acción principal          |
+| Verde teal secundario | #14B8A6    | Apoyo visual, botones y elementos destacados |
+| Verde menta claro     | #ECFDF5    | Fondo suave, bienestar y tranquilidad        |
+| Azul informativo      | #E0F2FE    | Información médica y datos relevantes        |
+| Naranja               | #F97316    | Alertas, recordatorios y eventos próximos    |
+| Blanco                | #FFFFFF    | Limpieza visual y claridad                   |
+| Gris claro            | #F8FAFC    | Fondos secundarios y separación de secciones |
+| Texto principal       | #111827    | Lectura principal                            |
+| Texto secundario      | #475569    | Descripciones y contenido de apoyo           |
 
 #### **Visual Style**
 
@@ -214,14 +212,14 @@ Ejemplos de mensajes de ayuda:
 
 ## 4.2.3. SEO Tags and Meta Tags.
 
-| **Etiqueta** | **Contenido** |
-|---|---|
-| `title` | Vitalita - Seguimiento digital para el cuidado de adultos mayores |
+| **Etiqueta**  | **Contenido**                                                                                                                                         |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `title`       | Vitalita - Seguimiento digital para el cuidado de adultos mayores                                                                                     |
 | `description` | Plataforma web para enfermeros, cuidadores y familiares que centraliza signos de salud, notas, exámenes, calendario y recordatorios del adulto mayor. |
-| `keywords` | cuidado de adultos mayores, enfermero, cuidador, seguimiento médico, signos vitales, familiares, recordatorios médicos, historial clínico |
-| `viewport` | width=device-width, initial-scale=1.0 |
-| `author` | Vitalita |
-| `copyright` | © 2026 Vitalita |
+| `keywords`    | cuidado de adultos mayores, enfermero, cuidador, seguimiento médico, signos vitales, familiares, recordatorios médicos, historial clínico             |
+| `viewport`    | width=device-width, initial-scale=1.0                                                                                                                 |
+| `author`      | Vitalita                                                                                                                                              |
+| `copyright`   | © 2026 Vitalita                                                                                                                                       |
 
 ## 4.2.4. Searching Systems.
 
@@ -324,7 +322,7 @@ En la etapa de wireframing (diseño de baja/media fidelidad) para _Desktop Web B
 - **Principios de Diseño y Arquitectura de Información:** Se definió un sistema de cuadrícula ( _grid system_ ) flexible de 12 columnas en Desktop y 4 columnas en Mobile. La navegación superior ( _Navbar_ ) organiza los bloques temáticos de manera jerárquica con enlaces ancla ( _anchor links_ ), permitiendo una exploración fluida. La distribución de bloques prioriza una narrativa lógica: captura de atención en el _Hero Section_ (H1 + CTAs), diferenciación operacional ( _Problema vs. Solución_ ), especialización funcional ( _Módulos de Cuidadoras y Familias_ ), y cierre comercial con precios y FAQ.
 
 - **Diseño Inclusivo y Accesibilidad:** Se planificó una escala tipográfica con jerarquías claras (H1, H2, H3 y cuerpo) manteniendo un tamaño mínimo de fuente de 16px para párrafos, asegurando legibilidad para personas de mayor edad o con fatiga visual. Las áreas de toque ( _touch targets_ ) de los botones se diseñaron con un mínimo de 48px de alto para facilitar la interacción tanto en dispositivos móviles como mediante navegación por teclado o puntero.
-  
+
 ![Wireframe 1 - Landing Page](../assets/images/landing/wireframe1lp.jpeg)
 ![Wireframe 2 - Landing Page](../assets/images/landing/wireframe2lp.jpeg)
 ![Wireframe 3 - Landing Page](../assets/images/landing/wireframe3lp.jpeg)
@@ -336,12 +334,13 @@ En la etapa de wireframing (diseño de baja/media fidelidad) para _Desktop Web B
 ![Wireframe 9 - Landing Page](../assets/images/landing/wireframe9lp.jpeg)
 
 ## 4.3.2 Landing Page Mock-up
-Los Mock-ups de alta fidelidad para *Desktop Web Browser* y *Mobile Web Browser* materializan la arquitectura definida aplicando rigurosamente el *Design System* de **Vitalita**:
 
-- **Aplicación del Design System:** Se implementaron componentes atómicos estandarizados (botones con estados *default*, *hover* y *active*, tarjetas contenedoras con esquinas redondeadas y sombras suaves, e íconos vectoriales del sistema). Los contenedores emplean estilos de *glassmorphism* (traslucidez suave con gradientes de azul) para diferenciar capas de contenido sin perder la continuidad visual del fondo.
+Los Mock-ups de alta fidelidad para _Desktop Web Browser_ y _Mobile Web Browser_ materializan la arquitectura definida aplicando rigurosamente el _Design System_ de **Vitalita**:
+
+- **Aplicación del Design System:** Se implementaron componentes atómicos estandarizados (botones con estados _default_, _hover_ y _active_, tarjetas contenedoras con esquinas redondeadas y sombras suaves, e íconos vectoriales del sistema). Los contenedores emplean estilos de _glassmorphism_ (traslucidez suave con gradientes de azul) para diferenciar capas de contenido sin perder la continuidad visual del fondo.
 - **Elementos de Diseño y Composición:** Se incorporaron renderizados 3D temáticos (corazón anatómico estilizado en el Hero, hélice de ADN, íconos volumétricos) para elevar la calidad estética y comunicar autoridad en salud digital. La tipografía sans-serif limpia garantiza un contraste óptimo (cumpliendo con los estándares de la norma WCAG 2.1 AA).
-- **Diseño Inclusivo y Adaptabilidad (Responsive):** En la versión *Mobile Web Browser*, la navegación superior colapsa en un menú hamburguesa desplegable para optimizar el espacio en pantalla. Las tarjetas comparativas y los módulos de usuario se reordenan verticalmente en una sola columna, manteniendo márgenes laterales de seguridad y conservando los patrones de interacción accesibles para ser operados con una sola mano.
-  
+- **Diseño Inclusivo y Adaptabilidad (Responsive):** En la versión _Mobile Web Browser_, la navegación superior colapsa en un menú hamburguesa desplegable para optimizar el espacio en pantalla. Las tarjetas comparativas y los módulos de usuario se reordenan verticalmente en una sola columna, manteniendo márgenes laterales de seguridad y conservando los patrones de interacción accesibles para ser operados con una sola mano.
+
 ![Mockup 1 - Landing Page](../assets/images/landing/mockup1lp.jpeg)
 ![Mockup 2 - Landing Page](../assets/images/landing/mockup2lp.jpeg)
 ![Mockup 3 - Landing Page](../assets/images/landing/mockup3lp.jpeg)
@@ -351,6 +350,7 @@ Los Mock-ups de alta fidelidad para *Desktop Web Browser* y *Mobile Web Browser*
 ![Mockup 7 - Landing Page](../assets/images/landing/mockup7lp.jpeg)
 ![Mockup 8 - Landing Page](../assets/images/landing/mockup8lp.jpeg)
 ![Mockup 9 - Landing Page](../assets/images/landing/mockup9lp.jpeg)
+
 ## 4.4. Web Applications UX/UI Design.
 
 En esta sección se presenta la propuesta de diseño UX/UI de las aplicaciones web de Vitalita, describiendo la estructura visual, los elementos de interfaz y los patrones de interacción que guían la experiencia de los usuarios.
@@ -371,8 +371,8 @@ El diseño está orientado a los dos segmentos principales del sistema: enfermer
 
 ## 4.4.2. Web Applications Wireflow Diagrams.
 
-
 ## 4.4.2. Web Applications Mock-ups.
+
 ![Mockup Protito 1](../assets/images/figures/Mockup-prototipo1.png)
 
 ![Mockup Protito 2](../assets/images/figures/Mockup-prototipo2.png)
@@ -383,8 +383,8 @@ El diseño está orientado a los dos segmentos principales del sistema: enfermer
 
 ![Mockup Protito 5](../assets/images/figures/Mockup-prototipo5.png)
 
-
 ## 4.4.3. Web Applications User Flow Diagrams.
+
 ## 4.5. Web Applications Prototyping.
 
 ## 4.6. Domain-Driven Software Architecture
@@ -406,21 +406,21 @@ Se utilizó la guía de Philippe Bourgau, proporcionada en la rúbrica del Final
 - Aggregates
 - Bounded Contexts
 
-> **PENDIENTE DE IMPLEMENTACIÓN:** 
+> **PENDIENTE DE IMPLEMENTACIÓN:**
 
 Como resultado se identificaron siete bounded contexts, cuya nomenclatura corresponde a los sub-dominios habituales de una plataforma SaaS orientada a negocios de servicio:
 
-| **Bounded Context** | **Tipo** | **Responsabilidad** | **User Stories** |
-| --- | --- | --- | --- |
-| Identity and Access Management | Supporting | Cuentas, autenticación y autorización por rol. | US05, US06 |
-| Profiles Management | Supporting | Perfiles de cuidadoras y familiares, adultos mayores y accesos familiares. | US07–US12 |
-| Service Execution and Monitoring | **Core** | Reportes diarios, signos vitales, medicación, citas, exámenes y actividades. | US13–US18, US20, US21 |
-| Resource and Asset Management | Supporting | Evidencias fotográficas, documentos clínicos y reportes de emergencia. | US19, US26 |
-| Dashboard and Analytics | **Core** | Panel consolidado e historial cronológico para el familiar. | US22, US23, US27 |
-| Service Design and Planning | Generic | Recordatorios y notificaciones del cuidado. | US24, US25 |
-| Subscriptions and Payment Management | Supporting | Planes, límites, suscripciones y pagos. | US28, US29, US30 |
+| **Bounded Context**                  | **Tipo**   | **Responsabilidad**                                                          | **User Stories**      |
+| ------------------------------------ | ---------- | ---------------------------------------------------------------------------- | --------------------- |
+| Identity and Access Management       | Supporting | Cuentas, autenticación y autorización por rol.                               | US05, US06            |
+| Profiles Management                  | Supporting | Perfiles de cuidadoras y familiares, adultos mayores y accesos familiares.   | US07–US12             |
+| Service Execution and Monitoring     | **Core**   | Reportes diarios, signos vitales, medicación, citas, exámenes y actividades. | US13–US18, US20, US21 |
+| Resource and Asset Management        | Supporting | Evidencias fotográficas, documentos clínicos y reportes de emergencia.       | US19, US26            |
+| Dashboard and Analytics              | **Core**   | Panel consolidado e historial cronológico para el familiar.                  | US22, US23, US27      |
+| Service Design and Planning          | Generic    | Recordatorios y notificaciones del cuidado.                                  | US24, US25            |
+| Subscriptions and Payment Management | Supporting | Planes, límites, suscripciones y pagos.                                      | US28, US29, US30      |
 
-Service Execution and Monitoring y Dashboard and Analytics son los contextos core porque concentran la propuesta de valor: registrar el cuidado y hacerlo visible para la familia. El sub-dominio *Loyalty and Engagement* quedó fuera del alcance del MVP.
+Service Execution and Monitoring y Dashboard and Analytics son los contextos core porque concentran la propuesta de valor: registrar el cuidado y hacerlo visible para la familia. El sub-dominio _Loyalty and Engagement_ quedó fuera del alcance del MVP.
 
 Las User Stories US01–US04 corresponden al Landing Page, que no constituye un bounded context sino un producto de presentación del modelo de negocio.
 
@@ -438,12 +438,12 @@ El diagrama de contenedores descompone el sistema en sus unidades de despliegue 
 
 ![Software Architecture Container Diagram](../assets/images/diagrams/C3_containers_diagram.png)
 
-| **Container** | **Tecnología** | **Responsabilidad** |
-| --- | --- | --- |
-| Landing Page | HTML5, CSS3, JavaScript | Presenta el modelo de negocio y redirige a la aplicación. |
-| Web Application | Vue 3, PrimeVue, Axios | Interfaz de cuidadoras y familiares. |
-| Vitalita API | ASP.NET Core 10, EF Core, MediatR | Lógica de dominio y servicios RESTful. |
-| Database | MySQL 8.4 LTS | Persistencia de la solución. |
+| **Container**   | **Tecnología**                    | **Responsabilidad**                                       |
+| --------------- | --------------------------------- | --------------------------------------------------------- |
+| Landing Page    | HTML5, CSS3, JavaScript           | Presenta el modelo de negocio y redirige a la aplicación. |
+| Web Application | Vue 3, PrimeVue, Axios            | Interfaz de cuidadoras y familiares.                      |
+| Vitalita API    | ASP.NET Core 10, EF Core, MediatR | Lógica de dominio y servicios RESTful.                    |
+| Database        | MySQL 8.4 LTS                     | Persistencia de la solución.                              |
 
 La Web Application nunca accede a la base de datos: toda comunicación ocurre mediante JSON sobre HTTPS con autenticación por token JWT. La API persiste con Entity Framework Core y encapsula cada proveedor externo en un adaptador.
 
@@ -577,6 +577,12 @@ Este bounded context administra los recordatorios y notificaciones de Vitalita. 
 
 Este bounded context administra los planes, suscripciones y pagos de Vitalita. `Plan` define las características de cada modalidad del servicio, `Subscription` representa la contratación realizada por el usuario y `Payment` registra las transacciones asociadas. Las interfaces abstraen la persistencia de las suscripciones y la integración con las pasarelas de pago externas.
 
+#### General Class Diagram
+
+![General Class Diagram](../assets/images/diagrams/general-class-diagram.png)
+
+El diagrama general de clases presenta una vista consolidada del modelo de dominio de Vitalita, integrando en un solo gráfico las entidades principales de los siete bounded contexts definidos en la arquitectura. Para mantener la legibilidad, se representaron únicamente los aggregate roots, entidades y read models más relevantes del sistema, así como sus relaciones esenciales. Se excluyeron elementos de infraestructura como repositories, services, controllers y adapters, ya que su inclusión incrementaría innecesariamente la complejidad del diagrama y dificultaría su lectura.
+
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
@@ -622,3 +628,9 @@ Este bounded context persiste la programación de recordatorios y las notificaci
 ![Subscriptions and Payment Management Database Diagram](../assets/images/diagrams/database-diagram-7.png)
 
 Este bounded context persiste los planes disponibles, las suscripciones contratadas por los usuarios y los pagos asociados. `plans` define las características y límites de cada modalidad del servicio, `subscriptions` registra la relación entre un usuario y un plan, y `payments` mantiene el historial de transacciones realizadas mediante los diferentes medios de pago contemplados por Vitalita.
+
+#### General Database Diagram
+
+![General Database Diagram](../assets/images/diagrams/general-database-diagram.png)
+
+El diagrama general de base de datos presenta una vista consolidada de la persistencia de Vitalita, integrando las principales tablas de los bounded contexts en un único modelo relacional. Con el objetivo de mantener la legibilidad del gráfico, se muestran únicamente las entidades persistentes principales, sus claves primarias, las claves foráneas relevantes y las relaciones esenciales entre ellas. El modelo se articula principalmente alrededor de users y older_adults, desde donde se relacionan los registros de seguimiento diario, recursos clínicos, recordatorios, notificaciones y suscripciones.
