@@ -2120,7 +2120,7 @@ _Figura X. Actividad de commits registrada durante Sprint 1._
 
 ##### Trello Collaboration
 
-![Sprint 1 Trello Board](assets/images/others/trello.png)
+![Sprint 1 Trello](assets/images/others/Trello-Sprint-1.png)
 
 _Figura X. Tablero utilizado para el seguimiento colaborativo de Sprint 1._
 
