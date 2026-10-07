@@ -2297,7 +2297,7 @@ El equipo trabajó con una separación por bounded contexts y revisiones cruzada
 | Repositorio de documentación               | [https://github.com/Mobvite/Vitalita-Report](https://github.com/Mobvite/Vitalita-Report)                 |
 | Repositorio de la Landing Page             | [https://github.com/Mobvite/langing-page](https://github.com/Mobvite/langing-page)                       |
 | Landing Page Desplegada                    | [https://mobvite.github.io/langing-page/](https://mobvite.github.io/langing-page/)                       |
-| Repositorio del Frontend                   | [https://vitalita-frontend.onrender.com/iam/sign-in](https://vitalita-frontend.onrender.com/iam/sign-in) |
+| Repositorio del Frontend                   | [https://github.com/Mobvite/vitalita-frontend](https://github.com/Mobvite/vitalita-frontend) |
 | Frontend Desplegado                        | [https://vitalita-frontend.onrender.com/iam/sign-in](https://vitalita-frontend.onrender.com/iam/sign-in) |
 | Repositorio del Backend                    | []()                                                                                                     |
 | Backend Desplegado (Swagger Documentation) | []()                                                                                                     |
