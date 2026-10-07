@@ -1478,7 +1478,7 @@ Este bounded context administra los planes, suscripciones y pagos de Vitalita. `
 
 #### General Class Diagram
 
-![General Class Diagram](../Vitalita-Report/assets/images/diagrams/general-class-diagram.png)
+![General Class Diagram](assets/images/diagrams/general-class-diagram.png)
 
 El diagrama general de clases presenta una vista consolidada del modelo de dominio de Vitalita, integrando en un solo gráfico las entidades principales de los siete bounded contexts definidos en la arquitectura. Para mantener la legibilidad, se representaron únicamente los aggregate roots, entidades y read models más relevantes del sistema, así como sus relaciones esenciales. Se excluyeron elementos de infraestructura como repositories, services, controllers y adapters, ya que su inclusión incrementaría innecesariamente la complejidad del diagrama y dificultaría su lectura.
 
@@ -1530,7 +1530,7 @@ Este bounded context persiste los planes disponibles, las suscripciones contrata
 
 #### General Database Diagram
 
-![General Database Diagram](../Vitalita-Report/assets/images/diagrams/general-database-diagram.png)
+![General Database Diagram](assets/images/diagrams/general-database-diagram.png)
 
 El diagrama general de base de datos presenta una vista consolidada de la persistencia de Vitalita, integrando las principales tablas de los bounded contexts en un único modelo relacional. Con el objetivo de mantener la legibilidad del gráfico, se muestran únicamente las entidades persistentes principales, sus claves primarias, las claves foráneas relevantes y las relaciones esenciales entre ellas. El modelo se articula principalmente alrededor de users y older_adults, desde donde se relacionan los registros de seguimiento diario, recursos clínicos, recordatorios, notificaciones y suscripciones.
 
