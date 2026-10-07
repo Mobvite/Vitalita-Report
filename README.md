@@ -2314,7 +2314,6 @@ Ejemplo verificado durante la revisión:
 _Figura X. Respuesta HTTP 200 del recurso older-adults en el JSON Server local._
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 2 se incorporaron al entorno de operación los componentes necesarios para que la Web Application funcione de forma pública e independiente del entorno local. Se desplegó por primera vez la Web Application junto con la API provisional que la abastece, y se publicó una nueva versión del Landing Page con las correcciones documentadas en este Sprint. Los tres componentes se encuentran accesibles mediante internet.
 
