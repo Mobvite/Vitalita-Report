@@ -2165,7 +2165,7 @@ Para distribuir el trabajo se asignó un área funcional principal a cada integr
 
 #### 5.2.2.3. Sprint Backlog 2
 
-No se utilizó un tablero externo verificable durante este Sprint. Para evitar fabricar evidencia, el backlog se reconstruyó con el Product Backlog, las ramas y los commits existentes. La columna de horas se conserva como parte del formato solicitado y se indica como “No registrado”.
+![Sprint 2 Trello](assets/images/others/Trello-Sprint-2.png)
 
 | **Story ID** | **Story Title** | **Task ID** | **Task Title** | **SP** | **Hours** | **Assigned Area Leader** | **Status** |
 | --- | --- | --- | --- | ---: | --- | --- | --- |
@@ -2336,6 +2336,8 @@ Ejemplo verificado durante la revisión:
 _Figura X. Respuesta HTTP 200 del recurso older-adults en el JSON Server local._
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
