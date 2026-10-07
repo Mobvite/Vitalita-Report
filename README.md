@@ -1935,9 +1935,10 @@ La matriz debe mantenerse coherente con las tarjetas de Trello, el Sprint Backlo
 
 El Sprint Backlog 1 reúne las tareas necesarias para cumplir las User Stories US01–US04 y publicar la primera versión del Landing Page.
 
-**Trello Board:** [https://trello.com/b/DgEMr8w7/vitalita](https://trello.com/b/DgEMr8w7/vitalita)
+**Trello Board:** [https://trello.com/b/B4BpwdYB/vitalita-trello](https://trello.com/b/B4BpwdYB/vitalita-trello)
 
-![Sprint 1 Trello Board](assets/images/others/trello.png)
+![Sprint 1 Trello](assets/images/others/Trello-Sprint-1.png)
+
 
 _Figura X. Sprint 1 Board de Vitalita en Trello._
 
@@ -2164,6 +2165,8 @@ Para distribuir el trabajo se asignó un área funcional principal a cada integr
 **L:** Leader / **C:** Collaborator
 
 #### 5.2.2.3. Sprint Backlog 2
+
+**Trello Board:** [https://trello.com/b/B4BpwdYB/vitalita-trello](https://trello.com/b/B4BpwdYB/vitalita-trello)
 
 ![Sprint 2 Trello](assets/images/others/Trello-Sprint-2.png)
 
