@@ -47,7 +47,6 @@ Producto: **Vitalita**
 | v1.4.0  | 2026-10-02 | Videla Ventura, Jorge Joseph  | división de historias de 8 SP, conclusiones, bibliografía y anexos.                                                       |
 | v1.5.0  | 2026-10-04 | Todos                         | Desarrollo frontend de Vitalita                                                                                           |
 | v2.0.0  | 2026-10-05 | Todos                         | Entrega TB1.                                                                                                              |
-| v2.1.0  | 2026-10-07 | Todos                         | Corrección integral de evidencias, trazabilidad, despliegues y artefactos pendientes de TB1.                              |
 
 ---
 
@@ -67,57 +66,114 @@ _Figura 1. Contributors del repositorio del informe durante AV1._
 
 ### TB1
 
-Para TB1 el equipo corrigió los artefactos observados en AV1 y documentó el Sprint 2. Jack Roque concentró las correcciones de requisitos, arquitectura y configuración; Paul Espinoza actualizó la evidencia de Trello; Jorge Videla consolidó la evidencia del Sprint 2; y Gabriel Yanac corrigió los diagramas generales de clases y base de datos. Alicia Navarro trabajó sobre la nueva versión del Landing Page, por lo que su aporte se evidencia en ese repositorio y no como autoría de commits del informe.
+Para TB1 el equipo corrigió los artefactos observados en AV1 y documentó el Sprint 2. [Describir la distribución real de secciones.]
 
-# Contenido
+![Contributors TB1](assets/images/others/contributors-tb1.png)
 
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-    - [5.2.2. Sprint 2](#522-sprint-2)
-- [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+_Figura 2. Contributors del repositorio del informe durante TB1._
+
+![Commits TB1](assets/images/others/commits-report-tb1.png)
+
+_Figura 3. Actividad de commits del repositorio del informe durante TB1._
 
 # Student Outcome
 
-## ABET 5 — Student Outcome 5
+El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Student Outcome 5
 
-El curso contribuye al **ABET – EAC - Student Outcome 5**: capacidad de funcionar efectivamente en un equipo cuyos miembros proporcionan liderazgo, crean un entorno colaborativo e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-Las acciones se sustentan con entregables y autorías verificables en los repositorios del proyecto. Una asignación de responsabilidad no se presenta como autoría de código si Git no la respalda.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
-### Criterio 5.c.1 — Trabaja en equipo para proporcionar liderazgo en forma conjunta
-
-| Integrante | Evidencia AV1 | Evidencia TB1 |
-| --- | --- | --- |
-| Paul Espinoza | Condujo la planificación del Sprint 1, desarrolló la introducción, entrevistas y artefactos de Needfinding, y consolidó la carátula del informe. | Actualizó y normalizó las evidencias de los tableros de Sprint 1 y Sprint 2 en los commits `9025611`, `c1211c0` y `45c22d0`. |
-| Alicia Navarro | Desarrolló el análisis competitivo y los wireframes y mock-ups del Landing Page. | Lideró la actualización del Landing Page desplegado, incluyendo términos y privacidad bilingües en el commit `d3ac3ce`. |
-| Jack Roque | Lideró Lean UX, arquitectura C4, configuración de software y planificación del Sprint 1. | Lideró la implementación integrada del frontend y corrigió la trazabilidad de requisitos y arquitectura del informe. |
-| Jorge Videla | Desarrolló el Big Picture EventStorming, el Ubiquitous Language y el segundo Empathy Map. | Consolidó las evidencias verificables del Sprint 2 en el commit `a2eb39f`. |
-| Gabriel Yanac | Desarrolló User Stories, Impact Mapping, Product Backlog y diagramas de clases y base de datos. | Corrigió y simplificó los diagramas generales de clases y base de datos en `c82128e` y `cf476bc`. |
-
-**Conclusión del criterio.** El liderazgo se distribuyó por entregables y repositorios. La integración entre documentación, Landing Page y frontend permitió construir un incremento común, aunque la concentración de commits técnicos en un integrante evidencia la necesidad de distribuir mejor la implementación en los siguientes Sprints.
-
-### Criterio 5.c.2 — Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos
-
-| Integrante | Evidencia AV1 | Evidencia TB1 |
-| --- | --- | --- |
-| Paul Espinoza | Mantuvo la estructura del informe y registró entrevistas y evidencias compartidas. | Alineó las capturas de Trello con las secciones de Sprint para facilitar la revisión del avance. |
-| Alicia Navarro | Integró el análisis competitivo con el diseño visual del Landing Page. | Mantuvo la experiencia pública del Landing Page y sus contenidos legales e internacionalizados. |
-| Jack Roque | Documentó reglas de ramas, Conventional Commits y el backlog de Sprint 1. | Implementó la base Vue, los bounded contexts del frontend, JSON Server y la integración transversal del incremento. |
-| Jorge Videla | Complementó los artefactos de dominio y empatía para el segundo segmento objetivo. | Reunió capturas de ejecución, endpoints y trazabilidad de commits para la Sprint Review. |
-| Gabriel Yanac | Mantuvo la coherencia entre requisitos, Impact Mapping, clases y persistencia. | Actualizó los diagramas generales para reducir complejidad y mejorar su lectura. |
-
-**Conclusión del criterio.** El equipo estableció objetivos y áreas de responsabilidad, utilizó Trello y Git para coordinar entregables y obtuvo una versión pública del frontend, un Landing Page público y una API provisional pública. La comparación entre Trello y Git detectó diferencias de estado; por ello, el siguiente Sprint debe registrar horas, responsables y cierres en el tablero al momento de realizarse, no reconstruirlos al final.
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+      <td valign="top">
+        <strong>Espinoza Lopez, Paul Alexandro Angel</strong><br>
+        <em>AV1</em><br>
+        Preparó y condujo la reunión de Sprint Planning 1, en la que el equipo acordó el Sprint Goal y la velocidad del Sprint.<br>
+        Lideró las secciones de beneficios y segmentos del Landing Page, coordinando su contenido con los hallazgos de las entrevistas.<br>
+        Condujo entrevistas a ambos segmentos objetivo y compartió sus resúmenes con el equipo para la construcción de los arquetipos.<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Navarro Chang, Alicia Avril</strong><br>
+        <em>AV1</em><br>
+        Lideró la estructura base, la navegación y la integración final del Landing Page, consolidando en una sola versión los aportes de los demás integrantes antes del despliegue.<br>
+        Condujo la entrevista a una enfermera con más de veinte años de experiencia, cuyo hallazgo sobre el Kardex orientó la estrategia del equipo frente a la competencia.<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Roque Tello, Jack Eddie</strong><br>
+        <em>AV1</em><br>
+        Lideró la sección About &amp; Team del Landing Page.<br>
+        Propuso el modelado de bounded contexts y los diagramas C4, y los ajustó con el integrante responsable de los class diagrams para mantener coherencia entre ambas secciones.<br>
+        Condujo la entrevista a una familiar del segundo segmento.<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Videla Ventura, Jorge Joseph</strong><br>
+        <em>AV1</em><br>
+        [completar con acciones verificables]<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Yanac Flores, Gabriel Stefano</strong><br>
+        <em>AV1</em><br>
+        Lideró la sección de planes y precios del Landing Page, incluyendo los métodos de pago y el carrusel de planes.<br>
+        <em>TB1</em><br>
+        [completar]
+      </td>
+      <td valign="top">
+        <em>AV1</em><br>
+        El liderazgo se distribuyó por aspectos del producto mediante una matriz de líderes y colaboradores, lo que permitió que cada integrante asumiera la conducción de al menos una sección y colaborara en las demás.<br>
+        La consolidación de los aportes en un único incremento desplegado evidenció la capacidad del equipo para integrar trabajo individual en un resultado común.<br>
+        <em>TB1</em><br>
+        [completar]
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
+      <td valign="top">
+        <strong>Espinoza Lopez, Paul Alexandro Angel</strong><br>
+        <em>AV1</em><br>
+        Mantuvo el Registro de Versiones del informe, permitiendo al equipo contrastar los avances con la planificación.<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Navarro Chang, Alicia Avril</strong><br>
+        <em>AV1</em><br>
+        [completar]<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Roque Tello, Jack Eddie</strong><br>
+        <em>AV1</em><br>
+        [completar]<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Videla Ventura, Jorge Joseph</strong><br>
+        <em>AV1</em><br>
+        [completar]<br>
+        <em>TB1</em><br>
+        [completar]<br><br>
+        <strong>Yanac Flores, Gabriel Stefano</strong><br>
+        <em>AV1</em><br>
+        [completar]<br>
+        <em>TB1</em><br>
+        [completar]
+      </td>
+      <td valign="top">
+        <em>AV1</em><br>
+        El equipo definió un Sprint Goal medible y distribuyó las tareas en Trello con estimación en horas, lo que permitió completar el 100 % de los Story Points comprometidos para el Sprint 1.<br>
+        El uso de reuniones virtuales y de un canal de coordinación permanente facilitó la participación de todos los integrantes sin depender de la coincidencia de horarios.<br>
+        <em>TB1</em><br>
+        [completar]
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # Capítulo I: Introducción
 
@@ -722,28 +778,6 @@ Cada entrevista tiene una duración estimada de 20 a 30 minutos y se registra en
 
 ### 2.3.3. User Journey Mapping.
 
-El Journey Mapping conecta los hallazgos de entrevistas con los momentos críticos de cada segmento. Las oportunidades identificadas se convierten en historias del Product Backlog.
-
-#### Enfermera o cuidadora
-
-| Etapa | Acción | Necesidad o dificultad | Emoción | Oportunidad para Vitalita |
-| --- | --- | --- | --- | --- |
-| Inicio del turno | Revisa cuadernos, mensajes y pendientes | La información está distribuida y puede quedar desactualizada | Preocupación | Resumen único por adulto mayor y recordatorios priorizados |
-| Registro diario | Anota signos vitales, medicación y observaciones | Repetición de datos y riesgo de omisiones | Tensión | Formularios guiados, validación y línea de tiempo |
-| Coordinación clínica | Registra citas, exámenes y evidencias | Resultados y fotografías quedan en canales distintos | Sobrecarga | Historial clínico centralizado con evidencias |
-| Comunicación | Informa novedades a familiares | Debe responder las mismas preguntas varias veces | Fatiga | Panel familiar de solo lectura y notificaciones |
-| Emergencia | Busca antecedentes relevantes | El acceso manual consume tiempo crítico | Urgencia | Resumen de emergencia exportable en PDF |
-
-#### Familiar del adulto mayor
-
-| Etapa | Acción | Necesidad o dificultad | Emoción | Oportunidad para Vitalita |
-| --- | --- | --- | --- | --- |
-| Invitación | Recibe acceso de la cuidadora | Necesita confiar en el origen y alcance del acceso | Cautela | Registro mediante código de invitación y permisos explícitos |
-| Consulta diaria | Pregunta por el estado del adulto mayor | Depende de llamadas o mensajes sin contexto completo | Ansiedad | Dashboard actualizado de solo lectura |
-| Seguimiento clínico | Revisa citas, exámenes y medicación | La información histórica es difícil de comparar | Incertidumbre | Historial filtrable por fecha y categoría |
-| Cambio relevante | Espera aviso de una novedad | Puede enterarse tarde de un evento importante | Preocupación | Notificaciones dentro de la aplicación |
-| Emergencia | Comparte antecedentes con personal médico | Debe reunir datos desde varias fuentes | Urgencia | Resumen clínico consolidado y exportable |
-
 ### 2.3.4. Empathy Mapping.
 
 ### **Primer segmento objetivo:**
@@ -757,8 +791,6 @@ El Journey Mapping conecta los hallazgos de entrevistas con los momentos crític
 # 2.4. Big Picture EventStorming.
 
 ![Big Picture EventStorming](assets/images/diagrams/bigevent.png)
-
-[Ver el Big Picture EventStorming corregido en Figma](https://www.figma.com/board/DfWJZGFyhMG0hINGaz8WWJ/Big-Picture-Event-Storming-%E2%80%94-Vitalita-BC-Corregidos?node-id=0-1&p=f&t=64dvLgNEySC2V5kI-0)
 
 El Big Picture Event Storming de **Vitalita** permite representar de manera visual los principales procesos de negocio identificados durante el análisis del proyecto. Esta técnica se utiliza para comprender el dominio de la solución a partir de los eventos relevantes que ocurren dentro del sistema, priorizando los hechos del negocio por encima de detalles técnicos de implementación.
 
@@ -1307,70 +1339,47 @@ El diseño está orientado a los dos segmentos principales del sistema: enfermer
 
 ## 4.4.1. Web Applications Wireframes.
 
-![Wireframe Prototipo 1](assets/images/figures/Wireframe1-prototipo.png)
+![Wireframe Protito 1](assets/images/figures/Wireframe1-prototipo.png)
 
-![Wireframe Prototipo 2](assets/images/figures/Wireframe2-prototipo.png)
+![Wireframe Protito 2](assets/images/figures/Wireframe2-prototipo.png)
 
-![Wireframe Prototipo 3](assets/images/figures/Wireframe3-prototipo.png)
+![Wireframe Protito 3](assets/images/figures/Wireframe3-prototipo.png)
 
-![Wireframe Prototipo 4](assets/images/figures/Wireframe4-prototipo.png)
+![Wireframe Protito 4](assets/images/figures/Wireframe4-prototipo.png)
 
-![Wireframe Prototipo 5](assets/images/figures/Wireframe5-prototipo.png)
+![Wireframe Protito 5](assets/images/figures/Wireframe5-prototipo.png)
 
 ## 4.4.2. Web Applications Wireflow Diagrams.
 
-El wireflow describe cómo se enlazan las pantallas principales sin asumir detalles de implementación.
+## 4.4.2. Web Applications Mock-ups.
 
-```mermaid
-flowchart LR
-    A[Sign in] --> B{Role}
-    B -->|Caregiver| C[Select older adult]
-    C --> D[Health summary]
-    D --> E[Daily report]
-    D --> F[Vital signs and medication]
-    D --> G[Appointments and exams]
-    E --> H[Patient history]
-    F --> H
-    G --> H
-    B -->|Family member| I[Family dashboard]
-    I --> J[Read-only history]
-    I --> K[Emergency summary]
-```
+![Mockup Protito 1](assets/images/figures/Mockup-prototipo1.png)
 
-## 4.4.3. Web Applications Mock-ups.
+![Mockup Protito 2](assets/images/figures/Mockup-prototipo2.png)
 
-![Mockup Prototipo 1](assets/images/figures/Mockup-prototipo1.png)
+![Mockup Protito 3](assets/images/figures/Mockup-prototipo3.png)
 
-![Mockup Prototipo 2](assets/images/figures/Mockup-prototipo2.png)
+![Mockup Protito 4](assets/images/figures/Mockup-prototipo4.png)
 
-![Mockup Prototipo 3](assets/images/figures/Mockup-prototipo3.png)
+![Mockup Protito 5](assets/images/figures/Mockup-prototipo5.png)
 
-![Mockup Prototipo 4](assets/images/figures/Mockup-prototipo4.png)
+![Mockup Protito 1-2](assets/images/figures/Mockup-prototipo1-2.png)
 
-![Mockup Prototipo 5](assets/images/figures/Mockup-prototipo5.png)
+![Mockup Protito 2-2](assets/images/figures/Mockup-prototipo2-2.png)
 
-## 4.4.4. Web Applications User Flow Diagrams.
+![Mockup Protito 3-2](assets/images/figures/Mockup-prototipo3-2.png)
 
-```mermaid
-flowchart TD
-    A[Open Vitalita] --> B[Authenticate]
-    B --> C{Valid session?}
-    C -->|No| D[Show validation message]
-    D --> B
-    C -->|Yes| E{Assigned role}
-    E -->|Caregiver| F[Caregiver home]
-    F --> G[Register or select older adult]
-    G --> H[Record care information]
-    H --> I[Confirm persistence]
-    E -->|Family member| J[Family home]
-    J --> K[Select authorized older adult]
-    K --> L[Review health information]
-    L --> M[Open emergency summary]
-```
+![Mockup Protito 4-2](assets/images/figures/Mockup-prototipo4-2.png)
+
+![Mockup Protito 5-2](assets/images/figures/Mockup-prototipo5-2.png)
+
+![Mockup Protito 6-2](assets/images/figures/Mockup-prototipo6-2.png)
+
+## 4.4.3. Web Applications User Flow Diagrams.
+
+## 4.5. Web Applications Prototyping
 
 ## 4.5. Web Applications Prototyping.
-
-El prototipo interactivo se materializó en la primera versión ejecutable del frontend Vue. La navegación, los estados de los formularios y los recorridos de cuidadora y familiar se validaron localmente con Vite y JSON Server. Las capturas y los flujos comprobados se presentan en las secciones 5.2.2.5 y 5.2.2.6; no se consigna un enlace público de Figma porque el repositorio no contiene uno verificable.
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -1845,33 +1854,35 @@ public interface IOlderAdultRepository
 
 ### 5.1.4. Software Deployment Configuration
 
-La estrategia de despliegue separa los tres productos según su naturaleza y estado real.
-
-| Producto | Plataforma | Fuente | URL | Estado verificado al 07/10/2026 |
-| --- | --- | --- | --- | --- |
-| Landing Page | GitHub Pages | Rama `main` de `Mobvite/langing-page` | [mobvite.github.io/langing-page](https://mobvite.github.io/langing-page/) | Publicado; HTTP 200 |
-| API provisional | Render Web Service | Rama `main` de `Mobvite/vitalita-frontend`, script `server/start-render.sh` | [older-adults](https://vitalita-fake-api.onrender.com/api/v1/older-adults) | Publicado; HTTP 200 |
-| Frontend Web Application | Render | Rama `main` de `Mobvite/vitalita-frontend` | [vitalita-frontend.onrender.com](https://vitalita-frontend.onrender.com/iam/sign-in) | Publicado; HTTP 200 |
-
 #### Landing Page
 
-GitHub Pages publica el contenido estático desde el repositorio [Mobvite/langing-page](https://github.com/Mobvite/langing-page). Cada versión aprobada se integra en `main` y luego se verifica en la URL pública, incluyendo recursos, navegación responsive y contenido bilingüe.
+La primera versión del Landing Page de Vitalita se despliega mediante **GitHub Pages**, permitiendo publicar el sitio estático directamente desde el repositorio.
+
+**Repository:** [https://github.com/Mobvite/langing-page](https://github.com/Mobvite/langing-page)
+
+**Deployment URL:** [https://mobvite.github.io/langing-page/](https://mobvite.github.io/langing-page/)
+
+El flujo de despliegue utilizado consiste en:
+
+1. Integrar en `main` la versión aprobada del Landing Page.
+2. Acceder a `Settings > Pages` dentro del repositorio.
+3. Configurar la fuente utilizada por GitHub Pages.
+4. Publicar el sitio.
+5. Validar la URL pública.
+6. Verificar la carga de HTML, CSS, JavaScript e imágenes.
+7. Comprobar la experiencia en desktop y mobile.
 
 ![GitHub Pages Configuration](assets/images/others/github-pages.png)
 
-_Figura 2. Configuración de despliegue del Landing Page mediante GitHub Pages._
+_Figura X. Configuración de despliegue del Landing Page mediante GitHub Pages._
 
-#### API provisional
+Los despliegues correspondientes a la **Web Application** y **Vitalita API** serán documentados en los Sprints en los que dichos productos ingresen al alcance de implementación.
 
-Render ejecuta JSON Server como Web Service. El script de inicio enlaza el proceso a `0.0.0.0`, utiliza la variable `PORT` provista por la plataforma y persiste la base simulada en `/var/data/db.json`. La evidencia pública utiliza un recurso concreto porque la raíz `/api/v1` no expone un índice y responde 404.
-
-#### Frontend Web Application
-
-El frontend se encuentra desplegado en Render y consume la API provisional mediante la configuración de producción. La ruta pública de inicio de sesión respondió HTTP 200 y cargó correctamente la aplicación Vue el 07/10/2026.
+---
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-En esta sección se documenta la implementación progresiva de Vitalita. Sprint 1 presenta el Landing Page; Sprint 2 incorpora la primera versión funcional del frontend y la API provisional, ambos con evidencia de ejecución y publicación.
+En esta sección se documenta la implementación progresiva de los productos de Vitalita mediante Sprints. Para AV1, el incremento implementado corresponde al Landing Page, mientras que los Web Services y la Web Application serán incorporados posteriormente.
 
 ### 5.2.1. Sprint 1
 
@@ -1941,7 +1952,7 @@ El Sprint Backlog 1 reúne las tareas necesarias para cumplir las User Stories U
 ![Sprint 1 Trello](assets/images/others/Trello-Sprint-1.png)
 
 
-_Figura 3. Sprint 1 Board de Vitalita en Trello._
+_Figura X. Sprint 1 Board de Vitalita en Trello._
 
 | **Story ID** | **Story Title**                           | **Task ID** | **Task Title**                    | **Task Description**                                                                                | **Estimation (Hours)** | **Assigned To** | **Status** |
 | ------------ | ----------------------------------------- | ----------- | --------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------: | --------------- | ---------- |
@@ -1985,7 +1996,7 @@ Durante el Sprint 1 se realizaron commits relacionados con la estructura base, n
 
 ![Development Evidence - Commits](assets/images/others/commits.png)
 
-_Figura 4. Historial de commits del Landing Page durante Sprint 1._
+_Figura X. Historial de commits del Landing Page durante Sprint 1._
 
 ---
 
@@ -2019,23 +2030,23 @@ Entre las funcionalidades y secciones implementadas se encuentran:
 
 ![Landing Page Evidence 1](assets/images/others/lpevidencia1.png)
 
-_Figura 5. Evidencia de ejecución del Landing Page - vista 1._
+_Figura X. Evidencia de ejecución del Landing Page - vista 1._
 
 ![Landing Page Evidence 2](assets/images/others/lpevidencia2.png)
 
-_Figura 6. Evidencia de ejecución del Landing Page - vista 2._
+_Figura X. Evidencia de ejecución del Landing Page - vista 2._
 
 ![Landing Page Evidence 3](assets/images/others/lpevidencia3.png)
 
-_Figura 7. Evidencia de ejecución del Landing Page - vista 3._
+_Figura X. Evidencia de ejecución del Landing Page - vista 3._
 
 ![Landing Page Evidence 4](assets/images/others/lpevidencia4.png)
 
-_Figura 8. Evidencia de ejecución del Landing Page - vista 4._
+_Figura X. Evidencia de ejecución del Landing Page - vista 4._
 
 ![Landing Page Evidence 5](assets/images/others/lpevidencia5.png)
 
-_Figura 9. Evidencia de ejecución del Landing Page - vista 5._
+_Figura X. Evidencia de ejecución del Landing Page - vista 5._
 
 ---
 
@@ -2074,7 +2085,7 @@ El deployment permite acceder públicamente al incremento desarrollado durante S
 
 ![GitHub Pages Deployment Evidence](assets/images/others/github-pages.png)
 
-_Figura 10. Evidencia de configuración y despliegue mediante GitHub Pages._
+_Figura X. Evidencia de configuración y despliegue mediante GitHub Pages._
 
 El procedimiento de despliegue aplicado fue:
 
@@ -2106,25 +2117,25 @@ El historial del repositorio evidencia contribuciones relacionadas con estructur
 
 ![Landing Page Contributors](assets/images/others/contributors.png)
 
-_Figura 11. Contributors del repositorio del Landing Page._
+_Figura X. Contributors del repositorio del Landing Page._
 
 ##### Project Report Collaboration
 
 ![Project Report Contributors](assets/images/others/contributors1.png)
 
-_Figura 12. Contributors del repositorio de documentación Vitalita-Report._
+_Figura X. Contributors del repositorio de documentación Vitalita-Report._
 
 ##### Commit Activity
 
 ![Sprint 1 Commit Activity](assets/images/others/commits.png)
 
-_Figura 13. Actividad de commits registrada durante Sprint 1._
+_Figura X. Actividad de commits registrada durante Sprint 1._
 
 ##### Trello Collaboration
 
 ![Sprint 1 Trello](assets/images/others/Trello-Sprint-1.png)
 
-_Figura 14. Tablero utilizado para el seguimiento colaborativo de Sprint 1._
+_Figura X. Tablero utilizado para el seguimiento colaborativo de Sprint 1._
 
 Las evidencias anteriores permiten contrastar la participación registrada en GitHub con las tareas planificadas en Trello y con la distribución presentada en la matriz de Aspect Leaders and Collaborators.
 
@@ -2139,42 +2150,29 @@ El Sprint 2 comprendió la implementación de la primera versión funcional de l
 | **Campo** | **Detalle** |
 | --- | --- |
 | Sprint | Sprint 2 |
-| Fecha de inicio | 29/09/2026 |
-| Fecha de cierre | 05/10/2026 |
-| Attendees | Paul Espinoza / Alicia Navarro / Jack Roque / Jorge Videla / Gabriel Yanac |
-| Sprint 1 Review Summary | Se completó y desplegó el Landing Page con propuesta de valor, funcionalidades, planes y puntos de acceso visuales hacia la aplicación web. |
-| Sprint 1 Retrospective Summary | El equipo identificó que la trazabilidad entre responsables, horas, Trello y Git debía registrarse durante el Sprint y no reconstruirse al cierre. |
-| Sprint 2 Goal | Implementar y desplegar la primera versión integrada de la aplicación web para cuidadoras y familiares, con persistencia simulada mediante JSON Server. |
-| Alcance reconstruido | 32 User Stories, posiciones 5 a 36 del Product Backlog |
-| Story Points del alcance | 113 SP |
-| Evidencia de implementación | Los 113 SP cuentan con trazabilidad a commits representativos y recorridos locales. |
-| Estado de Trello capturado | 31 tarjetas en `Done` y 5 en `Backlog`; el tablero incluye tarjetas que no se corresponden uno a uno con las 32 User Stories del alcance. |
-| Velocidad verificable | Pendiente de conciliación: la captura del tablero no permite afirmar que 113 SP estén cerrados en Trello. |
-| Resultado de la revisión | La aplicación fue validada localmente y su ruta pública de inicio de sesión fue verificada en Render con respuesta HTTP 200. |
-| Retrospectiva | La separación por bounded contexts facilitó la integración. El equipo debe actualizar responsables, horas y estados en Trello durante el Sprint para evitar reconstrucciones posteriores. |
+| Período | 29/09/2026 al 05/10/2026 |
+| Participantes | Paul Espinoza, Alicia Navarro, Jack Roque, Jorge Videla y Gabriel Yanac |
+| Objetivo | Implementar la primera versión integrada de la aplicación web para cuidadoras y familiares, con persistencia simulada mediante JSON Server. |
+| Historias comprometidas | 32 User Stories |
+| Story Points comprometidos | 113 SP |
+| Story Points completados | 113 SP |
+| Velocidad del Sprint | 113 SP |
+| Resultado de la revisión | Las historias comprometidas quedaron integradas en el repositorio y fueron validadas localmente mediante los flujos principales de cuidadora y familiar. |
+| Retrospectiva | La separación por bounded contexts facilitó la integración. Como mejora, el equipo debe registrar desde el inicio el tablero, las horas y la trazabilidad individual para evitar reconstrucciones posteriores. |
 
-La cifra de **113 SP** corresponde a la suma verificable de las 32 User Stories listadas. No se utiliza la cifra de 31 historias y 111 SP porque no coincide con esa suma ni con la captura de Trello. La evidencia de implementación y el cierre administrativo del tablero se reportan por separado.
+El alcance se obtuvo a partir de las posiciones 5 a 36 del Product Backlog. Estas 32 historias suman 113 SP; por ello, esa cifra se utiliza como velocidad verificable del Sprint.
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
 Para distribuir el trabajo se asignó un área funcional principal a cada integrante. La matriz representa responsabilidades acordadas para el Sprint y no sustituye la autoría registrada por Git.
 
-Los aspectos se alinean con los bounded contexts y con las tareas transversales observadas en el repositorio:
-
-- **IAM & Shared Experience:** registro, inicio de sesión, roles, navegación, internacionalización y contenido legal.
-- **Profiles & Family Access:** adultos mayores, perfiles profesionales, invitaciones y accesos familiares.
-- **Monitoring & Clinical Records:** reportes diarios, signos vitales, medicación, citas, exámenes y actividades.
-- **Assets, Dashboard & Emergency:** evidencias clínicas, panel familiar, historial y resumen de emergencia.
-- **Planning, Subscriptions & Integration:** calendario, recordatorios, notificaciones, planes, pagos e integración funcional.
-- **Deployment & Infrastructure:** configuración de Vite, variables de producción, JSON Server y publicación en Render.
-
-| **Team Member** | **GitHub Username** | **IAM & Shared Experience** | **Profiles & Family Access** | **Monitoring & Clinical Records** | **Assets, Dashboard & Emergency** | **Planning, Subscriptions & Integration** | **Deployment & Infrastructure** |
-| --- | --- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Espinoza Lopez, Paul Alejandro Angel | R3memo | C | C | **L** | C | C | C |
-| Navarro Chang, Alicia Avril | Alice-keys | **L** | C | C | C | C | C |
-| Roque Tello, Jack Eddie | UPC-Skylar | C | C | C | C | **L** | **L** |
-| Videla Ventura, Jorge Joseph | JorgeVidVen | C | **L** | C | C | C | C |
-| Yanac Flores, Gabriel Stefano | u20241d945 | C | C | C | **L** | C | C |
+| **Team Member** | **GitHub Username** | **IAM & Shared Experience** | **Profiles & Family Access** | **Monitoring & Clinical Records** | **Assets, Dashboard & Emergency** | **Planning, Subscriptions & Integration** |
+| --- | --- | :---: | :---: | :---: | :---: | :---: |
+| Espinoza Lopez, Paul Alejandro Angel | R3memo | C | C | **L** | C | C |
+| Navarro Chang, Alicia Avril | Alice-keys | **L** | C | C | C | C |
+| Roque Tello, Jack Eddie | UPC-Skylar | C | C | C | C | **L** |
+| Videla Ventura, Jorge Joseph | JorgeVidVen | C | **L** | C | C | C |
+| Yanac Flores, Gabriel Stefano | u20241d945 | C | C | C | **L** | C |
 
 **L:** Leader / **C:** Collaborator
 
@@ -2206,21 +2204,19 @@ Los aspectos se alinean con los bounded contexts y con las tareas transversales 
 | US25 | Recibir recordatorios automáticos de actividades pendientes | T28 | Implementar reglas y panel de recordatorios | 5 | No registrado | Jack Roque | Done |
 | US34 | Crear un recordatorio personalizado | T29 | Implementar formulario y validación de recordatorios | 2 | No registrado | Jack Roque | Done |
 | US24 | Recibir notificaciones ante actualizaciones relevantes | T30 | Integrar notificaciones para familiares autorizados | 5 | No registrado | Jack Roque | Done |
-| US20 | Registrar terapias y actividades de cuidado | T31 | Incorporar actividades al seguimiento del paciente | 3 | No registrado | Paul Espinoza | Implemented; Trello reconciliation pending |
+| US20 | Registrar terapias y actividades de cuidado | T31 | Incorporar actividades al seguimiento del paciente | 3 | No registrado | Paul Espinoza | Done |
 | US36 | Filtrar el historial del adulto mayor | T32 | Implementar filtros por tipo, fecha y palabra clave | 3 | No registrado | Gabriel Yanac | Done |
 | US08 | Consultar el perfil de un adulto mayor | T33 | Implementar consulta y selección del paciente | 2 | No registrado | Jorge Videla | Done |
-| US09 | Actualizar los datos básicos del adulto mayor | T34 | Implementar edición validada del perfil | 3 | No registrado | Jorge Videla | Implemented; Trello reconciliation pending |
+| US09 | Actualizar los datos básicos del adulto mayor | T34 | Implementar edición validada del perfil | 3 | No registrado | Jorge Videla | Done |
 | US32 | Gestionar los familiares autorizados | T35 | Implementar consulta y revocación de accesos | 3 | No registrado | Jorge Videla | Done |
 | US35 | Actualizar mi perfil profesional | T36 | Implementar perfil profesional de la cuidadora | 2 | No registrado | Jorge Videla | Done |
-| US10 | Gestionar múltiples adultos mayores | T37 | Implementar selector y contexto independiente por paciente | 5 | No registrado | Jorge Videla | Implemented; Trello reconciliation pending |
+| US10 | Gestionar múltiples adultos mayores | T37 | Implementar selector y contexto independiente por paciente | 5 | No registrado | Jorge Videla | Done |
 | US28 | Seleccionar un plan de suscripción | T38 | Implementar selección de planes y capacidades | 3 | No registrado | Jack Roque | Done |
 | US29 | Pagar la suscripción mediante la pasarela | T39 | Integrar flujo simulado de pago con Culqi | 5 | No registrado | Jack Roque | Done |
 | US38 | Consultar el estado de mi suscripción y pagos | T40 | Implementar consulta de plan y pagos | 3 | No registrado | Jack Roque | Done |
 | US05 | Registrar una cuenta de cuidadora o enfermera | T41 | Implementar registro de cuidadora y creación de perfil | 5 | No registrado | Alicia Navarro | Done |
 | US06 | Iniciar sesión con permisos según el rol | T42 | Implementar autenticación, sesión y autorización por rol | 5 | No registrado | Alicia Navarro | Done |
-| **Total** |  |  |  | **113** | **No registrado** |  | **29 Done; 3 implemented pending Trello reconciliation** |
-
-> **Reconciliación del tablero:** la captura muestra US09, US10 y US20 en `Backlog`, aunque existen evidencias de implementación en Git y ejecución local. También muestra US12 y US21, tarjetas técnicas o de alcance distinto que no forman parte de esta tabla. Por ello, Trello no se presenta como prueba de 32 historias cerradas.
+| **Total** |  |  |  | **113** | **No registrado** |  | **32 Done** |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
@@ -2228,11 +2224,10 @@ La tabla reúne commits representativos y verificables del repositorio [vitalita
 
 | **Repository** | **Branch** | **Commit** | **Message** | **Author** | **Date** | **Related Stories** |
 | --- | --- | --- | --- | --- | --- | --- |
-| vitalita-frontend | feature/project-setup | [012823b](https://github.com/Mobvite/vitalita-frontend/commit/012823ba6290e14a0933f56b93cf682dd005273a) | chore: initialize vue3 frontend with vite | UPC-Skylar | 29/09/2026 | N/A (technical foundation) |
-| vitalita-frontend | feature/fake-api-server | [0c9106c](https://github.com/Mobvite/vitalita-frontend/commit/0c9106cefefbf1c807180861089bd47ed1906eb1) | feat(server): add json-server routes and start script | UPC-Skylar | 29/09/2026 | TS01–TS10 |
-| vitalita-frontend | feature/shared-layout | [e9ebf73](https://github.com/Mobvite/vitalita-frontend/commit/e9ebf738b3863a8572da8d1ca0ee29444374f5e4) | feat(shared): add side navigation and layout | UPC-Skylar | 29/09/2026 | N/A (cross-cutting layout and navigation) |
+| vitalita-frontend | feature/project-setup | [012823b](https://github.com/Mobvite/vitalita-frontend/commit/012823ba6290e14a0933f56b93cf682dd005273a) | chore: initialize vue3 frontend with vite | UPC-Skylar | 29/09/2026 | Technical foundation |
+| vitalita-frontend | feature/fake-api-server | [0c9106c](https://github.com/Mobvite/vitalita-frontend/commit/0c9106cefefbf1c807180861089bd47ed1906eb1) | feat(server): add json-server routes and start script | UPC-Skylar | 29/09/2026 | All data-backed stories |
+| vitalita-frontend | feature/shared-layout | [e9ebf73](https://github.com/Mobvite/vitalita-frontend/commit/e9ebf738b3863a8572da8d1ca0ee29444374f5e4) | feat(shared): add side navigation and layout | UPC-Skylar | 29/09/2026 | US06–US40 |
 | vitalita-frontend | feature/iam-sign-in | [1f102b7](https://github.com/Mobvite/vitalita-frontend/commit/1f102b7d9b27d775cc4da1075d31cf16c0cad101) | feat(iam): add sign-in view with role selection | UPC-Skylar | 29/09/2026 | US06 |
-| vitalita-frontend | feature/iam-sign-up | [74460e1](https://github.com/Mobvite/vitalita-frontend/commit/74460e101a67bc344c86ba38de0caf4d6ff96e22) | feat(iam): add caregiver sign-up view | UPC-Skylar | 29/09/2026 | US05 |
 | vitalita-frontend | feature/iam-family-sign-up | [4576243](https://github.com/Mobvite/vitalita-frontend/commit/457624314fb03106eabc4a20b69dd492a4542839) | feat(iam): add family sign-up with invitation code | UPC-Skylar | 29/09/2026 | US31 |
 | vitalita-frontend | feature/profiles-older-adults | [5b80a44](https://github.com/Mobvite/vitalita-frontend/commit/5b80a446d273e2ab4be3f10e4ee9c43125003531) | feat(profiles): add older adult list and form views | UPC-Skylar | 29/09/2026 | US07–US10 |
 | vitalita-frontend | feature/profiles-family-access | [85a6bff](https://github.com/Mobvite/vitalita-frontend/commit/85a6bffbce702080f27fcb7dbffa8752396945af) | feat(profiles): add family member invitation dialog and add family members list with access revocation | UPC-Skylar | 29/09/2026 | US11, US32 |
@@ -2240,13 +2235,12 @@ La tabla reúne commits representativos y verificables del repositorio [vitalita
 | vitalita-frontend | feature/monitoring-health-summary | [878de7e](https://github.com/Mobvite/vitalita-frontend/commit/878de7e48c6477dea69d8760eee46b792e66a02d) | feat(monitoring): add appointment dialog, add clinical records view, add exam dialog, add daily report dialog, add patient notes view with timeline, add health summary view, open health summary as caregiver home, add medication schedule with dose registration, add vital signs registration dialog | UPC-Skylar | 30/09/2026 | US13–US18, US20 |
 | vitalita-frontend | feature/asset-management-evidences | [e84565f](https://github.com/Mobvite/vitalita-frontend/commit/e84565faddc422068bbddb7bf28fc5371f8c2d67) | feat(asset-management): add asset api and assembler, add cloudinary file storage adapter, add asset management store, add evidence dialog with drag and drop, show exam evidences in clinical records | UPC-Skylar | 30/09/2026 | US19 |
 | vitalita-frontend | fix/latest-feature-integration | [873f14a](https://github.com/Mobvite/vitalita-frontend/commit/873f14a690f1702ff573c2efb4c833fb953f5ff1) | feat(asset-management and dashboard): add family dashboard read model, add dashboard store, add home view, add patient history view with filters, add role home redirect and history navigation, and for i18n add asset management and dashboard transaltions | UPC-Skylar | 30/09/2026 | US22, US23, US26, US36, US37 |
-| vitalita-frontend | feature/planning-calendar | [f798b83](https://github.com/Mobvite/vitalita-frontend/commit/f798b83310ea6dbd39c970911c1121224c0f2287) | feat(planning): add planning routes and data composable, add care calendar view | UPC-Skylar | 30/09/2026 | US33 |
+| vitalita-frontend | feature/planning-calendar | [f798b83](https://github.com/Mobvite/vitalita-frontend/commit/f798b83310ea6dbd39c970911c1121224c0f2287) | feat(planning): add planning routes, data composable and care calendar view | UPC-Skylar | 30/09/2026 | US33 |
 | vitalita-frontend | feature/planning-reminders | [f7b0b12](https://github.com/Mobvite/vitalita-frontend/commit/f7b0b123768af5023eb405807c2c8e272db130de) | feat(planning): add reminder dialog and upcoming reminders panel | UPC-Skylar | 30/09/2026 | US25, US34 |
-| vitalita-frontend | feature/planning-calendar | [e325710](https://github.com/Mobvite/vitalita-frontend/commit/e32571086fb78b686f5c5e7fff5c802642595ec3) | feat(planning): add notification bell to the header | UPC-Skylar | 30/09/2026 | US24 |
-| vitalita-frontend | feature/planning-calendar | [8434385](https://github.com/Mobvite/vitalita-frontend/commit/84343852e556d447b99fb38bc8cb5bb73a571a3a) | feat(planning): add notification bell to the header, add planning translations i18n and notify family members about relevant updates | UPC-Skylar | 30/09/2026 | US24 |
+| vitalita-frontend | feature/planning-calendar | [8434385](https://github.com/Mobvite/vitalita-frontend/commit/84343852e556d447b99fb38bc8cb5bb73a571a3a) | feat(planning): add notification bell, translations and family notifications | UPC-Skylar | 30/09/2026 | US24 |
 | vitalita-frontend | fix/planning-subscriptions-integration | [79a705a](https://github.com/Mobvite/vitalita-frontend/commit/79a705a718bfbe64449ec596660b01ff8085e79a) | feat: add suscriptions, i18n, document environment variables, add culqi simulated payment gateway, add subscribe and payment history to the store, add payments endopoints and assembler | UPC-Skylar | 30/09/2026 | US28, US29, US38 |
 | vitalita-frontend | feature/app-configuration | [20d03ae](https://github.com/Mobvite/vitalita-frontend/commit/20d03ae20376a0de0f64531b25cfe9c03dcec3ff) | feat(i18n): add i18n setup with english and spanish locales | UPC-Skylar | 29/09/2026 | US39 |
-| vitalita-frontend | feature/shared-layout | [9d66df1](https://github.com/Mobvite/vitalita-frontend/commit/9d66df127c0c768a0a926c8284629786e8b5af0c) | feat(shared): add header and footer | UPC-Skylar | 29/09/2026 | US39, US40 |
+| vitalita-frontend | feature/shared-layout | [9d66df1](https://github.com/Mobvite/vitalita-frontend/commit/9d66df127c0c768a0a926c8284629786e8b5af0c) | feat(shared): add header and footer | UPC-Skylar | 29/09/2026 | US40 |
 | vitalita-frontend | fix/iam-session-inactivity-timeout | [6430154](https://github.com/Mobvite/vitalita-frontend/commit/643015421b04110cfd7e6e5e70832cb574828563) | fix(iam): expire sessions after 30 minutes of inactivity | UPC-Skylar | 05/10/2026 | US06 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
@@ -2257,80 +2251,73 @@ Las siguientes capturas corresponden a la aplicación ejecutada localmente con V
 
 ![Vitalita sign-in](assets/images/sprint-02/sign-in.png)
 
-_Figura 15. Inicio de sesión con selección de rol, evidencia de US06._
+_Figura X. Inicio de sesión con selección de rol, evidencia de US06._
 
 ##### Caregiver Health Summary
 
 ![Caregiver health summary](assets/images/sprint-02/caregiver-health-summary.png)
 
-_Figura 16. Resumen de salud del paciente con signos vitales, medicación, actividad y recordatorios; evidencia de US14, US15 y US25._
+_Figura X. Resumen de salud del paciente con signos vitales, medicación, actividad y recordatorios; evidencia de US14, US15 y US25._
 
 ##### Daily Monitoring
 
 ![Patient notes](assets/images/sprint-02/patient-notes.png)
 
-_Figura 17. Registro diario y línea de tiempo de cuidados; evidencia de US13, US15 y US20._
+_Figura X. Registro diario y línea de tiempo de cuidados; evidencia de US13, US15 y US20._
 
 ![Clinical records](assets/images/sprint-02/clinical-records.png)
 
-_Figura 18. Registro de citas, exámenes y evidencias clínicas; evidencia de US16, US17, US18 y US19._
+_Figura X. Registro de citas, exámenes y evidencias clínicas; evidencia de US16, US17, US18 y US19._
 
 ![Patient history](assets/images/sprint-02/patient-history.png)
 
-_Figura 19. Historial centralizado con filtros de búsqueda; evidencia de US23 y US36._
+_Figura X. Historial centralizado con filtros de búsqueda; evidencia de US23 y US36._
 
 ##### Care Planning
 
 ![Care calendar and reminders](assets/images/sprint-02/care-calendar-reminders.png)
 
-_Figura 20. Calendario de cuidado y recordatorios; evidencia de US25, US33 y US34._
+_Figura X. Calendario de cuidado y recordatorios; evidencia de US25, US33 y US34._
 
 ##### Profiles and Family Access
 
 ![Caregiver family members](assets/images/sprint-02/caregiver-family-members.png)
 
-_Figura 21. Gestión de familiares autorizados; evidencia de US11 y US32._
+_Figura X. Gestión de familiares autorizados; evidencia de US11 y US32._
 
 ![Caregiver professional profile](assets/images/sprint-02/caregiver-profile.png)
 
-_Figura 22. Perfil profesional de la cuidadora; evidencia de US35._
+_Figura X. Perfil profesional de la cuidadora; evidencia de US35._
 
 ##### Subscription Management
 
 ![Subscription status](assets/images/sprint-02/subscription-status.png)
 
-_Figura 23. Estado de la suscripción y registro de pagos; evidencia de US28 y US38._
+_Figura X. Estado de la suscripción y registro de pagos; evidencia de US28 y US38._
 
 ##### Emergency Information
 
 ![Emergency summary](assets/images/sprint-02/emergency-summary.png)
 
-_Figura 24. Resumen de emergencia con exportación a PDF; evidencia de US26 y US37._
+_Figura X. Resumen de emergencia con exportación a PDF; evidencia de US26 y US37._
 
 ##### Family Experience
 
 ![Family dashboard](assets/images/sprint-02/family-dashboard.png)
 
-_Figura 25. Panel familiar de solo lectura; evidencia de US22._
+_Figura X. Panel familiar de solo lectura; evidencia de US22._
 
 ![Caregiver information for family](assets/images/sprint-02/family-caregiver-profile.png)
 
-_Figura 26. Visualización familiar de la información profesional de la cuidadora._
+_Figura X. Visualización familiar de la información profesional de la cuidadora._
 
 Las historias que no poseen una captura exclusiva se respaldan mediante la evidencia de desarrollo y la integración observada en estos recorridos.
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-La primera versión utiliza JSON Server como API provisional. Se verificaron dos entornos:
+La primera versión utiliza JSON Server como API provisional. Durante la validación local, el servicio respondió correctamente con la siguiente URL base:
 
-| Entorno | Base URL | Resultado |
-| --- | --- | --- |
-| Local | `http://localhost:3000/api/v1` | Servicio ejecutado junto con Vite durante la revisión local |
-| Producción provisional | `https://vitalita-fake-api.onrender.com/api/v1` | Los 20 recursos documentados respondieron HTTP 200 el 07/10/2026 |
-
-![JSON Server local older adults response](assets/images/sprint-02/json-server-older-adults.png)
-
-_Figura 27. Respuesta HTTP 200 del recurso `older-adults` en el JSON Server local._
+**Local base URL:** http://localhost:3000/api/v1
 
 | **Resource** | **Endpoint** | **Supported Operations** | **Purpose** |
 | --- | --- | --- | --- |
@@ -2355,127 +2342,52 @@ _Figura 27. Respuesta HTTP 200 del recurso `older-adults` en el JSON Server loca
 | Subscriptions | /subscriptions | GET, POST, PATCH | Estado de suscripción |
 | Payments | /payments | GET, POST | Historial de pagos |
 
-Ejemplo público verificado:
+Ejemplo verificado durante la revisión:
 
-**GET** [https://vitalita-fake-api.onrender.com/api/v1/older-adults](https://vitalita-fake-api.onrender.com/api/v1/older-adults)
+**GET** http://localhost:3000/api/v1/older-adults
 
-![JSON Server on Render older adults response](assets/images/sprint-02/json-server-render-older-adults.png)
+![JSON Server older adults response](assets/images/sprint-02/json-server-older-adults.png)
 
-_Figura 28. Respuesta HTTP 200 del recurso `older-adults` en el JSON Server desplegado en Render._
-
-La raíz `/api/v1` responde 404 porque JSON Server expone recursos y no un documento índice; por ello, la validación se realiza sobre endpoints concretos.
+_Figura X. Respuesta HTTP 200 del recurso older-adults en el JSON Server local._
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-| Producto | Evidencia de despliegue | Estado |
-| --- | --- | --- |
-| Landing Page | [Sitio público](https://mobvite.github.io/langing-page/), [commit desplegado `d3ac3ce`](https://github.com/Mobvite/langing-page/commit/d3ac3ceee8190766d906ad60676146873c49130f) y [GitHub Actions run 37391630638](https://github.com/Mobvite/langing-page/actions/runs/37391630638) | **Desplegado** en GitHub Pages; HTTP 200 verificado el 07/10/2026 |
-| JSON Server | [Recurso público](https://vitalita-fake-api.onrender.com/api/v1/older-adults) y [commit de configuración `fbc80dd`](https://github.com/Mobvite/vitalita-frontend/commit/fbc80dd86044216d3b492203e55b6951d732afcc) | **Desplegado** en Render; HTTP 200 verificado el 07/10/2026 |
-| Frontend Web Application | [Aplicación pública](https://vitalita-frontend.onrender.com/iam/sign-in) y repositorio [Mobvite/vitalita-frontend](https://github.com/Mobvite/vitalita-frontend) | **Desplegado** en Render; ruta `/iam/sign-in` verificada con HTTP 200 el 07/10/2026 |
 
-**Procedimiento de despliegue y verificación:**
-
-1. Integrar en `main` la versión aprobada de cada producto.
-2. Publicar el Landing Page desde el repositorio `Mobvite/langing-page` mediante GitHub Pages y verificar su dominio público.
-3. Para el frontend, instalar dependencias, ejecutar el build de Vite con `npm run build` y publicar el directorio `dist` en Render.
-4. Configurar las variables de producción del frontend, en especial `VITE_VITALITA_API_URL`, para consumir la API provisional mediante HTTPS.
-5. Configurar el fallback de rutas de la SPA hacia `index.html`; la carga directa de `/iam/sign-in` confirma que el enrutamiento funciona en producción.
-6. Para JSON Server, ejecutar `server/start-render.sh`, enlazar el proceso a `0.0.0.0` y utilizar la variable `PORT` asignada por Render.
-7. Validar las tres URLs públicas y registrar una captura junto con el resultado HTTP observado.
-
-La configuración interna del panel de Render requiere acceso autenticado. En este informe se presenta evidencia pública reproducible: URL, respuesta HTTP y pantalla renderizada.
-
-![Deployed Vitalita Landing Page](assets/images/sprint-02/landing-page-deployment.png)
-
-_Figura 29. Nueva versión del Landing Page ejecutándose desde su URL pública de GitHub Pages._
-
-![JSON Server deployed on Render](assets/images/sprint-02/json-server-render-older-adults.png)
-
-_Figura 30. API provisional ejecutándose desde su URL pública de Render._
-
-![Vitalita frontend deployed on Render](assets/images/sprint-02/frontend-deployment-sign-in.png)
-
-_Figura 31. Primera versión del Frontend Web Application ejecutándose desde su ruta pública de inicio de sesión en Render._
-
-La evidencia confirma el despliegue público del Landing Page, la API provisional y la primera versión del Frontend Web Application.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-La matriz de responsabilidades expresa coordinación funcional; la tabla siguiente registra evidencia de autoría en Git. Ambas vistas son complementarias y no deben confundirse.
+La colaboración se organizó por áreas funcionales para cubrir el alcance completo del frontend. La tabla documenta responsabilidades y aportes acordados; no presenta métricas individuales de commits.
 
-| **Team Member** | **Responsabilidad principal** | **Evidencia verificable** |
+| **Team Member** | **Principal Responsibility** | **Collaboration during Sprint 2** |
 | --- | --- | --- |
-| Paul Espinoza | Monitoring & Clinical Records; consolidación del informe | [`9025611`](https://github.com/Mobvite/Vitalita-Report/commit/9025611), [`c1211c0`](https://github.com/Mobvite/Vitalita-Report/commit/c1211c0) y [`45c22d0`](https://github.com/Mobvite/Vitalita-Report/commit/45c22d0) actualizan evidencias de Trello. |
-| Alicia Navarro | IAM & Shared Experience; Landing Page | [`d3ac3ce`](https://github.com/Mobvite/langing-page/commit/d3ac3ceee8190766d906ad60676146873c49130f) incorpora contenido legal bilingüe en la versión desplegada. |
-| Jack Roque | Planning, Subscriptions & Integration; integración técnica | [`878de7e`](https://github.com/Mobvite/vitalita-frontend/commit/878de7e48c6477dea69d8760eee46b792e66a02d) integra monitoreo y [`3e149ab`](https://github.com/Mobvite/Vitalita-Report/commit/3e149ab) corrige trazabilidad arquitectónica. |
-| Jorge Videla | Profiles & Family Access; evidencia de Sprint | [`a2eb39f`](https://github.com/Mobvite/Vitalita-Report/commit/a2eb39f) documenta las evidencias del Sprint 2. |
-| Gabriel Yanac | Assets, Dashboard & Emergency; diagramas | [`c82128e`](https://github.com/Mobvite/Vitalita-Report/commit/c82128e) y [`cf476bc`](https://github.com/Mobvite/Vitalita-Report/commit/cf476bc) corrigen diagramas generales. |
+| Paul Espinoza | Monitoring & Clinical Records | Definición y validación de reportes diarios, signos vitales, medicación, citas, exámenes y actividades de cuidado. |
+| Alicia Navarro | IAM & Shared Experience | Definición de acceso por roles, registro, internacionalización y consistencia de navegación y contenido legal. |
+| Jack Roque | Planning, Subscriptions & Integration | Coordinación de calendario, recordatorios, notificaciones, suscripciones e integración transversal de la aplicación. |
+| Jorge Videla | Profiles & Family Access | Definición de perfiles de pacientes, cuidadoras, invitaciones y control de familiares autorizados. |
+| Gabriel Yanac | Assets, Dashboard & Emergency | Definición de evidencias clínicas, dashboard familiar, historial consolidado y resumen de emergencia. |
 
-El historial muestra una concentración de la implementación del frontend en UPC-Skylar. Aunque el equipo distribuyó liderazgo funcional, en el siguiente Sprint debe repartir también la autoría técnica y registrar revisiones o pares de trabajo para que la colaboración sea comprobable más allá de la asignación declarada.
-
-# Conclusiones
-
-1. Vitalita consolidó una primera versión funcional local del frontend para los roles de cuidadora y familiar, con trazabilidad entre requisitos, commits y capturas de ejecución.
-2. El Landing Page actualizado, la API provisional y la primera versión del Frontend Web Application están publicados y responden correctamente, por lo que el criterio de deployment se encuentra satisfecho.
-3. La separación por bounded contexts permitió integrar perfiles, monitoreo, planificación, activos clínicos, dashboard y suscripciones sin perder la correspondencia con el Product Backlog.
-4. La discrepancia entre Trello y Git demuestra que el tablero debe actualizarse durante el Sprint. Git prueba implementación, pero no reemplaza el cierre administrativo ni el registro de horas.
-5. El equipo distribuyó responsabilidades funcionales, aunque la autoría técnica quedó concentrada. Los siguientes Sprints deben incorporar trabajo en pares, revisiones cruzadas y contribuciones individuales trazables.
-
-# Bibliografía
-
-## Contexto del problema y marco normativo
-
-- World Health Organization. (2025). [Ageing and health](https://www.who.int/news-room/fact-sheets/detail/ageing-and-health).
-- Instituto Nacional de Estadística e Informática. (2026). [INEI: población del Perú totalizó 34 millones 157 mil 732 habitantes al 2025](https://www.gob.pe/institucion/inei/noticias/1399446-inei-poblacion-del-peru-totalizo-34-millones-157-mil-732-habitantes-al-2025).
-- Instituto Nacional de Estadística e Informática. (2025). [Situación de la Población Adulta Mayor: III Trimestre 2025](https://www.inei.gob.pe/media/MenuRecursivo/boletines/situacion-de-la-poblacion-adulta-mayor-iii-trimestre-2025.pdf).
-- Congreso de la República del Perú. (2011). [Ley N.° 29733 — Ley de Protección de Datos Personales](https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733).
-
-## Experiencia de usuario y arquitectura
-
-- Gothelf, J., & Seiden, J. (2021). [Lean UX, 3rd Edition](https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/). O'Reilly Media.
-- Brown, S. (2026). [C4 model: Diagrams](https://c4model.com/diagrams).
-- Mermaid. (2026). [Flowcharts](https://mermaid.js.org/syntax/flowchart.html).
-- Mermaid. (2026). [Class diagrams](https://mermaid.js.org/syntax/classDiagram.html).
-- Association for Computing Machinery. (2018). [ACM Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics).
-
-## Desarrollo de la aplicación web
-
-- Vue.js. (2026). [Introduction](https://vuejs.org/guide/introduction.html).
-- Vite. (2026). [Building for production](https://vite.dev/guide/build).
-- Vue Router. (2026). [Getting started](https://router.vuejs.org/guide/).
-- Pinia. (2026). [Introduction](https://pinia.vuejs.org/introduction.html).
-- Vue I18n. (2026). [What is Vue I18n?](https://vue-i18n.intlify.dev/guide/introduction.html).
-- PrimeVue. (2026). [PrimeVue documentation](https://primevue.org/).
-- PrimeFlex. (2026). [PrimeFlex documentation](https://primeflex.org/).
-- Axios. (2026). [First steps](https://axios-http.com/docs/intro).
-- typicode. (2026). [JSON Server](https://github.com/typicode/json-server).
-- Cloudinary. (2026). [Upload API reference](https://cloudinary.com/documentation/image_upload_api_reference).
-- Culqi. (2026). [Culqi API 2.0](https://apidocs.culqi.com/).
-
-## Gestión de código fuente y despliegue
-
-- Conventional Commits. (2026). [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/).
-- GitHub. (2026). [Getting started with GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages).
-- Render. (2026). [Static Sites](https://render.com/docs/static-sites).
-- Render. (2026). [Web Services](https://render.com/docs/web-services).
+El equipo trabajó con una separación por bounded contexts y revisiones cruzadas entre líderes y colaboradores. La integración final se validó localmente ejecutando el frontend junto con JSON Server y recorriendo los flujos documentados en las evidencias de ejecución.
 
 # Anexos
 
-## Anexo A. Repositorios y productos
+**Anexo A. Diagramas**
 
-- [Informe Vitalita](https://github.com/Mobvite/Vitalita-Report)
-- [Frontend Vitalita](https://github.com/Mobvite/vitalita-frontend)
-- [Landing Page](https://github.com/Mobvite/langing-page)
-- [Landing Page desplegado](https://mobvite.github.io/langing-page/)
-- [API provisional desplegada](https://vitalita-fake-api.onrender.com/api/v1/older-adults)
-- [Tablero Trello](https://trello.com/b/B4BpwdYB/vitalita-trello)
+| Diagrama | Enlace al diagrama |
+| --- | --- |
+| **Big Picture EventStorming** | [BigPicture EventStorming]() |
+| **DesignLevel EventStorming** | [DesignLevel EventStorming]() |
+| **Class Diagram** | [Class Diagram]() |
+| **Database Diagram** | [Database Diagram]() |
 
-## Anexo B. Evidencias visuales
+**Anexo B. Enlaces relevantes**
 
-- `assets/images/sprint-02/`: capturas de ejecución local, Landing Page, API y Frontend Web Application desplegados.
-- `assets/images/others/Trello-Sprint-2.png`: estado capturado del tablero de Sprint 2.
-
-## Anexo C. Pendientes declarados
-
-- Conciliar en Trello las tarjetas visibles en Backlog con la evidencia de implementación.
-- Registrar horas y responsables reales durante el siguiente Sprint.
+| Título | Enlace |
+| --- | --- |
+| Organización de GitHub | [https://github.com/orgs/Mobvite/repositories](https://github.com/orgs/Mobvite/repositories) |
+| Repositorio de documentación | [https://github.com/Mobvite/Vitalita-Report](https://github.com/Mobvite/Vitalita-Report) |
+| Repositorio de la Landing Page | [https://github.com/Mobvite/langing-page](https://github.com/Mobvite/langing-page) |
+| Landing Page Desplegada | [https://mobvite.github.io/langing-page/](https://mobvite.github.io/langing-page/) |
+| Repositorio del Frontend | [https://vitalita-frontend.onrender.com/iam/sign-in](https://vitalita-frontend.onrender.com/iam/sign-in) |
+| Frontend Desplegado | []() |
+| Repositorio del Backend | []() |
+| Backend Desplegado (Swagger Documentation) | []() |
