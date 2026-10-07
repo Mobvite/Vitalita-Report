@@ -1327,7 +1327,7 @@ Los Mock-ups de alta fidelidad para _Desktop Web Browser_ y _Mobile Web Browser_
 ![Mockup 4 - Landing Page](assets/images/landing/mockup4lp.jpeg)
 ![Mockup 5 - Landing Page](assets/images/landing/mockup5lp.jpeg)
 ![Mockup 6 - Landing Page](assets/images/landing/mockup6lp.jpeg)
-![Mockup 7 - Landing Page](assets/images/landing/mockup7lp.jpeg)
+![Mockup 7 - Landing Page](assets/images/others/lpevidencia5.png)
 ![Mockup 8 - Landing Page](assets/images/landing/mockup8lp.jpeg)
 ![Mockup 9 - Landing Page](assets/images/landing/mockup9lp.jpeg)
 
@@ -1951,7 +1951,6 @@ El Sprint Backlog 1 reúne las tareas necesarias para cumplir las User Stories U
 
 ![Sprint 1 Trello](assets/images/others/Trello-Sprint-1.png)
 
-
 _Figura X. Sprint 1 Board de Vitalita en Trello._
 
 | **Story ID** | **Story Title**                           | **Task ID** | **Task Title**                    | **Task Description**                                                                                | **Estimation (Hours)** | **Assigned To** | **Status** |
@@ -2147,18 +2146,18 @@ El Sprint 2 comprendió la implementación de la primera versión funcional de l
 
 #### 5.2.2.1. Sprint Planning 2
 
-| **Campo** | **Detalle** |
-| --- | --- |
-| Sprint | Sprint 2 |
-| Período | 29/09/2026 al 05/10/2026 |
-| Participantes | Paul Espinoza, Alicia Navarro, Jack Roque, Jorge Videla y Gabriel Yanac |
-| Objetivo | Implementar la primera versión integrada de la aplicación web para cuidadoras y familiares, con persistencia simulada mediante JSON Server. |
-| Historias comprometidas | 32 User Stories |
-| Story Points comprometidos | 113 SP |
-| Story Points completados | 113 SP |
-| Velocidad del Sprint | 113 SP |
-| Resultado de la revisión | Las historias comprometidas quedaron integradas en el repositorio y fueron validadas localmente mediante los flujos principales de cuidadora y familiar. |
-| Retrospectiva | La separación por bounded contexts facilitó la integración. Como mejora, el equipo debe registrar desde el inicio el tablero, las horas y la trazabilidad individual para evitar reconstrucciones posteriores. |
+| **Campo**                  | **Detalle**                                                                                                                                                                                                    |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sprint                     | Sprint 2                                                                                                                                                                                                       |
+| Período                    | 29/09/2026 al 05/10/2026                                                                                                                                                                                       |
+| Participantes              | Paul Espinoza, Alicia Navarro, Jack Roque, Jorge Videla y Gabriel Yanac                                                                                                                                        |
+| Objetivo                   | Implementar la primera versión integrada de la aplicación web para cuidadoras y familiares, con persistencia simulada mediante JSON Server.                                                                    |
+| Historias comprometidas    | 32 User Stories                                                                                                                                                                                                |
+| Story Points comprometidos | 113 SP                                                                                                                                                                                                         |
+| Story Points completados   | 113 SP                                                                                                                                                                                                         |
+| Velocidad del Sprint       | 113 SP                                                                                                                                                                                                         |
+| Resultado de la revisión   | Las historias comprometidas quedaron integradas en el repositorio y fueron validadas localmente mediante los flujos principales de cuidadora y familiar.                                                       |
+| Retrospectiva              | La separación por bounded contexts facilitó la integración. Como mejora, el equipo debe registrar desde el inicio el tablero, las horas y la trazabilidad individual para evitar reconstrucciones posteriores. |
 
 El alcance se obtuvo a partir de las posiciones 5 a 36 del Product Backlog. Estas 32 historias suman 113 SP; por ello, esa cifra se utiliza como velocidad verificable del Sprint.
 
@@ -2166,13 +2165,13 @@ El alcance se obtuvo a partir de las posiciones 5 a 36 del Product Backlog. Esta
 
 Para distribuir el trabajo se asignó un área funcional principal a cada integrante. La matriz representa responsabilidades acordadas para el Sprint y no sustituye la autoría registrada por Git.
 
-| **Team Member** | **GitHub Username** | **IAM & Shared Experience** | **Profiles & Family Access** | **Monitoring & Clinical Records** | **Assets, Dashboard & Emergency** | **Planning, Subscriptions & Integration** |
-| --- | --- | :---: | :---: | :---: | :---: | :---: |
-| Espinoza Lopez, Paul Alejandro Angel | R3memo | C | C | **L** | C | C |
-| Navarro Chang, Alicia Avril | Alice-keys | **L** | C | C | C | C |
-| Roque Tello, Jack Eddie | UPC-Skylar | C | C | C | C | **L** |
-| Videla Ventura, Jorge Joseph | JorgeVidVen | C | **L** | C | C | C |
-| Yanac Flores, Gabriel Stefano | u20241d945 | C | C | C | **L** | C |
+| **Team Member**                      | **GitHub Username** | **IAM & Shared Experience** | **Profiles & Family Access** | **Monitoring & Clinical Records** | **Assets, Dashboard & Emergency** | **Planning, Subscriptions & Integration** |
+| ------------------------------------ | ------------------- | :-------------------------: | :--------------------------: | :-------------------------------: | :-------------------------------: | :---------------------------------------: |
+| Espinoza Lopez, Paul Alejandro Angel | R3memo              |              C              |              C               |               **L**               |                 C                 |                     C                     |
+| Navarro Chang, Alicia Avril          | Alice-keys          |            **L**            |              C               |                 C                 |                 C                 |                     C                     |
+| Roque Tello, Jack Eddie              | UPC-Skylar          |              C              |              C               |                 C                 |                 C                 |                   **L**                   |
+| Videla Ventura, Jorge Joseph         | JorgeVidVen         |              C              |            **L**             |                 C                 |                 C                 |                     C                     |
+| Yanac Flores, Gabriel Stefano        | u20241d945          |              C              |              C               |                 C                 |               **L**               |                     C                     |
 
 **L:** Leader / **C:** Collaborator
 
@@ -2182,66 +2181,66 @@ Para distribuir el trabajo se asignó un área funcional principal a cada integr
 
 ![Sprint 2 Trello](assets/images/others/Trello-Sprint-2.png)
 
-| **Story ID** | **Story Title** | **Task ID** | **Task Title** | **SP** | **Hours** | **Assigned Area Leader** | **Status** |
-| --- | --- | --- | --- | ---: | --- | --- | --- |
-| US39 | Cambiar el idioma del sitio | T11 | Implementar internacionalización en español e inglés | 1 | No registrado | Alicia Navarro | Done |
-| US40 | Consultar los términos y condiciones | T12 | Integrar enlaces legales consistentes en la aplicación | 1 | No registrado | Alicia Navarro | Done |
-| US07 | Registrar un adulto mayor | T13 | Implementar formulario y registro de adultos mayores | 5 | No registrado | Jorge Videla | Done |
-| US13 | Registrar un reporte diario | T14 | Implementar reporte diario y línea de tiempo | 3 | No registrado | Paul Espinoza | Done |
-| US14 | Registrar signos vitales | T15 | Implementar formulario y resumen de signos vitales | 3 | No registrado | Paul Espinoza | Done |
-| US15 | Registrar la administración de medicamentos | T16 | Implementar medicación y registro de dosis | 5 | No registrado | Paul Espinoza | Done |
-| US16 | Registrar una cita médica | T17 | Implementar registro de citas médicas | 3 | No registrado | Paul Espinoza | Done |
-| US17 | Registrar el resultado de una cita médica | T18 | Incorporar resultados y observaciones de citas | 3 | No registrado | Paul Espinoza | Done |
-| US18 | Registrar un examen médico | T19 | Implementar registro y consulta de exámenes | 3 | No registrado | Paul Espinoza | Done |
-| US19 | Adjuntar evidencia fotográfica de un examen | T20 | Integrar evidencias clínicas y almacenamiento de archivos | 5 | No registrado | Gabriel Yanac | Done |
-| US11 | Invitar a un familiar autorizado | T21 | Implementar invitación y asociación de familiares | 5 | No registrado | Jorge Videla | Done |
-| US31 | Crear cuenta de familiar mediante invitación | T22 | Implementar registro mediante código de invitación | 3 | No registrado | Alicia Navarro | Done |
-| US22 | Consultar el panel familiar de solo lectura | T23 | Implementar dashboard familiar sin edición | 5 | No registrado | Gabriel Yanac | Done |
-| US23 | Consultar el historial centralizado del adulto mayor | T24 | Integrar historial clínico y de cuidados | 5 | No registrado | Gabriel Yanac | Done |
-| US26 | Consultar el resumen de emergencia | T25 | Implementar resumen clínico de emergencia | 3 | No registrado | Gabriel Yanac | Done |
-| US37 | Exportar el resumen de emergencia en PDF | T26 | Generar documento PDF para atención de emergencia | 3 | No registrado | Gabriel Yanac | Done |
-| US33 | Consultar el calendario de actividades | T27 | Implementar calendario integrado del cuidado | 3 | No registrado | Jack Roque | Done |
-| US25 | Recibir recordatorios automáticos de actividades pendientes | T28 | Implementar reglas y panel de recordatorios | 5 | No registrado | Jack Roque | Done |
-| US34 | Crear un recordatorio personalizado | T29 | Implementar formulario y validación de recordatorios | 2 | No registrado | Jack Roque | Done |
-| US24 | Recibir notificaciones ante actualizaciones relevantes | T30 | Integrar notificaciones para familiares autorizados | 5 | No registrado | Jack Roque | Done |
-| US20 | Registrar terapias y actividades de cuidado | T31 | Incorporar actividades al seguimiento del paciente | 3 | No registrado | Paul Espinoza | Done |
-| US36 | Filtrar el historial del adulto mayor | T32 | Implementar filtros por tipo, fecha y palabra clave | 3 | No registrado | Gabriel Yanac | Done |
-| US08 | Consultar el perfil de un adulto mayor | T33 | Implementar consulta y selección del paciente | 2 | No registrado | Jorge Videla | Done |
-| US09 | Actualizar los datos básicos del adulto mayor | T34 | Implementar edición validada del perfil | 3 | No registrado | Jorge Videla | Done |
-| US32 | Gestionar los familiares autorizados | T35 | Implementar consulta y revocación de accesos | 3 | No registrado | Jorge Videla | Done |
-| US35 | Actualizar mi perfil profesional | T36 | Implementar perfil profesional de la cuidadora | 2 | No registrado | Jorge Videla | Done |
-| US10 | Gestionar múltiples adultos mayores | T37 | Implementar selector y contexto independiente por paciente | 5 | No registrado | Jorge Videla | Done |
-| US28 | Seleccionar un plan de suscripción | T38 | Implementar selección de planes y capacidades | 3 | No registrado | Jack Roque | Done |
-| US29 | Pagar la suscripción mediante la pasarela | T39 | Integrar flujo simulado de pago con Culqi | 5 | No registrado | Jack Roque | Done |
-| US38 | Consultar el estado de mi suscripción y pagos | T40 | Implementar consulta de plan y pagos | 3 | No registrado | Jack Roque | Done |
-| US05 | Registrar una cuenta de cuidadora o enfermera | T41 | Implementar registro de cuidadora y creación de perfil | 5 | No registrado | Alicia Navarro | Done |
-| US06 | Iniciar sesión con permisos según el rol | T42 | Implementar autenticación, sesión y autorización por rol | 5 | No registrado | Alicia Navarro | Done |
-| **Total** |  |  |  | **113** | **No registrado** |  | **32 Done** |
+| **Story ID** | **Story Title**                                             | **Task ID** | **Task Title**                                             |  **SP** | **Hours**         | **Assigned Area Leader** | **Status**  |
+| ------------ | ----------------------------------------------------------- | ----------- | ---------------------------------------------------------- | ------: | ----------------- | ------------------------ | ----------- |
+| US39         | Cambiar el idioma del sitio                                 | T11         | Implementar internacionalización en español e inglés       |       1 | No registrado     | Alicia Navarro           | Done        |
+| US40         | Consultar los términos y condiciones                        | T12         | Integrar enlaces legales consistentes en la aplicación     |       1 | No registrado     | Alicia Navarro           | Done        |
+| US07         | Registrar un adulto mayor                                   | T13         | Implementar formulario y registro de adultos mayores       |       5 | No registrado     | Jorge Videla             | Done        |
+| US13         | Registrar un reporte diario                                 | T14         | Implementar reporte diario y línea de tiempo               |       3 | No registrado     | Paul Espinoza            | Done        |
+| US14         | Registrar signos vitales                                    | T15         | Implementar formulario y resumen de signos vitales         |       3 | No registrado     | Paul Espinoza            | Done        |
+| US15         | Registrar la administración de medicamentos                 | T16         | Implementar medicación y registro de dosis                 |       5 | No registrado     | Paul Espinoza            | Done        |
+| US16         | Registrar una cita médica                                   | T17         | Implementar registro de citas médicas                      |       3 | No registrado     | Paul Espinoza            | Done        |
+| US17         | Registrar el resultado de una cita médica                   | T18         | Incorporar resultados y observaciones de citas             |       3 | No registrado     | Paul Espinoza            | Done        |
+| US18         | Registrar un examen médico                                  | T19         | Implementar registro y consulta de exámenes                |       3 | No registrado     | Paul Espinoza            | Done        |
+| US19         | Adjuntar evidencia fotográfica de un examen                 | T20         | Integrar evidencias clínicas y almacenamiento de archivos  |       5 | No registrado     | Gabriel Yanac            | Done        |
+| US11         | Invitar a un familiar autorizado                            | T21         | Implementar invitación y asociación de familiares          |       5 | No registrado     | Jorge Videla             | Done        |
+| US31         | Crear cuenta de familiar mediante invitación                | T22         | Implementar registro mediante código de invitación         |       3 | No registrado     | Alicia Navarro           | Done        |
+| US22         | Consultar el panel familiar de solo lectura                 | T23         | Implementar dashboard familiar sin edición                 |       5 | No registrado     | Gabriel Yanac            | Done        |
+| US23         | Consultar el historial centralizado del adulto mayor        | T24         | Integrar historial clínico y de cuidados                   |       5 | No registrado     | Gabriel Yanac            | Done        |
+| US26         | Consultar el resumen de emergencia                          | T25         | Implementar resumen clínico de emergencia                  |       3 | No registrado     | Gabriel Yanac            | Done        |
+| US37         | Exportar el resumen de emergencia en PDF                    | T26         | Generar documento PDF para atención de emergencia          |       3 | No registrado     | Gabriel Yanac            | Done        |
+| US33         | Consultar el calendario de actividades                      | T27         | Implementar calendario integrado del cuidado               |       3 | No registrado     | Jack Roque               | Done        |
+| US25         | Recibir recordatorios automáticos de actividades pendientes | T28         | Implementar reglas y panel de recordatorios                |       5 | No registrado     | Jack Roque               | Done        |
+| US34         | Crear un recordatorio personalizado                         | T29         | Implementar formulario y validación de recordatorios       |       2 | No registrado     | Jack Roque               | Done        |
+| US24         | Recibir notificaciones ante actualizaciones relevantes      | T30         | Integrar notificaciones para familiares autorizados        |       5 | No registrado     | Jack Roque               | Done        |
+| US20         | Registrar terapias y actividades de cuidado                 | T31         | Incorporar actividades al seguimiento del paciente         |       3 | No registrado     | Paul Espinoza            | Done        |
+| US36         | Filtrar el historial del adulto mayor                       | T32         | Implementar filtros por tipo, fecha y palabra clave        |       3 | No registrado     | Gabriel Yanac            | Done        |
+| US08         | Consultar el perfil de un adulto mayor                      | T33         | Implementar consulta y selección del paciente              |       2 | No registrado     | Jorge Videla             | Done        |
+| US09         | Actualizar los datos básicos del adulto mayor               | T34         | Implementar edición validada del perfil                    |       3 | No registrado     | Jorge Videla             | Done        |
+| US32         | Gestionar los familiares autorizados                        | T35         | Implementar consulta y revocación de accesos               |       3 | No registrado     | Jorge Videla             | Done        |
+| US35         | Actualizar mi perfil profesional                            | T36         | Implementar perfil profesional de la cuidadora             |       2 | No registrado     | Jorge Videla             | Done        |
+| US10         | Gestionar múltiples adultos mayores                         | T37         | Implementar selector y contexto independiente por paciente |       5 | No registrado     | Jorge Videla             | Done        |
+| US28         | Seleccionar un plan de suscripción                          | T38         | Implementar selección de planes y capacidades              |       3 | No registrado     | Jack Roque               | Done        |
+| US29         | Pagar la suscripción mediante la pasarela                   | T39         | Integrar flujo simulado de pago con Culqi                  |       5 | No registrado     | Jack Roque               | Done        |
+| US38         | Consultar el estado de mi suscripción y pagos               | T40         | Implementar consulta de plan y pagos                       |       3 | No registrado     | Jack Roque               | Done        |
+| US05         | Registrar una cuenta de cuidadora o enfermera               | T41         | Implementar registro de cuidadora y creación de perfil     |       5 | No registrado     | Alicia Navarro           | Done        |
+| US06         | Iniciar sesión con permisos según el rol                    | T42         | Implementar autenticación, sesión y autorización por rol   |       5 | No registrado     | Alicia Navarro           | Done        |
+| **Total**    |                                                             |             |                                                            | **113** | **No registrado** |                          | **32 Done** |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
 La tabla reúne commits representativos y verificables del repositorio [vitalita-frontend](https://github.com/Mobvite/vitalita-frontend). La columna Author conserva la identidad registrada por Git.
 
-| **Repository** | **Branch** | **Commit** | **Message** | **Author** | **Date** | **Related Stories** |
-| --- | --- | --- | --- | --- | --- | --- |
-| vitalita-frontend | feature/project-setup | [012823b](https://github.com/Mobvite/vitalita-frontend/commit/012823ba6290e14a0933f56b93cf682dd005273a) | chore: initialize vue3 frontend with vite | UPC-Skylar | 29/09/2026 | Technical foundation |
-| vitalita-frontend | feature/fake-api-server | [0c9106c](https://github.com/Mobvite/vitalita-frontend/commit/0c9106cefefbf1c807180861089bd47ed1906eb1) | feat(server): add json-server routes and start script | UPC-Skylar | 29/09/2026 | All data-backed stories |
-| vitalita-frontend | feature/shared-layout | [e9ebf73](https://github.com/Mobvite/vitalita-frontend/commit/e9ebf738b3863a8572da8d1ca0ee29444374f5e4) | feat(shared): add side navigation and layout | UPC-Skylar | 29/09/2026 | US06–US40 |
-| vitalita-frontend | feature/iam-sign-in | [1f102b7](https://github.com/Mobvite/vitalita-frontend/commit/1f102b7d9b27d775cc4da1075d31cf16c0cad101) | feat(iam): add sign-in view with role selection | UPC-Skylar | 29/09/2026 | US06 |
-| vitalita-frontend | feature/iam-family-sign-up | [4576243](https://github.com/Mobvite/vitalita-frontend/commit/457624314fb03106eabc4a20b69dd492a4542839) | feat(iam): add family sign-up with invitation code | UPC-Skylar | 29/09/2026 | US31 |
-| vitalita-frontend | feature/profiles-older-adults | [5b80a44](https://github.com/Mobvite/vitalita-frontend/commit/5b80a446d273e2ab4be3f10e4ee9c43125003531) | feat(profiles): add older adult list and form views | UPC-Skylar | 29/09/2026 | US07–US10 |
-| vitalita-frontend | feature/profiles-family-access | [85a6bff](https://github.com/Mobvite/vitalita-frontend/commit/85a6bffbce702080f27fcb7dbffa8752396945af) | feat(profiles): add family member invitation dialog and add family members list with access revocation | UPC-Skylar | 29/09/2026 | US11, US32 |
-| vitalita-frontend | feature/profiles-caregiver-profile | [adfca72](https://github.com/Mobvite/vitalita-frontend/commit/adfca72ff0af2d97cf5462332662d06e8eb84eca) | feat(profiles): add caregiver professional profile view | UPC-Skylar | 29/09/2026 | US35 |
-| vitalita-frontend | feature/monitoring-health-summary | [878de7e](https://github.com/Mobvite/vitalita-frontend/commit/878de7e48c6477dea69d8760eee46b792e66a02d) | feat(monitoring): add appointment dialog, add clinical records view, add exam dialog, add daily report dialog, add patient notes view with timeline, add health summary view, open health summary as caregiver home, add medication schedule with dose registration, add vital signs registration dialog | UPC-Skylar | 30/09/2026 | US13–US18, US20 |
-| vitalita-frontend | feature/asset-management-evidences | [e84565f](https://github.com/Mobvite/vitalita-frontend/commit/e84565faddc422068bbddb7bf28fc5371f8c2d67) | feat(asset-management): add asset api and assembler, add cloudinary file storage adapter, add asset management store, add evidence dialog with drag and drop, show exam evidences in clinical records | UPC-Skylar | 30/09/2026 | US19 |
-| vitalita-frontend | fix/latest-feature-integration | [873f14a](https://github.com/Mobvite/vitalita-frontend/commit/873f14a690f1702ff573c2efb4c833fb953f5ff1) | feat(asset-management and dashboard): add family dashboard read model, add dashboard store, add home view, add patient history view with filters, add role home redirect and history navigation, and for i18n add asset management and dashboard transaltions | UPC-Skylar | 30/09/2026 | US22, US23, US26, US36, US37 |
-| vitalita-frontend | feature/planning-calendar | [f798b83](https://github.com/Mobvite/vitalita-frontend/commit/f798b83310ea6dbd39c970911c1121224c0f2287) | feat(planning): add planning routes, data composable and care calendar view | UPC-Skylar | 30/09/2026 | US33 |
-| vitalita-frontend | feature/planning-reminders | [f7b0b12](https://github.com/Mobvite/vitalita-frontend/commit/f7b0b123768af5023eb405807c2c8e272db130de) | feat(planning): add reminder dialog and upcoming reminders panel | UPC-Skylar | 30/09/2026 | US25, US34 |
-| vitalita-frontend | feature/planning-calendar | [8434385](https://github.com/Mobvite/vitalita-frontend/commit/84343852e556d447b99fb38bc8cb5bb73a571a3a) | feat(planning): add notification bell, translations and family notifications | UPC-Skylar | 30/09/2026 | US24 |
-| vitalita-frontend | fix/planning-subscriptions-integration | [79a705a](https://github.com/Mobvite/vitalita-frontend/commit/79a705a718bfbe64449ec596660b01ff8085e79a) | feat: add suscriptions, i18n, document environment variables, add culqi simulated payment gateway, add subscribe and payment history to the store, add payments endopoints and assembler | UPC-Skylar | 30/09/2026 | US28, US29, US38 |
-| vitalita-frontend | feature/app-configuration | [20d03ae](https://github.com/Mobvite/vitalita-frontend/commit/20d03ae20376a0de0f64531b25cfe9c03dcec3ff) | feat(i18n): add i18n setup with english and spanish locales | UPC-Skylar | 29/09/2026 | US39 |
-| vitalita-frontend | feature/shared-layout | [9d66df1](https://github.com/Mobvite/vitalita-frontend/commit/9d66df127c0c768a0a926c8284629786e8b5af0c) | feat(shared): add header and footer | UPC-Skylar | 29/09/2026 | US40 |
-| vitalita-frontend | fix/iam-session-inactivity-timeout | [6430154](https://github.com/Mobvite/vitalita-frontend/commit/643015421b04110cfd7e6e5e70832cb574828563) | fix(iam): expire sessions after 30 minutes of inactivity | UPC-Skylar | 05/10/2026 | US06 |
+| **Repository**    | **Branch**                             | **Commit**                                                                                              | **Message**                                                                                                                                                                                                                                                                                              | **Author** | **Date**   | **Related Stories**          |
+| ----------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | ---------------------------- |
+| vitalita-frontend | feature/project-setup                  | [012823b](https://github.com/Mobvite/vitalita-frontend/commit/012823ba6290e14a0933f56b93cf682dd005273a) | chore: initialize vue3 frontend with vite                                                                                                                                                                                                                                                                | UPC-Skylar | 29/09/2026 | Technical foundation         |
+| vitalita-frontend | feature/fake-api-server                | [0c9106c](https://github.com/Mobvite/vitalita-frontend/commit/0c9106cefefbf1c807180861089bd47ed1906eb1) | feat(server): add json-server routes and start script                                                                                                                                                                                                                                                    | UPC-Skylar | 29/09/2026 | All data-backed stories      |
+| vitalita-frontend | feature/shared-layout                  | [e9ebf73](https://github.com/Mobvite/vitalita-frontend/commit/e9ebf738b3863a8572da8d1ca0ee29444374f5e4) | feat(shared): add side navigation and layout                                                                                                                                                                                                                                                             | UPC-Skylar | 29/09/2026 | US06–US40                    |
+| vitalita-frontend | feature/iam-sign-in                    | [1f102b7](https://github.com/Mobvite/vitalita-frontend/commit/1f102b7d9b27d775cc4da1075d31cf16c0cad101) | feat(iam): add sign-in view with role selection                                                                                                                                                                                                                                                          | UPC-Skylar | 29/09/2026 | US06                         |
+| vitalita-frontend | feature/iam-family-sign-up             | [4576243](https://github.com/Mobvite/vitalita-frontend/commit/457624314fb03106eabc4a20b69dd492a4542839) | feat(iam): add family sign-up with invitation code                                                                                                                                                                                                                                                       | UPC-Skylar | 29/09/2026 | US31                         |
+| vitalita-frontend | feature/profiles-older-adults          | [5b80a44](https://github.com/Mobvite/vitalita-frontend/commit/5b80a446d273e2ab4be3f10e4ee9c43125003531) | feat(profiles): add older adult list and form views                                                                                                                                                                                                                                                      | UPC-Skylar | 29/09/2026 | US07–US10                    |
+| vitalita-frontend | feature/profiles-family-access         | [85a6bff](https://github.com/Mobvite/vitalita-frontend/commit/85a6bffbce702080f27fcb7dbffa8752396945af) | feat(profiles): add family member invitation dialog and add family members list with access revocation                                                                                                                                                                                                   | UPC-Skylar | 29/09/2026 | US11, US32                   |
+| vitalita-frontend | feature/profiles-caregiver-profile     | [adfca72](https://github.com/Mobvite/vitalita-frontend/commit/adfca72ff0af2d97cf5462332662d06e8eb84eca) | feat(profiles): add caregiver professional profile view                                                                                                                                                                                                                                                  | UPC-Skylar | 29/09/2026 | US35                         |
+| vitalita-frontend | feature/monitoring-health-summary      | [878de7e](https://github.com/Mobvite/vitalita-frontend/commit/878de7e48c6477dea69d8760eee46b792e66a02d) | feat(monitoring): add appointment dialog, add clinical records view, add exam dialog, add daily report dialog, add patient notes view with timeline, add health summary view, open health summary as caregiver home, add medication schedule with dose registration, add vital signs registration dialog | UPC-Skylar | 30/09/2026 | US13–US18, US20              |
+| vitalita-frontend | feature/asset-management-evidences     | [e84565f](https://github.com/Mobvite/vitalita-frontend/commit/e84565faddc422068bbddb7bf28fc5371f8c2d67) | feat(asset-management): add asset api and assembler, add cloudinary file storage adapter, add asset management store, add evidence dialog with drag and drop, show exam evidences in clinical records                                                                                                    | UPC-Skylar | 30/09/2026 | US19                         |
+| vitalita-frontend | fix/latest-feature-integration         | [873f14a](https://github.com/Mobvite/vitalita-frontend/commit/873f14a690f1702ff573c2efb4c833fb953f5ff1) | feat(asset-management and dashboard): add family dashboard read model, add dashboard store, add home view, add patient history view with filters, add role home redirect and history navigation, and for i18n add asset management and dashboard transaltions                                            | UPC-Skylar | 30/09/2026 | US22, US23, US26, US36, US37 |
+| vitalita-frontend | feature/planning-calendar              | [f798b83](https://github.com/Mobvite/vitalita-frontend/commit/f798b83310ea6dbd39c970911c1121224c0f2287) | feat(planning): add planning routes, data composable and care calendar view                                                                                                                                                                                                                              | UPC-Skylar | 30/09/2026 | US33                         |
+| vitalita-frontend | feature/planning-reminders             | [f7b0b12](https://github.com/Mobvite/vitalita-frontend/commit/f7b0b123768af5023eb405807c2c8e272db130de) | feat(planning): add reminder dialog and upcoming reminders panel                                                                                                                                                                                                                                         | UPC-Skylar | 30/09/2026 | US25, US34                   |
+| vitalita-frontend | feature/planning-calendar              | [8434385](https://github.com/Mobvite/vitalita-frontend/commit/84343852e556d447b99fb38bc8cb5bb73a571a3a) | feat(planning): add notification bell, translations and family notifications                                                                                                                                                                                                                             | UPC-Skylar | 30/09/2026 | US24                         |
+| vitalita-frontend | fix/planning-subscriptions-integration | [79a705a](https://github.com/Mobvite/vitalita-frontend/commit/79a705a718bfbe64449ec596660b01ff8085e79a) | feat: add suscriptions, i18n, document environment variables, add culqi simulated payment gateway, add subscribe and payment history to the store, add payments endopoints and assembler                                                                                                                 | UPC-Skylar | 30/09/2026 | US28, US29, US38             |
+| vitalita-frontend | feature/app-configuration              | [20d03ae](https://github.com/Mobvite/vitalita-frontend/commit/20d03ae20376a0de0f64531b25cfe9c03dcec3ff) | feat(i18n): add i18n setup with english and spanish locales                                                                                                                                                                                                                                              | UPC-Skylar | 29/09/2026 | US39                         |
+| vitalita-frontend | feature/shared-layout                  | [9d66df1](https://github.com/Mobvite/vitalita-frontend/commit/9d66df127c0c768a0a926c8284629786e8b5af0c) | feat(shared): add header and footer                                                                                                                                                                                                                                                                      | UPC-Skylar | 29/09/2026 | US40                         |
+| vitalita-frontend | fix/iam-session-inactivity-timeout     | [6430154](https://github.com/Mobvite/vitalita-frontend/commit/643015421b04110cfd7e6e5e70832cb574828563) | fix(iam): expire sessions after 30 minutes of inactivity                                                                                                                                                                                                                                                 | UPC-Skylar | 05/10/2026 | US06                         |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -2319,28 +2318,28 @@ La primera versión utiliza JSON Server como API provisional. Durante la validac
 
 **Local base URL:** http://localhost:3000/api/v1
 
-| **Resource** | **Endpoint** | **Supported Operations** | **Purpose** |
-| --- | --- | --- | --- |
-| Users | /users | GET, POST, PATCH | Cuentas y autenticación simulada |
-| Caregiver profiles | /caregiver-profiles | GET, POST, PATCH | Perfil profesional de cuidadoras |
-| Family member profiles | /family-member-profiles | GET, POST, PATCH | Perfiles de familiares |
-| Older adults | /older-adults | GET, POST, PATCH, DELETE | Gestión de adultos mayores |
-| Family access | /family-access | GET, POST, PATCH, DELETE | Invitaciones y accesos familiares |
-| Daily reports | /daily-reports | GET, POST, PATCH | Seguimiento diario |
-| Vital signs | /vital-signs | GET, POST | Controles de signos vitales |
-| Medications | /medications | GET, POST, PATCH | Medicación planificada |
-| Medication administrations | /medication-administrations | GET, POST | Registro de dosis |
-| Medical appointments | /medical-appointments | GET, POST, PATCH | Citas y resultados |
-| Medical exams | /medical-exams | GET, POST, PATCH | Exámenes médicos |
-| Care activities | /care-activities | GET, POST, PATCH | Terapias y actividades |
-| Clinical assets | /clinical-assets | GET, POST, PATCH | Recursos clínicos |
-| Exam evidences | /exam-evidences | GET, POST, DELETE | Evidencias adjuntas |
-| Emergency reports | /emergency-reports | GET, POST, PATCH | Resumen de emergencia |
-| Reminders | /reminders | GET, POST, PATCH, DELETE | Recordatorios automáticos y personalizados |
-| Notifications | /notifications | GET, POST, PATCH | Notificaciones relevantes |
-| Plans | /plans | GET | Planes disponibles |
-| Subscriptions | /subscriptions | GET, POST, PATCH | Estado de suscripción |
-| Payments | /payments | GET, POST | Historial de pagos |
+| **Resource**               | **Endpoint**                | **Supported Operations** | **Purpose**                                |
+| -------------------------- | --------------------------- | ------------------------ | ------------------------------------------ |
+| Users                      | /users                      | GET, POST, PATCH         | Cuentas y autenticación simulada           |
+| Caregiver profiles         | /caregiver-profiles         | GET, POST, PATCH         | Perfil profesional de cuidadoras           |
+| Family member profiles     | /family-member-profiles     | GET, POST, PATCH         | Perfiles de familiares                     |
+| Older adults               | /older-adults               | GET, POST, PATCH, DELETE | Gestión de adultos mayores                 |
+| Family access              | /family-access              | GET, POST, PATCH, DELETE | Invitaciones y accesos familiares          |
+| Daily reports              | /daily-reports              | GET, POST, PATCH         | Seguimiento diario                         |
+| Vital signs                | /vital-signs                | GET, POST                | Controles de signos vitales                |
+| Medications                | /medications                | GET, POST, PATCH         | Medicación planificada                     |
+| Medication administrations | /medication-administrations | GET, POST                | Registro de dosis                          |
+| Medical appointments       | /medical-appointments       | GET, POST, PATCH         | Citas y resultados                         |
+| Medical exams              | /medical-exams              | GET, POST, PATCH         | Exámenes médicos                           |
+| Care activities            | /care-activities            | GET, POST, PATCH         | Terapias y actividades                     |
+| Clinical assets            | /clinical-assets            | GET, POST, PATCH         | Recursos clínicos                          |
+| Exam evidences             | /exam-evidences             | GET, POST, DELETE        | Evidencias adjuntas                        |
+| Emergency reports          | /emergency-reports          | GET, POST, PATCH         | Resumen de emergencia                      |
+| Reminders                  | /reminders                  | GET, POST, PATCH, DELETE | Recordatorios automáticos y personalizados |
+| Notifications              | /notifications              | GET, POST, PATCH         | Notificaciones relevantes                  |
+| Plans                      | /plans                      | GET                      | Planes disponibles                         |
+| Subscriptions              | /subscriptions              | GET, POST, PATCH         | Estado de suscripción                      |
+| Payments                   | /payments                   | GET, POST                | Historial de pagos                         |
 
 Ejemplo verificado durante la revisión:
 
@@ -2352,19 +2351,17 @@ _Figura X. Respuesta HTTP 200 del recurso older-adults en el JSON Server local._
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-
-
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 La colaboración se organizó por áreas funcionales para cubrir el alcance completo del frontend. La tabla documenta responsabilidades y aportes acordados; no presenta métricas individuales de commits.
 
-| **Team Member** | **Principal Responsibility** | **Collaboration during Sprint 2** |
-| --- | --- | --- |
-| Paul Espinoza | Monitoring & Clinical Records | Definición y validación de reportes diarios, signos vitales, medicación, citas, exámenes y actividades de cuidado. |
-| Alicia Navarro | IAM & Shared Experience | Definición de acceso por roles, registro, internacionalización y consistencia de navegación y contenido legal. |
-| Jack Roque | Planning, Subscriptions & Integration | Coordinación de calendario, recordatorios, notificaciones, suscripciones e integración transversal de la aplicación. |
-| Jorge Videla | Profiles & Family Access | Definición de perfiles de pacientes, cuidadoras, invitaciones y control de familiares autorizados. |
-| Gabriel Yanac | Assets, Dashboard & Emergency | Definición de evidencias clínicas, dashboard familiar, historial consolidado y resumen de emergencia. |
+| **Team Member** | **Principal Responsibility**          | **Collaboration during Sprint 2**                                                                                    |
+| --------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Paul Espinoza   | Monitoring & Clinical Records         | Definición y validación de reportes diarios, signos vitales, medicación, citas, exámenes y actividades de cuidado.   |
+| Alicia Navarro  | IAM & Shared Experience               | Definición de acceso por roles, registro, internacionalización y consistencia de navegación y contenido legal.       |
+| Jack Roque      | Planning, Subscriptions & Integration | Coordinación de calendario, recordatorios, notificaciones, suscripciones e integración transversal de la aplicación. |
+| Jorge Videla    | Profiles & Family Access              | Definición de perfiles de pacientes, cuidadoras, invitaciones y control de familiares autorizados.                   |
+| Gabriel Yanac   | Assets, Dashboard & Emergency         | Definición de evidencias clínicas, dashboard familiar, historial consolidado y resumen de emergencia.                |
 
 El equipo trabajó con una separación por bounded contexts y revisiones cruzadas entre líderes y colaboradores. La integración final se validó localmente ejecutando el frontend junto con JSON Server y recorriendo los flujos documentados en las evidencias de ejecución.
 
@@ -2372,22 +2369,22 @@ El equipo trabajó con una separación por bounded contexts y revisiones cruzada
 
 **Anexo A. Diagramas**
 
-| Diagrama | Enlace al diagrama |
-| --- | --- |
+| Diagrama                      | Enlace al diagrama                                                                                                                                                                |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Big Picture EventStorming** | [BigPicture EventStorming](https://www.figma.com/board/DfWJZGFyhMG0hINGaz8WWJ/Big-Picture-Event-Storming-%25E2%2580%2594-Vitalita-BC-Corregidos?node-id=0-1&t=V7E9hCmnzgNpmGT9-0) |
-| **DesignLevel EventStorming** | [DesignLevel EventStorming]() |
-| **Class Diagram** | [Class Diagram](https://github.com/Mobvite/Vitalita-Report/blob/main/assets/images/diagrams/general-class-diagram.png) |
-| **Database Diagram** | [Database Diagram](https://github.com/Mobvite/Vitalita-Report/blob/main/assets/images/diagrams/general-database-diagram.png) |
+| **DesignLevel EventStorming** | [DesignLevel EventStorming]()                                                                                                                                                     |
+| **Class Diagram**             | [Class Diagram](https://github.com/Mobvite/Vitalita-Report/blob/main/assets/images/diagrams/general-class-diagram.png)                                                            |
+| **Database Diagram**          | [Database Diagram](https://github.com/Mobvite/Vitalita-Report/blob/main/assets/images/diagrams/general-database-diagram.png)                                                      |
 
 **Anexo B. Enlaces relevantes**
 
-| Título | Enlace |
-| --- | --- |
-| Organización de GitHub | [https://github.com/orgs/Mobvite/repositories](https://github.com/orgs/Mobvite/repositories) |
-| Repositorio de documentación | [https://github.com/Mobvite/Vitalita-Report](https://github.com/Mobvite/Vitalita-Report) |
-| Repositorio de la Landing Page | [https://github.com/Mobvite/langing-page](https://github.com/Mobvite/langing-page) |
-| Landing Page Desplegada | [https://mobvite.github.io/langing-page/](https://mobvite.github.io/langing-page/) |
-| Repositorio del Frontend | [https://vitalita-frontend.onrender.com/iam/sign-in](https://vitalita-frontend.onrender.com/iam/sign-in) |
-| Frontend Desplegado | [https://vitalita-frontend.onrender.com/iam/sign-in](https://vitalita-frontend.onrender.com/iam/sign-in) |
-| Repositorio del Backend | []() |
-| Backend Desplegado (Swagger Documentation) | []() |
+| Título                                     | Enlace                                                                                                   |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| Organización de GitHub                     | [https://github.com/orgs/Mobvite/repositories](https://github.com/orgs/Mobvite/repositories)             |
+| Repositorio de documentación               | [https://github.com/Mobvite/Vitalita-Report](https://github.com/Mobvite/Vitalita-Report)                 |
+| Repositorio de la Landing Page             | [https://github.com/Mobvite/langing-page](https://github.com/Mobvite/langing-page)                       |
+| Landing Page Desplegada                    | [https://mobvite.github.io/langing-page/](https://mobvite.github.io/langing-page/)                       |
+| Repositorio del Frontend                   | [https://vitalita-frontend.onrender.com/iam/sign-in](https://vitalita-frontend.onrender.com/iam/sign-in) |
+| Frontend Desplegado                        | [https://vitalita-frontend.onrender.com/iam/sign-in](https://vitalita-frontend.onrender.com/iam/sign-in) |
+| Repositorio del Backend                    | []()                                                                                                     |
+| Backend Desplegado (Swagger Documentation) | []()                                                                                                     |
