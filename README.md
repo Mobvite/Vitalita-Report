@@ -2374,10 +2374,10 @@ El equipo trabajó con una separación por bounded contexts y revisiones cruzada
 
 | Diagrama | Enlace al diagrama |
 | --- | --- |
-| **Big Picture EventStorming** | [BigPicture EventStorming]() |
+| **Big Picture EventStorming** | [BigPicture EventStorming](https://www.figma.com/board/DfWJZGFyhMG0hINGaz8WWJ/Big-Picture-Event-Storming-%25E2%2580%2594-Vitalita-BC-Corregidos?node-id=0-1&t=V7E9hCmnzgNpmGT9-0) |
 | **DesignLevel EventStorming** | [DesignLevel EventStorming]() |
-| **Class Diagram** | [Class Diagram]() |
-| **Database Diagram** | [Database Diagram]() |
+| **Class Diagram** | [Class Diagram](https://github.com/Mobvite/Vitalita-Report/blob/main/assets/images/diagrams/general-class-diagram.png) |
+| **Database Diagram** | [Database Diagram](https://github.com/Mobvite/Vitalita-Report/blob/main/assets/images/diagrams/general-database-diagram.png) |
 
 **Anexo B. Enlaces relevantes**
 
