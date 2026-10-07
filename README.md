@@ -2094,41 +2094,47 @@ Para distribuir el trabajo se asignó un área funcional principal a cada integr
 
 ![Sprint 2 Trello](assets/images/others/Trello-Sprint-2.png)
 
-| **Story ID** | **Story Title**                                             | **Task ID** | **Task Title**                                             |  **SP** | **Hours**         | **Assigned Area Leader** | **Status**  |
-| ------------ | ----------------------------------------------------------- | ----------- | ---------------------------------------------------------- | ------: | ----------------- | ------------------------ | ----------- |
-| US39         | Cambiar el idioma del sitio                                 | T11         | Implementar internacionalización en español e inglés       |       1 | No registrado     | Alicia Navarro           | Done        |
-| US40         | Consultar los términos y condiciones                        | T12         | Integrar enlaces legales consistentes en la aplicación     |       1 | No registrado     | Alicia Navarro           | Done        |
-| US07         | Registrar un adulto mayor                                   | T13         | Implementar formulario y registro de adultos mayores       |       5 | No registrado     | Jorge Videla             | Done        |
-| US13         | Registrar un reporte diario                                 | T14         | Implementar reporte diario y línea de tiempo               |       3 | No registrado     | Paul Espinoza            | Done        |
-| US14         | Registrar signos vitales                                    | T15         | Implementar formulario y resumen de signos vitales         |       3 | No registrado     | Paul Espinoza            | Done        |
-| US15         | Registrar la administración de medicamentos                 | T16         | Implementar medicación y registro de dosis                 |       5 | No registrado     | Paul Espinoza            | Done        |
-| US16         | Registrar una cita médica                                   | T17         | Implementar registro de citas médicas                      |       3 | No registrado     | Paul Espinoza            | Done        |
-| US17         | Registrar el resultado de una cita médica                   | T18         | Incorporar resultados y observaciones de citas             |       3 | No registrado     | Paul Espinoza            | Done        |
-| US18         | Registrar un examen médico                                  | T19         | Implementar registro y consulta de exámenes                |       3 | No registrado     | Paul Espinoza            | Done        |
-| US19         | Adjuntar evidencia fotográfica de un examen                 | T20         | Integrar evidencias clínicas y almacenamiento de archivos  |       5 | No registrado     | Gabriel Yanac            | Done        |
-| US11         | Invitar a un familiar autorizado                            | T21         | Implementar invitación y asociación de familiares          |       5 | No registrado     | Jorge Videla             | Done        |
-| US31         | Crear cuenta de familiar mediante invitación                | T22         | Implementar registro mediante código de invitación         |       3 | No registrado     | Alicia Navarro           | Done        |
-| US22         | Consultar el panel familiar de solo lectura                 | T23         | Implementar dashboard familiar sin edición                 |       5 | No registrado     | Gabriel Yanac            | Done        |
-| US23         | Consultar el historial centralizado del adulto mayor        | T24         | Integrar historial clínico y de cuidados                   |       5 | No registrado     | Gabriel Yanac            | Done        |
-| US26         | Consultar el resumen de emergencia                          | T25         | Implementar resumen clínico de emergencia                  |       3 | No registrado     | Gabriel Yanac            | Done        |
-| US37         | Exportar el resumen de emergencia en PDF                    | T26         | Generar documento PDF para atención de emergencia          |       3 | No registrado     | Gabriel Yanac            | Done        |
-| US33         | Consultar el calendario de actividades                      | T27         | Implementar calendario integrado del cuidado               |       3 | No registrado     | Jack Roque               | Done        |
-| US25         | Recibir recordatorios automáticos de actividades pendientes | T28         | Implementar reglas y panel de recordatorios                |       5 | No registrado     | Jack Roque               | Done        |
-| US34         | Crear un recordatorio personalizado                         | T29         | Implementar formulario y validación de recordatorios       |       2 | No registrado     | Jack Roque               | Done        |
-| US24         | Recibir notificaciones ante actualizaciones relevantes      | T30         | Integrar notificaciones para familiares autorizados        |       5 | No registrado     | Jack Roque               | Done        |
-| US20         | Registrar terapias y actividades de cuidado                 | T31         | Incorporar actividades al seguimiento del paciente         |       3 | No registrado     | Paul Espinoza            | Done        |
-| US36         | Filtrar el historial del adulto mayor                       | T32         | Implementar filtros por tipo, fecha y palabra clave        |       3 | No registrado     | Gabriel Yanac            | Done        |
-| US08         | Consultar el perfil de un adulto mayor                      | T33         | Implementar consulta y selección del paciente              |       2 | No registrado     | Jorge Videla             | Done        |
-| US09         | Actualizar los datos básicos del adulto mayor               | T34         | Implementar edición validada del perfil                    |       3 | No registrado     | Jorge Videla             | Done        |
-| US32         | Gestionar los familiares autorizados                        | T35         | Implementar consulta y revocación de accesos               |       3 | No registrado     | Jorge Videla             | Done        |
-| US35         | Actualizar mi perfil profesional                            | T36         | Implementar perfil profesional de la cuidadora             |       2 | No registrado     | Jorge Videla             | Done        |
-| US10         | Gestionar múltiples adultos mayores                         | T37         | Implementar selector y contexto independiente por paciente |       5 | No registrado     | Jorge Videla             | Done        |
-| US28         | Seleccionar un plan de suscripción                          | T38         | Implementar selección de planes y capacidades              |       3 | No registrado     | Jack Roque               | Done        |
-| US29         | Pagar la suscripción mediante la pasarela                   | T39         | Integrar flujo simulado de pago con Culqi                  |       5 | No registrado     | Jack Roque               | Done        |
-| US38         | Consultar el estado de mi suscripción y pagos               | T40         | Implementar consulta de plan y pagos                       |       3 | No registrado     | Jack Roque               | Done        |
-| US05         | Registrar una cuenta de cuidadora o enfermera               | T41         | Implementar registro de cuidadora y creación de perfil     |       5 | No registrado     | Alicia Navarro           | Done        |
-| US06         | Iniciar sesión con permisos según el rol                    | T42         | Implementar autenticación, sesión y autorización por rol   |       5 | No registrado     | Alicia Navarro           | Done        |
-| **Total**    |                                                             |             |                                                            | **113** | **No registrado** |                          | **32 Done** |
+| **Story ID** | **Story Title**                                             | **Task ID** | **Task Title**                                                             |  **SP** | **Hours**         | **Assigned Area Leader** | **Status**  |
+| ------------ | ----------------------------------------------------------- | ----------- | -------------------------------------------------------------------------- | ------: | ----------------- | ------------------------ | ----------- |
+| US39         | Cambiar el idioma del sitio                                 | T11         | Implementar internacionalización en español e inglés                       |       1 | No registrado     | Alicia Navarro           | Done        |
+| US40         | Consultar los términos y condiciones                        | T12         | Integrar enlaces legales consistentes en la aplicación                     |       1 | No registrado     | Alicia Navarro           | Done        |
+| US07         | Registrar un adulto mayor                                   | T13         | Implementar formulario y registro de adultos mayores                       |       5 | No registrado     | Jorge Videla             | Done        |
+| US13         | Registrar un reporte diario                                 | T14         | Implementar reporte diario y línea de tiempo                               |       3 | No registrado     | Paul Espinoza            | Done        |
+| US14         | Registrar signos vitales                                    | T15         | Implementar formulario y resumen de signos vitales                         |       3 | No registrado     | Paul Espinoza            | Done        |
+| US15         | Registrar la administración de medicamentos                 | T16         | Implementar medicación y registro de dosis                                 |       5 | No registrado     | Paul Espinoza            | Done        |
+| US16         | Registrar una cita médica                                   | T17         | Implementar registro de citas médicas                                      |       3 | No registrado     | Paul Espinoza            | Done        |
+| US17         | Registrar el resultado de una cita médica                   | T18         | Incorporar resultados y observaciones de citas                             |       3 | No registrado     | Paul Espinoza            | Done        |
+| US18         | Registrar un examen médico                                  | T19         | Implementar registro y consulta de exámenes                                |       3 | No registrado     | Paul Espinoza            | Done        |
+| US19         | Adjuntar evidencia fotográfica de un examen                 | T20         | Integrar evidencias clínicas y almacenamiento de archivos                  |       5 | No registrado     | Gabriel Yanac            | Done        |
+| US11         | Invitar a un familiar autorizado                            | T21         | Implementar invitación y asociación de familiares                          |       5 | No registrado     | Jorge Videla             | Done        |
+| US31         | Crear cuenta de familiar mediante invitación                | T22         | Implementar registro mediante código de invitación                         |       3 | No registrado     | Alicia Navarro           | Done        |
+| US22         | Consultar el panel familiar de solo lectura                 | T23         | Implementar dashboard familiar sin edición                                 |       5 | No registrado     | Gabriel Yanac            | Done        |
+| US23         | Consultar el historial centralizado del adulto mayor        | T24         | Integrar historial clínico y de cuidados                                   |       5 | No registrado     | Gabriel Yanac            | Done        |
+| US26         | Consultar el resumen de emergencia                          | T25         | Implementar resumen clínico de emergencia                                  |       3 | No registrado     | Gabriel Yanac            | Done        |
+| US37         | Exportar el resumen de emergencia en PDF                    | T26         | Generar documento PDF para atención de emergencia                          |       3 | No registrado     | Gabriel Yanac            | Done        |
+| US33         | Consultar el calendario de actividades                      | T27         | Implementar calendario integrado del cuidado                               |       3 | No registrado     | Jack Roque               | Done        |
+| US25         | Recibir recordatorios automáticos de actividades pendientes | T28         | Implementar reglas y panel de recordatorios                                |       5 | No registrado     | Jack Roque               | Done        |
+| US34         | Crear un recordatorio personalizado                         | T29         | Implementar formulario y validación de recordatorios                       |       2 | No registrado     | Jack Roque               | Done        |
+| US24         | Recibir notificaciones ante actualizaciones relevantes      | T30         | Integrar notificaciones para familiares autorizados                        |       5 | No registrado     | Jack Roque               | Done        |
+| US20         | Registrar terapias y actividades de cuidado                 | T31         | Incorporar actividades al seguimiento del paciente                         |       3 | No registrado     | Paul Espinoza            | Done        |
+| US36         | Filtrar el historial del adulto mayor                       | T32         | Implementar filtros por tipo, fecha y palabra clave                        |       3 | No registrado     | Gabriel Yanac            | Done        |
+| US08         | Consultar el perfil de un adulto mayor                      | T33         | Implementar consulta y selección del paciente                              |       2 | No registrado     | Jorge Videla             | Done        |
+| US09         | Actualizar los datos básicos del adulto mayor               | T34         | Implementar edición validada del perfil                                    |       3 | No registrado     | Jorge Videla             | Done        |
+| US32         | Gestionar los familiares autorizados                        | T35         | Implementar consulta y revocación de accesos                               |       3 | No registrado     | Jorge Videla             | Done        |
+| US35         | Actualizar mi perfil profesional                            | T36         | Implementar perfil profesional de la cuidadora                             |       2 | No registrado     | Jorge Videla             | Done        |
+| US10         | Gestionar múltiples adultos mayores                         | T37         | Implementar selector y contexto independiente por paciente                 |       5 | No registrado     | Jorge Videla             | Done        |
+| US28         | Seleccionar un plan de suscripción                          | T38         | Implementar selección de planes y capacidades                              |       3 | No registrado     | Jack Roque               | Done        |
+| US29         | Pagar la suscripción mediante la pasarela                   | T39         | Integrar flujo simulado de pago con Culqi                                  |       5 | No registrado     | Jack Roque               | Done        |
+| US38         | Consultar el estado de mi suscripción y pagos               | T40         | Implementar consulta de plan y pagos                                       |       3 | No registrado     | Jack Roque               | Done        |
+| US05         | Registrar una cuenta de cuidadora o enfermera               | T41         | Implementar registro de cuidadora y creación de perfil                     |       5 | No registrado     | Alicia Navarro           | Done        |
+| US06         | Iniciar sesión con permisos según el rol                    | T42         | Implementar autenticación, sesión y autorización por rol                   |       5 | No registrado     | Alicia Navarro           | Done        |
+| US04         | Acceder a la experiencia web desde cada segmento            | T43         | Conectar los call-to-action del Landing Page con la Web Application        |       2 | No registrado     | Alicia Navarro           | Done        |
+| US02         | Consultar las funcionalidades principales                   | T44         | Incorporar galería de capturas del producto en el Landing Page             |       2 | No registrado     | Alicia Navarro           | Done        |
+| US03         | Consultar los planes del servicio                           | T45         | Alinear los planes del Landing Page con los de la Web Application          |       2 | No registrado     | Alicia Navarro           | Done        |
+| US01         | Conocer la propuesta de valor de Vitalita                   | T46         | Completar el contenido de preguntas frecuentes del Landing Page            |       1 | No registrado     | Alicia Navarro           | Done        |
+| US40         | Consultar los términos y condiciones                        | T47         | Corregir la navegación y los accesos del footer del Landing Page           |       1 | No registrado     | Alicia Navarro           | Done        |
+| US39         | Cambiar el idioma del sitio                                 | T48         | Completar la internacionalización y fijar inglés por defecto en el Landing |       2 | No registrado     | Alicia Navarro           | Done        |
+| **Total**    |                                                             |             |                                                                            | **123** | **No registrado** |                          | **38 Done** |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
@@ -2157,7 +2163,7 @@ La tabla reúne commits representativos y verificables del repositorio [vitalita
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-Las siguientes capturas corresponden a la aplicación ejecutada localmente con Vite y JSON Server. En conjunto demuestran los principales flujos de cuidadora y familiar.
+Las siguientes capturas corresponden a los dos productos desplegados durante este Sprint: la Web Application, publicada en Render y consumiendo la API provisional también desplegada, y el Landing Page, publicado en GitHub Pages. En conjunto demuestran los principales flujos de cuidadora y familiar, junto con las correcciones aplicadas al Landing Page.
 
 ##### Authentication and Role Access
 
@@ -2224,6 +2230,51 @@ _Figura X. Panel familiar de solo lectura; evidencia de US22._
 _Figura X. Visualización familiar de la información profesional de la cuidadora._
 
 Las historias que no poseen una captura exclusiva se respaldan mediante la evidencia de desarrollo y la integración observada en estos recorridos.
+##### Landing Page
+
+![Landing Page hero](assets/images/sprint-02/landing1.jpeg)
+
+_Figura X. Sección principal del Landing Page con la propuesta de valor y los call-to-action diferenciados por segmento objetivo; evidencia de US01 y US04._
+
+![Landing Page propósito de la plataforma](assets/images/sprint-02/landing2.jpeg)
+
+_Figura X. Explicación del propósito de la plataforma dirigida al visitante; evidencia de US01._
+
+![Landing Page galería de producto](assets/images/sprint-02/landing3.jpeg)
+
+_Figura X. Galería de capturas de la Web Application incorporada al Landing Page; evidencia de US02._
+
+![Landing Page beneficios](assets/images/sprint-02/landing4.jpeg)
+
+_Figura X. Beneficios de la solución frente al registro en papel, derivados de los hallazgos del proceso de needfinding; evidencia de US01._
+
+![Landing Page segmento de cuidadoras](assets/images/sprint-02/landing5.jpeg)
+
+_Figura X. Sección dirigida a enfermeras y cuidadoras, con call-to-action hacia el registro de cuenta profesional de la Web Application; evidencia de US04._
+
+![Landing Page segmento de familiares](assets/images/sprint-02/landing6.jpeg)
+
+_Figura X. Sección dirigida a familias, con call-to-action hacia el acceso por invitación de la Web Application; evidencia de US04._
+
+![Landing Page planes](assets/images/sprint-02/landing7.jpeg)
+
+_Figura X. Planes Freemium, Pro y Agencia del Landing Page, alineados con los de la Web Application; evidencia de US03._
+
+![Landing Page sobre Vitalita](assets/images/sprint-02/landing8.jpeg)
+
+_Figura X. Presentación de la startup y de los integrantes del equipo; evidencia de US01._
+
+![Landing Page preguntas frecuentes](assets/images/sprint-02/landing9.jpeg)
+
+_Figura X. Contenido de preguntas frecuentes sobre planes, vinculación familiar y controles de acceso a la información del adulto mayor; evidencia de US01._
+
+![Landing Page llamado a la acción final](assets/images/sprint-02/landing10.jpeg)
+
+_Figura X. Llamado a la acción de cierre con redirección a la Web Application; evidencia de US04._
+
+![Landing Page footer](assets/images/sprint-02/landing11.jpeg)
+
+_Figura X. Footer con navegación corregida, accesos a redes sociales, información de contacto y enlaces a términos y política de privacidad; evidencia de US40._
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
