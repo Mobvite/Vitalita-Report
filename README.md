@@ -2163,7 +2163,7 @@ La tabla reúne commits representativos y verificables del repositorio [vitalita
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-Las siguientes capturas corresponden a la aplicación ejecutada localmente con Vite y JSON Server. En conjunto demuestran los principales flujos de cuidadora y familiar.
+Las siguientes capturas corresponden a los dos productos desplegados durante este Sprint: la Web Application, publicada en Render y consumiendo la API provisional también desplegada, y el Landing Page, publicado en GitHub Pages. En conjunto demuestran los principales flujos de cuidadora y familiar, junto con las correcciones aplicadas al Landing Page.
 
 ##### Authentication and Role Access
 
@@ -2230,6 +2230,51 @@ _Figura X. Panel familiar de solo lectura; evidencia de US22._
 _Figura X. Visualización familiar de la información profesional de la cuidadora._
 
 Las historias que no poseen una captura exclusiva se respaldan mediante la evidencia de desarrollo y la integración observada en estos recorridos.
+##### Landing Page
+
+![Landing Page hero](assets/images/sprint-02/landing1.jpeg)
+
+_Figura X. Sección principal del Landing Page con la propuesta de valor y los call-to-action diferenciados por segmento objetivo; evidencia de US01 y US04._
+
+![Landing Page propósito de la plataforma](assets/images/sprint-02/landing2.jpeg)
+
+_Figura X. Explicación del propósito de la plataforma dirigida al visitante; evidencia de US01._
+
+![Landing Page galería de producto](assets/images/sprint-02/landing3.jpeg)
+
+_Figura X. Galería de capturas de la Web Application incorporada al Landing Page; evidencia de US02._
+
+![Landing Page beneficios](assets/images/sprint-02/landing4.jpeg)
+
+_Figura X. Beneficios de la solución frente al registro en papel, derivados de los hallazgos del proceso de needfinding; evidencia de US01._
+
+![Landing Page segmento de cuidadoras](assets/images/sprint-02/landing5.jpeg)
+
+_Figura X. Sección dirigida a enfermeras y cuidadoras, con call-to-action hacia el registro de cuenta profesional de la Web Application; evidencia de US04._
+
+![Landing Page segmento de familiares](assets/images/sprint-02/landing6.jpeg)
+
+_Figura X. Sección dirigida a familias, con call-to-action hacia el acceso por invitación de la Web Application; evidencia de US04._
+
+![Landing Page planes](assets/images/sprint-02/landing7.jpeg)
+
+_Figura X. Planes Freemium, Pro y Agencia del Landing Page, alineados con los de la Web Application; evidencia de US03._
+
+![Landing Page sobre Vitalita](assets/images/sprint-02/landing8.jpeg)
+
+_Figura X. Presentación de la startup y de los integrantes del equipo; evidencia de US01._
+
+![Landing Page preguntas frecuentes](assets/images/sprint-02/landing9.jpeg)
+
+_Figura X. Contenido de preguntas frecuentes sobre planes, vinculación familiar y controles de acceso a la información del adulto mayor; evidencia de US01._
+
+![Landing Page llamado a la acción final](assets/images/sprint-02/landing10.jpeg)
+
+_Figura X. Llamado a la acción de cierre con redirección a la Web Application; evidencia de US04._
+
+![Landing Page footer](assets/images/sprint-02/landing11.jpeg)
+
+_Figura X. Footer con navegación corregida, accesos a redes sociales, información de contacto y enlaces a términos y política de privacidad; evidencia de US40._
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
