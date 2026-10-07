@@ -2314,6 +2314,47 @@ Ejemplo verificado durante la revisión:
 _Figura X. Respuesta HTTP 200 del recurso older-adults en el JSON Server local._
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se incorporaron al entorno de operación los componentes necesarios para que la Web Application funcione de forma pública e independiente del entorno local. Se desplegó por primera vez la Web Application junto con la API provisional que la abastece, y se publicó una nueva versión del Landing Page con las correcciones documentadas en este Sprint. Los tres componentes se encuentran accesibles mediante internet.
+
+**Web Application**
+
+La Web Application se despliega desde el repositorio [vitalita-frontend](https://github.com/Mobvite/vitalita-frontend) hacia Render. El servicio ejecuta la construcción del proyecto Vue con Vite y publica el resultado como sitio estático. La configuración del entorno de producción se gestiona mediante variables de entorno, lo que permite que la aplicación apunte a la API desplegada sin modificar el código fuente.
+
+URL desplegada: [https://vitalita-frontend.onrender.com](https://vitalita-frontend.onrender.com)
+
+![Web Application desplegada](assets/images/sprint-02/frontend-deployment-sign-in.png)
+
+_Figura X. Web Application desplegada en Render, accesible desde su URL pública._
+
+**API provisional**
+
+Mientras la Vitalita API en ASP.NET Core no forma parte del alcance implementado, la Web Application consume una API provisional construida con JSON Server, desplegada también en Render. Esta decisión permite que la aplicación opere de forma autónoma en el entorno público, sin depender de que un servidor se ejecute en la máquina de algún integrante del equipo.
+
+URL desplegada: [https://vitalita-fake-api.onrender.com/api/v1](https://vitalita-fake-api.onrender.com/api/v1)
+
+![API provisional desplegada en Render](assets/images/sprint-02/json-server-render-older-adults.png)
+
+_Figura X. Respuesta de la API provisional desplegada en Render, consumida por la Web Application en producción._
+
+**Landing Page**
+
+El Landing Page se publica mediante GitHub Pages desde la rama `main` del repositorio [langing-page](https://github.com/Mobvite/langing-page). Cada integración a `main` dispara automáticamente la publicación del sitio, de modo que las correcciones de este Sprint se validaron directamente sobre el entorno público una vez integradas.
+
+URL desplegada: [https://mobvite.github.io/langing-page/](https://mobvite.github.io/langing-page/)
+
+![Despliegue del Landing Page](assets/images/sprint-02/landing-page-deployment.png)
+
+_Figura X. Publicación del Landing Page tras la integración de las correcciones del Sprint 2._
+
+**Resumen de productos desplegados**
+
+| Producto | Plataforma | Repositorio | URL desplegada |
+| --- | --- | --- | --- |
+| Landing Page | GitHub Pages | langing-page | https://mobvite.github.io/langing-page/ |
+| Web Application | Render | vitalita-frontend | https://vitalita-frontend.onrender.com |
+| API provisional | Render | vitalita-frontend | https://vitalita-fake-api.onrender.com/api/v1 |
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
