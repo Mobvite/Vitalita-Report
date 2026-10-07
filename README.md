@@ -2344,7 +2344,7 @@ El Landing Page se publica mediante GitHub Pages desde la rama `main` del reposi
 
 URL desplegada: [https://mobvite.github.io/langing-page/](https://mobvite.github.io/langing-page/)
 
-![Despliegue del Landing Page](assets/images/sprint-02/landing-page-deployment.png)
+![Despliegue del Landing Page](assets/images/sprint-02/landing1.jpeg)
 
 _Figura X. Publicación del Landing Page tras la integración de las correcciones del Sprint 2._
 
