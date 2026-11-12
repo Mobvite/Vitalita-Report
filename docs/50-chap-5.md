@@ -179,7 +179,7 @@ Ejemplo:
 Ejemplo:
 
 ```javascript
-const languageToggle = document.querySelector('#lang-toggle');
+const languageToggle = document.querySelector("#lang-toggle");
 
 function updateLanguage(language) {
   // ...
@@ -252,7 +252,7 @@ El flujo de despliegue utilizado consiste en:
 
 ![GitHub Pages Configuration](../assets/images/others/github-pages.png)
 
-*Figura X. Configuración de despliegue del Landing Page mediante GitHub Pages.*
+_Figura X. Configuración de despliegue del Landing Page mediante GitHub Pages._
 
 Los despliegues correspondientes a la **Web Application** y **Vitalita API** serán documentados en los Sprints en los que dichos productos ingresen al alcance de implementación.
 
@@ -274,28 +274,28 @@ Estas historias permiten comunicar la propuesta de valor, presentar las funciona
 
 La reunión de planificación del Sprint 1 se realizó de manera virtual mediante **Zoom** el **18 de septiembre de 2026 a las 12:00 PM**. Durante la sesión, el equipo acordó priorizar las User Stories vinculadas directamente al Landing Page debido a que este producto constituye el incremento de implementación requerido para AV1.
 
-| **Sprint #** | **Sprint 1** |
-| --- | --- |
-| **Date** | 2026-09-18 |
-| **Time** | 12:00 PM |
-| **Location** | Reunión virtual mediante Zoom |
-| **Prepared By** | Espinoza Lopez, Paul Alejandro Angel |
-| **Attendees** | Espinoza Lopez, Paul Alejandro Angel / Navarro Chang, Alicia Avril / Roque Tello, Jack Eddie / Videla Ventura, Jorge Joseph / Yanac Flores, Gabriel Stefano |
-| **Sprint 0 Review Summary** | No aplica. Este es el primer Sprint de implementación del producto. |
-| **Sprint 0 Retrospective Summary** | No aplica. Este es el primer Sprint de implementación del producto. |
-| **Sprint 1 Goal** | Our focus is on delivering the first responsive version of the Vitalita Landing Page. We believe it provides caregivers, nurses and family members with a clear understanding of Vitalita's value proposition, main features and available plans. This will be confirmed when visitors can understand the purpose of the product, review its main capabilities and subscription alternatives, and access the registration or login entry points from the deployed Landing Page. |
-| **Sprint 1 Velocity** | 10 Story Points |
-| **Sum of Story Points** | 10 Story Points |
+| **Sprint #**                       | **Sprint 1**                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Date**                           | 2026-09-18                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Time**                           | 12:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Location**                       | Reunión virtual mediante Zoom                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Prepared By**                    | Espinoza Lopez, Paul Alejandro Angel                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Attendees**                      | Espinoza Lopez, Paul Alejandro Angel / Navarro Chang, Alicia Avril / Roque Tello, Jack Eddie / Videla Ventura, Jorge Joseph / Yanac Flores, Gabriel Stefano                                                                                                                                                                                                                                                                                                                     |
+| **Sprint 0 Review Summary**        | No aplica. Este es el primer Sprint de implementación del producto.                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint 0 Retrospective Summary** | No aplica. Este es el primer Sprint de implementación del producto.                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint 1 Goal**                  | Our focus is on delivering the first responsive version of the Vitalita Landing Page. We believe it provides caregivers, nurses and family members with a clear understanding of Vitalita's value proposition, main features and available plans. This will be confirmed when visitors can understand the purpose of the product, review its main capabilities and subscription alternatives, and access the registration or login entry points from the deployed Landing Page. |
+| **Sprint 1 Velocity**              | 10 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Sum of Story Points**            | 10 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 Las User Stories seleccionadas para Sprint 1 corresponden directamente al alcance funcional del Landing Page:
 
-| **User Story** | **Título** | **Story Points** | **Estado** |
-| --- | --- | ---: | --- |
-| US01 | Conocer la propuesta de valor de Vitalita | 3 | Done |
-| US02 | Consultar las funcionalidades principales | 3 | Done |
-| US03 | Consultar los planes del servicio | 2 | Done |
-| US04 | Acceder a la experiencia web de Vitalita | 2 | Done |
-| **Total** |  | **10 SP** | **Completed** |
+| **User Story** | **Título**                                | **Story Points** | **Estado**    |
+| -------------- | ----------------------------------------- | ---------------: | ------------- |
+| US01           | Conocer la propuesta de valor de Vitalita |                3 | Done          |
+| US02           | Consultar las funcionalidades principales |                3 | Done          |
+| US03           | Consultar los planes del servicio         |                2 | Done          |
+| US04           | Acceder a la experiencia web de Vitalita  |                2 | Done          |
+| **Total**      |                                           |        **10 SP** | **Completed** |
 
 > **Nota de trazabilidad:** los Story Points registrados en esta sección deben mantenerse iguales a los utilizados en el Product Backlog del Capítulo III.
 
@@ -307,13 +307,13 @@ Las User Stories seleccionadas para Sprint 1 corresponden directamente al alcanc
 
 Para distribuir el trabajo del Sprint se definieron responsables para las principales áreas del Landing Page, manteniendo la posibilidad de colaboración y revisión cruzada entre todos los integrantes.
 
-| **Team Member** | **GitHub Username** | **Base, Hero & Navigation** | **Benefits & Segments** | **Plans** | **About & Team** | **FAQ, Legal & Integration** |
-| --- | --- | :---: | :---: | :---: | :---: | :---: |
-| Espinoza Lopez, Paul Alejandro Angel | `R3memo` | C | **L** | C | C | C |
-| Navarro Chang, Alicia Avril | `Alice-keys` | **L** | C | C | C | **L** |
-| Roque Tello, Jack Eddie | `UPC-Skylar` | C | C | C | **L** | C |
-| Videla Ventura, Jorge Joseph | `JorgeVidVen` | C | C | C | C | C |
-| Yanac Flores, Gabriel Stefano | `u20241d945` | C | C | **L** | C | C |
+| **Team Member**                      | **GitHub Username** | **Base, Hero & Navigation** | **Benefits & Segments** | **Plans** | **About & Team** | **FAQ, Legal & Integration** |
+| ------------------------------------ | ------------------- | :-------------------------: | :---------------------: | :-------: | :--------------: | :--------------------------: |
+| Espinoza Lopez, Paul Alejandro Angel | `R3memo`            |              C              |          **L**          |     C     |        C         |              C               |
+| Navarro Chang, Alicia Avril          | `Alice-keys`        |            **L**            |            C            |     C     |        C         |            **L**             |
+| Roque Tello, Jack Eddie              | `UPC-Skylar`        |              C              |            C            |     C     |      **L**       |              C               |
+| Videla Ventura, Jorge Joseph         | `JorgeVidVen`       |              C              |            C            |     C     |        C         |              C               |
+| Yanac Flores, Gabriel Stefano        | `u20241d945`        |              C              |            C            |   **L**   |        C         |              C               |
 
 **L:** Leader  
 **C:** Collaborator
@@ -330,20 +330,20 @@ El Sprint Backlog 1 reúne las tareas necesarias para cumplir las User Stories U
 
 ![Sprint 1 Trello Board](../assets/images/others/trello.png)
 
-*Figura X. Sprint 1 Board de Vitalita en Trello.*
+_Figura X. Sprint 1 Board de Vitalita en Trello._
 
-| **Story ID** | **Story Title** | **Task ID** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| --- | --- | --- | --- | --- | ---: | --- | --- |
-| US01 | Conocer la propuesta de valor de Vitalita | T01 | Base structure, Navbar & Hero | Implementar la estructura base, navegación y Hero del Landing Page. | 3 | `Alice-keys` | Done |
-| US01 | Conocer la propuesta de valor de Vitalita | T02 | Benefits & Target Segments | Presentar los beneficios de Vitalita para cuidadoras, enfermeras y familiares. | 2 | `R3memo` | Done |
-| US02 | Consultar las funcionalidades principales | T03 | Caregiver & Family Features | Implementar las funcionalidades principales dirigidas a ambos segmentos. | 2 | `R3memo` | Done |
-| US03 | Consultar los planes del servicio | T04 | Pricing & Plans | Implementar los planes disponibles, métodos de pago mostrados y carrusel de precios. | 3 | `u20241d945` | Done |
-| US04 | Acceder a la experiencia web de Vitalita | T05 | Login & Registration CTAs | Implementar los llamados a la acción para login y registro desde el Landing Page. | 1 | `Alice-keys` | Done |
-| US01-US04 | Landing Page supporting content | T06 | About & Team | Implementar la presentación de Vitalita, Mobvite y los miembros del equipo. | 2 | `UPC-Skylar` | Done |
-| US01-US04 | Landing Page supporting content | T07 | FAQ, Footer & Legal Pages | Implementar FAQ, footer, términos y página de privacidad. | 3 | `Alice-keys` | Done |
-| US01-US04 | Landing Page quality | T08 | Responsive & Interactive Behavior | Implementar menú móvil, comportamiento responsive, navegación, carruseles y elementos interactivos. | 2 | `Alice-keys` | Done |
-| US01-US04 | Landing Page quality | T09 | Language Toggle & Accessibility | Incorporar selector de idioma, HTML semántico y atributos ARIA básicos. | 2 | `Alice-keys` | Done |
-| US01-US04 | Landing Page deployment | T10 | GitHub Pages Deployment | Publicar y validar el Landing Page mediante GitHub Pages. | 1 | Team | Done |
+| **Story ID** | **Story Title**                           | **Task ID** | **Task Title**                    | **Task Description**                                                                                | **Estimation (Hours)** | **Assigned To** | **Status** |
+| ------------ | ----------------------------------------- | ----------- | --------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------: | --------------- | ---------- |
+| US01         | Conocer la propuesta de valor de Vitalita | T01         | Base structure, Navbar & Hero     | Implementar la estructura base, navegación y Hero del Landing Page.                                 |                      3 | `Alice-keys`    | Done       |
+| US01         | Conocer la propuesta de valor de Vitalita | T02         | Benefits & Target Segments        | Presentar los beneficios de Vitalita para cuidadoras, enfermeras y familiares.                      |                      2 | `R3memo`        | Done       |
+| US02         | Consultar las funcionalidades principales | T03         | Caregiver & Family Features       | Implementar las funcionalidades principales dirigidas a ambos segmentos.                            |                      2 | `R3memo`        | Done       |
+| US03         | Consultar los planes del servicio         | T04         | Pricing & Plans                   | Implementar los planes disponibles, métodos de pago mostrados y carrusel de precios.                |                      3 | `u20241d945`    | Done       |
+| US04         | Acceder a la experiencia web de Vitalita  | T05         | Login & Registration CTAs         | Implementar los llamados a la acción para login y registro desde el Landing Page.                   |                      1 | `Alice-keys`    | Done       |
+| US01-US04    | Landing Page supporting content           | T06         | About & Team                      | Implementar la presentación de Vitalita, Mobvite y los miembros del equipo.                         |                      2 | `UPC-Skylar`    | Done       |
+| US01-US04    | Landing Page supporting content           | T07         | FAQ, Footer & Legal Pages         | Implementar FAQ, footer, términos y página de privacidad.                                           |                      3 | `Alice-keys`    | Done       |
+| US01-US04    | Landing Page quality                      | T08         | Responsive & Interactive Behavior | Implementar menú móvil, comportamiento responsive, navegación, carruseles y elementos interactivos. |                      2 | `Alice-keys`    | Done       |
+| US01-US04    | Landing Page quality                      | T09         | Language Toggle & Accessibility   | Incorporar selector de idioma, HTML semántico y atributos ARIA básicos.                             |                      2 | `Alice-keys`    | Done       |
+| US01-US04    | Landing Page deployment                   | T10         | GitHub Pages Deployment           | Publicar y validar el Landing Page mediante GitHub Pages.                                           |                      1 | Team            | Done       |
 
 Las cuatro User Stories comprometidas para el Sprint 1 se consideran completadas dentro del alcance definido para la primera versión del Landing Page.
 
@@ -355,26 +355,26 @@ Durante el Sprint 1 se realizaron commits relacionados con la estructura base, n
 
 **Landing Page Repository:** [https://github.com/Mobvite/langing-page](https://github.com/Mobvite/langing-page)
 
-| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Committed on (Date)** |
-| --- | --- | --- | --- | --- |
-| `Mobvite/langing-page` | `main` | `a36e5c9` | `chore: initialize project structure and README` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `2b4d19a` | `feat: add index.html base scaffold (head, navbar, hero, section anchors)` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `63eb48e` | `feat: add base behavior (mobile menu, scrollspy, language toggle, CTAs)` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `f31b9d1` | `feat: add benefits, caregivers, and families sections to index.html` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `6018aff` | `feat: add benefits, caregivers, and families sections styles to styles.css` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `a21dbd0` | `feat: Add pricing section with plans and payment methods` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `a4a3868` | `feat: Add pricing section styles to styles.css` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `ee198d7` | `feat: Add pricing carousel functionality with navigation` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `72901fb` | `feat: add about team section` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `b0a7827` | `chore: add members photos` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `b0790a0` | `feat: add terms and privacy pages` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `6964cc2` | `feat: add faq and footer styles, image and carousel animations` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `de59f89` | `feat: add faq accordion and pricing and team carousels` | 2026-09-18 |
-| `Mobvite/langing-page` | `main` | `b44a88c` | `feat: add real images, faq and footer, fix asset paths` | 2026-09-18 |
+| **Repository**         | **Branch** | **Commit Id** | **Commit Message**                                                           | **Committed on (Date)** |
+| ---------------------- | ---------- | ------------- | ---------------------------------------------------------------------------- | ----------------------- |
+| `Mobvite/langing-page` | `main`     | `a36e5c9`     | `chore: initialize project structure and README`                             | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `2b4d19a`     | `feat: add index.html base scaffold (head, navbar, hero, section anchors)`   | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `63eb48e`     | `feat: add base behavior (mobile menu, scrollspy, language toggle, CTAs)`    | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `f31b9d1`     | `feat: add benefits, caregivers, and families sections to index.html`        | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `6018aff`     | `feat: add benefits, caregivers, and families sections styles to styles.css` | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `a21dbd0`     | `feat: Add pricing section with plans and payment methods`                   | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `a4a3868`     | `feat: Add pricing section styles to styles.css`                             | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `ee198d7`     | `feat: Add pricing carousel functionality with navigation`                   | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `72901fb`     | `feat: add about team section`                                               | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `b0a7827`     | `chore: add members photos`                                                  | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `b0790a0`     | `feat: add terms and privacy pages`                                          | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `6964cc2`     | `feat: add faq and footer styles, image and carousel animations`             | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `de59f89`     | `feat: add faq accordion and pricing and team carousels`                     | 2026-09-18              |
+| `Mobvite/langing-page` | `main`     | `b44a88c`     | `feat: add real images, faq and footer, fix asset paths`                     | 2026-09-18              |
 
 ![Development Evidence - Commits](../assets/images/others/commits.png)
 
-*Figura X. Historial de commits del Landing Page durante Sprint 1.*
+_Figura X. Historial de commits del Landing Page durante Sprint 1._
 
 ---
 
@@ -408,23 +408,23 @@ Entre las funcionalidades y secciones implementadas se encuentran:
 
 ![Landing Page Evidence 1](../assets/images/others/lpevidencia1.png)
 
-*Figura X. Evidencia de ejecución del Landing Page - vista 1.*
+_Figura X. Evidencia de ejecución del Landing Page - vista 1._
 
 ![Landing Page Evidence 2](../assets/images/others/lpevidencia2.png)
 
-*Figura X. Evidencia de ejecución del Landing Page - vista 2.*
+_Figura X. Evidencia de ejecución del Landing Page - vista 2._
 
 ![Landing Page Evidence 3](../assets/images/others/lpevidencia3.png)
 
-*Figura X. Evidencia de ejecución del Landing Page - vista 3.*
+_Figura X. Evidencia de ejecución del Landing Page - vista 3._
 
 ![Landing Page Evidence 4](../assets/images/others/lpevidencia4.png)
 
-*Figura X. Evidencia de ejecución del Landing Page - vista 4.*
+_Figura X. Evidencia de ejecución del Landing Page - vista 4._
 
 ![Landing Page Evidence 5](../assets/images/others/lpevidencia5.png)
 
-*Figura X. Evidencia de ejecución del Landing Page - vista 5.*
+_Figura X. Evidencia de ejecución del Landing Page - vista 5._
 
 ---
 
@@ -463,7 +463,7 @@ El deployment permite acceder públicamente al incremento desarrollado durante S
 
 ![GitHub Pages Deployment Evidence](../assets/images/others/github-pages.png)
 
-*Figura X. Evidencia de configuración y despliegue mediante GitHub Pages.*
+_Figura X. Evidencia de configuración y despliegue mediante GitHub Pages._
 
 El procedimiento de despliegue aplicado fue:
 
@@ -483,36 +483,91 @@ Durante Sprint 1 el equipo utilizó GitHub y Trello para distribuir, implementar
 
 El historial del repositorio evidencia contribuciones relacionadas con estructura, contenido, estilos, interacción, planes, presentación del equipo y recursos visuales.
 
-| **Team Member** | **GitHub Username / Author** | **Principal evidence during Sprint 1** |
-| --- | --- | --- |
-| Espinoza Lopez, Paul Alejandro Angel | `R3memo` | Implementación y estilos de las secciones Benefits, Caregivers y Families. |
-| Navarro Chang, Alicia Avril | `Alice-keys` / `avril` | Estructura inicial, Hero, navegación, comportamiento responsive, selector de idioma, FAQ, footer, páginas legales, imágenes e integración. |
-| Roque Tello, Jack Eddie | `UPC-Skylar` | Sección About/Team y fotografías de los integrantes. |
-| Videla Ventura, Jorge Joseph | `JorgeVidVen` | Participación y colaboración en las actividades del Sprint según la asignación del equipo y el tablero de Trello. |
-| Yanac Flores, Gabriel Stefano | `u20241d945` | Implementación de la sección Pricing, estilos y comportamiento del carrusel de planes. |
+| **Team Member**                      | **GitHub Username / Author** | **Principal evidence during Sprint 1**                                                                                                     |
+| ------------------------------------ | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Espinoza Lopez, Paul Alejandro Angel | `R3memo`                     | Implementación y estilos de las secciones Benefits, Caregivers y Families.                                                                 |
+| Navarro Chang, Alicia Avril          | `Alice-keys` / `avril`       | Estructura inicial, Hero, navegación, comportamiento responsive, selector de idioma, FAQ, footer, páginas legales, imágenes e integración. |
+| Roque Tello, Jack Eddie              | `UPC-Skylar`                 | Sección About/Team y fotografías de los integrantes.                                                                                       |
+| Videla Ventura, Jorge Joseph         | `JorgeVidVen`                | Participación y colaboración en las actividades del Sprint según la asignación del equipo y el tablero de Trello.                          |
+| Yanac Flores, Gabriel Stefano        | `u20241d945`                 | Implementación de la sección Pricing, estilos y comportamiento del carrusel de planes.                                                     |
 
 ##### Landing Page Collaboration
 
 ![Landing Page Contributors](../assets/images/others/contributors.png)
 
-*Figura X. Contributors del repositorio del Landing Page.*
+_Figura X. Contributors del repositorio del Landing Page._
 
 ##### Project Report Collaboration
 
 ![Project Report Contributors](../assets/images/others/contributors1.png)
 
-*Figura X. Contributors del repositorio de documentación Vitalita-Report.*
+_Figura X. Contributors del repositorio de documentación Vitalita-Report._
 
 ##### Commit Activity
 
 ![Sprint 1 Commit Activity](../assets/images/others/commits.png)
 
-*Figura X. Actividad de commits registrada durante Sprint 1.*
+_Figura X. Actividad de commits registrada durante Sprint 1._
 
 ##### Trello Collaboration
 
 ![Sprint 1 Trello Board](../assets/images/others/trello.png)
 
-*Figura X. Tablero utilizado para el seguimiento colaborativo de Sprint 1.*
+_Figura X. Tablero utilizado para el seguimiento colaborativo de Sprint 1._
 
 Las evidencias anteriores permiten contrastar la participación registrada en GitHub con las tareas planificadas en Trello y con la distribución presentada en la matriz de Aspect Leaders and Collaborators.
+
+### 5.3.1. Diseño de Entrevistas
+
+El proceso de validación de Vitalita tiene como finalidad evaluar la usabilidad, claridad y utilidad de la solución digital desarrollada por la startup Mobvite. A diferencia de las entrevistas exploratorias realizadas en la sección 2.2, esta etapa se enfoca en observar la interacción de los usuarios con el Landing Page y la Web Application, identificando dificultades, oportunidades de mejora y el grado de comprensión de las funcionalidades implementadas.
+
+Las entrevistas se dirigirán a los dos segmentos objetivo definidos previamente: enfermeras o cuidadores de adultos mayores y familiares involucrados en su cuidado. Cada participante realizará tareas representativas de su rol y posteriormente responderá preguntas relacionadas con su experiencia de uso.
+
+#### Objetivos de la validación
+
+**Objetivo general**
+
+Evaluar la experiencia de usuario de Vitalita mediante entrevistas y pruebas de interacción con representantes de sus segmentos objetivo, identificando fortalezas y problemas de usabilidad que permitan orientar las mejoras del producto.
+
+**Objetivos específicos**
+
+1. Evaluar si los participantes comprenden la propuesta de valor presentada en el Landing Page.
+2. Determinar si los usuarios pueden identificar y utilizar las funcionalidades principales de la Web Application.
+3. Detectar dificultades relacionadas con navegación, formularios, organización de información y comprensión de los elementos visuales.
+4. Evaluar la facilidad con la que las cuidadoras pueden registrar y consultar información del adulto mayor.
+5. Evaluar si los familiares pueden acceder y comprender la información del seguimiento del adulto mayor.
+6. Recopilar recomendaciones para mejorar la experiencia de usuario de Vitalita.
+
+#### Primer segmento objetivo: Enfermeras o cuidadores de adultos mayores
+
+Este segmento está compuesto por personas que participan directamente en el cuidado diario de adultos mayores y necesitan gestionar información relacionada con su estado de salud, medicamentos, citas médicas y actividades.
+
+La validación se enfocará en la facilidad para registrar, organizar y consultar estos datos dentro de Vitalita.
+
+1. ¿Cuánto tiempo lleva trabajando en el cuidado de adultos mayores?
+2. ¿Qué herramientas digitales utiliza actualmente para organizar la información de sus pacientes?
+3. ¿Con qué frecuencia utiliza aplicaciones web o móviles durante su jornada laboral?
+4. ¿Qué tan sencillo le resultó encontrar las funcionalidades que necesitaba?
+5. ¿Qué dificultades encontró al registrar información del adulto mayor?
+6. ¿Considera clara la organización de los reportes, citas y exámenes médicos? ¿Por qué?
+7. ¿Pudo identificar fácilmente dónde consultar el historial del adulto mayor?
+8. ¿Qué información adicional le gustaría encontrar en el resumen de emergencia?
+9. ¿Considera que Vitalita podría ayudarle a organizar mejor su trabajo diario? ¿De qué manera?
+10. ¿Qué cambiaría de la plataforma para facilitar su uso durante una jornada de cuidado?
+
+#### Segundo segmento objetivo: Familiares del adulto mayor
+
+Este segmento está conformado por familiares que participan o mantienen interés en el cuidado de un adulto mayor y necesitan acceder a información actualizada sobre su estado y las actividades realizadas por la cuidadora.
+
+La validación se enfocará en la facilidad para consultar información, interpretar los registros y comprender el seguimiento del familiar.
+
+1. ¿Qué relación tiene con el adulto mayor al que ayuda o acompaña?
+2. ¿Cómo recibe actualmente información sobre su estado y cuidado?
+3. ¿Ha utilizado anteriormente alguna aplicación para consultar información de salud o seguimiento de un familiar?
+4. ¿Le resultó fácil comprender el propósito de Vitalita desde el Landing Page?
+5. ¿Qué tan sencillo fue encontrar la información del adulto mayor en el panel familiar?
+6. ¿Considera que la información del historial se presenta de forma clara y comprensible?
+7. ¿Qué información le pareció más útil para mantenerse al tanto del cuidado de su familiar?
+8. ¿Encontró algún término, botón o sección cuyo significado no resultara claro?
+9. ¿Considera que esta plataforma podría mejorar la comunicación con la cuidadora? ¿Por qué?
+10. ¿Qué funcionalidades o mejoras considera necesarias para que Vitalita resulte más útil para usted?
