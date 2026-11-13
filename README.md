@@ -2718,11 +2718,62 @@ Estas preguntas se realizarán a ambos segmentos después de completar las activ
 
 El registro detallado queda **pendiente de completar** porque no se cuenta todavía con nombres, fechas, respuestas textuales ni consentimientos verificables para las seis capturas existentes en `assets/images/interviews/`.
 
-| Código | Segmento | Fecha | Modalidad | Tareas observadas | Hallazgos | Evidencia |
-| --- | --- | --- | --- | --- | --- | --- |
-| INT-01 a INT-06 | Por confirmar | No registrada | Por confirmar | Por registrar | Por registrar | `assets/images/interviews/` |
+### Entrevista N.º1
 
-No se inventan participantes, citas ni conclusiones a partir de imágenes sin metadatos.
+| Campo | Información                                                                                                           |
+|---|-----------------------------------------------------------------------------------------------------------------------|
+| **Screenshot** | ![InterviewValidation1](assets/images/interviews/InterviewValidation1.png)                                            |
+| **Inicia** | 08:50                                                                                                                 |
+| **Duración** | 13:42                                                                                                                 |
+| **Nombre completo** | Alvaro Salazar                                                                                                        |
+| **Edad** | 27 años                                                                                                               |
+| **Distrito** | Pueblo Libre                                                                                                          |
+| **Segmento objetivo** | Enfermera o cuidadora                                                                                                 |
+| **Resumen** | [Breve descripción de la entrevista, principales opiniones, dificultades identificadas y sugerencias del entrevistado.] |
+| **URL** | [Ver entrevista N.º1](https://youtu.be/kEA6nsTNg8k)                                                                   |
+
+### Entrevista N.º2
+
+| Campo | Información                                                                                                             |
+|---|-------------------------------------------------------------------------------------------------------------------------|
+| **Screenshot** | ![Entrevista N.º2](assets/images/interviews/InterviewValidation2.png)                                                   |
+| **Inicia** | 10:04                                                                                                                   |
+| **Duración** | 18:40                                                                                                                   |
+| **Nombre completo** | Jennifer Riveros                                                                                                        |
+| **Edad** | 26 años                                                                                                                 |
+| **Distrito** | Chorrillos                                                                                                              |
+| **Segmento objetivo** | Enfermera o cuidadora                                                                                                   |
+| **Resumen** | [Breve descripción de la entrevista, principales opiniones, dificultades identificadas y sugerencias del entrevistado.] |
+| **URL** | [Ver entrevista N.º2](https://www.youtube.com/watch?v=q-U1TOLrZms)                                                      |
+
+### Entrevista N.º3
+
+| Campo | Información                                                                                                             |
+|---|-------------------------------------------------------------------------------------------------------------------------|
+| **Screenshot** | ![Entrevista N.º3](assets/images/interviews/InterviewValidation3.png)                                                   |
+| **Inicia** | 13:47                                                                                                                   |
+| **Duración** | 22:12                                                                                                                   |
+| **Nombre completo** | Winnie Merino                                                                                                           |
+| **Edad** | 27 años                                                                                                                 |
+| **Distrito** | Breña                                                                                                                   |
+| **Segmento objetivo** | Enfermera o cuidadora                                                                                                   |
+| **Resumen** | [Breve descripción de la entrevista, principales opiniones, dificultades identificadas y sugerencias del entrevistado.] |
+| **URL** | [Ver entrevista N.º3](https://www.youtube.com/watch?v=vI2cMLiW3LA)                                                      |
+
+### Entrevista N.º4
+
+| Campo | Información                                                                                                             |
+|---|-------------------------------------------------------------------------------------------------------------------------|
+| **Screenshot** | ![Entrevista N.º4](assets/images/interviews/InterviewValidation4.png)                                                   |
+| **Inicia** | 09:00                                                                                                                   |
+| **Duración** | 17:23                                                                                                                   |
+| **Nombre completo** | Kiara Poma                                                                                                              |
+| **Edad** | 24 años                                                                                                                 |
+| **Distrito** | Chorrillos                                                                                                              |
+| **Segmento objetivo** | Familiar de adulto mayor                                                                                                |
+| **Resumen** | [Breve descripción de la entrevista, principales opiniones, dificultades identificadas y sugerencias del entrevistado.] |
+| **URL** | [Ver entrevista N.º4](https://www.youtube.com/watch?v=NNcSk5A3WqI)                                                      |
+
 
 ### 5.3.3. Evaluaciones según heurísticas
 
