@@ -2387,6 +2387,322 @@ La colaboración se organizó por áreas funcionales para cubrir el alcance comp
 
 El equipo trabajó con una separación por bounded contexts y revisiones cruzadas entre líderes y colaboradores. La integración final se validó localmente ejecutando el frontend junto con JSON Server y recorriendo los flujos documentados en las evidencias de ejecución.
 
+### 5.2.3. Sprint 3
+
+El Sprint 3 se enfocó en reemplazar progresivamente la API provisional por el backend real de Vitalita. El incremento se implementó con ASP.NET Core y .NET 10, aplicando DDD, bounded contexts, Entity Framework Core, MySQL, autenticación JWT, autorización por roles, localización de errores, pruebas automatizadas y documentación OpenAPI. La evidencia de desarrollo se consultó en `origin/develop` del repositorio [Mobvite/vitalita-backend](https://github.com/Mobvite/vitalita-backend/tree/develop).
+
+#### 5.2.3.1. Sprint Planning 3
+
+| Campo | Detalle |
+| --- | --- |
+| Sprint | Sprint 3 |
+| Fecha de inicio | 06/11/2026 |
+| Fecha de cierre | 12/11/2026 |
+| Hora | 08:00 PM |
+| Lugar | Reunión virtual vía Google Meet |
+| Prepared By | Equipo Vitalita |
+| Participantes | Paul Espinoza, Alicia Navarro, Jack Roque, Jorge Videla y Gabriel Yanac |
+| Sprint 2 Review Summary | Se dejó una primera versión funcional del frontend y una API provisional basada en JSON Server, con los flujos principales navegables. |
+| Sprint 2 Retrospective Summary | El equipo identificó la necesidad de sustituir progresivamente la API provisional, centralizar reglas de negocio en un backend persistente y mejorar la trazabilidad entre historias, commits y pruebas. |
+| Sprint 3 Goal | Implementar los contextos IAM, Profiles, Family Access y Monitoring del backend real, con persistencia MySQL, autorización, pruebas automatizadas y documentación OpenAPI. |
+| Sprint 3 Velocity | **34 Story Points** |
+| Sum of Story Points | **34 Story Points** |
+| Resultado esperado | API REST local funcional, con migraciones, políticas de acceso, pruebas, scripts HTTP y Swagger disponible en `http://localhost:5240/swagger`. |
+
+El objetivo se dividió en quince work items técnicos para mantener una granularidad suficiente de seguimiento. La integración con el frontend se mantuvo como actividad progresiva, porque la API provisional aún existe como compatibilidad durante la transición.
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+La organización del Sprint 3 se realizó por bounded contexts y capacidades transversales. La matriz siguiente representa responsabilidades de planificación; la autoría efectiva se verifica por separado mediante Git.
+
+| Bounded context / aspecto | Líder de planificación | Colaboradores | Resultado esperado |
+| --- | --- | --- | --- |
+| IAM y autenticación | Alicia Navarro | Jack Roque, Paul Espinoza | Sign-up, sign-in, JWT, claims, usuario actual y refresh. |
+| Users | Jack Roque | Alicia Navarro, Gabriel Yanac | Consulta pública por correo y operaciones protegidas de usuarios. |
+| Profiles | Jorge Videla | Alicia Navarro, Gabriel Yanac | Perfiles de cuidador y familiar, adultos mayores y reglas de ownership. |
+| Family Access | Jorge Videla | Paul Espinoza, Jack Roque | Invitaciones, aceptación, revocación y acceso de lectura. |
+| Monitoring | Paul Espinoza | Jorge Videla, Jack Roque | Reportes diarios, signos vitales y medicamentos. |
+| Persistencia y migraciones | Jack Roque | Gabriel Yanac, Jorge Videla | Entity Framework Core, MySQL, repositorios y migraciones. |
+| Pruebas y calidad | Gabriel Yanac | Paul Espinoza, Alicia Navarro | Pruebas de dominio, servicios, políticas e integración. |
+| Documentación y Swagger | Jorge Videla | Paul Espinoza, Jack Roque | OpenAPI, ejemplos HTTP, scripts y localización. |
+| Integración frontend/backend | Equipo Vitalita | Todos los integrantes | Sustitución gradual del API provisional mediante contratos compatibles. |
+
+La asignación anterior expresa liderazgo colaborativo para el Sprint. No se presenta como una lista de autores de código: el historial disponible concentra la implementación del backend en `UPC-Skylar` y registra integraciones de `Jack Tello`.
+
+| Integrante / autor Git | Evidencia verificable | Alcance observado |
+| --- | --- | --- |
+| UPC-Skylar | Commits de IAM, Profiles, Monitoring, pruebas y documentación en `origin/develop`. | Implementación principal de dominios, servicios, persistencia, controladores y pruebas. |
+| Jack Tello | Merges `850e175`, `4ab611e`, `88bd8fb` y `dcfe6f0`. | Integración de ramas de IAM, Profiles y Monitoring. |
+| Equipo Vitalita | Matriz de planificación, contratos y revisión del informe. | Coordinación de responsabilidades y preparación de la integración frontend. |
+
+#### 5.2.3.3. Sprint Backlog 3
+
+El backlog se reconstruyó a partir de los módulos, commits, scripts y pruebas presentes en el backend. Las estimaciones de horas y Story Points corresponden a la planificación del Sprint y se mantienen consistentes con la velocidad comprometida.
+
+| ID | Technical story / work item | Evidencia | Estado | SP | Horas |
+| --- | --- | --- | --- | ---: | ---: |
+| ST03-01 | Configurar la fundación de la API, solución, entorno local y MySQL. | `README.md`, `Vitalita.sln` | Done | 2 | 3 |
+| ST03-02 | Implementar sign-up, sign-in, hashing y emisión de JWT. | `5308019`, `29bde73` | Done | 3 | 5 |
+| ST03-03 | Implementar usuario actual, refresh y búsqueda de usuarios. | `7ccddcd`, `29bde73`, `a36857e` | Done | 2 | 3 |
+| ST03-04 | Implementar Profiles: cuidadores, familiares y adultos mayores. | `0b1df83`, `5b54369` | Done | 3 | 5 |
+| ST03-05 | Implementar Family Access y la facade de Profiles. | `940321f`, `4ab611e` | Done | 2 | 3 |
+| ST03-06 | Crear agregados y reglas de dominio de Monitoring. | `36048a1` | Done | 3 | 6 |
+| ST03-07 | Implementar servicios de aplicación y políticas de acceso. | `c9bb446` | Done | 3 | 5 |
+| ST03-08 | Configurar persistencia, repositorios y migración `AddMonitoring`. | `58d92a0`, `bea0979` | Done | 3 | 7 |
+| ST03-09 | Exponer controladores REST y recursos de Monitoring. | `ab5405c` | Done | 3 | 6 |
+| ST03-10 | Incorporar validaciones y errores localizados `application/problem+json`. | `81d52ce`, `ab5405c` | Done | 2 | 4 |
+| ST03-11 | Configurar OpenAPI, Swagger UI y esquema Bearer. | `5ab46f9`, `a36857e` | Done | 1 | 2 |
+| ST03-12 | Documentar ejemplos HTTP y scripts reproducibles. | `387a513`, `43e6c95` | Done | 1 | 2 |
+| ST03-13 | Implementar pruebas de dominio, servicios y políticas. | `c0c3c66`, `6654ca7`, `3f4df20` | Done | 3 | 4 |
+| ST03-14 | Ejecutar pruebas de integración y validación smoke local. | `Vitalita.API.IntegrationTests` | Done | 2 | 4 |
+| ST03-15 | Preparar la sustitución progresiva del API provisional en frontend. | Contratos REST y configuración del frontend | In progress | 1 | 3 |
+| **Total** |  |  |  | **34 SP** | **62 h** |
+
+No existe evidencia de un tablero real del Sprint 3 en este repositorio; por ello se conserva esta reconstrucción documental y no se incorpora una captura de tablero.
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+La tabla contiene commits verificables en `Mobvite/vitalita-backend`, rama `develop`, consultados desde `origin/develop`.
+
+| Repositorio | Rama | Commit | Mensaje | Autor | Fecha | Alcance |
+| --- | --- | --- | --- | --- | --- | --- |
+| vitalita-backend | develop | [0b1df83](https://github.com/Mobvite/vitalita-backend/commit/0b1df83) | `feat(profiles): add domain model` | UPC-Skylar | 11/11/2026 | Modelo de dominio de Profiles. |
+| vitalita-backend | develop | [5b54369](https://github.com/Mobvite/vitalita-backend/commit/5b54369) | `feat(profiles): add rest controllers, resources and localization` | UPC-Skylar | 11/11/2026 | Controladores y recursos de Profiles. |
+| vitalita-backend | develop | [387a513](https://github.com/Mobvite/vitalita-backend/commit/387a513) | `docs(profiles): add http samples, flow script and profiles rules` | UPC-Skylar | 11/11/2026 | Ejemplos HTTP y flujo de Profiles. |
+| vitalita-backend | develop | [6654ca7](https://github.com/Mobvite/vitalita-backend/commit/6654ca7) | `test(profiles): add domain, policy, service and facade tests` | UPC-Skylar | 11/11/2026 | Pruebas del bounded context Profiles. |
+| vitalita-backend | develop | [29bde73](https://github.com/Mobvite/vitalita-backend/commit/29bde73) | `feat(iam): add me and refresh authentication endpoints` | UPC-Skylar | 11/11/2026 | Endpoints de autenticación complementarios. |
+| vitalita-backend | develop | [ac96e5f](https://github.com/Mobvite/vitalita-backend/commit/ac96e5f) | `test(iam): add current user and token refresh tests` | UPC-Skylar | 11/11/2026 | Pruebas de `me` y refresh. |
+| vitalita-backend | develop | [a36857e](https://github.com/Mobvite/vitalita-backend/commit/a36857e) | `docs(iam): document me and refresh endpoints` | UPC-Skylar | 11/11/2026 | Documentación de autenticación. |
+| vitalita-backend | develop | [36048a1](https://github.com/Mobvite/vitalita-backend/commit/36048a1) | `feat(monitoring): add domain model` | UPC-Skylar | 11/11/2026 | Agregados `DailyReport`, `VitalSign` y `Medication`. |
+| vitalita-backend | develop | [c9bb446](https://github.com/Mobvite/vitalita-backend/commit/c9bb446) | `feat(monitoring): add application services and access policy` | UPC-Skylar | 11/11/2026 | Servicios y autorización. |
+| vitalita-backend | develop | [58d92a0](https://github.com/Mobvite/vitalita-backend/commit/58d92a0) | `feat(monitoring): add persistence configuration and repositories` | UPC-Skylar | 11/11/2026 | Persistencia y repositorios. |
+| vitalita-backend | develop | [ab5405c](https://github.com/Mobvite/vitalita-backend/commit/ab5405c) | `feat(monitoring): add rest controllers, resources and localization` | UPC-Skylar | 11/11/2026 | Controladores y respuestas localizadas. |
+| vitalita-backend | develop | [bea0979](https://github.com/Mobvite/vitalita-backend/commit/bea0979) | `feat(monitoring): add AddMonitoring migration` | UPC-Skylar | 11/11/2026 | Migración de Monitoring. |
+| vitalita-backend | develop | [3f4df20](https://github.com/Mobvite/vitalita-backend/commit/3f4df20) | `test(monitoring): add domain, policy and service tests` | UPC-Skylar | 11/11/2026 | Pruebas de Monitoring. |
+| vitalita-backend | develop | [43e6c95](https://github.com/Mobvite/vitalita-backend/commit/43e6c95) | `docs(monitoring): add http samples, flow script and monitoring rules` | UPC-Skylar | 11/11/2026 | Scripts y reglas de Monitoring. |
+| vitalita-backend | develop | [dcfe6f0](https://github.com/Mobvite/vitalita-backend/commit/dcfe6f0) | Merge pull request `feature/monitoring` | Jack Tello | 11/11/2026 | Integración del incremento en `develop`. |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Al término del Sprint 3, el backend local se validó con una instancia MySQL aislada y con el servidor ASP.NET Core ejecutándose en `http://localhost:5240`. La especificación OpenAPI publicada por la aplicación registra **20 rutas y 37 operaciones** organizadas en nueve tags.
+
+**Arquitectura implementada:**
+
+| Capa / bounded context | Responsabilidad | Evidencia |
+| --- | --- | --- |
+| Shared Kernel | Configuración, claims, localización, `ProblemDetails` y utilidades comunes. | `Vitalita.Shared`, pruebas compartidas y respuestas `application/problem+json`. |
+| IAM | Usuarios, roles, estados, sign-up, sign-in, usuario actual y refresh. | Endpoints de Authentication y Users, JWT Bearer. |
+| Profiles | Cuidadores, familiares, adultos mayores y acceso familiar. | `IProfilesContextFacade`, reglas de ownership y migración de Profiles. |
+| Monitoring | Reportes diarios, signos vitales y medicamentos. | Agregados, servicios, repositorios, controladores y migración `AddMonitoring`. |
+| API | Adaptadores HTTP, recursos, validaciones y documentación OpenAPI. | `Vitalita.API`, Swagger UI y `Vitalita.API.http`. |
+
+**Mapa de recursos documentados:**
+
+| Bounded context | Recursos | Operaciones principales |
+| --- | --- | --- |
+| Authentication | `authentication` | Sign-up, sign-in, `me` y refresh. |
+| Users | `users` | Consulta pública por correo, lista protegida, creación, actualización y desactivación lógica. |
+| Profiles | `caregiver-profiles`, `family-member-profiles`, `older-adults` | GET, GET por id, POST y PUT. |
+| Family Access | `family-access` | Consulta pública por código, invitación, aceptación, actualización y revocación. |
+| Monitoring | `daily-reports`, `vital-signs`, `medications` | Listado, consulta individual, creación y actualización/desactivación. |
+
+**Evidencia visual disponible:**
+
+![Swagger UI - overview](assets/images/sprint-03/swagger-overview.png)
+
+_Figura 27. Vista general de Vitalita API v1 en Swagger UI, con servidor local y autorización disponible._
+
+![Swagger UI - family access and profiles](assets/images/sprint-03/swagger-family-access-profiles.png)
+
+_Figura 28. Endpoints de Family Access y Family Member Profiles documentados en Swagger._
+
+![Swagger UI - older adults and daily reports](assets/images/sprint-03/swagger-older-adults-daily-reports.png)
+
+_Figura 29. Endpoints de Older Adults y Daily Reports para gestionar información del adulto mayor._
+
+![Swagger UI - medications and vital signs](assets/images/sprint-03/swagger-medications-vital-signs.png)
+
+_Figura 30. Endpoints de Medications y Vital Signs para registrar el monitoreo clínico._
+
+![OpenAPI JSON local](assets/images/sprint-03/openapi-json-local.png)
+
+_Evidencia visual adicional 1. Documento OpenAPI JSON disponible en el servidor local._
+
+![Respuesta 200 de usuarios](assets/images/sprint-03/api-users-200.png)
+
+_Evidencia visual adicional 2. Respuesta `200 OK` de la búsqueda pública de usuarios por correo._
+
+![Respuesta 401 sin autenticación](assets/images/sprint-03/api-older-adults-401.png)
+
+_Evidencia visual adicional 3. Respuesta `401 Unauthorized` al consultar adultos mayores sin bearer token._
+
+**Pruebas y escenarios:**
+
+- `dotnet test Vitalita.API.Tests --no-build --no-restore --verbosity minimal`: **259 pruebas aprobadas, 0 errores** en la ejecución local verificada.
+- `GET /api/v1/users?email=admin@vitalita.local`: respuesta `200 OK` con búsqueda pública por correo.
+- `GET /api/v1/older-adults` sin token: respuesta `401 Unauthorized` con `application/problem+json`.
+- Swagger UI y OpenAPI JSON: disponibles localmente y con los recursos agrupados por tag.
+- Los escenarios `400` por validación de rangos y `403` por ownership deben conservarse como pendientes hasta disponer de una captura o prueba reproducible específica; no se presentan como ejecutados en esta evidencia.
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+La API utiliza rutas `api/v1/<kebab-case-plural>`, JSON en `camelCase`, enums como strings y respuestas de error compatibles con RFC 7807 mediante `application/problem+json`.
+
+| Bounded context | Endpoint | Método(s) | Descripción |
+| --- | --- | --- | --- |
+| Authentication | `/api/v1/authentication/sign-up` | POST | Registrar una cuenta Caregiver o FamilyMember. |
+| Authentication | `/api/v1/authentication/sign-in` | POST | Autenticar y devolver un JWT. |
+| Authentication | `/api/v1/authentication/me` | GET | Obtener el usuario asociado al token. |
+| Authentication | `/api/v1/authentication/refresh` | POST | Renovar un token válido. |
+| Users | `/api/v1/users` | GET, POST | Buscar usuarios por correo o administrar usuarios autenticados. |
+| Users | `/api/v1/users/{id}` | GET, PUT, DELETE | Consultar, actualizar o desactivar lógicamente un usuario. |
+| Profiles | `/api/v1/caregiver-profiles` | GET, POST | Listar o crear perfiles de cuidador. |
+| Profiles | `/api/v1/caregiver-profiles/{id}` | GET, PUT | Consultar o actualizar un perfil de cuidador. |
+| Profiles | `/api/v1/family-member-profiles` | GET, POST | Listar o crear perfiles de familiar. |
+| Profiles | `/api/v1/family-member-profiles/{id}` | GET, PUT | Consultar o actualizar un perfil de familiar. |
+| Profiles | `/api/v1/older-adults` | GET, POST | Listar o registrar adultos mayores. |
+| Profiles | `/api/v1/older-adults/{id}` | GET, PUT | Consultar o actualizar un adulto mayor. |
+| Family Access | `/api/v1/family-access` | GET, POST | Buscar invitaciones o invitar a un familiar. |
+| Family Access | `/api/v1/family-access/{id}` | GET, PUT | Consultar, aceptar, actualizar o revocar un acceso. |
+| Monitoring | `/api/v1/daily-reports` | GET, POST | Listar o registrar reportes diarios. |
+| Monitoring | `/api/v1/daily-reports/{id}` | GET, PUT | Consultar o actualizar un reporte. |
+| Monitoring | `/api/v1/vital-signs` | GET, POST | Listar o registrar signos vitales. |
+| Monitoring | `/api/v1/vital-signs/{id}` | GET, PUT | Consultar o corregir un signo vital. |
+| Monitoring | `/api/v1/medications` | GET, POST | Listar o registrar medicamentos. |
+| Monitoring | `/api/v1/medications/{id}` | GET, PUT | Consultar, actualizar o desactivar un medicamento. |
+
+| Elemento técnico | Referencia |
+| --- | --- |
+| Swagger UI | [http://localhost:5240/swagger](http://localhost:5240/swagger) |
+| OpenAPI JSON | [http://localhost:5240/swagger/v1/swagger.json](http://localhost:5240/swagger/v1/swagger.json) |
+| API base local | `http://localhost:5240/api/v1` |
+| Ejemplos HTTP | `Vitalita.API/Vitalita.API.http` |
+| Flujo de Profiles | `scripts/profiles-flow.sh` |
+| Flujo de Monitoring | `scripts/monitoring-flow.sh` |
+| Autenticación | `Authorization: Bearer <token>` |
+| Localización | `Accept-Language: es` o `en` |
+| Errores | `application/problem+json` con extensión `message` |
+
+El backend usa `IProfilesContextFacade` como ACL para que Monitoring consulte ownership y acceso familiar sin duplicar la lógica de Profiles. Los scripts y ejemplos HTTP permiten repetir los flujos contra `API_URL=http://localhost:5240`.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+| Producto | Plataforma | URL | Estado |
+| --- | --- | --- | --- |
+| Backend ASP.NET Core | Entorno local | `http://localhost:5240` | Verificado localmente |
+| Swagger | Entorno local | [localhost:5240/swagger](http://localhost:5240/swagger) | Verificado localmente |
+| OpenAPI JSON | Entorno local | [swagger/v1/swagger.json](http://localhost:5240/swagger/v1/swagger.json) | Verificado localmente |
+| Backend público | — | No disponible | Pendiente de despliegue oficial |
+| Frontend Web Application | Render | [vitalita-frontend.onrender.com/iam/sign-in](https://vitalita-frontend.onrender.com/iam/sign-in) | Publicado |
+| API provisional | Render | [vitalita-fake-api.onrender.com/api/v1/older-adults](https://vitalita-fake-api.onrender.com/api/v1/older-adults) | Publicado |
+| Landing Page | GitHub Pages | [mobvite.github.io/langing-page](https://mobvite.github.io/langing-page/) | Publicado |
+
+**Procedimiento local verificado:** iniciar MySQL de desarrollo con Docker, configurar la cadena de conexión mediante user-secrets o variables de entorno, ejecutar migraciones, iniciar `Vitalita.API` y comprobar Swagger, OpenAPI y los endpoints HTTP. Este procedimiento no se presenta como despliegue público.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+El Sprint 3 combinó liderazgo planificado por bounded context con integración técnica mediante ramas y merges del repositorio backend.
+
+| Actividad | Evidencia | Insight de colaboración |
+| --- | --- | --- |
+| Development | Commits de IAM, Profiles y Monitoring en `origin/develop`. | Se trabajó por incrementos funcionales y bounded contexts antes de integrar el backend. |
+| Testing | Pruebas de dominio, servicios, políticas, IAM, Profiles y Monitoring. | La validación se incorporó junto con la implementación y no como una actividad aislada. |
+| Documentation | README del backend, `Vitalita.API.http`, `profiles-flow.sh`, `monitoring-flow.sh` y OpenAPI. | Los contratos y flujos reproducibles facilitan la revisión cruzada y la futura integración frontend. |
+| Integration | Merges `850e175`, `4ab611e`, `88bd8fb` y `dcfe6f0`. | Las ramas de IAM, Profiles y Monitoring se consolidaron en `develop`. |
+| Frontend coordination | Contratos REST y API provisional todavía disponibles. | La migración se plantea de forma gradual para evitar romper los flujos actuales del frontend. |
+
+La evidencia de Git respalda la integración del incremento y la secuencia técnica del backend. La matriz de líderes expresa coordinación del equipo, pero no reemplaza la atribución verificable de commits.
+
+---
+
+## 5.3. Validation Interviews
+
+La validación de esta entrega se separa de las entrevistas exploratorias del Capítulo II. Su finalidad es evaluar la comprensión, facilidad de uso y utilidad percibida del Landing Page y de la Web Application.
+
+### 5.3.1. Diseño de Entrevistas
+
+**Objetivo general:** evaluar la experiencia de usuarios representantes de cuidadoras y familiares, observando tareas reales sobre la versión funcional de Vitalita.
+
+**Objetivos específicos:**
+
+1. Verificar si el Landing Page comunica claramente el problema y la propuesta de valor.
+2. Evaluar el inicio de sesión y la comprensión del acceso por roles.
+3. Observar el registro de reportes, signos vitales, medicamentos y actividades.
+4. Evaluar la consulta del historial, calendario y resumen de emergencia.
+5. Comprobar si el familiar comprende el acceso de solo lectura.
+6. Identificar errores de navegación, terminología o retroalimentación visual.
+
+**Participantes objetivo:**
+
+- Enfermeras o cuidadoras de adultos mayores.
+- Familiares que participan en el seguimiento de un adulto mayor.
+
+**Tareas para cuidadoras:** iniciar sesión, seleccionar un adulto mayor, revisar el resumen de salud, registrar un reporte diario, añadir signos vitales, registrar una dosis, revisar el historial y abrir el resumen de emergencia.
+
+**Tareas para familiares:** ingresar mediante invitación, consultar el estado del adulto mayor, revisar el historial filtrado, consultar citas y recordatorios, revisar notificaciones y abrir el resumen de emergencia sin modificar registros.
+
+**Preguntas posteriores:**
+
+- ¿Qué parte de la pantalla le indicó qué debía hacer?
+- ¿Qué información le resultó más útil?
+- ¿Encontró algún término o botón confuso?
+- ¿Qué esperaba que ocurriera después de completar la tarea?
+- ¿Qué cambiaría para utilizar la plataforma durante una jornada real?
+
+**Protocolo:** entrevista semiestructurada de 20–30 minutos, modalidad remota o presencial, con consentimiento para registrar observaciones. No se deben almacenar nombres, datos clínicos reales ni información personal innecesaria.
+
+### 5.3.2. Registro de Entrevistas
+
+El registro detallado queda **pendiente de completar** porque no se cuenta todavía con nombres, fechas, respuestas textuales ni consentimientos verificables para las seis capturas existentes en `assets/images/interviews/`.
+
+| Código | Segmento | Fecha | Modalidad | Tareas observadas | Hallazgos | Evidencia |
+| --- | --- | --- | --- | --- | --- | --- |
+| INT-01 a INT-06 | Por confirmar | No registrada | Por confirmar | Por registrar | Por registrar | `assets/images/interviews/` |
+
+No se inventan participantes, citas ni conclusiones a partir de imágenes sin metadatos.
+
+### 5.3.3. Evaluaciones según heurísticas
+
+La matriz heurística queda preparada para completarse después de realizar las entrevistas y observar las tareas con participantes reales.
+
+| Heurística de Nielsen | Pantalla objetivo | Evidencia requerida | Estado |
+| --- | --- | --- | --- |
+| Visibilidad del estado del sistema | Login, reportes, signos vitales | Mensajes de carga, éxito y error | Pendiente |
+| Correspondencia con el mundo real | Resumen de salud, historial | Terminología comprensible para cuidadora y familiar | Pendiente |
+| Control y libertad | Formularios y navegación | Cancelar, volver y corregir registros | Pendiente |
+| Consistencia y estándares | Todas las vistas | Botones, etiquetas, iconos y colores coherentes | Pendiente |
+| Prevención de errores | Signos vitales y medicamentos | Validaciones antes de guardar | Pendiente |
+| Reconocimiento antes que recuerdo | Dashboard e historial | Acciones visibles y datos contextualizados | Pendiente |
+| Flexibilidad y eficiencia | Historial y calendario | Filtros, selección de paciente y accesos rápidos | Pendiente |
+| Diseño estético y minimalista | Landing Page y dashboard | Jerarquía visual y densidad de información | Pendiente |
+| Recuperación ante errores | Login y formularios | Mensajes accionables y conservación de datos | Pendiente |
+| Ayuda y documentación | Suscripciones y resumen de emergencia | Textos de apoyo y estados explicativos | Pendiente |
+
+
+---
+
+## 5.4. Video About-the-Product
+
+El video de presentación del producto queda **pendiente de grabación y publicación**. No se incorpora una URL ficticia.
+
+**Guion recomendado:**
+
+1. Presentar el problema de información dispersa en el cuidado de adultos mayores.
+2. Presentar a Mobvite y los segmentos objetivo.
+3. Explicar la propuesta de valor de Vitalita.
+4. Mostrar el recorrido de la cuidadora: login, resumen, monitoreo, medicación e historial.
+5. Mostrar el recorrido del familiar: invitación, dashboard, historial y resumen de emergencia.
+6. Mostrar la arquitectura y la evidencia local de Swagger del backend.
+7. Cerrar con el estado actual, limitaciones y próximos pasos.
+
+| Campo | Estado |
+| --- | --- |
+| Plataforma | YouTube |
+| URL | Pendiente de grabación/publicación |
+| Duración | 3:30 min |
+| Participantes | Equipo Vitalita |
+| Evidencia | Guion preparado; video aún no publicado. |
+
 # Anexos
 
 **Anexo A. Diagramas**
