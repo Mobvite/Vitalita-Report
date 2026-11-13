@@ -2637,20 +2637,83 @@ La validación de esta entrega se separa de las entrevistas exploratorias del Ca
 - Enfermeras o cuidadoras de adultos mayores.
 - Familiares que participan en el seguimiento de un adulto mayor.
 
-**Tareas para cuidadoras:** iniciar sesión, seleccionar un adulto mayor, revisar el resumen de salud, registrar un reporte diario, añadir signos vitales, registrar una dosis, revisar el historial y abrir el resumen de emergencia.
+---
 
-**Tareas para familiares:** ingresar mediante invitación, consultar el estado del adulto mayor, revisar el historial filtrado, consultar citas y recordatorios, revisar notificaciones y abrir el resumen de emergencia sin modificar registros.
+#### Segmento 1: Enfermeras o cuidadoras de adultos mayores
 
-**Preguntas posteriores:**
+**Objetivo de la entrevista:** conocer la experiencia de las cuidadoras al utilizar Vitalita para registrar, organizar y realizar el seguimiento de la información de los adultos mayores.
 
-- ¿Qué parte de la pantalla le indicó qué debía hacer?
-- ¿Qué información le resultó más útil?
-- ¿Encontró algún término o botón confuso?
-- ¿Qué esperaba que ocurriera después de completar la tarea?
-- ¿Qué cambiaría para utilizar la plataforma durante una jornada real?
+**Preguntas de la entrevista:**
+
+1. ¿Cuánto tiempo lleva trabajando en el cuidado de adultos mayores y cuáles son sus principales responsabilidades?
+2. ¿Cómo organiza actualmente la información de los adultos mayores que tiene a su cargo?
+3. ¿Qué dificultades encuentra al registrar y consultar información sobre sus pacientes?
+4. ¿Cómo realiza actualmente el seguimiento de los medicamentos y signos vitales de los adultos mayores?
+5. ¿Qué información considera importante registrar diariamente sobre el estado del paciente?
+6. ¿Cómo organiza las citas médicas, exámenes y actividades pendientes de sus pacientes?
+7. ¿Qué dificultades experimenta al buscar registros o información de días anteriores?
+8. ¿Cómo comunica actualmente las novedades y observaciones del paciente a sus familiares?
+9. Después de explorar Vitalita, ¿considera que la plataforma facilita el registro y seguimiento de la información del adulto mayor?
+10. ¿Le resultó sencillo registrar un reporte diario, signos vitales y medicamentos? ¿Qué dificultades encontró?
+11. ¿Qué tan fácil le resultó consultar el historial y acceder al resumen de emergencia?
+12. ¿Qué mejoras recomendaría para que Vitalita sea más práctica durante su jornada laboral?
+
+**Tareas para cuidadoras:**
+
+- Iniciar sesión en la plataforma.
+- Seleccionar un adulto mayor.
+- Revisar el resumen de salud.
+- Registrar un reporte diario.
+- Añadir signos vitales.
+- Registrar una dosis de medicamento.
+- Revisar el historial.
+- Abrir el resumen de emergencia.
+
+---
+
+#### Segmento 2: Familiares de adultos mayores
+
+**Objetivo de la entrevista:** conocer las necesidades de los familiares para mantenerse informados sobre el estado de salud y cuidado de sus adultos mayores, evaluando la facilidad de consulta de la información mediante Vitalita.
+
+**Preguntas de la entrevista:**
+
+1. ¿Cuál es su relación con el adulto mayor y cómo participa actualmente en su cuidado?
+2. ¿Cómo recibe actualmente información sobre el estado de salud y las actividades diarias de su familiar?
+3. ¿Qué dificultades encuentra al mantenerse informado sobre el cuidado de su familiar cuando no está presente?
+4. ¿Cómo organiza actualmente la información sobre medicamentos, citas médicas y antecedentes de su familiar?
+5. ¿Qué información le gustaría consultar rápidamente sobre el estado de su familiar?
+6. ¿Qué tan importante considera poder consultar un historial de las actividades, observaciones y atenciones del adulto mayor?
+7. ¿Considera útil recibir notificaciones cuando la cuidadora registre información importante sobre su familiar? ¿Por qué?
+8. ¿Qué información considera indispensable tener disponible ante una emergencia médica?
+9. Después de explorar Vitalita, ¿le resultó sencillo ingresar mediante una invitación y consultar la información de su familiar?
+10. ¿Le resultó fácil consultar el historial, las citas y los recordatorios? ¿Qué dificultades encontró?
+11. ¿Comprendió que su acceso a la plataforma es únicamente de consulta y que no puede modificar los registros realizados por la cuidadora?
+12. ¿Qué mejoras recomendaría para que Vitalita facilite el seguimiento de su familiar?
+
+**Tareas para familiares:**
+
+- Ingresar mediante invitación.
+- Consultar el estado del adulto mayor.
+- Revisar el historial filtrado.
+- Consultar citas y recordatorios.
+- Revisar notificaciones.
+- Abrir el resumen de emergencia sin modificar registros.
+
+---
+
+#### Preguntas posteriores a las tareas
+
+Estas preguntas se realizarán a ambos segmentos después de completar las actividades asignadas:
+
+1. ¿Qué parte de la pantalla le indicó qué debía hacer?
+2. ¿Qué información le resultó más útil?
+3. ¿Encontró algún término o botón confuso?
+4. ¿Qué esperaba que ocurriera después de completar la tarea?
+5. ¿Qué cambiaría para utilizar la plataforma durante una jornada real?
+
+---
 
 **Protocolo:** entrevista semiestructurada de 20–30 minutos, modalidad remota o presencial, con consentimiento para registrar observaciones. No se deben almacenar nombres, datos clínicos reales ni información personal innecesaria.
-
 ### 5.3.2. Registro de Entrevistas
 
 El registro detallado queda **pendiente de completar** porque no se cuenta todavía con nombres, fechas, respuestas textuales ni consentimientos verificables para las seis capturas existentes en `assets/images/interviews/`.
