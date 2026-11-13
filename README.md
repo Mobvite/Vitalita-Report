@@ -2724,5 +2724,5 @@ El video de presentación del producto queda **pendiente de grabación y publica
 | Landing Page Desplegada                    | [https://mobvite.github.io/langing-page/](https://mobvite.github.io/langing-page/)                       |
 | Repositorio del Frontend                   | [https://github.com/Mobvite/vitalita-frontend](https://github.com/Mobvite/vitalita-frontend) |
 | Frontend Desplegado                        | [https://vitalita-frontend.onrender.com/iam/sign-in](https://vitalita-frontend.onrender.com/iam/sign-in) |
-| Repositorio del Backend                    | []()                                                                                                     |
+| Repositorio del Backend                    | [https://github.com/Mobvite/vitalita-backend](https://github.com/Mobvite/vitalita-backend)                                                                                                     |
 | Backend Desplegado (Swagger Documentation) | []()                                                                                                     |
