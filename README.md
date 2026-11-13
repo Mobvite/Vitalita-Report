@@ -1549,7 +1549,7 @@ Las herramientas empleadas por el equipo se organizan de acuerdo con su propósi
 #### Project Management
 
 - **Trello (SaaS/Application):** herramienta utilizada para organizar el Product Backlog, Sprint Backlog y las tareas correspondientes a cada integrante mediante un tablero Kanban.  
-  **Vitalita Board:** [https://trello.com/b/DgEMr8w7/vitalita](https://trello.com/b/DgEMr8w7/vitalita)
+  **Vitalita Board:** [https://trello.com/b/DgEMr8w7/vitalita](https://trello.com/invite/b/6af7782cc1fd65606098d031/ATTId2f30c5ae3fca690ebf5786331a9ae9a253D9E81/vitalita-product-backlog-y-sprints-2026)
 
 - **Zoom (SaaS/Application):** plataforma utilizada para realizar reuniones virtuales de planificación, coordinación y revisión del avance del equipo.
 
@@ -1859,7 +1859,7 @@ La matriz debe mantenerse coherente con las tarjetas de Trello, el Sprint Backlo
 
 El Sprint Backlog 1 reúne las tareas necesarias para cumplir las User Stories US01–US04 y publicar la primera versión del Landing Page.
 
-**Trello Board:** [https://trello.com/b/B4BpwdYB/vitalita-trello](https://trello.com/b/B4BpwdYB/vitalita-trello)
+**Trello Board:** [https://trello.com/b/B4BpwdYB/vitalita-trello](https://trello.com/invite/b/6af7782cc1fd65606098d031/ATTId2f30c5ae3fca690ebf5786331a9ae9a253D9E81/vitalita-product-backlog-y-sprints-2026)
 
 ![Sprint 1 Trello](assets/images/others/Trello-Sprint-1.png)
 
@@ -2089,7 +2089,7 @@ Para distribuir el trabajo se asignó un área funcional principal a cada integr
 
 #### 5.2.2.3. Sprint Backlog 2
 
-**Trello Board:** [https://trello.com/b/B4BpwdYB/vitalita-trello](https://trello.com/b/B4BpwdYB/vitalita-trello)
+**Trello Board:** [https://trello.com/b/B4BpwdYB/vitalita-trello](https://trello.com/invite/b/6af7782cc1fd65606098d031/ATTId2f30c5ae3fca690ebf5786331a9ae9a253D9E81/vitalita-product-backlog-y-sprints-2026)
 
 ![Sprint 2 Trello](assets/images/others/Trello-Sprint-2.png)
 
