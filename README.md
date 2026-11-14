@@ -2611,7 +2611,9 @@ El Sprint 3 combinó liderazgo planificado por bounded context con integración 
 | Integration | Merges `850e175`, `4ab611e`, `88bd8fb` y `dcfe6f0`. | Las ramas de IAM, Profiles y Monitoring se consolidaron en `develop`. |
 | Frontend coordination | Contratos REST y API provisional todavía disponibles. | La migración se plantea de forma gradual para evitar romper los flujos actuales del frontend. |
 
-La evidencia de Git respalda la integración del incremento y la secuencia técnica del backend. La matriz de líderes expresa coordinación del equipo, pero no reemplaza la atribución verificable de commits.
+Evidencia de contribuidores: 
+
+![InterviewValidation1](assets/images/others/contributors3.png)
 
 ---
 
