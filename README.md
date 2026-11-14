@@ -2861,13 +2861,14 @@ El video de presentación del producto queda **pendiente de grabación y publica
 6. Mostrar la arquitectura y la evidencia local de Swagger del backend.
 7. Cerrar con el estado actual, limitaciones y próximos pasos.
 
-| Campo | Estado |
-| --- | --- |
-| Plataforma | YouTube |
-| URL | Pendiente de grabación/publicación |
-| Duración | 3:30 min |
-| Participantes | Equipo Vitalita |
-| Evidencia | Guion preparado; video aún no publicado. |
+| Campo | Estado                                                  |
+| --- |---------------------------------------------------------|
+| Plataforma | YouTube                                                 |
+| URL | [Video About the product](https://youtu.be/hL29tWQcrhQ) |
+| Plataforma | Clipcharm                                               |
+| URL | [Video About the product](https://upcedupe-my.sharepoint.com/personal/u20231d637_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231d637%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0730%2D8074%2Dmobvite%2Dabout%2Dthe%2Dproduct%2Dsprint%2D3%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec3effbcb%2D681a%2D41fa%2Dbce0%2D85bf7789d3b6) |
+| Duración | 2:02 min                                                |
+| Participantes | Equipo Vitalita                                         |
 
 # Anexos
 
