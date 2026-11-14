@@ -47,6 +47,7 @@ Producto: **Vitalita**
 | v1.4.0  | 2026-10-02 | Videla Ventura, Jorge Joseph  | división de historias de 8 SP, conclusiones, bibliografía y anexos.                                                       |
 | v1.5.0  | 2026-10-04 | Todos                         | Desarrollo frontend de Vitalita                                                                                           |
 | v2.0.0  | 2026-10-05 | Todos                         | Entrega TB1.                                                                                                              |
+| v2.1.0  | 2026-11-13 | Todos                         | Despliegue público del backend en Render, persistencia en TiDB Cloud y documentación de Swagger/OpenAPI.                  |
 
 ---
 
@@ -2573,6 +2574,11 @@ La API utiliza rutas `api/v1/<kebab-case-plural>`, JSON en `camelCase`, enums co
 
 | Elemento técnico | Referencia |
 | --- | --- |
+| API pública | [https://vitalita-api.onrender.com](https://vitalita-api.onrender.com) |
+| Health check público | [https://vitalita-api.onrender.com/health](https://vitalita-api.onrender.com/health) |
+| Swagger UI público | [https://vitalita-api.onrender.com/swagger/index.html](https://vitalita-api.onrender.com/swagger/index.html) |
+| OpenAPI JSON público | [https://vitalita-api.onrender.com/swagger/v1/swagger.json](https://vitalita-api.onrender.com/swagger/v1/swagger.json) |
+| API REST pública | `https://vitalita-api.onrender.com/api/v1` |
 | Swagger UI | [http://localhost:5240/swagger](http://localhost:5240/swagger) |
 | OpenAPI JSON | [http://localhost:5240/swagger/v1/swagger.json](http://localhost:5240/swagger/v1/swagger.json) |
 | API base local | `http://localhost:5240/api/v1` |
@@ -2589,15 +2595,31 @@ El backend usa `IProfilesContextFacade` como ACL para que Monitoring consulte ow
 
 | Producto | Plataforma | URL | Estado |
 | --- | --- | --- | --- |
-| Backend ASP.NET Core | Entorno local | `http://localhost:5240` | Verificado localmente |
-| Swagger | Entorno local | [localhost:5240/swagger](http://localhost:5240/swagger) | Verificado localmente |
-| OpenAPI JSON | Entorno local | [swagger/v1/swagger.json](http://localhost:5240/swagger/v1/swagger.json) | Verificado localmente |
-| Backend público | — | No disponible | Pendiente de despliegue oficial |
+| Backend ASP.NET Core | Render | [vitalita-api.onrender.com](https://vitalita-api.onrender.com) | Publicado desde `origin/main` |
+| Health check | Render | [vitalita-api.onrender.com/health](https://vitalita-api.onrender.com/health) | Verificado con HTTP `200` |
+| Swagger UI | Render | [vitalita-api.onrender.com/swagger/index.html](https://vitalita-api.onrender.com/swagger/index.html) | Publicado |
+| OpenAPI JSON | Render | [vitalita-api.onrender.com/swagger/v1/swagger.json](https://vitalita-api.onrender.com/swagger/v1/swagger.json) | Publicado |
+| Persistencia | TiDB Cloud Starter | Instancia `vitalita`, AWS Oregon (`us-west-2`) | Activa y compatible con MySQL |
+| Backend ASP.NET Core (desarrollo) | Entorno local | `http://localhost:5240` | Verificado localmente |
 | Frontend Web Application | Render | [vitalita-frontend.onrender.com/iam/sign-in](https://vitalita-frontend.onrender.com/iam/sign-in) | Publicado |
-| API provisional | Render | [vitalita-fake-api.onrender.com/api/v1/older-adults](https://vitalita-fake-api.onrender.com/api/v1/older-adults) | Publicado |
+| API provisional del frontend | Render | [vitalita-fake-api.onrender.com/api/v1/older-adults](https://vitalita-fake-api.onrender.com/api/v1/older-adults) | Publicada; se conserva durante la integración progresiva |
 | Landing Page | GitHub Pages | [mobvite.github.io/langing-page](https://mobvite.github.io/langing-page/) | Publicado |
 
-**Procedimiento local verificado:** iniciar MySQL de desarrollo con Docker, configurar la cadena de conexión mediante user-secrets o variables de entorno, ejecutar migraciones, iniciar `Vitalita.API` y comprobar Swagger, OpenAPI y los endpoints HTTP. Este procedimiento no se presenta como despliegue público.
+El despliegue público se generó desde `origin/main` después de integrar `develop` mediante el commit [`07259bcc62e890e780c9c3537fed613f2b158a4e`](https://github.com/Mobvite/vitalita-backend/commit/07259bcc62e890e780c9c3537fed613f2b158a4e). Render completó correctamente el primer despliegue y publicó el servicio en `https://vitalita-api.onrender.com`. La aplicación utiliza TiDB Cloud como persistencia administrada compatible con MySQL.
+
+El entorno local se mantiene como alternativa reproducible para desarrollo: iniciar MySQL mediante Docker, configurar la cadena de conexión con user-secrets o variables de entorno, ejecutar las migraciones, iniciar `Vitalita.API` y comprobar Swagger, OpenAPI y los endpoints HTTP.
+
+![Render backend deployment](assets/images/sprint-03/render-backend-deployment.png)
+
+_Figura 31. Despliegue exitoso del backend Vitalita en Render desde la rama `main`, con la URL pública del servicio._
+
+![Public Swagger on Render](assets/images/sprint-03/swagger-public-render.png)
+
+_Figura 32. Swagger UI de Vitalita API v1 disponible públicamente en Render._
+
+![TiDB Cloud production overview](assets/images/sprint-03/tidb-cloud-production-overview.png)
+
+_Figura 33. Instancia `vitalita` activa en TiDB Cloud Starter, compatible con MySQL y desplegada en AWS Oregon (`us-west-2`)._
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -2869,4 +2891,4 @@ El video de presentación del producto queda **pendiente de grabación y publica
 | Repositorio del Frontend                   | [https://github.com/Mobvite/vitalita-frontend](https://github.com/Mobvite/vitalita-frontend) |
 | Frontend Desplegado                        | [https://vitalita-frontend.onrender.com/iam/sign-in](https://vitalita-frontend.onrender.com/iam/sign-in) |
 | Repositorio del Backend                    | [https://github.com/Mobvite/vitalita-backend](https://github.com/Mobvite/vitalita-backend)                                                                                                     |
-| Backend Desplegado (Swagger Documentation) | []()                                                                                                     |
+| Backend Desplegado (Swagger Documentation) | [https://vitalita-api.onrender.com/swagger/index.html](https://vitalita-api.onrender.com/swagger/index.html) |
