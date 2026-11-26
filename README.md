@@ -2870,6 +2870,113 @@ El video de presentación del producto queda **pendiente de grabación y publica
 | Duración | 2:02 min                                                |
 | Participantes | Equipo Vitalita                                         |
 
+# Conclusiones
+
+## Conclusiones y recomendaciones
+
+En esta sección se contrastan los Problem Statements, Assumptions y Hypothesis Statements definidos en el proceso de Lean UX (sección 1.2.2) con los resultados obtenidos en las entrevistas de validación (sección 5.3.2), realizadas con tres enfermeras o cuidadoras y tres familiares de adultos mayores que interactuaron con el Landing Page y la Web Application. A partir de ello se plantean recomendaciones para el Roadmap de los productos digitales de Vitalita.
+
+### Conclusiones
+
+**1. Sobre el Problem Statement.** Las entrevistas confirmaron el problema planteado: los seis participantes organizan hoy la información del cuidado con medios dispersos, como cuadernos, hojas de control, alarmas del celular y conversaciones de WhatsApp, y reconocieron que esto dificulta consultar registros anteriores y mantener informada a la familia. La propuesta de centralizar el seguimiento en un espacio compartido fue valorada positivamente por los dos segmentos. Sin embargo, el criterio de éxito del Problem Statement, que exige observar un uso recurrente de la plataforma, no puede verificarse todavía, porque la validación fue cualitativa y no incluyó un periodo de uso continuo.
+
+**2. Sobre las Assumptions.** El comportamiento observado confirmó las principales suposiciones de usuario: las cuidadoras usan el celular a diario, una cuidadora puede atender a más de un adulto mayor (caso de Winnie Merino, que atiende a dos) y el cuidado de un adulto mayor puede involucrar a varios familiares (caso de Luis Cisneros, que lo comparte con sus hermanos). También se confirmó que Vitalita compite principalmente contra un hábito, el registro en papel, y no contra otra aplicación. Como diferencia frente a lo supuesto, varios participantes pidieron acceder desde el celular con mayor rapidez, lo que muestra que el uso móvil es más importante de lo previsto. Además, los participantes de la validación tuvieron entre 22 y 27 años, mientras que en el needfinding dos de tres cuidadoras superaban los 50 años, por lo que la muestra no representa a todo el segmento.
+
+**3. Sobre los Hypothesis Statements.** La siguiente tabla resume el estado de cada hipótesis frente a su criterio de éxito:
+
+| Hipótesis | Criterio de éxito | Evidencia de la validación | Estado |
+| --- | --- | --- | --- |
+| H1. Registro de citas médicas | 80 % de las citas registradas dentro de las 24 horas | Alvaro Salazar y Matthew Okuhama destacaron la gestión de citas médicas | Evidencia cualitativa favorable; criterio cuantitativo no medido |
+| H2. Exámenes con evidencia | 70 % de exámenes con resultado o evidencia, localizables después | Ningún participante se refirió directamente a esta funcionalidad | Sin evidencia suficiente |
+| H3. Seguimiento diario | 60 % de cuidadoras registrando cinco de cada siete días | Alvaro Salazar, Jennifer Riveros y Winnie Merino valoraron los reportes diarios y el seguimiento de pacientes | Evidencia cualitativa favorable; criterio cuantitativo no medido |
+| H4. Recordatorios | 75 % de recordatorios revisados antes de su fecha | Jennifer Riveros usa alarmas y Winnie Merino tiene dificultades para recordar actividades pendientes | Necesidad confirmada; criterio cuantitativo no medido |
+| H5. Panel para familiares | 60 % de familiares invitados activos al menos una vez por semana | Kiara Poma, Luis Cisneros y Matthew Okuhama destacaron el panel familiar, el historial y el acceso por invitación | Evidencia cualitativa favorable; criterio cuantitativo no medido |
+| H6. Reporte consolidado | 80 % de participantes generan el reporte y encuentran la información | Kiara Poma pidió facilitar el acceso al resumen de emergencia desde el celular | Evidencia parcial |
+| H7. Suscripción y pagos | Usuarios completan el flujo de suscripción y se observa conversión | No se evaluó durante las entrevistas | No validada |
+
+En conjunto, las hipótesis relacionadas con el seguimiento diario, las citas y el panel familiar cuentan con evidencia cualitativa favorable. Ninguna puede darse por validada según sus criterios cuantitativos, porque estos requieren medir el uso real durante un periodo determinado.
+
+**4. Sobre la solución desarrollada.** Al cierre del proyecto, Vitalita cuenta con un Landing Page desplegado en GitHub Pages, con soporte en inglés y español y llamadas a la acción hacia la Web Application para cada segmento; una Web Application desplegada en Render; y un RESTful API propio desarrollado con ASP.NET Core, organizado por bounded contexts siguiendo Domain-Driven Design, con autenticación mediante JWT, persistencia en TiDB Cloud y documentación con OpenAPI. [Confirmar al cierre del Sprint 4: la Web Application consume el RESTful API desplegado en todos sus módulos.]
+
+**5. Sobre el trabajo en equipo.** El uso de GitFlow, Conventional Commits y Pull Requests permitió mantener la trazabilidad entre las User Stories, los commits y las evidencias de cada Sprint. Como aprendizaje, la autoría técnica quedó concentrada en pocos integrantes y el tablero de gestión no siempre se actualizó al ritmo del desarrollo, lo que dificultó reflejar el avance real en algunos Sprints.
+
+### Recomendaciones
+
+Las recomendaciones para el Roadmap de los productos digitales de Vitalita se organizan por horizonte:
+
+| Horizonte | Recomendación | Origen |
+| --- | --- | --- |
+| Corto plazo | Realizar un piloto de cuatro semanas con cuidadoras y familiares reales para medir los criterios de éxito de H1 a H7 con datos de uso | Conclusión 3 |
+| Corto plazo | Validar con usuarios el flujo completo de suscripción y pago (H7), y el reporte consolidado (H6) | Conclusión 3 |
+| Corto plazo | Ampliar la validación a cuidadoras mayores de 50 años, que son parte importante del segmento | Conclusión 2 |
+| Corto plazo | Aplicar las mejoras de usabilidad pedidas en la validación: botones más visibles, mensajes de confirmación más claros, indicaciones en los formularios y diferencia visual entre medicamentos pendientes y administrados | Entrevistas 1 y 2 |
+| Mediano plazo | Priorizar la experiencia móvil, con accesos rápidos y acceso directo al resumen de emergencia, evaluando una Progressive Web App | Entrevistas 2, 4 y 6 |
+| Mediano plazo | Agregar una sección de novedades recientes, filtros y categorías en el historial, la fecha de la última actualización y notificaciones personalizables para los familiares | Entrevistas 4, 5 y 6 |
+| Mediano plazo | Incorporar plantillas de observaciones frecuentes y organizar las actividades por horario, para cuidadoras que atienden a varios adultos mayores | Entrevista 3 |
+| Largo plazo | Explorar a las agencias de cuidado como canal de adquisición, a través del plan Agencia | Business Assumption 6 |
+| Largo plazo | Revisar con asesoría legal el tratamiento de datos de salud conforme a la Ley N.° 29733, antes de una operación comercial | Marco normativo |
+
+Para el equipo, se recomienda distribuir la autoría técnica mediante programación en pares y revisiones cruzadas de Pull Requests, y actualizar el tablero de gestión durante el Sprint y no solo al cerrarlo.
+
+# Bibliografía
+
+## Contexto del problema y marco normativo
+
+- World Health Organization. (2025). [Ageing and health](https://www.who.int/news-room/fact-sheets/detail/ageing-and-health).
+- Instituto Nacional de Estadística e Informática. (2026). [INEI: población del Perú totalizó 34 millones 157 mil 732 habitantes al 2025](https://www.gob.pe/institucion/inei/noticias/1399446-inei-poblacion-del-peru-totalizo-34-millones-157-mil-732-habitantes-al-2025).
+- Instituto Nacional de Estadística e Informática. (2025). [Situación de la Población Adulta Mayor: III Trimestre 2025](https://www.inei.gob.pe/media/MenuRecursivo/boletines/situacion-de-la-poblacion-adulta-mayor-iii-trimestre-2025.pdf).
+- Congreso de la República del Perú. (2011). [Ley N.° 29733 — Ley de Protección de Datos Personales](https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733).
+
+## Experiencia de usuario y validación
+
+- Gothelf, J., & Seiden, J. (2021). [Lean UX, 3rd Edition](https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/). O'Reilly Media.
+- Nielsen, J. (2024). [10 usability heuristics for user interface design](https://www.nngroup.com/articles/ten-usability-heuristics/). Nielsen Norman Group.
+- Association for Computing Machinery. (2018). [ACM Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics).
+
+## Arquitectura de software
+
+- Evans, E. (2003). *Domain-Driven Design: Tackling complexity in the heart of software*. Addison-Wesley.
+- Vernon, V. (2013). *Implementing Domain-Driven Design*. Addison-Wesley.
+- Brown, S. (2026). [C4 model: Diagrams](https://c4model.com/diagrams).
+- Mermaid. (2026). [Flowcharts](https://mermaid.js.org/syntax/flowchart.html).
+- Mermaid. (2026). [Class diagrams](https://mermaid.js.org/syntax/classDiagram.html).
+
+## Desarrollo del Landing Page y la Web Application
+
+- Vue.js. (2026). [Introduction](https://vuejs.org/guide/introduction.html).
+- Vite. (2026). [Building for production](https://vite.dev/guide/build).
+- Vue Router. (2026). [Getting started](https://router.vuejs.org/guide/).
+- Pinia. (2026). [Introduction](https://pinia.vuejs.org/introduction.html).
+- Vue I18n. (2026). [What is Vue I18n?](https://vue-i18n.intlify.dev/guide/introduction.html).
+- PrimeVue. (2026). [PrimeVue documentation](https://primevue.org/).
+- PrimeFlex. (2026). [PrimeFlex documentation](https://primeflex.org/).
+- Axios. (2026). [First steps](https://axios-http.com/docs/intro).
+- three.js. (2026). [three.js documentation](https://threejs.org/docs/).
+- typicode. (2026). [JSON Server](https://github.com/typicode/json-server).
+- Cloudinary. (2026). [Upload API reference](https://cloudinary.com/documentation/image_upload_api_reference).
+- Culqi. (2026). [Culqi API 2.0](https://apidocs.culqi.com/).
+
+## Desarrollo del RESTful API
+
+- Microsoft. (2026). [ASP.NET Core documentation](https://learn.microsoft.com/aspnet/core/).
+- Microsoft. (2026). [Entity Framework Core](https://learn.microsoft.com/ef/core/).
+- Oracle. (2026). [MySQL Connector/NET Developer Guide](https://dev.mysql.com/doc/connector-net/en/).
+- PingCAP. (2026). [TiDB Cloud documentation](https://docs.pingcap.com/tidbcloud/).
+- Jones, M., Bradley, J., & Sakimura, N. (2015). [*JSON Web Token (JWT)* (RFC 7519)](https://www.rfc-editor.org/rfc/rfc7519). Internet Engineering Task Force.
+- Nottingham, M., & Wilde, E. (2016). [*Problem Details for HTTP APIs* (RFC 7807)](https://www.rfc-editor.org/rfc/rfc7807). Internet Engineering Task Force.
+- OpenAPI Initiative. (2026). [OpenAPI Specification](https://spec.openapis.org/oas/latest.html).
+- Scalar. (2026). [Scalar API Reference](https://github.com/scalar/scalar).
+
+## Gestión del proyecto, código fuente y despliegue
+
+- Schwaber, K., & Sutherland, J. (2020). [The Scrum Guide](https://scrumguides.org/scrum-guide.html).
+- Driessen, V. (2010). [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/).
+- Conventional Commits. (2026). [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/).
+- GitHub. (2026). [Getting started with GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages).
+- Render. (2026). [Static Sites](https://render.com/docs/static-sites).
+- Render. (2026). [Web Services](https://render.com/docs/web-services).
+- Render. (2026). [Docker on Render](https://render.com/docs/docker).
+
 # Anexos
 
 **Anexo A. Diagramas**
