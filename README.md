@@ -103,24 +103,24 @@ Producto: **Vitalita**
     - [Technical Stories](#technical-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
-  - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
-  - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
-  - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+    - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
   - [4.2. Information Architecture.](#42-information-architecture)
-  - [4.2.1. Organization Systems.](#421-organization-systems)
-  - [4.2.2. Labeling Systems.](#422-labeling-systems)
-  - [4.2.3. SEO Tags and Meta Tags.](#423-seo-tags-and-meta-tags)
-  - [4.2.4. Searching Systems.](#424-searching-systems)
-  - [4.2.5. Navigation Systems.](#425-navigation-systems)
+    - [4.2.1. Organization Systems.](#421-organization-systems)
+    - [4.2.2. Labeling Systems.](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags.](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](#424-searching-systems)
+    - [4.2.5. Navigation Systems.](#425-navigation-systems)
   - [4.3 Landing Page UI Design](#43-landing-page-ui-design)
-  - [4.3.1 Landing Page Wireframe](#431-landing-page-wireframe)
-  - [4.3.2 Landing Page Mock-up](#432-landing-page-mock-up)
+    - [4.3.1 Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2 Landing Page Mock-up](#432-landing-page-mock-up)
   - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
-  - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
-  - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-  - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
-  - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
+    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
@@ -1022,13 +1022,13 @@ El presente glosario reúne los términos del dominio del cuidado del adulto may
 | 45    | TS09          | Proveer endpoints de planes y suscripciones                        | Como Developer, deseo disponer de endpoints de planes y suscripciones para integrar el modelo de monetización.                                                                                                         |            3 |
 | 46    | TS10          | Proveer endpoints de pagos y notificación de la pasarela           | Como Developer, deseo disponer de endpoints de pago y de recepción de la confirmación de la pasarela para activar suscripciones.                                                                                       |            5 |
 
-## Capítulo IV: Product Design
+# Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines.
 
 Un Style Guideline es un conjunto de criterios y lineamientos que permiten mantener uniformidad en la redacción, el diseño y la presentación de documentos, contenidos digitales, proyectos de software y otros productos creativos. A continuación, se presentan las especificaciones y parámetros definidos para mantener una estructura coherente y consistente a lo largo del proyecto .
 
-## 4.1.1. General Style Guidelines.
+### 4.1.1. General Style Guidelines.
 
 #### **Brand Overview**
 
@@ -1086,7 +1086,7 @@ El estilo visual de Vitalita se basa en:
 
 - uso de color naranja para destacar recordatorios o alertas importantes.
 
-## 4.1.2. Web Style Guidelines.
+### 4.1.2. Web Style Guidelines.
 
 La aplicación web de Vitalita debe estar diseñada bajo una lógica responsive, adaptándose correctamente a escritorio, tablet y dispositivos móviles. La estructura visual debe permitir que el enfermero/cuidador y el familiar encuentren rápidamente la información del paciente.
 
@@ -1126,7 +1126,7 @@ La arquitectura de información se basa en dos perfiles principales:
 
 El adulto mayor es el centro de la información, pero no actúa como usuario activo dentro del sistema.
 
-## 4.2.1. Organization Systems.
+### 4.2.1. Organization Systems.
 
 Vitalita utiliza una organización jerárquica combinada con organización por tareas y roles.
 
@@ -1156,7 +1156,7 @@ Las secciones principales son:
 
 - **Perfil del enfermero:** muestra nombre, foto, correo, estudios, certificaciones y titulaciones.
 
-## 4.2.2. Labeling Systems.
+### 4.2.2. Labeling Systems.
 
 Los sistemas de etiquetado de Vitalita buscan que la interfaz sea clara, comprensible y fácil de usar para usuarios no técnicos.
 
@@ -1234,7 +1234,7 @@ Ejemplos de mensajes de ayuda:
 
 - “El familiar no puede editar este calendario”
 
-## 4.2.3. SEO Tags and Meta Tags.
+### 4.2.3. SEO Tags and Meta Tags.
 
 | **Etiqueta**  | **Contenido**                                                                                                                                         |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1245,7 +1245,7 @@ Ejemplos de mensajes de ayuda:
 | `author`      | Vitalita                                                                                                                                              |
 | `copyright`   | © 2026 Vitalita                                                                                                                                       |
 
-## 4.2.4. Searching Systems.
+### 4.2.4. Searching Systems.
 
 El sistema de búsqueda de Vitalita debe permitir localizar información relevante del paciente de manera rápida y ordenada.
 
@@ -1297,7 +1297,7 @@ Permite encontrar información usando términos específicos como:
 
 Como la cuidadora trabaja con un adulto mayor activo a la vez, las búsquedas se ejecutan siempre dentro del paciente seleccionado. El selector de pacientes solo aparece cuando el plan contratado permite gestionar más de uno.
 
-## 4.2.5. Navigation Systems.
+### 4.2.5. Navigation Systems.
 
 Vitalita cuenta con un sistema de navegación basado en un **menú tipo sandwich** , diseñado para facilitar el acceso a las secciones principales de la plataforma.
 
@@ -1339,7 +1339,7 @@ Esta propuesta de Interfaz de Usuario (UI) para la Landing Page de Vitalita trad
 
 El diseño visual adopta la paleta definida en los Style Guidelines, con el verde teal #0F766E como color primario y el verde menta #ECFDF5 como fondo, asegurando una experiencia consistente entre el Landing Page y la Web Application.
 
-## 4.3.1 Landing Page Wireframe
+### 4.3.1 Landing Page Wireframe
 
 En la etapa de wireframing (diseño de baja/media fidelidad) para _Desktop Web Browser_ y _Mobile Web Browser_ , se establecieron las bases estructurales y de comportamiento del sitio:
 
@@ -1357,7 +1357,7 @@ En la etapa de wireframing (diseño de baja/media fidelidad) para _Desktop Web B
 ![Wireframe 8 - Landing Page](assets/images/landing/wireframe8lp.jpeg)
 ![Wireframe 9 - Landing Page](assets/images/landing/wireframe9lp.jpeg)
 
-## 4.3.2 Landing Page Mock-up
+### 4.3.2 Landing Page Mock-up
 
 Los Mock-ups de alta fidelidad para _Desktop Web Browser_ y _Mobile Web Browser_ materializan la arquitectura definida aplicando rigurosamente el _Design System_ de **Vitalita**:
 
@@ -1381,7 +1381,7 @@ En esta sección se presenta la propuesta de diseño UX/UI de las aplicaciones w
 
 El diseño está orientado a los dos segmentos principales del sistema: enfermeras o cuidadores de adultos mayores y familiares, priorizando una interacción clara, eficiente y alineada con sus necesidades de seguimiento y cuidado. Asimismo, se asegura la coherencia con los Style Guidelines y la Information Architecture, garantizando una experiencia intuitiva, organizada y consistente en toda la plataforma.
 
-## 4.4.1. Web Applications Wireframes.
+### 4.4.1. Web Applications Wireframes.
 
 ![Wireframe Protito 1](assets/images/figures/Wireframe1-prototipo.png)
 
@@ -1393,9 +1393,9 @@ El diseño está orientado a los dos segmentos principales del sistema: enfermer
 
 ![Wireframe Protito 5](assets/images/figures/Wireframe5-prototipo.png)
 
-## 4.4.2. Web Applications Wireflow Diagrams.
+### 4.4.2. Web Applications Wireflow Diagrams.
 
-## 4.4.3. Web Applications Mock-ups.
+### 4.4.3. Web Applications Mock-ups.
 
 ![Mockup Protito 1](assets/images/figures/Mockup-prototipo1.png)
 
@@ -1419,7 +1419,7 @@ El diseño está orientado a los dos segmentos principales del sistema: enfermer
 
 ![Mockup Protito 6-2](assets/images/figures/Mockup-prototipo6-2.png)
 
-## 4.4.4. Web Applications User Flow Diagrams.
+### 4.4.4. Web Applications User Flow Diagrams.
 
 ## 4.5. Web Applications Prototyping.
 
