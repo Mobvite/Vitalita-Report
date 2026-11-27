@@ -1371,7 +1371,7 @@ Los Mock-ups de alta fidelidad para _Desktop Web Browser_ y _Mobile Web Browser_
 ![Mockup 4 - Landing Page](assets/images/landing/mockup4lp.jpeg)
 ![Mockup 5 - Landing Page](assets/images/landing/mockup5lp.jpeg)
 ![Mockup 6 - Landing Page](assets/images/landing/mockup6lp.jpeg)
-![Mockup 7 - Landing Page](assets/images/others/lpevidencia5.png)
+![Mockup 7 - Landing Page](assets/images/landing/mockup7lp.jpeg)
 ![Mockup 8 - Landing Page](assets/images/landing/mockup8lp.jpeg)
 ![Mockup 9 - Landing Page](assets/images/landing/mockup9lp.jpeg)
 
