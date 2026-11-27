@@ -1311,8 +1311,6 @@ Se utilizó la guía de Philippe Bourgau, proporcionada en la rúbrica del Final
 - Aggregates
 - Bounded Contexts
 
-> **PENDIENTE DE IMPLEMENTACIÓN:**
-
 Como resultado se identificaron siete bounded contexts, cuya nomenclatura corresponde a los sub-dominios habituales de una plataforma SaaS orientada a negocios de servicio:
 
 | **Bounded Context**                  | **Tipo**   | **Responsabilidad**                                                          | **User Stories**                  |
@@ -2737,8 +2735,6 @@ Estas preguntas se realizarán a ambos segmentos después de completar las activ
 
 **Protocolo:** entrevista semiestructurada de 20–30 minutos, modalidad remota o presencial, con consentimiento para registrar observaciones. No se deben almacenar nombres, datos clínicos reales ni información personal innecesaria.
 ### 5.3.2. Registro de Entrevistas
-
-El registro detallado queda **pendiente de completar** porque no se cuenta todavía con nombres, fechas, respuestas textuales ni consentimientos verificables para las seis capturas existentes en `assets/images/interviews/`.
 
 ### Entrevista N.º1
 
