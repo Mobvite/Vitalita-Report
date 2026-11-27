@@ -1787,7 +1787,7 @@ El flujo de despliegue utilizado consiste en:
 
 ![GitHub Pages Configuration](assets/images/others/github-pages.png)
 
-_Figura X. Configuración de despliegue del Landing Page mediante GitHub Pages._
+_Figura 4. Configuración de despliegue del Landing Page mediante GitHub Pages._
 
 Los despliegues correspondientes a la **Web Application** y **Vitalita API** serán documentados en los Sprints en los que dichos productos ingresen al alcance de implementación.
 
@@ -1864,7 +1864,7 @@ El Sprint Backlog 1 reúne las tareas necesarias para cumplir las User Stories U
 
 ![Sprint 1 Trello](assets/images/others/Trello-Sprint-1.png)
 
-_Figura X. Sprint 1 Board de Vitalita en Trello._
+_Figura 5. Sprint 1 Board de Vitalita en Trello._
 
 | **Story ID** | **Story Title**                           | **Task ID** | **Task Title**                    | **Task Description**                                                                                | **Estimation (Hours)** | **Assigned To** | **Status** |
 | ------------ | ----------------------------------------- | ----------- | --------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------: | --------------- | ---------- |
@@ -1908,7 +1908,7 @@ Durante el Sprint 1 se realizaron commits relacionados con la estructura base, n
 
 ![Development Evidence - Commits](assets/images/others/commits.png)
 
-_Figura X. Historial de commits del Landing Page durante Sprint 1._
+_Figura 6. Historial de commits del Landing Page durante Sprint 1._
 
 ---
 
@@ -1942,23 +1942,23 @@ Entre las funcionalidades y secciones implementadas se encuentran:
 
 ![Landing Page Evidence 1](assets/images/others/lpevidencia1.png)
 
-_Figura X. Evidencia de ejecución del Landing Page - vista 1._
+_Figura 7. Evidencia de ejecución del Landing Page - vista 1._
 
 ![Landing Page Evidence 2](assets/images/others/lpevidencia2.png)
 
-_Figura X. Evidencia de ejecución del Landing Page - vista 2._
+_Figura 8. Evidencia de ejecución del Landing Page - vista 2._
 
 ![Landing Page Evidence 3](assets/images/others/lpevidencia3.png)
 
-_Figura X. Evidencia de ejecución del Landing Page - vista 3._
+_Figura 9. Evidencia de ejecución del Landing Page - vista 3._
 
 ![Landing Page Evidence 4](assets/images/others/lpevidencia4.png)
 
-_Figura X. Evidencia de ejecución del Landing Page - vista 4._
+_Figura 10. Evidencia de ejecución del Landing Page - vista 4._
 
 ![Landing Page Evidence 5](assets/images/others/lpevidencia5.png)
 
-_Figura X. Evidencia de ejecución del Landing Page - vista 5._
+_Figura 11. Evidencia de ejecución del Landing Page - vista 5._
 
 ---
 
@@ -1997,7 +1997,7 @@ El deployment permite acceder públicamente al incremento desarrollado durante S
 
 ![GitHub Pages Deployment Evidence](assets/images/others/github-pages.png)
 
-_Figura X. Evidencia de configuración y despliegue mediante GitHub Pages._
+_Figura 12. Evidencia de configuración y despliegue mediante GitHub Pages._
 
 El procedimiento de despliegue aplicado fue:
 
@@ -2029,25 +2029,25 @@ El historial del repositorio evidencia contribuciones relacionadas con estructur
 
 ![Landing Page Contributors](assets/images/others/contributors.png)
 
-_Figura X. Contributors del repositorio del Landing Page._
+_Figura 13. Contributors del repositorio del Landing Page._
 
 ##### Project Report Collaboration
 
 ![Project Report Contributors](assets/images/others/contributors1.png)
 
-_Figura X. Contributors del repositorio de documentación Vitalita-Report._
+_Figura 14. Contributors del repositorio de documentación Vitalita-Report._
 
 ##### Commit Activity
 
 ![Sprint 1 Commit Activity](assets/images/others/commits.png)
 
-_Figura X. Actividad de commits registrada durante Sprint 1._
+_Figura 15. Actividad de commits registrada durante Sprint 1._
 
 ##### Trello Collaboration
 
 ![Sprint 1 Trello](assets/images/others/Trello-Sprint-1.png)
 
-_Figura X. Tablero utilizado para el seguimiento colaborativo de Sprint 1._
+_Figura 16. Tablero utilizado para el seguimiento colaborativo de Sprint 1._
 
 Las evidencias anteriores permiten contrastar la participación registrada en GitHub con las tareas planificadas en Trello y con la distribución presentada en la matriz de Aspect Leaders and Collaborators.
 
@@ -2188,112 +2188,112 @@ Las siguientes capturas corresponden a los dos productos desplegados durante est
 
 ![Vitalita sign-in](assets/images/sprint-02/sign-in.png)
 
-_Figura X. Inicio de sesión con selección de rol, evidencia de US06._
+_Figura 17. Inicio de sesión con selección de rol, evidencia de US06._
 
 ##### Caregiver Health Summary
 
 ![Caregiver health summary](assets/images/sprint-02/caregiver-health-summary.png)
 
-_Figura X. Resumen de salud del paciente con signos vitales, medicación, actividad y recordatorios; evidencia de US14, US15 y US25._
+_Figura 18. Resumen de salud del paciente con signos vitales, medicación, actividad y recordatorios; evidencia de US14, US15 y US25._
 
 ##### Daily Monitoring
 
 ![Patient notes](assets/images/sprint-02/patient-notes.png)
 
-_Figura X. Registro diario y línea de tiempo de cuidados; evidencia de US13, US15 y US20._
+_Figura 19. Registro diario y línea de tiempo de cuidados; evidencia de US13, US15 y US20._
 
 ![Clinical records](assets/images/sprint-02/clinical-records.png)
 
-_Figura X. Registro de citas, exámenes y evidencias clínicas; evidencia de US16, US17, US18 y US19._
+_Figura 20. Registro de citas, exámenes y evidencias clínicas; evidencia de US16, US17, US18 y US19._
 
 ![Patient history](assets/images/sprint-02/patient-history.png)
 
-_Figura X. Historial centralizado con filtros de búsqueda; evidencia de US23 y US36._
+_Figura 21. Historial centralizado con filtros de búsqueda; evidencia de US23 y US36._
 
 ##### Care Planning
 
 ![Care calendar and reminders](assets/images/sprint-02/care-calendar-reminders.png)
 
-_Figura X. Calendario de cuidado y recordatorios; evidencia de US25, US33 y US34._
+_Figura 22. Calendario de cuidado y recordatorios; evidencia de US25, US33 y US34._
 
 ##### Profiles and Family Access
 
 ![Caregiver family members](assets/images/sprint-02/caregiver-family-members.png)
 
-_Figura X. Gestión de familiares autorizados; evidencia de US11 y US32._
+_Figura 23. Gestión de familiares autorizados; evidencia de US11 y US32._
 
 ![Caregiver professional profile](assets/images/sprint-02/caregiver-profile.png)
 
-_Figura X. Perfil profesional de la cuidadora; evidencia de US35._
+_Figura 24. Perfil profesional de la cuidadora; evidencia de US35._
 
 ##### Subscription Management
 
 ![Subscription status](assets/images/sprint-02/subscription-status.png)
 
-_Figura X. Estado de la suscripción y registro de pagos; evidencia de US28 y US38._
+_Figura 25. Estado de la suscripción y registro de pagos; evidencia de US28 y US38._
 
 ##### Emergency Information
 
 ![Emergency summary](assets/images/sprint-02/emergency-summary.png)
 
-_Figura X. Resumen de emergencia con exportación a PDF; evidencia de US26 y US37._
+_Figura 26. Resumen de emergencia con exportación a PDF; evidencia de US26 y US37._
 
 ##### Family Experience
 
 ![Family dashboard](assets/images/sprint-02/family-dashboard.png)
 
-_Figura X. Panel familiar de solo lectura; evidencia de US22._
+_Figura 27. Panel familiar de solo lectura; evidencia de US22._
 
 ![Caregiver information for family](assets/images/sprint-02/family-caregiver-profile.png)
 
-_Figura X. Visualización familiar de la información profesional de la cuidadora._
+_Figura 28. Visualización familiar de la información profesional de la cuidadora._
 
 Las historias que no poseen una captura exclusiva se respaldan mediante la evidencia de desarrollo y la integración observada en estos recorridos.
 ##### Landing Page
 
 ![Landing Page hero](assets/images/sprint-02/landing1.jpeg)
 
-_Figura X. Sección principal del Landing Page con la propuesta de valor y los call-to-action diferenciados por segmento objetivo; evidencia de US01 y US04._
+_Figura 29. Sección principal del Landing Page con la propuesta de valor y los call-to-action diferenciados por segmento objetivo; evidencia de US01 y US04._
 
 ![Landing Page propósito de la plataforma](assets/images/sprint-02/landing2.jpeg)
 
-_Figura X. Explicación del propósito de la plataforma dirigida al visitante; evidencia de US01._
+_Figura 30. Explicación del propósito de la plataforma dirigida al visitante; evidencia de US01._
 
 ![Landing Page galería de producto](assets/images/sprint-02/landing3.jpeg)
 
-_Figura X. Galería de capturas de la Web Application incorporada al Landing Page; evidencia de US02._
+_Figura 31. Galería de capturas de la Web Application incorporada al Landing Page; evidencia de US02._
 
 ![Landing Page beneficios](assets/images/sprint-02/landing4.jpeg)
 
-_Figura X. Beneficios de la solución frente al registro en papel, derivados de los hallazgos del proceso de needfinding; evidencia de US01._
+_Figura 32. Beneficios de la solución frente al registro en papel, derivados de los hallazgos del proceso de needfinding; evidencia de US01._
 
 ![Landing Page segmento de cuidadoras](assets/images/sprint-02/landing5.jpeg)
 
-_Figura X. Sección dirigida a enfermeras y cuidadoras, con call-to-action hacia el registro de cuenta profesional de la Web Application; evidencia de US04._
+_Figura 33. Sección dirigida a enfermeras y cuidadoras, con call-to-action hacia el registro de cuenta profesional de la Web Application; evidencia de US04._
 
 ![Landing Page segmento de familiares](assets/images/sprint-02/landing6.jpeg)
 
-_Figura X. Sección dirigida a familias, con call-to-action hacia el acceso por invitación de la Web Application; evidencia de US04._
+_Figura 34. Sección dirigida a familias, con call-to-action hacia el acceso por invitación de la Web Application; evidencia de US04._
 
 ![Landing Page planes](assets/images/sprint-02/landing7.jpeg)
 
-_Figura X. Planes Freemium, Pro y Agencia del Landing Page, alineados con los de la Web Application; evidencia de US03._
+_Figura 35. Planes Freemium, Pro y Agencia del Landing Page, alineados con los de la Web Application; evidencia de US03._
 
 ![Landing Page sobre Vitalita](assets/images/sprint-02/landing8.jpeg)
 
-_Figura X. Presentación de la startup y de los integrantes del equipo; evidencia de US01._
+_Figura 36. Presentación de la startup y de los integrantes del equipo; evidencia de US01._
 
 ![Landing Page preguntas frecuentes](assets/images/sprint-02/landing9.jpeg)
 
-_Figura X. Contenido de preguntas frecuentes sobre planes, vinculación familiar y controles de acceso a la información del adulto mayor; evidencia de US01._
+_Figura 37. Contenido de preguntas frecuentes sobre planes, vinculación familiar y controles de acceso a la información del adulto mayor; evidencia de US01._
 
 ![Landing Page llamado a la acción final](assets/images/sprint-02/landing10.jpeg)
 
-_Figura X. Llamado a la acción de cierre con redirección a la Web Application; evidencia de US04._
+_Figura 38. Llamado a la acción de cierre con redirección a la Web Application; evidencia de US04._
 
 ![Landing Page footer](assets/images/sprint-02/landing11.jpeg)
 
-_Figura X. Footer con navegación corregida, accesos a redes sociales, información de contacto y enlaces a términos y política de privacidad; evidencia de US40._
+_Figura 39. Footer con navegación corregida, accesos a redes sociales, información de contacto y enlaces a términos y política de privacidad; evidencia de US40._
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -2330,7 +2330,7 @@ Ejemplo verificado durante la revisión:
 
 ![JSON Server older adults response](assets/images/sprint-02/json-server-older-adults.png)
 
-_Figura X. Respuesta HTTP 200 del recurso older-adults en el JSON Server local._
+_Figura 40. Respuesta HTTP 200 del recurso older-adults en el JSON Server local._
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
@@ -2344,7 +2344,7 @@ URL desplegada: [https://vitalita-frontend.onrender.com](https://vitalita-fronte
 
 ![Web Application desplegada](assets/images/sprint-02/frontend-deployment-sign-in.png)
 
-_Figura X. Web Application desplegada en Render, accesible desde su URL pública._
+_Figura 41. Web Application desplegada en Render, accesible desde su URL pública._
 
 **API provisional**
 
@@ -2354,7 +2354,7 @@ URL desplegada: [https://vitalita-fake-api.onrender.com/api/v1](https://vitalita
 
 ![API provisional desplegada en Render](assets/images/sprint-02/json-server-render-older-adults.png)
 
-_Figura X. Respuesta de la API provisional desplegada en Render, consumida por la Web Application en producción._
+_Figura 42. Respuesta de la API provisional desplegada en Render, consumida por la Web Application en producción._
 
 **Landing Page**
 
@@ -2364,7 +2364,7 @@ URL desplegada: [https://mobvite.github.io/langing-page/](https://mobvite.github
 
 ![Despliegue del Landing Page](assets/images/sprint-02/landing1.jpeg)
 
-_Figura X. Publicación del Landing Page tras la integración de las correcciones del Sprint 2._
+_Figura 43. Publicación del Landing Page tras la integración de las correcciones del Sprint 2._
 
 **Resumen de productos desplegados**
 
@@ -2511,19 +2511,19 @@ Al término del Sprint 3, el backend local se validó con una instancia MySQL ai
 
 ![Swagger UI - overview](assets/images/sprint-03/swagger-overview.png)
 
-_Figura 27. Vista general de Vitalita API v1 en Swagger UI, con servidor local y autorización disponible._
+_Figura 44. Vista general de Vitalita API v1 en Swagger UI, con servidor local y autorización disponible._
 
 ![Swagger UI - family access and profiles](assets/images/sprint-03/swagger-family-access-profiles.png)
 
-_Figura 28. Endpoints de Family Access y Family Member Profiles documentados en Swagger._
+_Figura 45. Endpoints de Family Access y Family Member Profiles documentados en Swagger._
 
 ![Swagger UI - older adults and daily reports](assets/images/sprint-03/swagger-older-adults-daily-reports.png)
 
-_Figura 29. Endpoints de Older Adults y Daily Reports para gestionar información del adulto mayor._
+_Figura 46. Endpoints de Older Adults y Daily Reports para gestionar información del adulto mayor._
 
 ![Swagger UI - medications and vital signs](assets/images/sprint-03/swagger-medications-vital-signs.png)
 
-_Figura 30. Endpoints de Medications y Vital Signs para registrar el monitoreo clínico._
+_Figura 47. Endpoints de Medications y Vital Signs para registrar el monitoreo clínico._
 
 ![OpenAPI JSON local](assets/images/sprint-03/openapi-json-local.png)
 
@@ -2611,15 +2611,15 @@ El entorno local se mantiene como alternativa reproducible para desarrollo: inic
 
 ![Render backend deployment](assets/images/sprint-03/render-backend-deployment.png)
 
-_Figura 31. Despliegue exitoso del backend Vitalita en Render desde la rama `main`, con la URL pública del servicio._
+_Figura 48. Despliegue exitoso del backend Vitalita en Render desde la rama `main`, con la URL pública del servicio._
 
 ![Public Swagger on Render](assets/images/sprint-03/swagger-public-render.png)
 
-_Figura 32. Swagger UI de Vitalita API v1 disponible públicamente en Render._
+_Figura 49. Swagger UI de Vitalita API v1 disponible públicamente en Render._
 
 ![TiDB Cloud production overview](assets/images/sprint-03/tidb-cloud-production-overview.png)
 
-_Figura 33. Instancia `vitalita` activa en TiDB Cloud Starter, compatible con MySQL y desplegada en AWS Oregon (`us-west-2`)._
+_Figura 50. Instancia `vitalita` activa en TiDB Cloud Starter, compatible con MySQL y desplegada en AWS Oregon (`us-west-2`)._
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
