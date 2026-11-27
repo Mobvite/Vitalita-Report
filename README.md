@@ -34,6 +34,137 @@ Producto: **Vitalita**
 
 </div>
 
+# Tabla de contenido
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+    - [AV1](#av1)
+    - [TB1](#tb1)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la startup.](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+    - [Primer segmento objetivo: Enfermeras o cuidadores de adulto mayor](#primer-segmento-objetivo-enfermeras-o-cuidadores-de-adulto-mayor)
+    - [Segundo segmento objetivo: Familiares del adulto mayor](#segundo-segmento-objetivo-familiares-del-adulto-mayor)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [Segmento 1°: Enfermeras y Cuidadoras de adultos mayores](#segmento-1-enfermeras-y-cuidadoras-de-adultos-mayores)
+    - [Perfil y background](#perfil-y-background)
+    - [Rutina y tareas](#rutina-y-tareas)
+    - [Registro de información](#registro-de-información)
+    - [Comunicación con la familia](#comunicación-con-la-familia)
+    - [Emergencias](#emergencias)
+    - [Tecnología y canales](#tecnología-y-canales)
+    - [Objetivos, frustraciones y pago](#objetivos-frustraciones-y-pago)
+    - [Cierre](#cierre)
+  - [Segmento 2°: Familiares del adulto mayor](#segmento-2-familiares-del-adulto-mayor)
+    - [Necesidades durante el día](#necesidades-durante-el-día)
+    - [Seguimiento](#seguimiento)
+    - [Citas y exámenes](#citas-y-exámenes)
+    - [Información por parte de la enfermera](#información-por-parte-de-la-enfermera)
+    - [Disponibilidad de información](#disponibilidad-de-información)
+    - [Cierre e invitación](#cierre-e-invitación)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [Primer Segmento Objetivo: Enfermeras o Cuidadores de adulto mayor](#primer-segmento-objetivo-enfermeras-o-cuidadores-de-adulto-mayor-1)
+    - [Entrevista 1](#entrevista-1)
+    - [Entrevista 2](#entrevista-2)
+    - [Entrevista 3](#entrevista-3)
+  - [Segundo Segmento Objetivo: Familiares del adulto mayor](#segundo-segmento-objetivo-familiares-del-adulto-mayor-1)
+    - [Entrevista 1](#entrevista-1-1)
+    - [Entrevista 2](#entrevista-2-1)
+    - [Entrevista 3](#entrevista-3-1)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+    - [Primer segmento objetivo:](#primer-segmento-objetivo)
+    - [Segundo segmento objetivo:](#segundo-segmento-objetivo)
+- [2.4. Big Picture EventStorming.](#24-big-picture-eventstorming)
+- [2.5. Ubiquitous Language.](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+    - [Epics](#epics)
+    - [User Stories](#user-stories)
+    - [Technical Stories](#technical-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines.](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+  - [4.2. Information Architecture.](#42-information-architecture)
+    - [4.2.1. Organization Systems.](#421-organization-systems)
+    - [4.2.2. Labeling Systems.](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags.](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](#424-searching-systems)
+    - [4.2.5. Navigation Systems.](#425-navigation-systems)
+  - [4.3 Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1 Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2 Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [Entrevista N.º1](#entrevista-nº1)
+    - [Entrevista N.º2](#entrevista-nº2)
+    - [Entrevista N.º3](#entrevista-nº3)
+    - [Entrevista N.º4](#entrevista-nº4)
+    - [Entrevista N.º5](#entrevista-nº5)
+    - [Entrevista N.º6](#entrevista-nº6)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+    - [Conclusiones](#conclusiones-1)
+    - [Recomendaciones](#recomendaciones)
+- [Bibliografía](#bibliografía)
+  - [Contexto del problema y marco normativo](#contexto-del-problema-y-marco-normativo)
+  - [Experiencia de usuario y validación](#experiencia-de-usuario-y-validación)
+  - [Arquitectura de software](#arquitectura-de-software)
+  - [Desarrollo del Landing Page y la Web Application](#desarrollo-del-landing-page-y-la-web-application)
+  - [Desarrollo del RESTful API](#desarrollo-del-restful-api)
+  - [Gestión del proyecto, código fuente y despliegue](#gestión-del-proyecto-código-fuente-y-despliegue)
+- [Anexos](#anexos)
+
 # Registro de Versiones del Informe
 
 | Versión | Fecha      | Autor                         | Descripción de modificación                                                                                               |
@@ -891,13 +1022,13 @@ El presente glosario reúne los términos del dominio del cuidado del adulto may
 | 45    | TS09          | Proveer endpoints de planes y suscripciones                        | Como Developer, deseo disponer de endpoints de planes y suscripciones para integrar el modelo de monetización.                                                                                                         |            3 |
 | 46    | TS10          | Proveer endpoints de pagos y notificación de la pasarela           | Como Developer, deseo disponer de endpoints de pago y de recepción de la confirmación de la pasarela para activar suscripciones.                                                                                       |            5 |
 
-## Capítulo IV: Product Design
+# Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines.
 
 Un Style Guideline es un conjunto de criterios y lineamientos que permiten mantener uniformidad en la redacción, el diseño y la presentación de documentos, contenidos digitales, proyectos de software y otros productos creativos. A continuación, se presentan las especificaciones y parámetros definidos para mantener una estructura coherente y consistente a lo largo del proyecto .
 
-## 4.1.1. General Style Guidelines.
+### 4.1.1. General Style Guidelines.
 
 #### **Brand Overview**
 
@@ -955,7 +1086,7 @@ El estilo visual de Vitalita se basa en:
 
 - uso de color naranja para destacar recordatorios o alertas importantes.
 
-## 4.1.2. Web Style Guidelines.
+### 4.1.2. Web Style Guidelines.
 
 La aplicación web de Vitalita debe estar diseñada bajo una lógica responsive, adaptándose correctamente a escritorio, tablet y dispositivos móviles. La estructura visual debe permitir que el enfermero/cuidador y el familiar encuentren rápidamente la información del paciente.
 
@@ -995,7 +1126,7 @@ La arquitectura de información se basa en dos perfiles principales:
 
 El adulto mayor es el centro de la información, pero no actúa como usuario activo dentro del sistema.
 
-## 4.2.1. Organization Systems.
+### 4.2.1. Organization Systems.
 
 Vitalita utiliza una organización jerárquica combinada con organización por tareas y roles.
 
@@ -1025,7 +1156,7 @@ Las secciones principales son:
 
 - **Perfil del enfermero:** muestra nombre, foto, correo, estudios, certificaciones y titulaciones.
 
-## 4.2.2. Labeling Systems.
+### 4.2.2. Labeling Systems.
 
 Los sistemas de etiquetado de Vitalita buscan que la interfaz sea clara, comprensible y fácil de usar para usuarios no técnicos.
 
@@ -1103,7 +1234,7 @@ Ejemplos de mensajes de ayuda:
 
 - “El familiar no puede editar este calendario”
 
-## 4.2.3. SEO Tags and Meta Tags.
+### 4.2.3. SEO Tags and Meta Tags.
 
 | **Etiqueta**  | **Contenido**                                                                                                                                         |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1114,7 +1245,7 @@ Ejemplos de mensajes de ayuda:
 | `author`      | Vitalita                                                                                                                                              |
 | `copyright`   | © 2026 Vitalita                                                                                                                                       |
 
-## 4.2.4. Searching Systems.
+### 4.2.4. Searching Systems.
 
 El sistema de búsqueda de Vitalita debe permitir localizar información relevante del paciente de manera rápida y ordenada.
 
@@ -1166,7 +1297,7 @@ Permite encontrar información usando términos específicos como:
 
 Como la cuidadora trabaja con un adulto mayor activo a la vez, las búsquedas se ejecutan siempre dentro del paciente seleccionado. El selector de pacientes solo aparece cuando el plan contratado permite gestionar más de uno.
 
-## 4.2.5. Navigation Systems.
+### 4.2.5. Navigation Systems.
 
 Vitalita cuenta con un sistema de navegación basado en un **menú tipo sandwich** , diseñado para facilitar el acceso a las secciones principales de la plataforma.
 
@@ -1208,7 +1339,7 @@ Esta propuesta de Interfaz de Usuario (UI) para la Landing Page de Vitalita trad
 
 El diseño visual adopta la paleta definida en los Style Guidelines, con el verde teal #0F766E como color primario y el verde menta #ECFDF5 como fondo, asegurando una experiencia consistente entre el Landing Page y la Web Application.
 
-## 4.3.1 Landing Page Wireframe
+### 4.3.1 Landing Page Wireframe
 
 En la etapa de wireframing (diseño de baja/media fidelidad) para _Desktop Web Browser_ y _Mobile Web Browser_ , se establecieron las bases estructurales y de comportamiento del sitio:
 
@@ -1226,7 +1357,7 @@ En la etapa de wireframing (diseño de baja/media fidelidad) para _Desktop Web B
 ![Wireframe 8 - Landing Page](assets/images/landing/wireframe8lp.jpeg)
 ![Wireframe 9 - Landing Page](assets/images/landing/wireframe9lp.jpeg)
 
-## 4.3.2 Landing Page Mock-up
+### 4.3.2 Landing Page Mock-up
 
 Los Mock-ups de alta fidelidad para _Desktop Web Browser_ y _Mobile Web Browser_ materializan la arquitectura definida aplicando rigurosamente el _Design System_ de **Vitalita**:
 
@@ -1240,7 +1371,7 @@ Los Mock-ups de alta fidelidad para _Desktop Web Browser_ y _Mobile Web Browser_
 ![Mockup 4 - Landing Page](assets/images/landing/mockup4lp.jpeg)
 ![Mockup 5 - Landing Page](assets/images/landing/mockup5lp.jpeg)
 ![Mockup 6 - Landing Page](assets/images/landing/mockup6lp.jpeg)
-![Mockup 7 - Landing Page](assets/images/others/lpevidencia5.png)
+![Mockup 7 - Landing Page](assets/images/landing/mockup7lp.jpeg)
 ![Mockup 8 - Landing Page](assets/images/landing/mockup8lp.jpeg)
 ![Mockup 9 - Landing Page](assets/images/landing/mockup9lp.jpeg)
 
@@ -1250,7 +1381,7 @@ En esta sección se presenta la propuesta de diseño UX/UI de las aplicaciones w
 
 El diseño está orientado a los dos segmentos principales del sistema: enfermeras o cuidadores de adultos mayores y familiares, priorizando una interacción clara, eficiente y alineada con sus necesidades de seguimiento y cuidado. Asimismo, se asegura la coherencia con los Style Guidelines y la Information Architecture, garantizando una experiencia intuitiva, organizada y consistente en toda la plataforma.
 
-## 4.4.1. Web Applications Wireframes.
+### 4.4.1. Web Applications Wireframes.
 
 ![Wireframe Protito 1](assets/images/figures/Wireframe1-prototipo.png)
 
@@ -1262,9 +1393,9 @@ El diseño está orientado a los dos segmentos principales del sistema: enfermer
 
 ![Wireframe Protito 5](assets/images/figures/Wireframe5-prototipo.png)
 
-## 4.4.2. Web Applications Wireflow Diagrams.
+### 4.4.2. Web Applications Wireflow Diagrams.
 
-## 4.4.2. Web Applications Mock-ups.
+### 4.4.3. Web Applications Mock-ups.
 
 ![Mockup Protito 1](assets/images/figures/Mockup-prototipo1.png)
 
@@ -1288,9 +1419,7 @@ El diseño está orientado a los dos segmentos principales del sistema: enfermer
 
 ![Mockup Protito 6-2](assets/images/figures/Mockup-prototipo6-2.png)
 
-## 4.4.3. Web Applications User Flow Diagrams.
-
-## 4.5. Web Applications Prototyping
+### 4.4.4. Web Applications User Flow Diagrams.
 
 ## 4.5. Web Applications Prototyping.
 
@@ -1312,8 +1441,6 @@ Se utilizó la guía de Philippe Bourgau, proporcionada en la rúbrica del Final
 - External Systems
 - Aggregates
 - Bounded Contexts
-
-> **PENDIENTE DE IMPLEMENTACIÓN:**
 
 Como resultado se identificaron siete bounded contexts, cuya nomenclatura corresponde a los sub-dominios habituales de una plataforma SaaS orientada a negocios de servicio:
 
@@ -1787,7 +1914,7 @@ El flujo de despliegue utilizado consiste en:
 
 ![GitHub Pages Configuration](assets/images/others/github-pages.png)
 
-_Figura X. Configuración de despliegue del Landing Page mediante GitHub Pages._
+_Figura 4. Configuración de despliegue del Landing Page mediante GitHub Pages._
 
 Los despliegues correspondientes a la **Web Application** y **Vitalita API** serán documentados en los Sprints en los que dichos productos ingresen al alcance de implementación.
 
@@ -1864,7 +1991,7 @@ El Sprint Backlog 1 reúne las tareas necesarias para cumplir las User Stories U
 
 ![Sprint 1 Trello](assets/images/others/Trello-Sprint-1.png)
 
-_Figura X. Sprint 1 Board de Vitalita en Trello._
+_Figura 5. Sprint 1 Board de Vitalita en Trello._
 
 | **Story ID** | **Story Title**                           | **Task ID** | **Task Title**                    | **Task Description**                                                                                | **Estimation (Hours)** | **Assigned To** | **Status** |
 | ------------ | ----------------------------------------- | ----------- | --------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------: | --------------- | ---------- |
@@ -1908,7 +2035,7 @@ Durante el Sprint 1 se realizaron commits relacionados con la estructura base, n
 
 ![Development Evidence - Commits](assets/images/others/commits.png)
 
-_Figura X. Historial de commits del Landing Page durante Sprint 1._
+_Figura 6. Historial de commits del Landing Page durante Sprint 1._
 
 ---
 
@@ -1942,23 +2069,23 @@ Entre las funcionalidades y secciones implementadas se encuentran:
 
 ![Landing Page Evidence 1](assets/images/others/lpevidencia1.png)
 
-_Figura X. Evidencia de ejecución del Landing Page - vista 1._
+_Figura 7. Evidencia de ejecución del Landing Page - vista 1._
 
 ![Landing Page Evidence 2](assets/images/others/lpevidencia2.png)
 
-_Figura X. Evidencia de ejecución del Landing Page - vista 2._
+_Figura 8. Evidencia de ejecución del Landing Page - vista 2._
 
 ![Landing Page Evidence 3](assets/images/others/lpevidencia3.png)
 
-_Figura X. Evidencia de ejecución del Landing Page - vista 3._
+_Figura 9. Evidencia de ejecución del Landing Page - vista 3._
 
 ![Landing Page Evidence 4](assets/images/others/lpevidencia4.png)
 
-_Figura X. Evidencia de ejecución del Landing Page - vista 4._
+_Figura 10. Evidencia de ejecución del Landing Page - vista 4._
 
 ![Landing Page Evidence 5](assets/images/others/lpevidencia5.png)
 
-_Figura X. Evidencia de ejecución del Landing Page - vista 5._
+_Figura 11. Evidencia de ejecución del Landing Page - vista 5._
 
 ---
 
@@ -1997,7 +2124,7 @@ El deployment permite acceder públicamente al incremento desarrollado durante S
 
 ![GitHub Pages Deployment Evidence](assets/images/others/github-pages.png)
 
-_Figura X. Evidencia de configuración y despliegue mediante GitHub Pages._
+_Figura 12. Evidencia de configuración y despliegue mediante GitHub Pages._
 
 El procedimiento de despliegue aplicado fue:
 
@@ -2029,25 +2156,25 @@ El historial del repositorio evidencia contribuciones relacionadas con estructur
 
 ![Landing Page Contributors](assets/images/others/contributors.png)
 
-_Figura X. Contributors del repositorio del Landing Page._
+_Figura 13. Contributors del repositorio del Landing Page._
 
 ##### Project Report Collaboration
 
 ![Project Report Contributors](assets/images/others/contributors1.png)
 
-_Figura X. Contributors del repositorio de documentación Vitalita-Report._
+_Figura 14. Contributors del repositorio de documentación Vitalita-Report._
 
 ##### Commit Activity
 
 ![Sprint 1 Commit Activity](assets/images/others/commits.png)
 
-_Figura X. Actividad de commits registrada durante Sprint 1._
+_Figura 15. Actividad de commits registrada durante Sprint 1._
 
 ##### Trello Collaboration
 
 ![Sprint 1 Trello](assets/images/others/Trello-Sprint-1.png)
 
-_Figura X. Tablero utilizado para el seguimiento colaborativo de Sprint 1._
+_Figura 16. Tablero utilizado para el seguimiento colaborativo de Sprint 1._
 
 Las evidencias anteriores permiten contrastar la participación registrada en GitHub con las tareas planificadas en Trello y con la distribución presentada en la matriz de Aspect Leaders and Collaborators.
 
@@ -2188,112 +2315,112 @@ Las siguientes capturas corresponden a los dos productos desplegados durante est
 
 ![Vitalita sign-in](assets/images/sprint-02/sign-in.png)
 
-_Figura X. Inicio de sesión con selección de rol, evidencia de US06._
+_Figura 17. Inicio de sesión con selección de rol, evidencia de US06._
 
 ##### Caregiver Health Summary
 
 ![Caregiver health summary](assets/images/sprint-02/caregiver-health-summary.png)
 
-_Figura X. Resumen de salud del paciente con signos vitales, medicación, actividad y recordatorios; evidencia de US14, US15 y US25._
+_Figura 18. Resumen de salud del paciente con signos vitales, medicación, actividad y recordatorios; evidencia de US14, US15 y US25._
 
 ##### Daily Monitoring
 
 ![Patient notes](assets/images/sprint-02/patient-notes.png)
 
-_Figura X. Registro diario y línea de tiempo de cuidados; evidencia de US13, US15 y US20._
+_Figura 19. Registro diario y línea de tiempo de cuidados; evidencia de US13, US15 y US20._
 
 ![Clinical records](assets/images/sprint-02/clinical-records.png)
 
-_Figura X. Registro de citas, exámenes y evidencias clínicas; evidencia de US16, US17, US18 y US19._
+_Figura 20. Registro de citas, exámenes y evidencias clínicas; evidencia de US16, US17, US18 y US19._
 
 ![Patient history](assets/images/sprint-02/patient-history.png)
 
-_Figura X. Historial centralizado con filtros de búsqueda; evidencia de US23 y US36._
+_Figura 21. Historial centralizado con filtros de búsqueda; evidencia de US23 y US36._
 
 ##### Care Planning
 
 ![Care calendar and reminders](assets/images/sprint-02/care-calendar-reminders.png)
 
-_Figura X. Calendario de cuidado y recordatorios; evidencia de US25, US33 y US34._
+_Figura 22. Calendario de cuidado y recordatorios; evidencia de US25, US33 y US34._
 
 ##### Profiles and Family Access
 
 ![Caregiver family members](assets/images/sprint-02/caregiver-family-members.png)
 
-_Figura X. Gestión de familiares autorizados; evidencia de US11 y US32._
+_Figura 23. Gestión de familiares autorizados; evidencia de US11 y US32._
 
 ![Caregiver professional profile](assets/images/sprint-02/caregiver-profile.png)
 
-_Figura X. Perfil profesional de la cuidadora; evidencia de US35._
+_Figura 24. Perfil profesional de la cuidadora; evidencia de US35._
 
 ##### Subscription Management
 
 ![Subscription status](assets/images/sprint-02/subscription-status.png)
 
-_Figura X. Estado de la suscripción y registro de pagos; evidencia de US28 y US38._
+_Figura 25. Estado de la suscripción y registro de pagos; evidencia de US28 y US38._
 
 ##### Emergency Information
 
 ![Emergency summary](assets/images/sprint-02/emergency-summary.png)
 
-_Figura X. Resumen de emergencia con exportación a PDF; evidencia de US26 y US37._
+_Figura 26. Resumen de emergencia con exportación a PDF; evidencia de US26 y US37._
 
 ##### Family Experience
 
 ![Family dashboard](assets/images/sprint-02/family-dashboard.png)
 
-_Figura X. Panel familiar de solo lectura; evidencia de US22._
+_Figura 27. Panel familiar de solo lectura; evidencia de US22._
 
 ![Caregiver information for family](assets/images/sprint-02/family-caregiver-profile.png)
 
-_Figura X. Visualización familiar de la información profesional de la cuidadora._
+_Figura 28. Visualización familiar de la información profesional de la cuidadora._
 
 Las historias que no poseen una captura exclusiva se respaldan mediante la evidencia de desarrollo y la integración observada en estos recorridos.
 ##### Landing Page
 
 ![Landing Page hero](assets/images/sprint-02/landing1.jpeg)
 
-_Figura X. Sección principal del Landing Page con la propuesta de valor y los call-to-action diferenciados por segmento objetivo; evidencia de US01 y US04._
+_Figura 29. Sección principal del Landing Page con la propuesta de valor y los call-to-action diferenciados por segmento objetivo; evidencia de US01 y US04._
 
 ![Landing Page propósito de la plataforma](assets/images/sprint-02/landing2.jpeg)
 
-_Figura X. Explicación del propósito de la plataforma dirigida al visitante; evidencia de US01._
+_Figura 30. Explicación del propósito de la plataforma dirigida al visitante; evidencia de US01._
 
 ![Landing Page galería de producto](assets/images/sprint-02/landing3.jpeg)
 
-_Figura X. Galería de capturas de la Web Application incorporada al Landing Page; evidencia de US02._
+_Figura 31. Galería de capturas de la Web Application incorporada al Landing Page; evidencia de US02._
 
 ![Landing Page beneficios](assets/images/sprint-02/landing4.jpeg)
 
-_Figura X. Beneficios de la solución frente al registro en papel, derivados de los hallazgos del proceso de needfinding; evidencia de US01._
+_Figura 32. Beneficios de la solución frente al registro en papel, derivados de los hallazgos del proceso de needfinding; evidencia de US01._
 
 ![Landing Page segmento de cuidadoras](assets/images/sprint-02/landing5.jpeg)
 
-_Figura X. Sección dirigida a enfermeras y cuidadoras, con call-to-action hacia el registro de cuenta profesional de la Web Application; evidencia de US04._
+_Figura 33. Sección dirigida a enfermeras y cuidadoras, con call-to-action hacia el registro de cuenta profesional de la Web Application; evidencia de US04._
 
 ![Landing Page segmento de familiares](assets/images/sprint-02/landing6.jpeg)
 
-_Figura X. Sección dirigida a familias, con call-to-action hacia el acceso por invitación de la Web Application; evidencia de US04._
+_Figura 34. Sección dirigida a familias, con call-to-action hacia el acceso por invitación de la Web Application; evidencia de US04._
 
 ![Landing Page planes](assets/images/sprint-02/landing7.jpeg)
 
-_Figura X. Planes Freemium, Pro y Agencia del Landing Page, alineados con los de la Web Application; evidencia de US03._
+_Figura 35. Planes Freemium, Pro y Agencia del Landing Page, alineados con los de la Web Application; evidencia de US03._
 
 ![Landing Page sobre Vitalita](assets/images/sprint-02/landing8.jpeg)
 
-_Figura X. Presentación de la startup y de los integrantes del equipo; evidencia de US01._
+_Figura 36. Presentación de la startup y de los integrantes del equipo; evidencia de US01._
 
 ![Landing Page preguntas frecuentes](assets/images/sprint-02/landing9.jpeg)
 
-_Figura X. Contenido de preguntas frecuentes sobre planes, vinculación familiar y controles de acceso a la información del adulto mayor; evidencia de US01._
+_Figura 37. Contenido de preguntas frecuentes sobre planes, vinculación familiar y controles de acceso a la información del adulto mayor; evidencia de US01._
 
 ![Landing Page llamado a la acción final](assets/images/sprint-02/landing10.jpeg)
 
-_Figura X. Llamado a la acción de cierre con redirección a la Web Application; evidencia de US04._
+_Figura 38. Llamado a la acción de cierre con redirección a la Web Application; evidencia de US04._
 
 ![Landing Page footer](assets/images/sprint-02/landing11.jpeg)
 
-_Figura X. Footer con navegación corregida, accesos a redes sociales, información de contacto y enlaces a términos y política de privacidad; evidencia de US40._
+_Figura 39. Footer con navegación corregida, accesos a redes sociales, información de contacto y enlaces a términos y política de privacidad; evidencia de US40._
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -2330,7 +2457,7 @@ Ejemplo verificado durante la revisión:
 
 ![JSON Server older adults response](assets/images/sprint-02/json-server-older-adults.png)
 
-_Figura X. Respuesta HTTP 200 del recurso older-adults en el JSON Server local._
+_Figura 40. Respuesta HTTP 200 del recurso older-adults en el JSON Server local._
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
@@ -2344,7 +2471,7 @@ URL desplegada: [https://vitalita-frontend.onrender.com](https://vitalita-fronte
 
 ![Web Application desplegada](assets/images/sprint-02/frontend-deployment-sign-in.png)
 
-_Figura X. Web Application desplegada en Render, accesible desde su URL pública._
+_Figura 41. Web Application desplegada en Render, accesible desde su URL pública._
 
 **API provisional**
 
@@ -2354,7 +2481,7 @@ URL desplegada: [https://vitalita-fake-api.onrender.com/api/v1](https://vitalita
 
 ![API provisional desplegada en Render](assets/images/sprint-02/json-server-render-older-adults.png)
 
-_Figura X. Respuesta de la API provisional desplegada en Render, consumida por la Web Application en producción._
+_Figura 42. Respuesta de la API provisional desplegada en Render, consumida por la Web Application en producción._
 
 **Landing Page**
 
@@ -2364,7 +2491,7 @@ URL desplegada: [https://mobvite.github.io/langing-page/](https://mobvite.github
 
 ![Despliegue del Landing Page](assets/images/sprint-02/landing1.jpeg)
 
-_Figura X. Publicación del Landing Page tras la integración de las correcciones del Sprint 2._
+_Figura 43. Publicación del Landing Page tras la integración de las correcciones del Sprint 2._
 
 **Resumen de productos desplegados**
 
@@ -2511,19 +2638,19 @@ Al término del Sprint 3, el backend local se validó con una instancia MySQL ai
 
 ![Swagger UI - overview](assets/images/sprint-03/swagger-overview.png)
 
-_Figura 27. Vista general de Vitalita API v1 en Swagger UI, con servidor local y autorización disponible._
+_Figura 44. Vista general de Vitalita API v1 en Swagger UI, con servidor local y autorización disponible._
 
 ![Swagger UI - family access and profiles](assets/images/sprint-03/swagger-family-access-profiles.png)
 
-_Figura 28. Endpoints de Family Access y Family Member Profiles documentados en Swagger._
+_Figura 45. Endpoints de Family Access y Family Member Profiles documentados en Swagger._
 
 ![Swagger UI - older adults and daily reports](assets/images/sprint-03/swagger-older-adults-daily-reports.png)
 
-_Figura 29. Endpoints de Older Adults y Daily Reports para gestionar información del adulto mayor._
+_Figura 46. Endpoints de Older Adults y Daily Reports para gestionar información del adulto mayor._
 
 ![Swagger UI - medications and vital signs](assets/images/sprint-03/swagger-medications-vital-signs.png)
 
-_Figura 30. Endpoints de Medications y Vital Signs para registrar el monitoreo clínico._
+_Figura 47. Endpoints de Medications y Vital Signs para registrar el monitoreo clínico._
 
 ![OpenAPI JSON local](assets/images/sprint-03/openapi-json-local.png)
 
@@ -2611,15 +2738,15 @@ El entorno local se mantiene como alternativa reproducible para desarrollo: inic
 
 ![Render backend deployment](assets/images/sprint-03/render-backend-deployment.png)
 
-_Figura 31. Despliegue exitoso del backend Vitalita en Render desde la rama `main`, con la URL pública del servicio._
+_Figura 48. Despliegue exitoso del backend Vitalita en Render desde la rama `main`, con la URL pública del servicio._
 
 ![Public Swagger on Render](assets/images/sprint-03/swagger-public-render.png)
 
-_Figura 32. Swagger UI de Vitalita API v1 disponible públicamente en Render._
+_Figura 49. Swagger UI de Vitalita API v1 disponible públicamente en Render._
 
 ![TiDB Cloud production overview](assets/images/sprint-03/tidb-cloud-production-overview.png)
 
-_Figura 33. Instancia `vitalita` activa en TiDB Cloud Starter, compatible con MySQL y desplegada en AWS Oregon (`us-west-2`)._
+_Figura 50. Instancia `vitalita` activa en TiDB Cloud Starter, compatible con MySQL y desplegada en AWS Oregon (`us-west-2`)._
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -2739,8 +2866,6 @@ Estas preguntas se realizarán a ambos segmentos después de completar las activ
 
 **Protocolo:** entrevista semiestructurada de 20–30 minutos, modalidad remota o presencial, con consentimiento para registrar observaciones. No se deben almacenar nombres, datos clínicos reales ni información personal innecesaria.
 ### 5.3.2. Registro de Entrevistas
-
-El registro detallado queda **pendiente de completar** porque no se cuenta todavía con nombres, fechas, respuestas textuales ni consentimientos verificables para las seis capturas existentes en `assets/images/interviews/`.
 
 ### Entrevista N.º1
 
