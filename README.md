@@ -1264,7 +1264,7 @@ El diseño está orientado a los dos segmentos principales del sistema: enfermer
 
 ## 4.4.2. Web Applications Wireflow Diagrams.
 
-## 4.4.2. Web Applications Mock-ups.
+## 4.4.3. Web Applications Mock-ups.
 
 ![Mockup Protito 1](assets/images/figures/Mockup-prototipo1.png)
 
@@ -1288,9 +1288,7 @@ El diseño está orientado a los dos segmentos principales del sistema: enfermer
 
 ![Mockup Protito 6-2](assets/images/figures/Mockup-prototipo6-2.png)
 
-## 4.4.3. Web Applications User Flow Diagrams.
-
-## 4.5. Web Applications Prototyping
+## 4.4.4. Web Applications User Flow Diagrams.
 
 ## 4.5. Web Applications Prototyping.
 
